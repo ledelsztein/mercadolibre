@@ -1,0 +1,418 @@
+[
+  {
+    "fecha": "2026-07-01",
+    "factura": "0058A00731146",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 97.19,
+    "almacenamiento_full_c": 117.6
+  },
+  {
+    "fecha": "2026-07-02",
+    "factura": "0058A00731146",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 91.49,
+    "almacenamiento_full_c": 110.7
+  },
+  {
+    "fecha": "2026-07-03",
+    "factura": "0058A00731146",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 89.63,
+    "almacenamiento_full_c": 108.45
+  },
+  {
+    "fecha": "2026-07-04",
+    "factura": "0058A00731146",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 82.56,
+    "almacenamiento_full_c": 99.9
+  },
+  {
+    "fecha": "2026-07-05",
+    "factura": "0058A00731146",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 70.17,
+    "almacenamiento_full_c": 84.9
+  },
+  {
+    "fecha": "2026-07-06",
+    "factura": "0058A00731146",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 61.86,
+    "almacenamiento_full_c": 74.85
+  },
+  {
+    "fecha": "2026-07-07",
+    "factura": null,
+    "deposito_full_s": 19707.63,
+    "deposito_full_c": 23846.23,
+    "almacenamiento_full_s": 42.52,
+    "almacenamiento_full_c": 51.45
+  },
+  {
+    "fecha": "2026-07-08",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 35.45,
+    "almacenamiento_full_c": 42.9
+  },
+  {
+    "fecha": "2026-07-09",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 19.09,
+    "almacenamiento_full_c": 23.1
+  },
+  {
+    "fecha": "2026-07-10",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 9.92,
+    "almacenamiento_full_c": 12.0
+  },
+  {
+    "fecha": "2026-07-11",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 5.95,
+    "almacenamiento_full_c": 7.2
+  },
+  {
+    "fecha": "2026-07-12",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 1.98,
+    "almacenamiento_full_c": 2.4
+  },
+  {
+    "fecha": "2026-07-13",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 1.98,
+    "almacenamiento_full_c": 2.4
+  },
+  {
+    "fecha": "2026-07-14",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 1.98,
+    "almacenamiento_full_c": 2.4
+  },
+  {
+    "fecha": "2026-07-15",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 1.98,
+    "almacenamiento_full_c": 2.4
+  },
+  {
+    "fecha": "2026-07-18",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 11.9,
+    "almacenamiento_full_c": 14.4
+  },
+  {
+    "fecha": "2026-07-19",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 285.62,
+    "almacenamiento_full_c": 345.6
+  },
+  {
+    "fecha": "2026-07-20",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 271.74,
+    "almacenamiento_full_c": 328.8
+  },
+  {
+    "fecha": "2026-07-21",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 353.55,
+    "almacenamiento_full_c": 427.8
+  },
+  {
+    "fecha": "2026-07-22",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 333.84,
+    "almacenamiento_full_c": 403.95
+  },
+  {
+    "fecha": "2026-07-23",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 320.21,
+    "almacenamiento_full_c": 387.45
+  },
+  {
+    "fecha": "2026-07-24",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 308.55,
+    "almacenamiento_full_c": 373.35
+  },
+  {
+    "fecha": "2026-07-25",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 286.36,
+    "almacenamiento_full_c": 346.5
+  },
+  {
+    "fecha": "2026-07-26",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 250.91,
+    "almacenamiento_full_c": 303.6
+  },
+  {
+    "fecha": "2026-07-27",
+    "factura": null,
+    "deposito_full_s": 20447.49,
+    "deposito_full_c": 24741.46,
+    "almacenamiento_full_s": 228.6,
+    "almacenamiento_full_c": 276.6
+  },
+  {
+    "fecha": "2026-07-28",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 209.13,
+    "almacenamiento_full_c": 253.05
+  },
+  {
+    "fecha": "2026-07-29",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 183.84,
+    "almacenamiento_full_c": 222.45
+  },
+  {
+    "fecha": "2026-07-30",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 128.93,
+    "almacenamiento_full_c": 156.0
+  },
+  {
+    "fecha": "2026-07-31",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 105.12,
+    "almacenamiento_full_c": 127.2
+  },
+  {
+    "fecha": "2026-08-01",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 250.17,
+    "almacenamiento_full_c": 302.7
+  },
+  {
+    "fecha": "2026-08-02",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 228.35,
+    "almacenamiento_full_c": 276.3
+  },
+  {
+    "fecha": "2026-08-03",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 188.55,
+    "almacenamiento_full_c": 228.15
+  },
+  {
+    "fecha": "2026-08-04",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 285.12,
+    "almacenamiento_full_c": 345.0
+  },
+  {
+    "fecha": "2026-08-05",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 233.31,
+    "almacenamiento_full_c": 282.3
+  },
+  {
+    "fecha": "2026-08-06",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 212.23,
+    "almacenamiento_full_c": 256.8
+  },
+  {
+    "fecha": "2026-08-07",
+    "factura": "pendiente fc",
+    "deposito_full_s": 15956.06,
+    "deposito_full_c": 19306.83,
+    "almacenamiento_full_s": 312.89,
+    "almacenamiento_full_c": 378.6
+  },
+  {
+    "fecha": "2026-08-08",
+    "factura": "pendiente fc",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 282.15,
+    "almacenamiento_full_c": 341.4
+  },
+  {
+    "fecha": "2026-08-09",
+    "factura": "pendiente fc",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 247.44,
+    "almacenamiento_full_c": 299.4
+  },
+  {
+    "fecha": "2026-08-10",
+    "factura": "pendiente fc",
+    "deposito_full_s": 9324.94,
+    "deposito_full_c": 11283.18,
+    "almacenamiento_full_s": 225.99,
+    "almacenamiento_full_c": 273.45
+  },
+  {
+    "fecha": "2026-08-11",
+    "factura": "pendiente fc",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 216.07,
+    "almacenamiento_full_c": 261.45
+  },
+  {
+    "fecha": "2026-08-12",
+    "factura": "pendiente fc",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 190.91,
+    "almacenamiento_full_c": 231.0
+  },
+  {
+    "fecha": "2026-08-13",
+    "factura": "pendiente fc",
+    "deposito_full_s": 13987.41,
+    "deposito_full_c": 16924.77,
+    "almacenamiento_full_s": 297.15,
+    "almacenamiento_full_c": 359.55
+  },
+  {
+    "fecha": "2026-08-14",
+    "factura": "pendiente fc",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 434.01,
+    "almacenamiento_full_c": 525.15
+  },
+  {
+    "fecha": "2026-08-15",
+    "factura": "pendiente fc",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 422.23,
+    "almacenamiento_full_c": 510.9
+  },
+  {
+    "fecha": "2026-08-16",
+    "factura": "pendiente fc",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 426.69,
+    "almacenamiento_full_c": 516.3
+  },
+  {
+    "fecha": "2026-08-17",
+    "factura": "pendiente fc",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 589.09,
+    "almacenamiento_full_c": 712.8
+  },
+  {
+    "fecha": "2026-08-18",
+    "factura": "pendiente fc",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 616.61,
+    "almacenamiento_full_c": 746.1
+  },
+  {
+    "fecha": "2026-08-19",
+    "factura": "pendiente fc",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 585.0,
+    "almacenamiento_full_c": 707.85
+  },
+  {
+    "fecha": "2026-08-20",
+    "factura": "pendiente fc",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 532.81,
+    "almacenamiento_full_c": 644.7
+  },
+  {
+    "fecha": "2026-08-21",
+    "factura": "pendiente fc",
+    "deposito_full_s": 30377.22,
+    "deposito_full_c": 36756.44,
+    "almacenamiento_full_s": 503.8,
+    "almacenamiento_full_c": 609.6
+  },
+  {
+    "fecha": "2026-08-22",
+    "factura": "pendiente fc",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 484.83,
+    "almacenamiento_full_c": 586.65
+  },
+  {
+    "fecha": "2026-08-23",
+    "factura": "pendiente fc",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 449.5,
+    "almacenamiento_full_c": 543.9
+  }
+]

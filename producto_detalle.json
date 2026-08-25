@@ -1,0 +1,594 @@
+{
+  "julio": {
+    "MLA3471136932": {
+      "title": "L-arginina + L-citrulina + Ginseng | M1 Energy | Bylappiel Sabor Sin Sabor",
+      "sku": "50014",
+      "cat_id": "MLA8830",
+      "qty": 45,
+      "ventas": 814118.55,
+      "costo": 378405.0
+    },
+    "MLA3283469316": {
+      "title": "Yerba Mate Canarias Tradicional 1 Kg",
+      "sku": "50006",
+      "cat_id": "MLA409408",
+      "qty": 43,
+      "ventas": 464891.0,
+      "costo": 275722.7725
+    },
+    "MLA1841368115": {
+      "title": "Centella Asiática Lappiel Comprimidos Anticelulitis Ginkgo Biloba 60 Unidades Sin Sabor",
+      "sku": "50015",
+      "cat_id": "MLA8830",
+      "qty": 18,
+      "ventas": 309570.0,
+      "costo": 151362.0
+    },
+    "MLA3232757026": {
+      "title": "Toalla Oregon Hotelero 100% Algodón 630gr Blanco 50x90 Blanco Ultra 630",
+      "sku": "50002",
+      "cat_id": "MLA414208",
+      "qty": 3,
+      "ventas": 37420.5,
+      "costo": 17304.0
+    },
+    "MLA1843453139": {
+      "title": "Suplemento En Polvo Ena Sport Creatina Sin Sabor",
+      "sku": "50013",
+      "cat_id": "MLA8830",
+      "qty": 16,
+      "ventas": 921600.0,
+      "costo": 510746.26016
+    },
+    "MLA3232759300": {
+      "title": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
+      "sku": "50005",
+      "cat_id": "MLA417930",
+      "qty": 10,
+      "ventas": 261936.0,
+      "costo": 126560.0
+    },
+    "MLA1805789665": {
+      "title": "Yerba Canarias 1 Kg Combo X3",
+      "sku": "50006",
+      "cat_id": "MLA409408",
+      "qty": 10,
+      "ventas": 329000.0,
+      "costo": 192364.725
+    },
+    "MLA2275397448": {
+      "title": "Cuchara Cafe Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "20005",
+      "cat_id": "MLA375290",
+      "qty": 1,
+      "ventas": 10690.0,
+      "costo": 5246.682
+    },
+    "MLA1516314673": {
+      "title": "Cuchillo Asado Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "20008",
+      "cat_id": "MLA30040",
+      "qty": 1,
+      "ventas": 42390.0,
+      "costo": 21532.056
+    },
+    "MLA1778680761": {
+      "title": "Yerba Mate Canarias Tradicional 1 Kg Sin Palo",
+      "sku": "50006",
+      "cat_id": "MLA409408",
+      "qty": 21,
+      "ventas": 224416.0,
+      "costo": 134655.3075
+    },
+    "MLA1843451447": {
+      "title": "Creatina Micronizada 100% Pura De 300g Sabor Neutro + Scoop Elite Sin Sabor Ena Sport",
+      "sku": "50013",
+      "cat_id": "MLA8830",
+      "qty": 1,
+      "ventas": 30000.0,
+      "costo": 15960.82063
+    },
+    "MLA3372513504": {
+      "title": "Yerba Mate Canarias Tradicional 1 Kg",
+      "sku": "50006",
+      "cat_id": "MLA409408",
+      "qty": 2,
+      "ventas": 24960.0,
+      "costo": 12824.315
+    },
+    "MLA3566784906": {
+      "title": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Plus",
+      "sku": "50005",
+      "cat_id": "MLA417930",
+      "qty": 15,
+      "ventas": 401294.10000000003,
+      "costo": 189840.0
+    },
+    "MLA3232809762": {
+      "title": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
+      "sku": "50004",
+      "cat_id": "MLA414208",
+      "qty": 2,
+      "ventas": 17765.48,
+      "costo": 8896.0
+    },
+    "MLA3571928900": {
+      "title": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
+      "sku": "50004",
+      "cat_id": "MLA414208",
+      "qty": 12,
+      "ventas": 107549.45999999999,
+      "costo": 53376.0
+    },
+    "MLA1878275359": {
+      "title": "Yerba Mate Baldo 1kg Tradicional",
+      "sku": "50007",
+      "cat_id": "MLA409408",
+      "qty": 23,
+      "ventas": 264500.0,
+      "costo": 154906.83999999997
+    },
+    "MLA3576640628": {
+      "title": "Combo Star Nutrition Creatina Monohydrate Doypack 300grs Sabor Sin Sabor X 2 Unidades",
+      "sku": "50018",
+      "cat_id": "MLA8830",
+      "qty": 3,
+      "ventas": 171360.0,
+      "costo": 89256.19714285714
+    },
+    "MLA1516327601": {
+      "title": "Cuchara Postre Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "30003",
+      "cat_id": "MLA375290",
+      "qty": 1,
+      "ventas": 21595.0,
+      "costo": 10601.681999999999
+    },
+    "MLA1784323187": {
+      "title": "Almohada Hipoalergenica Lavable Fibra Siliconada 50x70 Blanco",
+      "sku": "50007",
+      "cat_id": "MLA7969",
+      "qty": 2,
+      "ventas": 65000.0,
+      "costo": 25760.0
+    },
+    "MLA2275474780": {
+      "title": "Cuchara Cafe Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "10005",
+      "cat_id": "MLA375290",
+      "qty": 3,
+      "ventas": 22605.0,
+      "costo": 10301.967
+    },
+    "MLA2275461878": {
+      "title": "Cuchara Te Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "30004",
+      "cat_id": "MLA375290",
+      "qty": 2,
+      "ventas": 23890.0,
+      "costo": 11727.912
+    },
+    "MLA1763092117": {
+      "title": "Toallón Oregon Hotelero 100% Algodón 630gr Blanco 90x150 Blanco Ultra 630",
+      "sku": "50003",
+      "cat_id": "MLA417930",
+      "qty": 2,
+      "ventas": 62605.0,
+      "costo": 28864.0
+    },
+    "MLA1878275625": {
+      "title": "Yerba Mate Baldo Especial X 500gr",
+      "sku": "50017",
+      "cat_id": "MLA409408",
+      "qty": 1,
+      "ventas": 5990.0,
+      "costo": 3708.84
+    }
+  },
+  "hoy": {
+    "MLA3571928900": {
+      "title": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
+      "sku": "50004",
+      "cat_id": "MLA414208",
+      "qty": 4,
+      "ventas": 32888.92,
+      "costo": 17792.0
+    },
+    "MLA3566784906": {
+      "title": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Plus",
+      "sku": "50005",
+      "cat_id": "MLA417930",
+      "qty": 4,
+      "ventas": 98498.8,
+      "costo": 50624.0
+    },
+    "MLA1878275359": {
+      "title": "Yerba Mate Baldo 1kg Tradicional",
+      "sku": "50007",
+      "cat_id": "MLA409408",
+      "qty": 3,
+      "ventas": 34500.0,
+      "costo": 20205.239999999998
+    },
+    "MLA3471136932": {
+      "title": "L-arginina + L-citrulina + Ginseng | M1 Energy | Bylappiel Sabor Sin Sabor",
+      "sku": "50014",
+      "cat_id": "MLA8830",
+      "qty": 3,
+      "ventas": 55911.0,
+      "costo": 25227.0
+    },
+    "MLA3576640628": {
+      "title": "Combo Star Nutrition Creatina Monohydrate Doypack 300grs Sabor Sin Sabor X 2 Unidades",
+      "sku": "50018",
+      "cat_id": "MLA8830",
+      "qty": 1,
+      "ventas": 57500.0,
+      "costo": 29752.065714285713
+    }
+  },
+  "junio": {
+    "MLA3471136932": {
+      "title": "L-arginina + L-citrulina + Ginseng | M1 Energy | Bylappiel Sabor Sin Sabor",
+      "sku": "50014",
+      "cat_id": "MLA8830",
+      "qty": 29,
+      "ventas": 537072.4,
+      "costo": 243861.0
+    },
+    "MLA3283469316": {
+      "title": "Yerba Mate Canarias Tradicional 1 Kg",
+      "sku": "50006",
+      "cat_id": "MLA409408",
+      "qty": 56,
+      "ventas": 606346.0,
+      "costo": 359080.81999999995
+    },
+    "MLA1805789665": {
+      "title": "Yerba Canarias 1 Kg Combo X3",
+      "sku": "50006",
+      "cat_id": "MLA409408",
+      "qty": 63,
+      "ventas": 2039100.0,
+      "costo": 1211897.7675
+    },
+    "MLA1843453139": {
+      "title": "Suplemento En Polvo Ena Sport Creatina Sin Sabor",
+      "sku": "50013",
+      "cat_id": "MLA8830",
+      "qty": 7,
+      "ventas": 411600.0,
+      "costo": 223451.48882
+    },
+    "MLA3232759300": {
+      "title": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
+      "sku": "50005",
+      "cat_id": "MLA417930",
+      "qty": 26,
+      "ventas": 690378.64,
+      "costo": 329056.0
+    },
+    "MLA1841368115": {
+      "title": "Centella Asiática Lappiel Comprimidos Anticelulitis Ginkgo Biloba 60 Unidades Sin Sabor",
+      "sku": "50015",
+      "cat_id": "MLA8830",
+      "qty": 3,
+      "ventas": 48592.5,
+      "costo": 25227.0
+    },
+    "MLA3232809762": {
+      "title": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
+      "sku": "50004",
+      "cat_id": "MLA414208",
+      "qty": 8,
+      "ventas": 72908.04,
+      "costo": 35584.0
+    },
+    "MLA1516314673": {
+      "title": "Cuchillo Asado Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "20008",
+      "cat_id": "MLA30040",
+      "qty": 3,
+      "ventas": 127170.0,
+      "costo": 64596.168000000005
+    },
+    "MLA2275474778": {
+      "title": "Untador Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "10010",
+      "cat_id": "MLA416646",
+      "qty": 6,
+      "ventas": 101170.0,
+      "costo": 50308.362
+    },
+    "MLA1516301923": {
+      "title": "Cuchara Te Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "20004",
+      "cat_id": "MLA375290",
+      "qty": 12,
+      "ventas": 142145.58000000002,
+      "costo": 70367.47200000001
+    },
+    "MLA1778680761": {
+      "title": "Yerba Mate Canarias Tradicional 1 Kg Sin Palo",
+      "sku": "50006",
+      "cat_id": "MLA409408",
+      "qty": 12,
+      "ventas": 128400.0,
+      "costo": 76945.89
+    },
+    "MLA1784323187": {
+      "title": "Almohada Hipoalergenica Lavable Fibra Siliconada 50x70 Blanco",
+      "sku": "50007",
+      "cat_id": "MLA7969",
+      "qty": 1,
+      "ventas": 31037.5,
+      "costo": 12880.0
+    },
+    "MLA1843453755": {
+      "title": "Creatina Monohidratada Ena Sport Micronizada 100 Pura En Doypack De 300g Sabor Neutro X2 + Scoop Legend Nutrition Sin Sabor",
+      "sku": "50013",
+      "cat_id": "MLA8830",
+      "qty": 1,
+      "ventas": 59000.0,
+      "costo": 31921.64126
+    },
+    "MLA2276431490": {
+      "title": "Cuchara Mesa Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "30002",
+      "cat_id": "MLA375290",
+      "qty": 1,
+      "ventas": 21370.24,
+      "costo": 11043.689999999999
+    },
+    "MLA1516327601": {
+      "title": "Cuchara Postre Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "30003",
+      "cat_id": "MLA375290",
+      "qty": 1,
+      "ventas": 20515.24,
+      "costo": 10601.681999999999
+    },
+    "MLA2275461878": {
+      "title": "Cuchara Te Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "30004",
+      "cat_id": "MLA375290",
+      "qty": 1,
+      "ventas": 11347.79,
+      "costo": 5863.956
+    },
+    "MLA1516327599": {
+      "title": "Tenedor Mesa Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "30000",
+      "cat_id": "MLA375288",
+      "qty": 1,
+      "ventas": 21370.24,
+      "costo": 11043.689999999999
+    },
+    "MLA2275474772": {
+      "title": "Cuchillo Grille Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "30008",
+      "cat_id": "MLA30040",
+      "qty": 1,
+      "ventas": 52881.74,
+      "costo": 27326.417999999998
+    },
+    "MLA1763092117": {
+      "title": "Toallón Oregon Hotelero 100% Algodón 630gr Blanco 90x150 Blanco Ultra 630",
+      "sku": "50003",
+      "cat_id": "MLA417930",
+      "qty": 2,
+      "ventas": 64252.490000000005,
+      "costo": 28864.0
+    },
+    "MLA2275397444": {
+      "title": "Tenedor Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "10000",
+      "cat_id": "MLA375288",
+      "qty": 5,
+      "ventas": 80950.0,
+      "costo": 36894.975
+    },
+    "MLA3232757026": {
+      "title": "Toalla Oregon Hotelero 100% Algodón 630gr Blanco 50x90 Blanco Ultra 630",
+      "sku": "50002",
+      "cat_id": "MLA414208",
+      "qty": 1,
+      "ventas": 12473.51,
+      "costo": 5768.0
+    },
+    "MLA3428883766": {
+      "title": "Frazada Paris Flannel Super Soft Deco 2 1/2 Plaza 220x240cm Liso 1000 G Gris Oscuro",
+      "sku": "50012",
+      "cat_id": "MLA30100",
+      "qty": 2,
+      "ventas": 50000.0,
+      "costo": 26776.86
+    },
+    "MLA3373929570": {
+      "title": "Acolchado Liso 2 1/2 Plaza Abrigado Invierno Blanco Paris Crema Lisa",
+      "sku": "50008",
+      "cat_id": "MLA30091",
+      "qty": 1,
+      "ventas": 32990.0,
+      "costo": 18842.98
+    },
+    "MLA2275397440": {
+      "title": "Cuchara Postre Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "20003",
+      "cat_id": "MLA375290",
+      "qty": 2,
+      "ventas": 41030.48,
+      "costo": 21203.363999999998
+    },
+    "MLA2276328724": {
+      "title": "Cuchillo Grille Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "20009",
+      "cat_id": "MLA30040",
+      "qty": 2,
+      "ventas": 105763.48,
+      "costo": 54652.835999999996
+    },
+    "MLA3232212932": {
+      "title": "Tenedor Mesa Nicols Delta 1040 Acero Inoxidable X6",
+      "sku": "20000",
+      "cat_id": "MLA375288",
+      "qty": 2,
+      "ventas": 42740.48,
+      "costo": 22087.379999999997
+    },
+    "MLA2275487428": {
+      "title": "Cuchara Mesa Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "20002",
+      "cat_id": "MLA375290",
+      "qty": 2,
+      "ventas": 42740.48,
+      "costo": 22087.379999999997
+    }
+  },
+  "mayo": {
+    "MLA2275422974": {
+      "title": "Untador Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "20010",
+      "cat_id": "MLA416646",
+      "qty": 4,
+      "ventas": 58540.0,
+      "costo": 28738.248
+    },
+    "MLA1516293307": {
+      "title": "Cuchara Cafe Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "30005",
+      "cat_id": "MLA375290",
+      "qty": 2,
+      "ventas": 21380.0,
+      "costo": 10493.364
+    },
+    "MLA1516301923": {
+      "title": "Cuchara Te Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "20004",
+      "cat_id": "MLA375290",
+      "qty": 22,
+      "ventas": 259812.78,
+      "costo": 129007.03200000002
+    },
+    "MLA3283469316": {
+      "title": "Yerba Mate Canarias Tradicional 1 Kg",
+      "sku": "50006",
+      "cat_id": "MLA409408",
+      "qty": 72,
+      "ventas": 748650.0,
+      "costo": 461675.34
+    },
+    "MLA2275474778": {
+      "title": "Untador Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "10010",
+      "cat_id": "MLA416646",
+      "qty": 3,
+      "ventas": 55185.0,
+      "costo": 25154.181000000004
+    },
+    "MLA1516314673": {
+      "title": "Cuchillo Asado Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "20008",
+      "cat_id": "MLA30040",
+      "qty": 2,
+      "ventas": 81562.38,
+      "costo": 43064.112
+    },
+    "MLA3373929570": {
+      "title": "Acolchado Liso 2 1/2 Plaza Abrigado Invierno Blanco Paris Crema Lisa",
+      "sku": "50008",
+      "cat_id": "MLA30091",
+      "qty": 1,
+      "ventas": 32990.0,
+      "costo": 18842.98
+    },
+    "MLA1778680761": {
+      "title": "Yerba Mate Canarias Tradicional 1 Kg Sin Palo",
+      "sku": "50006",
+      "cat_id": "MLA409408",
+      "qty": 13,
+      "ventas": 133200.0,
+      "costo": 83358.0475
+    },
+    "MLA1804160685": {
+      "title": "Frazada Paris Flannel Super Soft Deco 2 1/2 Plaza 220x240cm. Flannel 1000 G Negro",
+      "sku": "50012",
+      "cat_id": "MLA30100",
+      "qty": 2,
+      "ventas": 50000.0,
+      "costo": 26776.86
+    },
+    "MLA3232212932": {
+      "title": "Tenedor Mesa Nicols Delta 1040 Acero Inoxidable X6",
+      "sku": "20000",
+      "cat_id": "MLA375288",
+      "qty": 2,
+      "ventas": 43865.240000000005,
+      "costo": 22087.379999999997
+    },
+    "MLA2275487428": {
+      "title": "Cuchara Mesa Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "20002",
+      "cat_id": "MLA375290",
+      "qty": 1,
+      "ventas": 21370.24,
+      "costo": 11043.689999999999
+    },
+    "MLA2276328724": {
+      "title": "Cuchillo Grille Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "20009",
+      "cat_id": "MLA30040",
+      "qty": 1,
+      "ventas": 52881.74,
+      "costo": 27326.417999999998
+    },
+    "MLA3232809762": {
+      "title": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
+      "sku": "50004",
+      "cat_id": "MLA414208",
+      "qty": 14,
+      "ventas": 122368.42,
+      "costo": 62272.0
+    },
+    "MLA2275474776": {
+      "title": "Cuchara Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "10002",
+      "cat_id": "MLA375290",
+      "qty": 5,
+      "ventas": 72850.0,
+      "costo": 36894.975
+    },
+    "MLA3232759300": {
+      "title": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
+      "sku": "50005",
+      "cat_id": "MLA417930",
+      "qty": 14,
+      "ventas": 352249.28,
+      "costo": 177184.0
+    },
+    "MLA3232757026": {
+      "title": "Toalla Oregon Hotelero 100% Algodón 630gr Blanco 50x90 Blanco Ultra 630",
+      "sku": "50002",
+      "cat_id": "MLA414208",
+      "qty": 2,
+      "ventas": 23699.66,
+      "costo": 11536.0
+    },
+    "MLA1763092117": {
+      "title": "Toallón Oregon Hotelero 100% Algodón 630gr Blanco 90x150 Blanco Ultra 630",
+      "sku": "50003",
+      "cat_id": "MLA417930",
+      "qty": 2,
+      "ventas": 59474.74,
+      "costo": 28864.0
+    },
+    "MLA2275397448": {
+      "title": "Cuchara Cafe Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "sku": "20005",
+      "cat_id": "MLA375290",
+      "qty": 4,
+      "ventas": 42760.0,
+      "costo": 20986.728
+    }
+  }
+}

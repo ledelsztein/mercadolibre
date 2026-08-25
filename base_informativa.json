@@ -1,0 +1,163 @@
+[
+  {
+    "fecha": "2026-05-31",
+    "categoria": "Logística Flex",
+    "detalle": "Total Mayo (backfill, no desglosado por factura)",
+    "importe_sin_iva": 91300.0,
+    "importe_con_iva": 110473.0
+  },
+  {
+    "fecha": "2026-05-31",
+    "categoria": "Otros cargos logísticos",
+    "detalle": "Total Mayo (backfill, no desglosado por factura)",
+    "importe_sin_iva": 25000.0,
+    "importe_con_iva": 30250.0
+  },
+  {
+    "fecha": "2026-05-31",
+    "categoria": "Otros cargos",
+    "detalle": "Total Mayo (backfill, no desglosado por factura)",
+    "importe_sin_iva": 59505.0,
+    "importe_con_iva": 72001.05
+  },
+  {
+    "fecha": "2026-05-31",
+    "categoria": "Autónomos",
+    "detalle": "Total Mayo (backfill, sin IVA aplicable)",
+    "importe_sin_iva": 92944.24,
+    "importe_con_iva": 92944.24
+  },
+  {
+    "fecha": "2026-05-31",
+    "categoria": "IIBB",
+    "detalle": "Total Mayo (backfill, sin IVA aplicable)",
+    "importe_sin_iva": 10150.31,
+    "importe_con_iva": 10150.31
+  },
+  {
+    "fecha": "2026-06-30",
+    "categoria": "Logística Flex",
+    "detalle": "Total Junio (backfill, no desglosado por factura)",
+    "importe_sin_iva": 352999.38,
+    "importe_con_iva": 427129.25
+  },
+  {
+    "fecha": "2026-06-30",
+    "categoria": "Otros cargos logísticos",
+    "detalle": "Total Junio (backfill, no desglosado por factura)",
+    "importe_sin_iva": 77111.14,
+    "importe_con_iva": 93304.48
+  },
+  {
+    "fecha": "2026-06-30",
+    "categoria": "Otros cargos",
+    "detalle": "Total Junio (backfill, no desglosado por factura)",
+    "importe_sin_iva": 144750.66,
+    "importe_con_iva": 175148.3
+  },
+  {
+    "fecha": "2026-06-30",
+    "categoria": "Autónomos",
+    "detalle": "Total Junio (backfill, sin IVA aplicable)",
+    "importe_sin_iva": 95639.62,
+    "importe_con_iva": 95639.62
+  },
+  {
+    "fecha": "2026-06-30",
+    "categoria": "IIBB",
+    "detalle": "Total Junio (backfill, sin IVA aplicable)",
+    "importe_sin_iva": 2661.11,
+    "importe_con_iva": 2661.11
+  },
+  {
+    "fecha": "2026-07-23",
+    "categoria": "Otros cargos logísticos",
+    "detalle": "Total Julio (parcial al 23) (backfill, no desglosado por factura, sin cambios desde el 21)",
+    "importe_sin_iva": 33596.24,
+    "importe_con_iva": 40651.45
+  },
+  {
+    "fecha": "2026-07-23",
+    "categoria": "Otros cargos",
+    "detalle": "Total Julio (parcial al 23) (backfill, no desglosado por factura, sin cambios desde el 21)",
+    "importe_sin_iva": 163151.72,
+    "importe_con_iva": 197413.58
+  },
+  {
+    "fecha": "2026-07-23",
+    "categoria": "Autónomos",
+    "detalle": "Total Julio (parcial al 23) (backfill, sin IVA aplicable, sin cambios desde el 21)",
+    "importe_sin_iva": 98872.24,
+    "importe_con_iva": 98872.24
+  },
+  {
+    "fecha": "2026-07-23",
+    "categoria": "IIBB",
+    "detalle": "Total Julio (parcial al 23) (backfill, sin IVA aplicable, sin cambios desde el 21)",
+    "importe_sin_iva": 7843.35,
+    "importe_con_iva": 7843.35
+  },
+  {
+    "fecha": "2026-07-27",
+    "categoria": "Otros cargos logísticos",
+    "detalle": "Nogal",
+    "importe_sin_iva": 12401.22,
+    "importe_con_iva": 15005.48
+  },
+  {
+    "fecha": "2026-07-29",
+    "categoria": "Otros cargos logísticos",
+    "detalle": "Envíos Lappiel - Factura 3650-00001534 (Credifin)",
+    "importe_sin_iva": 21195.84,
+    "importe_con_iva": 25646.97
+  },
+  {
+    "fecha": "2026-08-01",
+    "categoria": "Autónomos",
+    "detalle": "Pago Autónomos Agosto (sin IVA aplicable)",
+    "importe_sin_iva": 101423.15,
+    "importe_con_iva": 101423.15
+  },
+  {
+    "fecha": "2026-07-24",
+    "categoria": "Otros cargos",
+    "detalle": "Papelera Plastimar - Factura A-00004-00012443 (bolsas de embalaje)",
+    "importe_sin_iva": 35214.87,
+    "importe_con_iva": 42609.99
+  },
+  {
+    "fecha": "2026-08-04",
+    "categoria": "Otros cargos logísticos",
+    "detalle": "Nogal - Costo de envío",
+    "importe_sin_iva": 12400.4,
+    "importe_con_iva": 15004.48
+  },
+  {
+    "fecha": "2026-07-31",
+    "categoria": "Logística Flex",
+    "detalle": "Factura 0002-00004548",
+    "importe_sin_iva": 211907.12,
+    "importe_con_iva": 256407.62
+  },
+  {
+    "fecha": "2026-08-07",
+    "categoria": "Otros cargos logísticos",
+    "detalle": "Alan Jalef - Cargo Logístico (monotributista, sin IVA)",
+    "importe_sin_iva": 30000.0,
+    "importe_con_iva": 30000.0
+  },
+  {
+    "fecha": "2026-08-12",
+    "categoria": "Otros cargos logísticos",
+    "detalle": "Nogal - Costo de envío",
+    "importe_sin_iva": 12400.0,
+    "importe_con_iva": 15004.0
+  },
+  {
+    "fecha": "2026-08-14",
+    "categoria": "Gastos de Agencia",
+    "detalle": "Mercado Connecting - Factura FC 03321-00001328",
+    "importe_sin_iva": 1575000.0,
+    "importe_con_iva": 1905750.0
+  }
+]

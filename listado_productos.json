@@ -1,0 +1,868 @@
+{
+  "Mayo": [
+    {
+      "item_id": "MLA1516293307",
+      "title": "Cuchara Cafe Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 2,
+      "importe": 21380.0,
+      "margen_bruto": 0.4061,
+      "margen_neto": 0.4127
+    },
+    {
+      "item_id": "MLA1516301923",
+      "title": "Cuchara Te Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 22,
+      "importe": 259812.78,
+      "margen_bruto": 0.3992,
+      "margen_neto": 0.443
+    },
+    {
+      "item_id": "MLA1516314673",
+      "title": "Cuchillo Asado Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 2,
+      "importe": 81562.38,
+      "margen_bruto": 0.3611,
+      "margen_neto": 0.3158
+    },
+    {
+      "item_id": "MLA1763092117",
+      "title": "Toallón Oregon Hotelero 100% Algodón 630gr Blanco 90x150 Blanco Ultra 630",
+      "qty": 2,
+      "importe": 59474.74,
+      "margen_bruto": 0.4128,
+      "margen_neto": 0.4023
+    },
+    {
+      "item_id": "MLA1778680761",
+      "title": "Yerba Mate Canarias Tradicional 1 Kg Sin Palo",
+      "qty": 13,
+      "importe": 133200.0,
+      "margen_bruto": 0.2428,
+      "margen_neto": 0.1653
+    },
+    {
+      "item_id": "MLA1804160685",
+      "title": "Frazada Paris Flannel Super Soft Deco 2 1/2 Plaza 220x240cm. Flannel 1000 G Negro",
+      "qty": 2,
+      "importe": 50000.0,
+      "margen_bruto": 0.352,
+      "margen_neto": 0.3227
+    },
+    {
+      "item_id": "MLA2275397448",
+      "title": "Cuchara Cafe Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 4,
+      "importe": 42760.0,
+      "margen_bruto": 0.4061,
+      "margen_neto": 0.304
+    },
+    {
+      "item_id": "MLA2275422974",
+      "title": "Untador Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 2,
+      "importe": 29270.0,
+      "margen_bruto": 0.406,
+      "margen_neto": 0.4647
+    },
+    {
+      "item_id": "MLA2275474776",
+      "title": "Cuchara Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 5,
+      "importe": 72850.0,
+      "margen_bruto": 0.3872,
+      "margen_neto": 0.3882
+    },
+    {
+      "item_id": "MLA2275474778",
+      "title": "Untador Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 3,
+      "importe": 55185.0,
+      "margen_bruto": 0.4485,
+      "margen_neto": 0.4795
+    },
+    {
+      "item_id": "MLA2275487428",
+      "title": "Cuchara Mesa Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 1,
+      "importe": 21370.24,
+      "margen_bruto": 0.3747,
+      "margen_neto": 0.3294
+    },
+    {
+      "item_id": "MLA2276328724",
+      "title": "Cuchillo Grille Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 1,
+      "importe": 52881.74,
+      "margen_bruto": 0.3747,
+      "margen_neto": 0.3294
+    },
+    {
+      "item_id": "MLA3232212932",
+      "title": "Tenedor Mesa Nicols Delta 1040 Acero Inoxidable X6",
+      "qty": 2,
+      "importe": 43865.24,
+      "margen_bruto": 0.3907,
+      "margen_neto": 0.3933
+    },
+    {
+      "item_id": "MLA3232757026",
+      "title": "Toalla Oregon Hotelero 100% Algodón 630gr Blanco 50x90 Blanco Ultra 630",
+      "qty": 2,
+      "importe": 23699.66,
+      "margen_bruto": 0.411,
+      "margen_neto": 0.3999
+    },
+    {
+      "item_id": "MLA3232759300",
+      "title": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
+      "qty": 14,
+      "importe": 352249.28,
+      "margen_bruto": 0.3914,
+      "margen_neto": 0.3108
+    },
+    {
+      "item_id": "MLA3232809762",
+      "title": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
+      "qty": 14,
+      "importe": 122368.42,
+      "margen_bruto": 0.3842,
+      "margen_neto": 0.1918
+    },
+    {
+      "item_id": "MLA3283469316",
+      "title": "Yerba Mate Canarias Tradicional 1 Kg",
+      "qty": 72,
+      "importe": 748650.0,
+      "margen_bruto": 0.2538,
+      "margen_neto": 0.221
+    },
+    {
+      "item_id": "MLA3373929570",
+      "title": "Acolchado Liso 2 1/2 Plaza Abrigado Invierno Blanco Paris Crema Lisa",
+      "qty": 1,
+      "importe": 32990.0,
+      "margen_bruto": 0.3089,
+      "margen_neto": -0.1481
+    }
+  ],
+  "Junio": [
+    {
+      "item_id": "MLA1516301923",
+      "title": "Cuchara Te Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 12,
+      "importe": 142145.58,
+      "margen_bruto": 0.401,
+      "margen_neto": 0.3775
+    },
+    {
+      "item_id": "MLA1516314673",
+      "title": "Cuchillo Asado Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 3,
+      "importe": 127170.0,
+      "margen_bruto": 0.3854,
+      "margen_neto": 0.2091
+    },
+    {
+      "item_id": "MLA1516327599",
+      "title": "Tenedor Mesa Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 1,
+      "importe": 21370.24,
+      "margen_bruto": 0.3747,
+      "margen_neto": 0.2599
+    },
+    {
+      "item_id": "MLA1516327601",
+      "title": "Cuchara Postre Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 1,
+      "importe": 20515.24,
+      "margen_bruto": 0.3747,
+      "margen_neto": 0.2599
+    },
+    {
+      "item_id": "MLA1612895659",
+      "title": "Timberland Pro Direct Attach 6 In Direct Attach Wp Ins Mujer Amarillo Liso 36 Ar",
+      "qty": 1,
+      "importe": 90000.0,
+      "margen_bruto": 1.0,
+      "margen_neto": 1.0
+    },
+    {
+      "item_id": "MLA1763092117",
+      "title": "Toallón Oregon Hotelero 100% Algodón 630gr Blanco 90x150 Blanco Ultra 630",
+      "qty": 2,
+      "importe": 64252.49,
+      "margen_bruto": 0.4564,
+      "margen_neto": 0.4642
+    },
+    {
+      "item_id": "MLA1778680761",
+      "title": "Yerba Mate Canarias Tradicional 1 Kg Sin Palo",
+      "qty": 12,
+      "importe": 128400.0,
+      "margen_bruto": 0.2749,
+      "margen_neto": 0.2306
+    },
+    {
+      "item_id": "MLA1784323187",
+      "title": "Almohada Hipoalergenica Lavable Fibra Siliconada 50x70 Blanco",
+      "qty": 1,
+      "importe": 31037.5,
+      "margen_bruto": 0.4979,
+      "margen_neto": 0.4815
+    },
+    {
+      "item_id": "MLA1805789665",
+      "title": "Yerba Canarias 1 Kg Combo X3",
+      "qty": 63,
+      "importe": 2039100.0,
+      "margen_bruto": 0.2809,
+      "margen_neto": 0.2804
+    },
+    {
+      "item_id": "MLA1841368115",
+      "title": "Centella Asiática Lappiel Comprimidos Anticelulitis Ginkgo Biloba 60 Unidades Sin Sabor",
+      "qty": 3,
+      "importe": 48592.5,
+      "margen_bruto": 0.3718,
+      "margen_neto": 0.2396
+    },
+    {
+      "item_id": "MLA1843453139",
+      "title": "Suplemento En Polvo Ena Sport Creatina Sin Sabor",
+      "qty": 7,
+      "importe": 411600.0,
+      "margen_bruto": 0.3431,
+      "margen_neto": 0.2034
+    },
+    {
+      "item_id": "MLA1843453755",
+      "title": "Creatina Monohidratada Ena Sport Micronizada 100 Pura En Doypack De 300g Sabor Neutro X2 + Scoop Legend Nutrition Sin Sabor",
+      "qty": 1,
+      "importe": 59000.0,
+      "margen_bruto": 0.3453,
+      "margen_neto": 0.1774
+    },
+    {
+      "item_id": "MLA2275397440",
+      "title": "Cuchara Postre Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 2,
+      "importe": 41030.48,
+      "margen_bruto": 0.3747,
+      "margen_neto": 0.2943
+    },
+    {
+      "item_id": "MLA2275397444",
+      "title": "Tenedor Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 5,
+      "importe": 80950.0,
+      "margen_bruto": 0.4485,
+      "margen_neto": 0.4005
+    },
+    {
+      "item_id": "MLA2275461878",
+      "title": "Cuchara Te Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 1,
+      "importe": 11347.79,
+      "margen_bruto": 0.3747,
+      "margen_neto": 0.26
+    },
+    {
+      "item_id": "MLA2275474772",
+      "title": "Cuchillo Grille Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 1,
+      "importe": 52881.74,
+      "margen_bruto": 0.3747,
+      "margen_neto": 0.26
+    },
+    {
+      "item_id": "MLA2275474778",
+      "title": "Untador Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 6,
+      "importe": 101170.0,
+      "margen_bruto": 0.3983,
+      "margen_neto": 0.2622
+    },
+    {
+      "item_id": "MLA2275487428",
+      "title": "Cuchara Mesa Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 2,
+      "importe": 42740.48,
+      "margen_bruto": 0.3747,
+      "margen_neto": 0.2943
+    },
+    {
+      "item_id": "MLA2276328724",
+      "title": "Cuchillo Grille Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 2,
+      "importe": 105763.48,
+      "margen_bruto": 0.3747,
+      "margen_neto": 0.2943
+    },
+    {
+      "item_id": "MLA2276431490",
+      "title": "Cuchara Mesa Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 1,
+      "importe": 21370.24,
+      "margen_bruto": 0.3747,
+      "margen_neto": 0.2599
+    },
+    {
+      "item_id": "MLA3232212932",
+      "title": "Tenedor Mesa Nicols Delta 1040 Acero Inoxidable X6",
+      "qty": 2,
+      "importe": 42740.48,
+      "margen_bruto": 0.3747,
+      "margen_neto": 0.2943
+    },
+    {
+      "item_id": "MLA3232757026",
+      "title": "Toalla Oregon Hotelero 100% Algodón 630gr Blanco 50x90 Blanco Ultra 630",
+      "qty": 1,
+      "importe": 12473.51,
+      "margen_bruto": 0.4405,
+      "margen_neto": 0.5159
+    },
+    {
+      "item_id": "MLA3232759300",
+      "title": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
+      "qty": 26,
+      "importe": 690378.64,
+      "margen_bruto": 0.4233,
+      "margen_neto": 0.3283
+    },
+    {
+      "item_id": "MLA3232809762",
+      "title": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
+      "qty": 8,
+      "importe": 72908.04,
+      "margen_bruto": 0.4094,
+      "margen_neto": 0.303
+    },
+    {
+      "item_id": "MLA3283469316",
+      "title": "Yerba Mate Canarias Tradicional 1 Kg",
+      "qty": 56,
+      "importe": 606346.0,
+      "margen_bruto": 0.2834,
+      "margen_neto": 0.2104
+    },
+    {
+      "item_id": "MLA3373929570",
+      "title": "Acolchado Liso 2 1/2 Plaza Abrigado Invierno Blanco Paris Crema Lisa",
+      "qty": 1,
+      "importe": 32990.0,
+      "margen_bruto": 0.3089,
+      "margen_neto": 0.3209
+    },
+    {
+      "item_id": "MLA3428883766",
+      "title": "Frazada Paris Flannel Super Soft Deco 2 1/2 Plaza 220x240cm Liso 1000 G Gris Oscuro",
+      "qty": 2,
+      "importe": 50000.0,
+      "margen_bruto": 0.352,
+      "margen_neto": 0.454
+    },
+    {
+      "item_id": "MLA3471136932",
+      "title": "L-arginina + L-citrulina + Ginseng | M1 Energy | Bylappiel Sabor Sin Sabor",
+      "qty": 29,
+      "importe": 537072.4,
+      "margen_bruto": 0.4617,
+      "margen_neto": 0.2722
+    }
+  ],
+  "Julio": [
+    {
+      "item_id": "MLA1516293307",
+      "title": "Cuchara Cafe Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 1,
+      "importe": 10690.0,
+      "margen_bruto": 0.4061,
+      "margen_neto": 0.199
+    },
+    {
+      "item_id": "MLA1516314673",
+      "title": "Cuchillo Asado Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 1,
+      "importe": 42390.0,
+      "margen_bruto": 0.3854,
+      "margen_neto": 0.2317
+    },
+    {
+      "item_id": "MLA1516327601",
+      "title": "Cuchara Postre Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 1,
+      "importe": 21595.0,
+      "margen_bruto": 0.406,
+      "margen_neto": 0.2003
+    },
+    {
+      "item_id": "MLA1557650359",
+      "title": "Set X 6 Cuchillos Mesa Asado Acero Nicols Corintia Athenas Color Plateado",
+      "qty": 3,
+      "importe": 41838.0,
+      "margen_bruto": 1.0,
+      "margen_neto": 1.0
+    },
+    {
+      "item_id": "MLA1763092117",
+      "title": "Toallón Oregon Hotelero 100% Algodón 630gr Blanco 90x150 Blanco Ultra 630",
+      "qty": 2,
+      "importe": 62605.0,
+      "margen_bruto": 0.4421,
+      "margen_neto": 0.2596
+    },
+    {
+      "item_id": "MLA1778680761",
+      "title": "Yerba Mate Canarias Tradicional 1 Kg Sin Palo",
+      "qty": 21,
+      "importe": 224416.0,
+      "margen_bruto": 0.274,
+      "margen_neto": 0.1966
+    },
+    {
+      "item_id": "MLA1784323187",
+      "title": "Almohada Hipoalergenica Lavable Fibra Siliconada 50x70 Blanco",
+      "qty": 2,
+      "importe": 65000.0,
+      "margen_bruto": 0.5205,
+      "margen_neto": 0.3598
+    },
+    {
+      "item_id": "MLA1805789665",
+      "title": "Yerba Canarias 1 Kg Combo X3",
+      "qty": 10,
+      "importe": 329000.0,
+      "margen_bruto": 0.2925,
+      "margen_neto": 0.3511
+    },
+    {
+      "item_id": "MLA1841368115",
+      "title": "Centella Asiática Lappiel Comprimidos Anticelulitis Ginkgo Biloba 60 Unidades Sin Sabor",
+      "qty": 22,
+      "importe": 386370.0,
+      "margen_bruto": 0.4206,
+      "margen_neto": 0.3274
+    },
+    {
+      "item_id": "MLA1843451447",
+      "title": "Creatina Micronizada 100% Pura De 300g Sabor Neutro + Scoop Elite Sin Sabor Ena Sport",
+      "qty": 1,
+      "importe": 30000.0,
+      "margen_bruto": 0.3562,
+      "margen_neto": 0.3699
+    },
+    {
+      "item_id": "MLA1843453139",
+      "title": "Suplemento En Polvo Ena Sport Creatina Sin Sabor",
+      "qty": 27,
+      "importe": 1551085.69,
+      "margen_bruto": 0.3276,
+      "margen_neto": 0.1217
+    },
+    {
+      "item_id": "MLA1878275359",
+      "title": "Yerba Mate Baldo 1kg Tradicional",
+      "qty": 49,
+      "importe": 560855.0,
+      "margen_bruto": 0.288,
+      "margen_neto": 0.1984
+    },
+    {
+      "item_id": "MLA1878275625",
+      "title": "Yerba Mate Baldo Especial X 500gr",
+      "qty": 119,
+      "importe": 700642.0,
+      "margen_bruto": 0.2378,
+      "margen_neto": 0.0726
+    },
+    {
+      "item_id": "MLA1926311309",
+      "title": "Geonat Geomagnesium Bisglicinato De Magnesio 1400 Comprimidos Sin Sabor",
+      "qty": 1,
+      "importe": 15500.0,
+      "margen_bruto": 0.4945,
+      "margen_neto": 0.3384
+    },
+    {
+      "item_id": "MLA2275397448",
+      "title": "Cuchara Cafe Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 1,
+      "importe": 10690.0,
+      "margen_bruto": 0.4061,
+      "margen_neto": 0.2001
+    },
+    {
+      "item_id": "MLA2275461878",
+      "title": "Cuchara Te Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 2,
+      "importe": 23890.0,
+      "margen_bruto": 0.406,
+      "margen_neto": 0.2108
+    },
+    {
+      "item_id": "MLA2275474780",
+      "title": "Cuchara Cafe Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 3,
+      "importe": 22605.0,
+      "margen_bruto": 0.4486,
+      "margen_neto": 0.203
+    },
+    {
+      "item_id": "MLA3232757026",
+      "title": "Toalla Oregon Hotelero 100% Algodón 630gr Blanco 50x90 Blanco Ultra 630",
+      "qty": 3,
+      "importe": 37420.5,
+      "margen_bruto": 0.4405,
+      "margen_neto": 0.3618
+    },
+    {
+      "item_id": "MLA3232759300",
+      "title": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
+      "qty": 10,
+      "importe": 261936.0,
+      "margen_bruto": 0.4154,
+      "margen_neto": 0.3739
+    },
+    {
+      "item_id": "MLA3232809762",
+      "title": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
+      "qty": 2,
+      "importe": 17765.48,
+      "margen_bruto": 0.3941,
+      "margen_neto": 0.296
+    },
+    {
+      "item_id": "MLA3283469316",
+      "title": "Yerba Mate Canarias Tradicional 1 Kg",
+      "qty": 43,
+      "importe": 464891.0,
+      "margen_bruto": 0.2824,
+      "margen_neto": 0.2087
+    },
+    {
+      "item_id": "MLA3372513504",
+      "title": "Yerba Mate Canarias Tradicional 1 Kg",
+      "qty": 2,
+      "importe": 24960.0,
+      "margen_bruto": 0.3783,
+      "margen_neto": 0.213
+    },
+    {
+      "item_id": "MLA3471136932",
+      "title": "L-arginina + L-citrulina + Ginseng | M1 Energy | Bylappiel Sin Sabor",
+      "qty": 137,
+      "importe": 2387031.33,
+      "margen_bruto": 0.4278,
+      "margen_neto": 0.2649
+    },
+    {
+      "item_id": "MLA3521913418",
+      "title": "Toalla Pie De Baño Oregon Hotelero 100% Algodón 700gr Blanco",
+      "qty": 3,
+      "importe": 31670.97,
+      "margen_bruto": 1.0,
+      "margen_neto": 1.0
+    },
+    {
+      "item_id": "MLA3566784906",
+      "title": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Plus",
+      "qty": 59,
+      "importe": 1511517.23,
+      "margen_bruto": 0.4022,
+      "margen_neto": 0.2165
+    },
+    {
+      "item_id": "MLA3571928900",
+      "title": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
+      "qty": 50,
+      "importe": 462024.34,
+      "margen_bruto": 0.4176,
+      "margen_neto": 0.2291
+    },
+    {
+      "item_id": "MLA3576640628",
+      "title": "Combo Star Nutrition Creatina Monohydrate Doypack 300grs Sabor Sin Sabor X 2 Unidades",
+      "qty": 6,
+      "importe": 343860.0,
+      "margen_bruto": 0.3718,
+      "margen_neto": 0.1491
+    },
+    {
+      "item_id": "MLA3677881124",
+      "title": "Treonato De Magnesio 1000 Mg Geonat Para Concentración Y Memoria  60 Comprimidos Sin Sabor",
+      "qty": 2,
+      "importe": 39000.0,
+      "margen_bruto": 0.5617,
+      "margen_neto": 0.3905
+    }
+  ],
+  "Agosto parcial": [
+    {
+      "item_id": "MLA1878275359",
+      "title": "Yerba Mate Baldo 1kg Tradicional",
+      "qty": 44,
+      "importe": 460305.0,
+      "margen_bruto": 0.221,
+      "margen_neto": 0.1303
+    },
+    {
+      "item_id": "MLA1878275625",
+      "title": "Yerba Mate Baldo Especial X 500gr",
+      "qty": 1,
+      "importe": 5886.0,
+      "margen_bruto": 0.2376,
+      "margen_neto": 0.0288
+    },
+    {
+      "item_id": "MLA1926288729",
+      "title": "Pancakes Proteicos Sabor Vainilla Granger 400 G",
+      "qty": 10,
+      "importe": 145000.0,
+      "margen_bruto": 0.4567,
+      "margen_neto": 0.3646
+    },
+    {
+      "item_id": "MLA1926311309",
+      "title": "Bisglicinato De Magnesio Geonat Geomagnesium Con Vitaminas B En Comprimidos X 60 Sin Sabor",
+      "qty": 58,
+      "importe": 844275.01,
+      "margen_bruto": 0.4618,
+      "margen_neto": 0.3298
+    },
+    {
+      "item_id": "MLA1926313573",
+      "title": "Granger Foods Proteína Pancakes Proteicos Polvo Chocolate",
+      "qty": 2,
+      "importe": 29000.0,
+      "margen_bruto": 0.4567,
+      "margen_neto": 0.3365
+    },
+    {
+      "item_id": "MLA3471136932",
+      "title": "L-arginina + L-citrulina + Ginseng | M1 Energy | Bylappiel Sin Sabor",
+      "qty": 36,
+      "importe": 612649.99,
+      "margen_bruto": 0.4142,
+      "margen_neto": 0.1847
+    },
+    {
+      "item_id": "MLA3566784906",
+      "title": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Plus",
+      "qty": 14,
+      "importe": 386599.94,
+      "margen_bruto": 0.4454,
+      "margen_neto": 0.3464
+    },
+    {
+      "item_id": "MLA3571928900",
+      "title": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
+      "qty": 13,
+      "importe": 133350.0,
+      "margen_bruto": 0.4753,
+      "margen_neto": 0.3778
+    },
+    {
+      "item_id": "MLA3677881124",
+      "title": "Treonato De Magnesio 1000 Mg Geonat Para Concentración Y Memoria  60 Comprimidos Sin Sabor",
+      "qty": 111,
+      "importe": 2102239.92,
+      "margen_bruto": 0.5487,
+      "margen_neto": 0.4569
+    }
+  ],
+  "Ultimos 30 dias": [
+    {
+      "item_id": "MLA1516293307",
+      "title": "Cuchara Cafe Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 1,
+      "importe": 10690.0,
+      "margen_bruto": 0.4061,
+      "margen_neto": 0.199
+    },
+    {
+      "item_id": "MLA1516327601",
+      "title": "Cuchara Postre Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 1,
+      "importe": 21595.0,
+      "margen_bruto": 0.406,
+      "margen_neto": 0.2003
+    },
+    {
+      "item_id": "MLA1557650359",
+      "title": "Set X 6 Cuchillos Mesa Asado Acero Nicols Corintia Athenas Color Plateado",
+      "qty": 3,
+      "importe": 41838.0,
+      "margen_bruto": 1.0,
+      "margen_neto": 1.0
+    },
+    {
+      "item_id": "MLA1763092117",
+      "title": "Toallón Oregon Hotelero 100% Algodón 630gr Blanco 90x150 Blanco Ultra 630",
+      "qty": 2,
+      "importe": 62605.0,
+      "margen_bruto": 0.4421,
+      "margen_neto": 0.2596
+    },
+    {
+      "item_id": "MLA1778680761",
+      "title": "Yerba Mate Canarias Tradicional 1 Kg Sin Palo",
+      "qty": 9,
+      "importe": 98550.0,
+      "margen_bruto": 0.2914,
+      "margen_neto": 0.2213
+    },
+    {
+      "item_id": "MLA1784323187",
+      "title": "Almohada Hipoalergenica Lavable Fibra Siliconada 50x70 Blanco",
+      "qty": 2,
+      "importe": 65000.0,
+      "margen_bruto": 0.5205,
+      "margen_neto": 0.3598
+    },
+    {
+      "item_id": "MLA1841368115",
+      "title": "Centella Asiática Lappiel Comprimidos Anticelulitis Ginkgo Biloba 60 Unidades Sin Sabor",
+      "qty": 10,
+      "importe": 192000.0,
+      "margen_bruto": 0.4701,
+      "margen_neto": 0.3043
+    },
+    {
+      "item_id": "MLA1843453139",
+      "title": "Suplemento En Polvo Ena Sport Creatina Sin Sabor",
+      "qty": 15,
+      "importe": 859885.69,
+      "margen_bruto": 0.3262,
+      "margen_neto": 0.0785
+    },
+    {
+      "item_id": "MLA1878275359",
+      "title": "Yerba Mate Baldo 1kg Tradicional",
+      "qty": 93,
+      "importe": 1021160.0,
+      "margen_bruto": 0.2578,
+      "margen_neto": 0.1675
+    },
+    {
+      "item_id": "MLA1878275625",
+      "title": "Yerba Mate Baldo Especial X 500gr",
+      "qty": 120,
+      "importe": 706528.0,
+      "margen_bruto": 0.2378,
+      "margen_neto": 0.0722
+    },
+    {
+      "item_id": "MLA1926288729",
+      "title": "Pancakes Proteicos Sabor Vainilla Granger 400 G",
+      "qty": 10,
+      "importe": 145000.0,
+      "margen_bruto": 0.4567,
+      "margen_neto": 0.3646
+    },
+    {
+      "item_id": "MLA1926311309",
+      "title": "Bisglicinato De Magnesio Geonat Geomagnesium Con Vitaminas B En Comprimidos X 60 Sin Sabor",
+      "qty": 59,
+      "importe": 859775.01,
+      "margen_bruto": 0.4624,
+      "margen_neto": 0.3299
+    },
+    {
+      "item_id": "MLA1926313573",
+      "title": "Granger Foods Proteína Pancakes Proteicos Polvo Chocolate",
+      "qty": 2,
+      "importe": 29000.0,
+      "margen_bruto": 0.4567,
+      "margen_neto": 0.3365
+    },
+    {
+      "item_id": "MLA2275461878",
+      "title": "Cuchara Te Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 2,
+      "importe": 23890.0,
+      "margen_bruto": 0.406,
+      "margen_neto": 0.2108
+    },
+    {
+      "item_id": "MLA2275474780",
+      "title": "Cuchara Cafe Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+      "qty": 3,
+      "importe": 22605.0,
+      "margen_bruto": 0.4486,
+      "margen_neto": 0.203
+    },
+    {
+      "item_id": "MLA3232759300",
+      "title": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
+      "qty": 2,
+      "importe": 54570.0,
+      "margen_bruto": 0.4387,
+      "margen_neto": 0.38
+    },
+    {
+      "item_id": "MLA3283469316",
+      "title": "Yerba Mate Canarias Tradicional 1 Kg",
+      "qty": 6,
+      "importe": 65700.0,
+      "margen_bruto": 0.2914,
+      "margen_neto": 0.2213
+    },
+    {
+      "item_id": "MLA3372513504",
+      "title": "Yerba Mate Canarias Tradicional 1 Kg",
+      "qty": 1,
+      "importe": 12480.0,
+      "margen_bruto": 0.3783,
+      "margen_neto": 0.213
+    },
+    {
+      "item_id": "MLA3471136932",
+      "title": "L-arginina + L-citrulina + Ginseng | M1 Energy | Bylappiel Sin Sabor",
+      "qty": 134,
+      "importe": 2299028.77,
+      "margen_bruto": 0.4189,
+      "margen_neto": 0.2159
+    },
+    {
+      "item_id": "MLA3521913418",
+      "title": "Toalla Pie De Baño Oregon Hotelero 100% Algodón 700gr Blanco",
+      "qty": 3,
+      "importe": 31670.97,
+      "margen_bruto": 1.0,
+      "margen_neto": 1.0
+    },
+    {
+      "item_id": "MLA3566784906",
+      "title": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Plus",
+      "qty": 72,
+      "importe": 1873492.47,
+      "margen_bruto": 0.4115,
+      "margen_neto": 0.2447
+    },
+    {
+      "item_id": "MLA3571928900",
+      "title": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
+      "qty": 63,
+      "importe": 595374.34,
+      "margen_bruto": 0.4305,
+      "margen_neto": 0.2653
+    },
+    {
+      "item_id": "MLA3576640628",
+      "title": "Combo Star Nutrition Creatina Monohydrate Doypack 300grs Sabor Sin Sabor X 2 Unidades",
+      "qty": 6,
+      "importe": 343860.0,
+      "margen_bruto": 0.3718,
+      "margen_neto": 0.1491
+    },
+    {
+      "item_id": "MLA3677881124",
+      "title": "Treonato De Magnesio 1000 Mg Geonat Para Concentración Y Memoria  60 Comprimidos Sin Sabor",
+      "qty": 113,
+      "importe": 2141239.92,
+      "margen_bruto": 0.549,
+      "margen_neto": 0.4559
+    }
+  ]
+}

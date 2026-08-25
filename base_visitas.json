@@ -1,0 +1,752 @@
+[
+  {
+    "fecha": "2026-04-22",
+    "visitas": 44,
+    "compras": 0,
+    "cvr": 0.0
+  },
+  {
+    "fecha": "2026-04-23",
+    "visitas": 69,
+    "compras": 0,
+    "cvr": 0.0
+  },
+  {
+    "fecha": "2026-04-24",
+    "visitas": 38,
+    "compras": 0,
+    "cvr": 0.0
+  },
+  {
+    "fecha": "2026-04-25",
+    "visitas": 51,
+    "compras": 0,
+    "cvr": 0.0
+  },
+  {
+    "fecha": "2026-04-26",
+    "visitas": 61,
+    "compras": 0,
+    "cvr": 0.0
+  },
+  {
+    "fecha": "2026-04-27",
+    "visitas": 75,
+    "compras": 0,
+    "cvr": 0.0
+  },
+  {
+    "fecha": "2026-04-28",
+    "visitas": 55,
+    "compras": 0,
+    "cvr": 0.0
+  },
+  {
+    "fecha": "2026-04-29",
+    "visitas": 38,
+    "compras": 0,
+    "cvr": 0.0
+  },
+  {
+    "fecha": "2026-04-30",
+    "visitas": 12,
+    "compras": 0,
+    "cvr": 0.0
+  },
+  {
+    "fecha": "2026-05-01",
+    "visitas": 27,
+    "compras": 0,
+    "cvr": 0.0
+  },
+  {
+    "fecha": "2026-05-02",
+    "visitas": 58,
+    "compras": 2,
+    "cvr": 0.0345
+  },
+  {
+    "fecha": "2026-05-03",
+    "visitas": 55,
+    "compras": 3,
+    "cvr": 0.0545
+  },
+  {
+    "fecha": "2026-05-04",
+    "visitas": 56,
+    "compras": 2,
+    "cvr": 0.0357
+  },
+  {
+    "fecha": "2026-05-05",
+    "visitas": 39,
+    "compras": 1,
+    "cvr": 0.0256
+  },
+  {
+    "fecha": "2026-05-06",
+    "visitas": 36,
+    "compras": 0,
+    "cvr": 0.0
+  },
+  {
+    "fecha": "2026-05-07",
+    "visitas": 65,
+    "compras": 1,
+    "cvr": 0.0154
+  },
+  {
+    "fecha": "2026-05-08",
+    "visitas": 47,
+    "compras": 2,
+    "cvr": 0.0426
+  },
+  {
+    "fecha": "2026-05-09",
+    "visitas": 77,
+    "compras": 2,
+    "cvr": 0.026
+  },
+  {
+    "fecha": "2026-05-10",
+    "visitas": 134,
+    "compras": 2,
+    "cvr": 0.0149
+  },
+  {
+    "fecha": "2026-05-11",
+    "visitas": 133,
+    "compras": 9,
+    "cvr": 0.0677
+  },
+  {
+    "fecha": "2026-05-12",
+    "visitas": 132,
+    "compras": 9,
+    "cvr": 0.0682
+  },
+  {
+    "fecha": "2026-05-13",
+    "visitas": 110,
+    "compras": 2,
+    "cvr": 0.0182
+  },
+  {
+    "fecha": "2026-05-14",
+    "visitas": 85,
+    "compras": 2,
+    "cvr": 0.0235
+  },
+  {
+    "fecha": "2026-05-15",
+    "visitas": 59,
+    "compras": 1,
+    "cvr": 0.0169
+  },
+  {
+    "fecha": "2026-05-16",
+    "visitas": 61,
+    "compras": 1,
+    "cvr": 0.0164
+  },
+  {
+    "fecha": "2026-05-17",
+    "visitas": 77,
+    "compras": 0,
+    "cvr": 0.0
+  },
+  {
+    "fecha": "2026-05-18",
+    "visitas": 103,
+    "compras": 1,
+    "cvr": 0.0097
+  },
+  {
+    "fecha": "2026-05-19",
+    "visitas": 104,
+    "compras": 1,
+    "cvr": 0.0096
+  },
+  {
+    "fecha": "2026-05-20",
+    "visitas": 24,
+    "compras": 1,
+    "cvr": 0.0417
+  },
+  {
+    "fecha": "2026-05-21",
+    "visitas": 29,
+    "compras": 0,
+    "cvr": 0.0
+  },
+  {
+    "fecha": "2026-05-22",
+    "visitas": 32,
+    "compras": 0,
+    "cvr": 0.0
+  },
+  {
+    "fecha": "2026-05-23",
+    "visitas": 16,
+    "compras": 0,
+    "cvr": 0.0
+  },
+  {
+    "fecha": "2026-05-24",
+    "visitas": 17,
+    "compras": 0,
+    "cvr": 0.0
+  },
+  {
+    "fecha": "2026-05-25",
+    "visitas": 17,
+    "compras": 5,
+    "cvr": 0.2941
+  },
+  {
+    "fecha": "2026-05-26",
+    "visitas": 73,
+    "compras": 1,
+    "cvr": 0.0137
+  },
+  {
+    "fecha": "2026-05-27",
+    "visitas": 111,
+    "compras": 2,
+    "cvr": 0.018
+  },
+  {
+    "fecha": "2026-05-28",
+    "visitas": 88,
+    "compras": 3,
+    "cvr": 0.0341
+  },
+  {
+    "fecha": "2026-05-29",
+    "visitas": 94,
+    "compras": 4,
+    "cvr": 0.0426
+  },
+  {
+    "fecha": "2026-05-30",
+    "visitas": 78,
+    "compras": 3,
+    "cvr": 0.0385
+  },
+  {
+    "fecha": "2026-05-31",
+    "visitas": 97,
+    "compras": 0,
+    "cvr": 0.0
+  },
+  {
+    "fecha": "2026-06-01",
+    "visitas": 129,
+    "compras": 13,
+    "cvr": 0.1008
+  },
+  {
+    "fecha": "2026-06-02",
+    "visitas": 72,
+    "compras": 1,
+    "cvr": 0.0139
+  },
+  {
+    "fecha": "2026-06-03",
+    "visitas": 64,
+    "compras": 2,
+    "cvr": 0.0312
+  },
+  {
+    "fecha": "2026-06-04",
+    "visitas": 69,
+    "compras": 7,
+    "cvr": 0.1014
+  },
+  {
+    "fecha": "2026-06-05",
+    "visitas": 74,
+    "compras": 4,
+    "cvr": 0.0541
+  },
+  {
+    "fecha": "2026-06-06",
+    "visitas": 67,
+    "compras": 4,
+    "cvr": 0.0597
+  },
+  {
+    "fecha": "2026-06-07",
+    "visitas": 93,
+    "compras": 2,
+    "cvr": 0.0215
+  },
+  {
+    "fecha": "2026-06-08",
+    "visitas": 143,
+    "compras": 8,
+    "cvr": 0.0559
+  },
+  {
+    "fecha": "2026-06-09",
+    "visitas": 145,
+    "compras": 6,
+    "cvr": 0.0414
+  },
+  {
+    "fecha": "2026-06-10",
+    "visitas": 64,
+    "compras": 0,
+    "cvr": 0.0
+  },
+  {
+    "fecha": "2026-06-11",
+    "visitas": 95,
+    "compras": 2,
+    "cvr": 0.0211
+  },
+  {
+    "fecha": "2026-06-12",
+    "visitas": 116,
+    "compras": 4,
+    "cvr": 0.0345
+  },
+  {
+    "fecha": "2026-06-13",
+    "visitas": 84,
+    "compras": 3,
+    "cvr": 0.0357
+  },
+  {
+    "fecha": "2026-06-14",
+    "visitas": 86,
+    "compras": 2,
+    "cvr": 0.0233
+  },
+  {
+    "fecha": "2026-06-15",
+    "visitas": 101,
+    "compras": 2,
+    "cvr": 0.0198
+  },
+  {
+    "fecha": "2026-06-16",
+    "visitas": 100,
+    "compras": 6,
+    "cvr": 0.06
+  },
+  {
+    "fecha": "2026-06-17",
+    "visitas": 160,
+    "compras": 9,
+    "cvr": 0.0563
+  },
+  {
+    "fecha": "2026-06-18",
+    "visitas": 216,
+    "compras": 12,
+    "cvr": 0.0556
+  },
+  {
+    "fecha": "2026-06-19",
+    "visitas": 126,
+    "compras": 9,
+    "cvr": 0.0714
+  },
+  {
+    "fecha": "2026-06-20",
+    "visitas": 74,
+    "compras": 3,
+    "cvr": 0.0405
+  },
+  {
+    "fecha": "2026-06-21",
+    "visitas": 100,
+    "compras": 2,
+    "cvr": 0.02
+  },
+  {
+    "fecha": "2026-06-22",
+    "visitas": 94,
+    "compras": 2,
+    "cvr": 0.0213
+  },
+  {
+    "fecha": "2026-06-23",
+    "visitas": 103,
+    "compras": 8,
+    "cvr": 0.0777
+  },
+  {
+    "fecha": "2026-06-24",
+    "visitas": 89,
+    "compras": 3,
+    "cvr": 0.0337
+  },
+  {
+    "fecha": "2026-06-25",
+    "visitas": 91,
+    "compras": 6,
+    "cvr": 0.0659
+  },
+  {
+    "fecha": "2026-06-26",
+    "visitas": 76,
+    "compras": 6,
+    "cvr": 0.0789
+  },
+  {
+    "fecha": "2026-06-27",
+    "visitas": 67,
+    "compras": 3,
+    "cvr": 0.0448
+  },
+  {
+    "fecha": "2026-06-28",
+    "visitas": 57,
+    "compras": 2,
+    "cvr": 0.0351
+  },
+  {
+    "fecha": "2026-06-29",
+    "visitas": 134,
+    "compras": 5,
+    "cvr": 0.0373
+  },
+  {
+    "fecha": "2026-06-30",
+    "visitas": 211,
+    "compras": 17,
+    "cvr": 0.0806
+  },
+  {
+    "fecha": "2026-07-01",
+    "visitas": 177,
+    "compras": 12,
+    "cvr": 0.0678
+  },
+  {
+    "fecha": "2026-07-02",
+    "visitas": 194,
+    "compras": 12,
+    "cvr": 0.0619
+  },
+  {
+    "fecha": "2026-07-03",
+    "visitas": 108,
+    "compras": 9,
+    "cvr": 0.0833
+  },
+  {
+    "fecha": "2026-07-04",
+    "visitas": 135,
+    "compras": 8,
+    "cvr": 0.0593
+  },
+  {
+    "fecha": "2026-07-05",
+    "visitas": 136,
+    "compras": 12,
+    "cvr": 0.0882
+  },
+  {
+    "fecha": "2026-07-06",
+    "visitas": 211,
+    "compras": 20,
+    "cvr": 0.0948
+  },
+  {
+    "fecha": "2026-07-07",
+    "visitas": 138,
+    "compras": 11,
+    "cvr": 0.0797
+  },
+  {
+    "fecha": "2026-07-08",
+    "visitas": 141,
+    "compras": 9,
+    "cvr": 0.0638
+  },
+  {
+    "fecha": "2026-07-09",
+    "visitas": 97,
+    "compras": 9,
+    "cvr": 0.0928
+  },
+  {
+    "fecha": "2026-07-10",
+    "visitas": 52,
+    "compras": 3,
+    "cvr": 0.0577
+  },
+  {
+    "fecha": "2026-07-11",
+    "visitas": 61,
+    "compras": 2,
+    "cvr": 0.0328
+  },
+  {
+    "fecha": "2026-07-12",
+    "visitas": 75,
+    "compras": 3,
+    "cvr": 0.04
+  },
+  {
+    "fecha": "2026-07-13",
+    "visitas": 59,
+    "compras": 1,
+    "cvr": 0.0169
+  },
+  {
+    "fecha": "2026-07-14",
+    "visitas": 49,
+    "compras": 1,
+    "cvr": 0.0204
+  },
+  {
+    "fecha": "2026-07-15",
+    "visitas": 18,
+    "compras": 2,
+    "cvr": 0.1111
+  },
+  {
+    "fecha": "2026-07-16",
+    "visitas": 8,
+    "compras": 1,
+    "cvr": 0.125
+  },
+  {
+    "fecha": "2026-07-17",
+    "visitas": 8,
+    "compras": 0,
+    "cvr": 0.0
+  },
+  {
+    "fecha": "2026-07-18",
+    "visitas": 68,
+    "compras": 2,
+    "cvr": 0.0294
+  },
+  {
+    "fecha": "2026-07-19",
+    "visitas": 59,
+    "compras": 5,
+    "cvr": 0.0847
+  },
+  {
+    "fecha": "2026-07-20",
+    "visitas": 99,
+    "compras": 10,
+    "cvr": 0.101
+  },
+  {
+    "fecha": "2026-07-21",
+    "visitas": 179,
+    "compras": 9,
+    "cvr": 0.0503
+  },
+  {
+    "fecha": "2026-07-22",
+    "visitas": 152,
+    "compras": 6,
+    "cvr": 0.0395
+  },
+  {
+    "fecha": "2026-07-23",
+    "visitas": 130,
+    "compras": 10,
+    "cvr": 0.0769
+  },
+  {
+    "fecha": "2026-07-24",
+    "visitas": 109,
+    "compras": 3,
+    "cvr": 0.0275
+  },
+  {
+    "fecha": "2026-07-25",
+    "visitas": 146,
+    "compras": 12,
+    "cvr": 0.0822
+  },
+  {
+    "fecha": "2026-07-26",
+    "visitas": 115,
+    "compras": 8,
+    "cvr": 0.0696
+  },
+  {
+    "fecha": "2026-07-27",
+    "visitas": 445,
+    "compras": 30,
+    "cvr": 0.0674
+  },
+  {
+    "fecha": "2026-07-28",
+    "visitas": 507,
+    "compras": 31,
+    "cvr": 0.0611
+  },
+  {
+    "fecha": "2026-07-29",
+    "visitas": 309,
+    "compras": 30,
+    "cvr": 0.0971
+  },
+  {
+    "fecha": "2026-07-30",
+    "visitas": 105,
+    "compras": 6,
+    "cvr": 0.0571
+  },
+  {
+    "fecha": "2026-07-31",
+    "visitas": 87,
+    "compras": 9,
+    "cvr": 0.1034
+  },
+  {
+    "fecha": "2026-08-01",
+    "visitas": 127,
+    "compras": 14,
+    "cvr": 0.1102
+  },
+  {
+    "fecha": "2026-08-02",
+    "visitas": 232,
+    "compras": 27,
+    "cvr": 0.1164
+  },
+  {
+    "fecha": "2026-08-03",
+    "visitas": 220,
+    "compras": 30,
+    "cvr": 0.1364
+  },
+  {
+    "fecha": "2026-08-04",
+    "visitas": 479,
+    "compras": 56,
+    "cvr": 0.1169
+  },
+  {
+    "fecha": "2026-08-05",
+    "visitas": 177,
+    "compras": 17,
+    "cvr": 0.096
+  },
+  {
+    "fecha": "2026-08-06",
+    "visitas": 190,
+    "compras": 29,
+    "cvr": 0.1526
+  },
+  {
+    "fecha": "2026-08-07",
+    "visitas": 240,
+    "compras": 34,
+    "cvr": 0.1417
+  },
+  {
+    "fecha": "2026-08-08",
+    "visitas": 184,
+    "compras": 32,
+    "cvr": 0.1739
+  },
+  {
+    "fecha": "2026-08-09",
+    "visitas": 148,
+    "compras": 15,
+    "cvr": 0.1014
+  },
+  {
+    "fecha": "2026-08-10",
+    "visitas": 175,
+    "compras": 17,
+    "cvr": 0.0971
+  },
+  {
+    "fecha": "2026-08-11",
+    "visitas": 151,
+    "compras": 26,
+    "cvr": 0.1722
+  },
+  {
+    "fecha": "2026-08-12",
+    "visitas": 94,
+    "compras": 9,
+    "cvr": 0.0957
+  },
+  {
+    "fecha": "2026-08-13",
+    "visitas": 236,
+    "compras": 29,
+    "cvr": 0.1229
+  },
+  {
+    "fecha": "2026-08-14",
+    "visitas": 236,
+    "compras": 17,
+    "cvr": 0.072
+  },
+  {
+    "fecha": "2026-08-15",
+    "visitas": 217,
+    "compras": 18,
+    "cvr": 0.0829
+  },
+  {
+    "fecha": "2026-08-16",
+    "visitas": 271,
+    "compras": 24,
+    "cvr": 0.0886
+  },
+  {
+    "fecha": "2026-08-17",
+    "visitas": 314,
+    "compras": 46,
+    "cvr": 0.1465
+  },
+  {
+    "fecha": "2026-08-18",
+    "visitas": 251,
+    "compras": 21,
+    "cvr": 0.0837
+  },
+  {
+    "fecha": "2026-08-19",
+    "visitas": 251,
+    "compras": 22,
+    "cvr": 0.0876
+  },
+  {
+    "fecha": "2026-08-20",
+    "visitas": 220,
+    "compras": 25,
+    "cvr": 0.1136
+  },
+  {
+    "fecha": "2026-08-21",
+    "visitas": 175,
+    "compras": 18,
+    "cvr": 0.1029
+  },
+  {
+    "fecha": "2026-08-22",
+    "visitas": 140,
+    "compras": 18,
+    "cvr": 0.1286
+  },
+  {
+    "fecha": "2026-08-23",
+    "visitas": 167,
+    "compras": 18,
+    "cvr": 0.1078
+  },
+  {
+    "fecha": "2026-08-24",
+    "visitas": 55,
+    "compras": 0,
+    "cvr": 0.0
+  }
+]

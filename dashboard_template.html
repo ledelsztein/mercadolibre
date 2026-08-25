@@ -1,0 +1,947 @@
+<title>Deleite — Estado de Resultados</title>
+<style>
+  :root {
+    --bg: #EEEEE5;
+    --surface: #FFFFFF;
+    --surface-2: #F7F6EF;
+    --border: #DBD8C9;
+    --text: #1B1A14;
+    --text-muted: #6C6A5A;
+    --accent: #8C5A22;
+    --accent-soft: #EADFC8;
+    --positive: #276B4E;
+    --positive-soft: #DCEBE1;
+    --negative: #A63B2E;
+    --negative-soft: #F3DEDA;
+    --shadow: 0 1px 2px rgba(30,28,18,0.06), 0 8px 24px -12px rgba(30,28,18,0.18);
+    --radius: 10px;
+    --font-display: Charter, 'Iowan Old Style', 'Palatino Linotype', Georgia, 'Times New Roman', serif;
+    --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --font-mono: ui-monospace, 'SF Mono', 'Cascadia Mono', 'Consolas', monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16150F;
+      --surface: #1E1C15;
+      --surface-2: #23211A;
+      --border: #3A3728;
+      --text: #F1EEE1;
+      --text-muted: #A8A48E;
+      --accent: #D8A85E;
+      --accent-soft: #3A2E17;
+      --positive: #5FB98D;
+      --positive-soft: #1C3128;
+      --negative: #E38175;
+      --negative-soft: #3A211D;
+      --shadow: 0 1px 2px rgba(0,0,0,0.4), 0 12px 28px -14px rgba(0,0,0,0.6);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #16150F; --surface: #1E1C15; --surface-2: #23211A; --border: #3A3728;
+    --text: #F1EEE1; --text-muted: #A8A48E; --accent: #D8A85E; --accent-soft: #3A2E17;
+    --positive: #5FB98D; --positive-soft: #1C3128; --negative: #E38175; --negative-soft: #3A211D;
+    --shadow: 0 1px 2px rgba(0,0,0,0.4), 0 12px 28px -14px rgba(0,0,0,0.6);
+  }
+  :root[data-theme="light"] {
+    --bg: #EEEEE5; --surface: #FFFFFF; --surface-2: #F7F6EF; --border: #DBD8C9;
+    --text: #1B1A14; --text-muted: #6C6A5A; --accent: #8C5A22; --accent-soft: #EADFC8;
+    --positive: #276B4E; --positive-soft: #DCEBE1; --negative: #A63B2E; --negative-soft: #F3DEDA;
+    --shadow: 0 1px 2px rgba(30,28,18,0.06), 0 8px 24px -12px rgba(30,28,18,0.18);
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection { background: var(--accent-soft); }
+
+  .wrap { max-width: 1680px; margin: 0 auto; padding: 40px 28px 96px; }
+
+  /* ---------- Masthead ---------- */
+  .masthead {
+    display: flex; align-items: flex-end; justify-content: space-between;
+    gap: 24px; flex-wrap: wrap;
+    padding-bottom: 22px; margin-bottom: 28px;
+    border-bottom: 1px solid var(--border);
+  }
+  .masthead h1 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 34px;
+    letter-spacing: -0.01em;
+    margin: 0 0 4px;
+    text-wrap: balance;
+  }
+  .masthead .sub {
+    color: var(--text-muted);
+    font-size: 13.5px;
+  }
+  .masthead .sub b { color: var(--text); font-weight: 600; }
+  .brand-mark {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    padding: 5px 12px;
+    white-space: nowrap;
+  }
+
+  /* ---------- Month tabs ---------- */
+  .tabs {
+    display: inline-flex; gap: 2px; padding: 3px;
+    background: var(--surface-2); border: 1px solid var(--border); border-radius: 999px;
+    margin-bottom: 26px;
+  }
+  .view { display: none; }
+  .view.active { display: block; }
+
+  /* ---------- Filtros (Ordenes) ---------- */
+  .filters { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 4px; }
+  .filters label { display: flex; flex-direction: column; gap: 4px; font-size: 11.5px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+  .filters input, .filters select {
+    font-family: var(--font-body); font-size: 13.5px; color: var(--text);
+    background: var(--surface-2); border: 1px solid var(--border); border-radius: 7px;
+    padding: 7px 10px; min-width: 160px;
+  }
+  .filters input:focus-visible, .filters select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .filters button {
+    align-self: flex-end; font-family: var(--font-body); font-size: 12.5px; font-weight: 600;
+    color: var(--text-muted); background: none; border: 1px solid var(--border); border-radius: 7px;
+    padding: 8px 12px; cursor: pointer;
+  }
+  .filters button:hover { background: var(--surface-2); color: var(--text); }
+  .tab {
+    font-family: var(--font-body); font-size: 13.5px; font-weight: 600;
+    padding: 8px 18px; border-radius: 999px; border: none; background: none; color: var(--text-muted);
+    cursor: pointer; transition: background .15s ease, color .15s ease;
+  }
+  .tab[aria-selected="true"] { background: var(--surface); color: var(--text); box-shadow: var(--shadow); }
+  .tab:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .tab .flag, .card .flag {
+    display: inline-block; margin-left: 6px; font-size: 10px; font-weight: 700;
+    color: var(--accent); vertical-align: 1px;
+  }
+
+  /* ---------- Summary cards ---------- */
+  .summary {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;
+    margin-bottom: 32px;
+  }
+  @media (max-width: 900px) { .summary { grid-template-columns: repeat(2, 1fr); } }
+  .card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 16px 18px; box-shadow: var(--shadow);
+  }
+  .card .label {
+    font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.07em;
+    color: var(--text-muted); font-weight: 600; margin-bottom: 8px;
+  }
+  .card .value {
+    font-family: var(--font-display); font-size: 24px; font-weight: 600;
+    font-variant-numeric: tabular-nums; letter-spacing: -0.01em;
+  }
+  .card .pct {
+    display: inline-flex; align-items: center; gap: 4px;
+    font-family: var(--font-mono); font-size: 12px; font-weight: 600;
+    padding: 3px 8px; border-radius: 999px; margin-top: 8px;
+  }
+  .pct.pos { color: var(--positive); background: var(--positive-soft); }
+  .pct.neg { color: var(--negative); background: var(--negative-soft); }
+
+  /* ---------- Chart: ventas moviles ---------- */
+  .chart-wrap { position: relative; width: 100%; }
+  .chart-wrap svg { width: 100%; height: auto; display: block; overflow: visible; }
+  .chart-line { fill: none; stroke: var(--accent); stroke-width: 2; }
+  .chart-area { fill: var(--accent); opacity: 0.09; }
+  .chart-gridline { stroke: var(--border); stroke-width: 1; }
+  .chart-axis-label { font-family: var(--font-mono); font-size: 10px; fill: var(--text-muted); }
+  .chart-crosshair { stroke: var(--text-muted); stroke-width: 1; stroke-dasharray: 3 3; pointer-events: none; }
+  .chart-dot { fill: var(--accent); stroke: var(--surface); stroke-width: 2; pointer-events: none; }
+  .chart-hit { fill: transparent; cursor: crosshair; }
+  .chart-tooltip {
+    position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--border);
+    border-radius: 7px; padding: 6px 10px; font-size: 12px; box-shadow: var(--shadow);
+    transform: translate(-50%, -115%); white-space: nowrap; opacity: 0; transition: opacity .1s ease; top: 0; left: 0;
+  }
+  .chart-tooltip.visible { opacity: 1; }
+  .chart-tooltip .date { color: var(--text-muted); font-size: 10.5px; }
+  .chart-tooltip .val { font-weight: 700; font-variant-numeric: tabular-nums; font-family: var(--font-display); }
+
+  /* ---------- Ledger (P&L) ---------- */
+  .panel {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    box-shadow: var(--shadow); margin-bottom: 24px; overflow: hidden;
+  }
+  .panel-head {
+    display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
+    padding: 16px 20px; border-bottom: 1px solid var(--border);
+  }
+  .panel-head h2 {
+    font-family: var(--font-display); font-size: 18px; font-weight: 600; margin: 0;
+  }
+  .panel-head .note { font-size: 12px; color: var(--text-muted); }
+  .panel-body { padding: 6px 20px 18px; }
+
+  /* ---------- PNL comparison table ---------- */
+  table.pnl-table { width: 100%; border-collapse: collapse; font-size: 11.5px; min-width: 480px; }
+  table.pnl-table th {
+    text-align: right; font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em;
+    color: var(--text-muted); font-weight: 600; padding: 6px 7px; border-bottom: 1px solid var(--border);
+    position: sticky; top: 0; background: var(--surface); white-space: nowrap;
+  }
+  table.pnl-table th:first-child { text-align: left; }
+  table.pnl-table td {
+    padding: 5px 7px; text-align: right; font-variant-numeric: tabular-nums;
+    border-bottom: 1px dotted var(--border); white-space: nowrap; font-size: 11.5px;
+  }
+  table.pnl-table td:first-child { text-align: left; white-space: normal; color: var(--text); }
+  table.pnl-table tr.section td { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.07em; font-weight: 700; color: var(--accent); border-bottom: none; padding-top: 14px; padding-bottom: 3px; text-align: left; }
+  table.pnl-table tr.total td { font-weight: 700; border-bottom: 1px solid var(--text); }
+  table.pnl-table tr.result td { font-weight: 700; font-size: 12.5px; border-bottom: none; padding-top: 8px; }
+  table.pnl-table tr.result td.pos { color: var(--positive); }
+  table.pnl-table tr.result td.neg { color: var(--negative); }
+  table.pnl-table td.pending { color: var(--text-muted); font-style: italic; font-weight: 400; }
+  table.pnl-table td.pct { color: var(--text-muted); font-style: italic; }
+  .tag {
+    font-family: var(--font-mono); font-size: 9.5px; letter-spacing: 0.04em;
+    color: var(--text-muted); background: var(--surface-2); border: 1px solid var(--border);
+    border-radius: 4px; padding: 1px 5px; margin-left: 6px; vertical-align: 1px; white-space: nowrap;
+  }
+
+  /* ---------- Category / product accordion ---------- */
+  tr.cat-row-acc { cursor: pointer; background: var(--surface-2); }
+  tr.cat-row-acc:hover { background: var(--accent-soft); }
+  tr.cat-row-acc td.name { font-weight: 700; }
+  tr.cat-row-acc .chevron {
+    display: inline-block; margin-right: 8px; color: var(--text-muted); font-size: 10px;
+    transition: transform .15s ease;
+  }
+  tr.cat-row-acc[aria-expanded="true"] .chevron { transform: rotate(90deg); }
+  tr.product-sub { display: none; }
+  tr.product-sub.open { display: table-row; }
+  tr.product-sub td.name { padding-left: 30px; }
+
+  /* ---------- Envios por tipo (donuts) ---------- */
+  .ship-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+  @media (max-width: 760px) { .ship-grid { grid-template-columns: 1fr; } }
+  .ship-block { display: flex; flex-direction: column; align-items: center; gap: 16px; }
+  .ship-block h3 {
+    font-family: var(--font-display); font-size: 15px; font-weight: 600; margin: 0;
+    align-self: flex-start;
+  }
+  .donut-wrap { position: relative; width: 168px; height: 168px; }
+  .donut { width: 168px; height: 168px; border-radius: 50%; }
+  .donut-hole {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    width: 96px; height: 96px; border-radius: 50%; background: var(--surface);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; box-shadow: inset 0 0 0 1px var(--border);
+  }
+  .donut-hole .total { font-family: var(--font-display); font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .donut-hole .lbl { font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); margin-top: 2px; }
+  .donut-empty {
+    display: flex; align-items: center; justify-content: center; height: 168px;
+    color: var(--text-muted); font-size: 12.5px; font-style: italic;
+  }
+
+  .ship-legend { display: flex; flex-direction: column; gap: 6px; width: 100%; }
+  .ship-chip {
+    display: flex; align-items: center; gap: 8px; width: 100%;
+    background: none; border: 1px solid transparent; border-radius: 7px;
+    padding: 6px 8px; cursor: pointer; font-family: var(--font-body); text-align: left;
+    transition: background .12s ease, border-color .12s ease;
+  }
+  .ship-chip:hover { background: var(--surface-2); }
+  .ship-chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .ship-chip[aria-pressed="false"] { opacity: 0.4; }
+  .ship-chip .swatch { width: 10px; height: 10px; border-radius: 3px; flex-shrink: 0; }
+  .ship-chip .meta { flex: 1; min-width: 0; }
+  .ship-chip .meta .name { font-size: 12.5px; font-weight: 600; }
+  .ship-chip .meta .sub { font-size: 11px; color: var(--text-muted); }
+  .ship-chip .amt { font-size: 12.5px; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  /* ---------- Product table ---------- */
+  .table-scroll { overflow-x: auto; }
+  table.products { width: 100%; border-collapse: collapse; font-size: 11.5px; min-width: 600px; }
+  table.products thead th {
+    text-align: left; font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em;
+    color: var(--text-muted); font-weight: 600; padding: 6px 7px; border-bottom: 1px solid var(--border);
+    position: sticky; top: 0; background: var(--surface);
+  }
+  table.products th.num, table.products td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  table.products tbody tr { border-bottom: 1px solid var(--border); }
+  table.products tbody tr:hover { background: var(--surface-2); }
+  table.products td { padding: 6px 7px; vertical-align: middle; }
+  table.products td.name { max-width: 260px; }
+  table.products td.name .sku { display: block; font-family: var(--font-mono); font-size: 9.5px; color: var(--text-muted); }
+  table.products td.name .title { font-weight: 500; }
+  table.products td.cat { color: var(--text-muted); font-size: 10.5px; }
+  .margin-pill {
+    display: inline-flex; align-items: center; gap: 5px; font-variant-numeric: tabular-nums;
+    font-weight: 700; font-size: 11px;
+  }
+  .margin-pill .track { width: 34px; height: 4px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--border); overflow: hidden; }
+  .margin-pill .fill { height: 100%; background: var(--positive); }
+
+  /* ---------- Footer notes ---------- */
+  .notes {
+    font-size: 12.5px; color: var(--text-muted); line-height: 1.7;
+    border-top: 1px solid var(--border); padding-top: 18px; margin-top: 8px;
+  }
+  .notes b { color: var(--text); }
+  .notes ul { margin: 6px 0 0; padding-left: 18px; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .card, .panel { transition: transform .15s ease; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div>
+      <h1>Estado de Resultados</h1>
+      <div class="sub">Deleite · Cuenta <b>DELEITEMP</b> · MercadoLibre Argentina · Base con IVA</div>
+    </div>
+    <div class="brand-mark">__FECHA_ACTUALIZACION__</div>
+  </header>
+
+  <div class="tabs" role="tablist" id="tabs"></div>
+
+  <div class="view" data-view="resumen">
+    <section class="summary" id="summary"></section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Ventas móviles (7 días)</h2>
+        <div class="note">Cada punto es la suma de ese día más los 6 anteriores</div>
+      </div>
+      <div class="panel-body">
+        <div class="chart-wrap" id="chart-ventas-moviles"></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>P&amp;L</h2>
+        <div class="note">Todos los montos con IVA · Margen % sobre Ventas</div>
+      </div>
+      <div class="panel-body table-scroll">
+        <table class="pnl-table" id="pnl-table"></table>
+      </div>
+    </section>
+  </div>
+
+  <div class="view" data-view="categoria">
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Rentabilidad por categoría</h2>
+        <div class="note" id="cat-note">Todos los meses · hacé clic en una categoría para ver sus productos</div>
+      </div>
+      <div class="panel-body table-scroll">
+        <table class="pnl-table products" id="cat-pivot-table"></table>
+      </div>
+    </section>
+  </div>
+
+  <div class="view" data-view="envios">
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Distribución de ventas por tipo de envío</h2>
+        <div class="note">% de la venta de cada mes que despachó cada tipo</div>
+      </div>
+      <div class="panel-body table-scroll">
+        <table class="pnl-table products" id="ship-pivot-table"></table>
+      </div>
+    </section>
+  </div>
+
+  <div class="view" data-view="visitas">
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Vistas diarias y compras</h2>
+        <div class="note">CVR = Compras (órdenes pagas) / Visitas · agrupá por día, semana o mes</div>
+      </div>
+      <div class="panel-body">
+        <div class="filters">
+          <label>Agrupar por
+            <select id="visitas-granularity">
+              <option value="dia">Día</option>
+              <option value="semana">Semana</option>
+              <option value="mes">Mes</option>
+            </select>
+          </label>
+        </div>
+        <div class="chart-wrap" id="chart-cvr"></div>
+      </div>
+      <div class="panel-body table-scroll">
+        <table class="pnl-table products" id="visitas-table"></table>
+      </div>
+    </section>
+  </div>
+
+  <div class="view" data-view="ordenes">
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Órdenes</h2>
+        <div class="note" id="ordenes-note">Buscar un caso puntual por fecha y/o Order_ID</div>
+      </div>
+      <div class="panel-body">
+        <div class="filters">
+          <label>Fecha
+            <input type="date" id="filter-fecha">
+          </label>
+          <label>Order_ID
+            <input type="text" id="filter-orderid" placeholder="2000017613287352">
+          </label>
+          <label>Categoría
+            <select id="filter-cat"><option value="">Todas</option></select>
+          </label>
+          <button type="button" id="filter-clear">Limpiar filtros</button>
+        </div>
+      </div>
+      <div class="panel-body table-scroll">
+        <table class="pnl-table products" id="ordenes-table"></table>
+      </div>
+    </section>
+  </div>
+
+
+  <div class="notes">
+    <b>Cómo leer esto</b> — Ingresos y Egresos vienen de la API de MercadoLibre (ventas, comisiones, envíos, publicidad, percepciones); el Costo de Mercadería Vendida sale de la tabla de costos con lógica de reposición (costo vigente a la fecha de cada venta); Logística Flex, Otros cargos logísticos y Otros cargos son informativos, cargados a mano.
+    <ul id="notes-extra"></ul>
+  </div>
+
+</div>
+
+<script>
+const DATA = __DATA_JSON__;
+
+const fmt = (n, opts) => new Intl.NumberFormat('es-AR', { style: 'currency', currency: 'ARS', maximumFractionDigits: 0, ...opts }).format(n);
+const fmtPct = (n) => (n * 100).toFixed(2).replace('.', ',') + '%';
+
+const monthKeys = Object.keys(DATA.pnl);
+
+const SECTIONS = [
+  { key: 'resumen', label: 'Resumen' },
+  { key: 'categoria', label: 'Rentabilidad por categoría' },
+  { key: 'envios', label: 'Distribución de ventas por tipo de envío' },
+  { key: 'visitas', label: 'Vistas y CVR' },
+  { key: 'ordenes', label: 'Órdenes' },
+];
+let activeSection = 'resumen';
+
+function renderTabs() {
+  const el = document.getElementById('tabs');
+  el.innerHTML = SECTIONS.map(s => `<button class="tab" role="tab" aria-selected="${s.key === activeSection}" data-section="${s.key}">${s.label}</button>`).join('');
+  el.querySelectorAll('.tab').forEach(btn => {
+    btn.addEventListener('click', () => { activeSection = btn.dataset.section; renderAll(); });
+  });
+  document.querySelectorAll('.view').forEach(v => v.classList.toggle('active', v.dataset.view === activeSection));
+}
+
+function summaryCard(m) {
+  return `
+    <div class="card">
+      <div class="label">${m.label}${m.parcial ? '<span class="flag">●</span>' : ''}</div>
+      <div class="value">${fmt(m.resultado_bruto)}</div>
+      <div class="pct ${m.margen_bruto >= 0 ? 'pos' : 'neg'}">${m.margen_bruto >= 0 ? '▲' : '▼'} ${fmtPct(Math.abs(m.margen_bruto))} margen bruto</div>
+    </div>`;
+}
+
+function renderSummary() {
+  document.getElementById('summary').innerHTML = monthKeys.map(k => summaryCard(DATA.pnl[k])).join('');
+}
+
+const PNL_ROWS = [
+  { section: 'Ingresos' },
+  { label: 'Ventas', key: 'ventas' },
+  { label: 'Ingresos por envío Flex (real)', key: 'envios_ingreso_flex' },
+  { label: 'Envío pasante Full/Colecta (comprador financia, se cancela)', key: 'envio_pasante' },
+  { label: 'Total Ingresos', key: 'total_ingresos', total: true },
+  { section: 'Egresos' },
+  { label: 'Costo de Mercadería Vendida', key: 'cogs' },
+  { label: 'Cargos por ventas', key: 'cargo_venta' },
+  { label: 'Egresos por envío Full/Colecta (real)', key: 'egreso_envio_real' },
+  { label: 'Envío pasante Full/Colecta (comprador financia, se cancela)', key: 'envio_pasante' },
+  { label: 'Publicidad', key: 'publicidad' },
+  { label: 'Cargo por colecta Full', key: 'cargo_colecta_full' },
+  { label: 'Cargo por almacenamiento Full', key: 'cargo_almacenamiento_full' },
+  { label: 'Adelanto de disponibilidad de dinero', key: 'adelanto' },
+  { label: 'Logística Flex', key: 'logistica_flex', tag: 'informativo' },
+  { label: 'Otros cargos logísticos', key: 'otros_log', tag: 'informativo' },
+  { label: 'Otros cargos', key: 'otros_cargos', tag: 'informativo' },
+  { label: 'Gastos de Agencia', key: 'gastos_agencia', tag: 'informativo' },
+  { label: 'Total Egresos', key: 'total_egresos', total: true },
+  { section: 'Resultado' },
+  { label: 'Resultado Bruto', key: 'resultado_bruto', result: true },
+  { label: 'Margen Bruto %', key: 'margen_bruto', pct: true },
+  { section: 'Impuestos' },
+  { label: 'Autónomos', key: 'autonomos', tag: 'informativo' },
+  { label: 'Percepciones y Retenciones', key: 'percepciones' },
+  { label: 'Pago de Ingresos Brutos', key: 'iibb', tag: 'informativo' },
+  { label: 'Total Impuestos', key: 'total_impuestos', total: true, dependsOnPercepciones: true },
+  { section: 'Resultado Final' },
+  { label: 'Resultado Neto', key: 'resultado_neto', result: true, dependsOnPercepciones: true },
+  { label: 'Margen Neto %', key: 'margen_neto', pct: true, dependsOnPercepciones: true },
+  { section: 'Punto de Equilibrio' },
+  { label: 'Costos Variables', key: 'costos_variables' },
+  { label: 'Costos Fijos (incl. Autónomos)', key: 'costos_fijos' },
+  { label: 'Margen de Contribución', key: 'margen_contribucion' },
+  { label: 'Margen de Contribución %', key: 'margen_contribucion_pct', pct: true },
+  { label: 'Punto de Equilibrio ($ ventas)', key: 'punto_equilibrio', result: true },
+  { label: '% Ventas / Punto de Equilibrio', key: 'pct_punto_equilibrio', pct: true },
+];
+
+function fmtDateShort(iso) {
+  const [y, m, d] = iso.split('-');
+  const MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
+  return `${parseInt(d, 10)} ${MESES[parseInt(m, 10) - 1]}`;
+}
+
+function monotoneSmoothPath(points) {
+  // Catmull-Rom -> Bezier, la curva "smooth" clasica que redondea a traves
+  // de cada punto (tension 0 = uniforme). Mas curvada visualmente que una
+  // spline monotona; con datos de suma movil (ya de por si suavizados) el
+  // riesgo de un pico de mas es bajo, y Lucas pidio explicitamente el look
+  // curvo tipo "smooth", no la version mas conservadora.
+  const n = points.length;
+  if (n < 2) return '';
+  if (n === 2) {
+    return `M ${points[0].x},${points[0].y} L ${points[1].x},${points[1].y}`;
+  }
+  const get = i => points[Math.max(0, Math.min(n - 1, i))];
+  let d = `M ${points[0].x.toFixed(2)},${points[0].y.toFixed(2)}`;
+  for (let i = 0; i < n - 1; i++) {
+    const p0 = get(i - 1), p1 = get(i), p2 = get(i + 1), p3 = get(i + 2);
+    const cp1x = p1.x + (p2.x - p0.x) / 6;
+    const cp1y = p1.y + (p2.y - p0.y) / 6;
+    const cp2x = p2.x - (p3.x - p1.x) / 6;
+    const cp2y = p2.y - (p3.y - p1.y) / 6;
+    d += ` C ${cp1x.toFixed(2)},${cp1y.toFixed(2)} ${cp2x.toFixed(2)},${cp2y.toFixed(2)} ${p2.x.toFixed(2)},${p2.y.toFixed(2)}`;
+  }
+  return d;
+}
+
+function renderVentasMoviles() {
+  const data = DATA.ventas_moviles_7d;
+  const container = document.getElementById('chart-ventas-moviles');
+  if (!data || data.length < 2) {
+    container.innerHTML = '<div class="donut-empty">No hay suficientes días para graficar</div>';
+    return;
+  }
+
+  const VW = 900, VH = 260, M = { l: 64, r: 12, t: 14, b: 30 };
+  const plotW = VW - M.l - M.r, plotH = VH - M.t - M.b;
+  const n = data.length;
+  const maxV = Math.max(...data.map(d => d.movil_7d)) * 1.08 || 1;
+
+  const xAt = i => M.l + (n === 1 ? 0 : (i / (n - 1)) * plotW);
+  const yAt = v => M.t + (1 - v / maxV) * plotH;
+
+  const points = data.map((d, i) => ({ x: xAt(i), y: yAt(d.movil_7d) }));
+  const linePath = monotoneSmoothPath(points);
+  const areaPath = `${linePath} L ${xAt(n - 1).toFixed(1)},${(M.t + plotH).toFixed(1)} L ${xAt(0).toFixed(1)},${(M.t + plotH).toFixed(1)} Z`;
+
+  // gridlines + labels en 0%, 50%, 100% del maximo
+  const gridVals = [0, maxV / 2, maxV];
+  const gridSvg = gridVals.map(v => `
+    <line class="chart-gridline" x1="${M.l}" x2="${VW - M.r}" y1="${yAt(v).toFixed(1)}" y2="${yAt(v).toFixed(1)}"></line>
+    <text class="chart-axis-label" x="${M.l - 8}" y="${(yAt(v) + 3).toFixed(1)}" text-anchor="end">${fmt(v, { maximumFractionDigits: 0 })}</text>
+  `).join('');
+
+  // labels de fecha en el eje X: ~6 parejas, siempre incluye el primero y el ultimo
+  const nLabels = Math.min(6, n);
+  const step = (n - 1) / (nLabels - 1 || 1);
+  const idxLabels = Array.from({ length: nLabels }, (_, k) => Math.round(k * step));
+  const xLabelsSvg = idxLabels.map(i => `
+    <text class="chart-axis-label" x="${xAt(i).toFixed(1)}" y="${VH - 8}" text-anchor="middle">${fmtDateShort(data[i].fecha)}</text>
+  `).join('');
+
+  container.innerHTML = `
+    <svg viewBox="0 0 ${VW} ${VH}" preserveAspectRatio="none" role="img" aria-label="Ventas moviles de 7 dias">
+      ${gridSvg}
+      <path class="chart-area" d="${areaPath}"></path>
+      <path class="chart-line" d="${linePath}"></path>
+      <line class="chart-crosshair" id="chart-crosshair" x1="0" x2="0" y1="${M.t}" y2="${M.t + plotH}" style="display:none"></line>
+      <circle class="chart-dot" id="chart-dot" r="4" style="display:none"></circle>
+      ${xLabelsSvg}
+      <rect class="chart-hit" id="chart-hit" x="${M.l}" y="${M.t}" width="${plotW}" height="${plotH}"></rect>
+    </svg>
+    <div class="chart-tooltip" id="chart-tooltip"></div>
+  `;
+
+  const svg = container.querySelector('svg');
+  const hit = document.getElementById('chart-hit');
+  const crosshair = document.getElementById('chart-crosshair');
+  const dot = document.getElementById('chart-dot');
+  const tooltip = document.getElementById('chart-tooltip');
+
+  function onMove(evt) {
+    const rect = svg.getBoundingClientRect();
+    const clientX = evt.touches ? evt.touches[0].clientX : evt.clientX;
+    const xUser = ((clientX - rect.left) / rect.width) * VW;
+    let i = Math.round(((xUser - M.l) / plotW) * (n - 1));
+    i = Math.max(0, Math.min(n - 1, i));
+    const d = data[i];
+    const px = xAt(i), py = yAt(d.movil_7d);
+
+    crosshair.setAttribute('x1', px); crosshair.setAttribute('x2', px);
+    crosshair.style.display = '';
+    dot.setAttribute('cx', px); dot.setAttribute('cy', py);
+    dot.style.display = '';
+
+    tooltip.innerHTML = `<div class="date">${fmtDateShort(d.fecha)}</div><div class="val">${fmt(d.movil_7d)}</div>`;
+    tooltip.style.left = ((px / VW) * rect.width) + 'px';
+    tooltip.style.top = ((py / VH) * rect.height) + 'px';
+    tooltip.classList.add('visible');
+  }
+  function onLeave() {
+    crosshair.style.display = 'none';
+    dot.style.display = 'none';
+    tooltip.classList.remove('visible');
+  }
+  hit.addEventListener('mousemove', onMove);
+  hit.addEventListener('mouseleave', onLeave);
+  hit.addEventListener('touchmove', onMove, { passive: true });
+  hit.addEventListener('touchend', onLeave);
+}
+
+const MESES_LARGO = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+let visitasGranularity = 'dia';
+
+function groupVisitas(data, granularity) {
+  if (granularity === 'dia') {
+    return data.map(d => ({ key: d.fecha, label: fmtDateShort(d.fecha), visitas: d.visitas, compras: d.compras, cvr: d.cvr }));
+  }
+  const groups = {};
+  for (const d of data) {
+    let key, label;
+    if (granularity === 'semana') {
+      const dt = new Date(d.fecha + 'T00:00:00');
+      const dow = (dt.getDay() + 6) % 7; // lunes = 0
+      const monday = new Date(dt); monday.setDate(dt.getDate() - dow);
+      const sunday = new Date(monday); sunday.setDate(monday.getDate() + 6);
+      key = monday.toISOString().slice(0, 10);
+      label = `${fmtDateShort(key)} – ${fmtDateShort(sunday.toISOString().slice(0, 10))}`;
+    } else {
+      key = d.fecha.slice(0, 7);
+      const [y, m] = key.split('-');
+      label = `${MESES_LARGO[parseInt(m, 10) - 1]} ${y}`;
+    }
+    if (!groups[key]) groups[key] = { key, label, visitas: 0, compras: 0 };
+    groups[key].visitas += d.visitas;
+    groups[key].compras += d.compras;
+  }
+  return Object.values(groups)
+    .sort((a, b) => a.key.localeCompare(b.key))
+    .map(g => ({ ...g, cvr: g.visitas ? g.compras / g.visitas : 0 }));
+}
+
+function renderCvrChart(rows) {
+  const container = document.getElementById('chart-cvr');
+  if (!rows || rows.length < 2) {
+    container.innerHTML = '<div class="donut-empty">No hay suficientes períodos para graficar</div>';
+    return;
+  }
+
+  const VW = 900, VH = 260, M = { l: 56, r: 12, t: 14, b: 30 };
+  const plotW = VW - M.l - M.r, plotH = VH - M.t - M.b;
+  const n = rows.length;
+  const maxV = Math.max(...rows.map(r => r.cvr)) * 1.15 || 0.01;
+
+  const xAt = i => M.l + (n === 1 ? 0 : (i / (n - 1)) * plotW);
+  const yAt = v => M.t + (1 - v / maxV) * plotH;
+
+  const points = rows.map((r, i) => ({ x: xAt(i), y: yAt(r.cvr) }));
+  const linePath = monotoneSmoothPath(points);
+  const areaPath = `${linePath} L ${xAt(n - 1).toFixed(1)},${(M.t + plotH).toFixed(1)} L ${xAt(0).toFixed(1)},${(M.t + plotH).toFixed(1)} Z`;
+
+  const gridVals = [0, maxV / 2, maxV];
+  const gridSvg = gridVals.map(v => `
+    <line class="chart-gridline" x1="${M.l}" x2="${VW - M.r}" y1="${yAt(v).toFixed(1)}" y2="${yAt(v).toFixed(1)}"></line>
+    <text class="chart-axis-label" x="${M.l - 8}" y="${(yAt(v) + 3).toFixed(1)}" text-anchor="end">${fmtPct(v)}</text>
+  `).join('');
+
+  const nLabels = Math.min(6, n);
+  const step = (n - 1) / (nLabels - 1 || 1);
+  const idxLabels = Array.from({ length: nLabels }, (_, k) => Math.round(k * step));
+  const xLabelsSvg = idxLabels.map(i => `
+    <text class="chart-axis-label" x="${xAt(i).toFixed(1)}" y="${VH - 8}" text-anchor="middle">${rows[i].label}</text>
+  `).join('');
+
+  container.innerHTML = `
+    <svg viewBox="0 0 ${VW} ${VH}" preserveAspectRatio="none" role="img" aria-label="CVR por período">
+      ${gridSvg}
+      <path class="chart-area" d="${areaPath}"></path>
+      <path class="chart-line" d="${linePath}"></path>
+      <line class="chart-crosshair" id="chart-crosshair-cvr" x1="0" x2="0" y1="${M.t}" y2="${M.t + plotH}" style="display:none"></line>
+      <circle class="chart-dot" id="chart-dot-cvr" r="4" style="display:none"></circle>
+      ${xLabelsSvg}
+      <rect class="chart-hit" id="chart-hit-cvr" x="${M.l}" y="${M.t}" width="${plotW}" height="${plotH}"></rect>
+    </svg>
+    <div class="chart-tooltip" id="chart-tooltip-cvr"></div>
+  `;
+
+  const svg = container.querySelector('svg');
+  const hit = document.getElementById('chart-hit-cvr');
+  const crosshair = document.getElementById('chart-crosshair-cvr');
+  const dot = document.getElementById('chart-dot-cvr');
+  const tooltip = document.getElementById('chart-tooltip-cvr');
+
+  function onMove(evt) {
+    const rect = svg.getBoundingClientRect();
+    const clientX = evt.touches ? evt.touches[0].clientX : evt.clientX;
+    const xUser = ((clientX - rect.left) / rect.width) * VW;
+    let i = Math.round(((xUser - M.l) / plotW) * (n - 1));
+    i = Math.max(0, Math.min(n - 1, i));
+    const r = rows[i];
+    const px = xAt(i), py = yAt(r.cvr);
+
+    crosshair.setAttribute('x1', px); crosshair.setAttribute('x2', px);
+    crosshair.style.display = '';
+    dot.setAttribute('cx', px); dot.setAttribute('cy', py);
+    dot.style.display = '';
+
+    tooltip.innerHTML = `<div class="date">${r.label}</div><div class="val">${fmtPct(r.cvr)}</div><div class="date">${r.compras} compras / ${r.visitas} visitas</div>`;
+    tooltip.style.left = ((px / VW) * rect.width) + 'px';
+    tooltip.style.top = ((py / VH) * rect.height) + 'px';
+    tooltip.classList.add('visible');
+  }
+  function onLeave() {
+    crosshair.style.display = 'none';
+    dot.style.display = 'none';
+    tooltip.classList.remove('visible');
+  }
+  hit.addEventListener('mousemove', onMove);
+  hit.addEventListener('mouseleave', onLeave);
+  hit.addEventListener('touchmove', onMove, { passive: true });
+  hit.addEventListener('touchend', onLeave);
+}
+
+function renderVisitas() {
+  const data = DATA.visitas || [];
+  if (!data.length) {
+    document.getElementById('chart-cvr').innerHTML = '<div class="donut-empty">Todavía no hay datos de visitas</div>';
+    document.getElementById('visitas-table').innerHTML = '';
+    return;
+  }
+  const rows = groupVisitas(data, visitasGranularity);
+  renderCvrChart(rows);
+
+  const head = `<thead><tr><th>Período</th><th class="num">Visitas</th><th class="num">Compras</th><th class="num">CVR</th></tr></thead>`;
+  const body = rows.slice().reverse().map(r => `
+    <tr>
+      <td>${r.label}</td>
+      <td class="num">${r.visitas.toLocaleString('es-AR')}</td>
+      <td class="num">${r.compras.toLocaleString('es-AR')}</td>
+      <td class="num">${fmtPct(r.cvr)}</td>
+    </tr>
+  `).join('');
+  document.getElementById('visitas-table').innerHTML = head + `<tbody>${body}</tbody>`;
+}
+
+document.getElementById('visitas-granularity').addEventListener('change', (e) => {
+  visitasGranularity = e.target.value;
+  renderVisitas();
+});
+
+function renderPnlTable() {
+  const head = `<thead><tr><th>Concepto</th>${monthKeys.map(k => {
+    const m = DATA.pnl[k];
+    return `<th>${m.label}${m.parcial ? ' *' : ''}</th>`;
+  }).join('')}</tr></thead>`;
+
+  const body = PNL_ROWS.map(r => {
+    if (r.section) {
+      return `<tr class="section"><td colspan="${monthKeys.length + 1}">${r.section}</td></tr>`;
+    }
+    const cls = ['', r.total ? 'total' : '', r.result ? 'result' : ''].join(' ').trim();
+    const cells = monthKeys.map(k => {
+      const m = DATA.pnl[k];
+      let v = m[r.key];
+      if (r.dependsOnPercepciones && m.percepciones === null) v = null;
+      if (v === null || v === undefined) return `<td class="pending">pendiente</td>`;
+      if (r.pct) return `<td class="pct">${fmtPct(v)}</td>`;
+      const signCls = r.result ? (v >= 0 ? 'pos' : 'neg') : '';
+      return `<td class="${signCls}">${fmt(v)}</td>`;
+    }).join('');
+    const tag = r.tag ? `<span class="tag">${r.tag}</span>` : '';
+    return `<tr class="${cls}"><td>${r.label}${tag}</td>${cells}</tr>`;
+  }).join('');
+
+  document.getElementById('pnl-table').innerHTML = head + `<tbody>${body}</tbody>`;
+}
+
+const catOpenState = {};
+
+function pctPillHtml(pct) {
+  return `
+    <span class="margin-pill">
+      <span class="track"><span class="fill" style="width:${Math.min(Math.max(pct * 100, 0), 100).toFixed(0)}%"></span></span>
+      ${fmtPct(pct)}
+    </span>`;
+}
+
+function renderCategoryProducts() {
+  const meses = DATA.meses_pivot;
+  const cats = DATA.categorias_pivot;
+  const prods = DATA.productos_pivot;
+  document.getElementById('cat-note').textContent = cats.length + ' categorías, todos los meses · clic para ver productos';
+
+  const colGroups = [...meses.map(m => m.label), 'Total'];
+  const head = `
+    <thead>
+      <tr><th>Categoría / Producto</th>${colGroups.map(g => `<th colspan="4" style="text-align:center">${g}</th>`).join('')}</tr>
+      <tr><th></th>${colGroups.map(() => `<th class="num">Ventas</th><th class="num">Costo</th><th class="num">Res. Neto</th><th class="num">Margen %</th>`).join('')}</tr>
+    </thead>`;
+
+  function metricCells(mesesData, total) {
+    const perMes = meses.map(m => {
+      const d = mesesData[m.key] || { venta: 0, costo: 0, margen: 0 };
+      const pct = d.venta ? d.margen / d.venta : 0;
+      return `<td class="num">${fmt(d.venta)}</td><td class="num">${fmt(d.costo)}</td><td class="num">${fmt(d.margen)}</td><td class="num">${pctPillHtml(pct)}</td>`;
+    }).join('');
+    const totPct = total.venta ? total.margen / total.venta : 0;
+    const totCells = `<td class="num">${fmt(total.venta)}</td><td class="num">${fmt(total.costo)}</td><td class="num">${fmt(total.margen)}</td><td class="num">${pctPillHtml(totPct)}</td>`;
+    return perMes + totCells;
+  }
+
+  const body = cats.map(c => {
+    const open = !!catOpenState[c.cat];
+    const catProds = prods.filter(p => p.cat === c.cat);
+    const productRows = catProds.map(p => `
+      <tr class="product-sub ${open ? 'open' : ''}" data-cat="${CSS.escape(c.cat)}">
+        <td class="name"><span class="title">${p.title}</span><span class="sku">SKU ${p.sku} · ${p.item_id}</span></td>
+        ${metricCells(p.meses, p.total)}
+      </tr>
+    `).join('');
+    return `
+      <tr class="cat-row-acc" aria-expanded="${open}" data-cat="${c.cat.replace(/"/g, '&quot;')}">
+        <td class="name"><span class="chevron">▶</span>${c.cat}</td>
+        ${metricCells(c.meses, c.total)}
+      </tr>
+      ${productRows}
+    `;
+  }).join('');
+
+  document.getElementById('cat-pivot-table').innerHTML = head + `<tbody>${body}</tbody>`;
+
+  document.querySelectorAll('.cat-row-acc').forEach(tr => {
+    tr.addEventListener('click', () => {
+      const cat = tr.dataset.cat;
+      catOpenState[cat] = !catOpenState[cat];
+      renderCategoryProducts();
+    });
+  });
+}
+
+function renderShipPivot() {
+  const meses = DATA.meses_pivot;
+  const rows = DATA.envios_pivot;
+  const colGroups = [...meses.map(m => m.label), 'Total'];
+  const head = `
+    <thead>
+      <tr><th>Tipo de envío</th>${colGroups.map(g => `<th colspan="2" style="text-align:center">${g}</th>`).join('')}</tr>
+      <tr><th></th>${colGroups.map(() => `<th class="num">Ventas $</th><th class="num">Ventas %</th>`).join('')}</tr>
+    </thead>`;
+  const body = rows.map(r => {
+    const perMes = meses.map(m => {
+      const venta = (r.meses[m.key]) || 0;
+      const pct = (r.meses_pct[m.key]) || 0;
+      return `<td class="num">${fmt(venta)}</td><td class="num">${fmtPct(pct)}</td>`;
+    }).join('');
+    return `<tr><td class="name">${r.tipo}</td>${perMes}<td class="num">${fmt(r.total)}</td><td class="num">${fmtPct(r.total_pct)}</td></tr>`;
+  }).join('');
+  document.getElementById('ship-pivot-table').innerHTML = head + `<tbody>${body}</tbody>`;
+}
+
+const ORDENES_ROW_LIMIT = 300; // evita renderizar miles de filas sin filtrar
+
+function populateCatFilter() {
+  const select = document.getElementById('filter-cat');
+  const cats = [...new Set(DATA.ordenes.map(o => o.cat))].sort((a, b) => a.localeCompare(b, 'es'));
+  select.innerHTML = '<option value="">Todas</option>' + cats.map(c => `<option value="${c}">${c}</option>`).join('');
+}
+
+function renderOrdenes() {
+  const fechaFilter = document.getElementById('filter-fecha').value;
+  const idFilter = document.getElementById('filter-orderid').value.trim();
+  const catFilter = document.getElementById('filter-cat').value;
+
+  let rows = DATA.ordenes;
+  if (fechaFilter) rows = rows.filter(o => o.fecha === fechaFilter);
+  if (idFilter) rows = rows.filter(o => o.order_id.includes(idFilter) || o.pack_id.includes(idFilter));
+  if (catFilter) rows = rows.filter(o => o.cat === catFilter);
+  rows = rows.slice().sort((a, b) => b.fecha === a.fecha ? b.order_id.localeCompare(a.order_id) : b.fecha.localeCompare(a.fecha));
+
+  const note = document.getElementById('ordenes-note');
+  note.textContent = (fechaFilter || idFilter || catFilter)
+    ? `${rows.length} orden${rows.length === 1 ? '' : 'es'} encontrada${rows.length === 1 ? '' : 's'}`
+    : `${DATA.ordenes.length} órdenes en total · usá los filtros para acotar`;
+
+  const shown = rows.slice(0, ORDENES_ROW_LIMIT);
+  const head = `
+    <thead>
+      <tr>
+        <th>Fecha</th><th>Order_ID</th><th>Pack_ID</th><th>Producto</th><th>Categoría</th><th>Envío</th>
+        <th class="num">Cant.</th><th class="num">Venta</th><th class="num">Cargo</th><th class="num">Envío $</th>
+        <th class="num">Costo</th><th class="num">Resultado Neto</th><th class="num">Margen %</th>
+      </tr>
+    </thead>`;
+  const body = shown.map(o => `
+    <tr>
+      <td>${o.fecha}</td>
+      <td class="name"><span class="sku">${o.order_id}</span></td>
+      <td class="name"><span class="sku">${o.pack_id || '—'}</span></td>
+      <td class="name"><span class="title">${o.title}</span><span class="sku">SKU ${o.sku} · ${o.item_id}</span></td>
+      <td class="cat">${o.cat}</td>
+      <td>${o.tipo_envio}</td>
+      <td class="num">${o.qty}</td>
+      <td class="num">${fmt(o.venta)}</td>
+      <td class="num">${fmt(-o.cargo)}</td>
+      <td class="num">${fmt(-o.envio)}</td>
+      <td class="num">${fmt(-o.costo)}</td>
+      <td class="num">${fmt(o.margen)}</td>
+      <td class="num">${fmtPct(o.margen_pct)}</td>
+    </tr>
+  `).join('');
+  document.getElementById('ordenes-table').innerHTML = head + `<tbody>${body}</tbody>`;
+  if (rows.length > ORDENES_ROW_LIMIT) {
+    note.textContent += ` (mostrando las primeras ${ORDENES_ROW_LIMIT} — acotá con los filtros para ver el resto)`;
+  }
+}
+
+document.getElementById('filter-fecha').addEventListener('input', renderOrdenes);
+document.getElementById('filter-orderid').addEventListener('input', renderOrdenes);
+document.getElementById('filter-cat').addEventListener('change', renderOrdenes);
+document.getElementById('filter-clear').addEventListener('click', () => {
+  document.getElementById('filter-fecha').value = '';
+  document.getElementById('filter-orderid').value = '';
+  document.getElementById('filter-cat').value = '';
+  renderOrdenes();
+});
+
+function renderAll() {
+  renderTabs();
+  renderSummary();
+  renderVentasMoviles();
+  renderPnlTable();
+  renderCategoryProducts();
+  renderShipPivot();
+  renderVisitas();
+  populateCatFilter();
+  renderOrdenes();
+}
+
+renderAll();
+</script>

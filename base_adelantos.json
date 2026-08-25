@@ -1,0 +1,50 @@
+[
+  {
+    "fecha": "2026-06-22",
+    "factura": "0026A03640852",
+    "costo_s": 9786.64,
+    "costo_c": 11841.83
+  },
+  {
+    "fecha": "2026-07-06",
+    "factura": "0026A03640852",
+    "costo_s": 41097.77,
+    "costo_c": 49728.3
+  },
+  {
+    "fecha": "2026-07-11",
+    "factura": null,
+    "costo_s": 15566.58,
+    "costo_c": 18835.56
+  },
+  {
+    "fecha": "2026-07-27",
+    "factura": null,
+    "costo_s": 39055.02,
+    "costo_c": 47256.58
+  },
+  {
+    "fecha": "2026-08-04",
+    "factura": null,
+    "costo_s": 66211.71,
+    "costo_c": 80116.17
+  },
+  {
+    "fecha": "2026-08-12",
+    "factura": "pendiente fc",
+    "costo_s": 17524.64,
+    "costo_c": 21204.82
+  },
+  {
+    "fecha": "2026-08-14",
+    "factura": "pendiente fc",
+    "costo_s": 43874.0,
+    "costo_c": 53087.54
+  },
+  {
+    "fecha": "2026-08-21",
+    "factura": "pendiente fc",
+    "costo_s": 37793.93,
+    "costo_c": 45730.66
+  }
+]

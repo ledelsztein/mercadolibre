@@ -1,0 +1,19 @@
+{
+  "mayo": {
+    "self_service": {"ingreso": 181929.0, "egreso": 0.0, "shipments": 34},
+    "xd_drop_off": {"ingreso": 0.0, "egreso": 69725.83, "shipments": 17}
+  },
+  "junio": {
+    "fulfillment": {"ingreso": 0.0, "egreso": 0.0, "shipments": 11},
+    "self_service": {"ingreso": 516254.0, "egreso": 0.0, "shipments": 86},
+    "xd_drop_off": {"ingreso": 0.0, "egreso": 179949.69, "shipments": 42}
+  },
+  "julio": {
+    "fulfillment": {"ingreso": 0.0, "egreso": 170245.0, "shipments": 87},
+    "self_service": {"ingreso": 171356.0, "egreso": 0.0, "shipments": 31},
+    "xd_drop_off": {"ingreso": 0.0, "egreso": 13390.0, "shipments": 10}
+  },
+  "hoy": {
+    "fulfillment": {"ingreso": 0.0, "egreso": 7470.0, "shipments": 7}
+  }
+}

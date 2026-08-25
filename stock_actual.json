@@ -1,0 +1,226 @@
+[
+  {
+    "item_id": "MLA2275397446",
+    "sku": "10001",
+    "title": "Tenedor Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "available_quantity": 1,
+    "sold_quantity": 2,
+    "logistic_type": "xd_drop_off"
+  },
+  {
+    "item_id": "MLA1784323187",
+    "sku": "50007",
+    "title": "Almohada Hipoalergenica Lavable Fibra Siliconada 50x70 Blanco",
+    "available_quantity": 1,
+    "sold_quantity": 4,
+    "logistic_type": "xd_drop_off"
+  },
+  {
+    "item_id": "MLA2275436424",
+    "sku": "30009",
+    "title": "Untador Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "available_quantity": 2,
+    "sold_quantity": 3,
+    "logistic_type": "xd_drop_off"
+  },
+  {
+    "item_id": "MLA2275436422",
+    "sku": "10007",
+    "title": "Cuchillo Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "available_quantity": 2,
+    "sold_quantity": 0,
+    "logistic_type": "xd_drop_off"
+  },
+  {
+    "item_id": "MLA1516301921",
+    "sku": "10006",
+    "title": "Cuchillo Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "available_quantity": 3,
+    "sold_quantity": 0,
+    "logistic_type": "xd_drop_off"
+  },
+  {
+    "item_id": "MLA2275461880",
+    "sku": "10004",
+    "title": "Cuchara Te Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "available_quantity": 3,
+    "sold_quantity": 17,
+    "logistic_type": "xd_drop_off"
+  },
+  {
+    "item_id": "MLA2275474776",
+    "sku": "10002",
+    "title": "Cuchara Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "available_quantity": 4,
+    "sold_quantity": 6,
+    "logistic_type": "xd_drop_off"
+  },
+  {
+    "item_id": "MLA1926288729",
+    "sku": "50022",
+    "title": "Pancakes Proteicos Sabor Vainilla Granger 400 G",
+    "available_quantity": 4,
+    "sold_quantity": 8,
+    "logistic_type": "fulfillment"
+  },
+  {
+    "item_id": "MLA2275474780",
+    "sku": "10005",
+    "title": "Cuchara Cafe Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "available_quantity": 5,
+    "sold_quantity": 3,
+    "logistic_type": "xd_drop_off"
+  },
+  {
+    "item_id": "MLA1557650359",
+    "sku": "10008",
+    "title": "Set X 6 Cuchillos Mesa Asado Acero Nicols Corintia Athenas Color Plateado",
+    "available_quantity": 5,
+    "sold_quantity": 4,
+    "logistic_type": "xd_drop_off"
+  },
+  {
+    "item_id": "MLA2275397442",
+    "sku": "10008",
+    "title": "Cuchillo Asado Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "available_quantity": 5,
+    "sold_quantity": 8,
+    "logistic_type": "xd_drop_off"
+  },
+  {
+    "item_id": "MLA1729211787",
+    "sku": "50001",
+    "title": "Tabla De Picar De Corte 35x24cm Acero Inoxidable 304 Lisa Acero Inoxidable",
+    "available_quantity": 5,
+    "sold_quantity": 1,
+    "logistic_type": "xd_drop_off"
+  },
+  {
+    "item_id": "MLA1516293305",
+    "sku": "10003",
+    "title": "Cuchara Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "available_quantity": 6,
+    "sold_quantity": 0,
+    "logistic_type": "xd_drop_off"
+  },
+  {
+    "item_id": "MLA2275397448",
+    "sku": "20005",
+    "title": "Cuchara Cafe Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "available_quantity": 7,
+    "sold_quantity": 22,
+    "logistic_type": "xd_drop_off"
+  },
+  {
+    "item_id": "MLA3232759300",
+    "sku": "50005",
+    "title": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
+    "available_quantity": 7,
+    "sold_quantity": 62,
+    "logistic_type": "fulfillment"
+  },
+  {
+    "item_id": "MLA1939972297",
+    "sku": "50005",
+    "title": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Plus",
+    "available_quantity": 7,
+    "sold_quantity": 0,
+    "logistic_type": "fulfillment"
+  },
+  {
+    "item_id": "MLA1939899291",
+    "sku": "50005",
+    "title": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
+    "available_quantity": 7,
+    "sold_quantity": 0,
+    "logistic_type": "fulfillment"
+  },
+  {
+    "item_id": "MLA3566784906",
+    "sku": "50005",
+    "title": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Plus",
+    "available_quantity": 7,
+    "sold_quantity": 71,
+    "logistic_type": "fulfillment"
+  },
+  {
+    "item_id": "MLA2275448906",
+    "sku": "20006",
+    "title": "Cuchillo Mesa Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "available_quantity": 9,
+    "sold_quantity": 1,
+    "logistic_type": "xd_drop_off"
+  },
+  {
+    "item_id": "MLA3521913418",
+    "sku": "50016",
+    "title": "Toalla Pie De Baño Oregon Hotelero 100% Algodón 700gr Blanco",
+    "available_quantity": 9,
+    "sold_quantity": 3,
+    "logistic_type": "fulfillment"
+  },
+  {
+    "item_id": "MLA2275436420",
+    "sku": "10009",
+    "title": "Cuchillo Grille Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "available_quantity": 10,
+    "sold_quantity": 0,
+    "logistic_type": "xd_drop_off"
+  },
+  {
+    "item_id": "MLA1516314673",
+    "sku": "20008",
+    "title": "Cuchillo Asado Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "available_quantity": 11,
+    "sold_quantity": 13,
+    "logistic_type": "xd_drop_off"
+  },
+  {
+    "item_id": "MLA1926313573",
+    "sku": "50021",
+    "title": "Granger Foods Proteína Pancakes Proteicos Polvo Chocolate",
+    "available_quantity": 12,
+    "sold_quantity": 0,
+    "logistic_type": "fulfillment"
+  },
+  {
+    "item_id": "MLA3232809762",
+    "sku": "50004",
+    "title": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
+    "available_quantity": 13,
+    "sold_quantity": 36,
+    "logistic_type": "fulfillment"
+  },
+  {
+    "item_id": "MLA3571928900",
+    "sku": "50004",
+    "title": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
+    "available_quantity": 13,
+    "sold_quantity": 58,
+    "logistic_type": "fulfillment"
+  },
+  {
+    "item_id": "MLA1878275359",
+    "sku": "50019",
+    "title": "Yerba Mate Baldo 1kg Tradicional",
+    "available_quantity": 43,
+    "sold_quantity": 60,
+    "logistic_type": "fulfillment"
+  },
+  {
+    "item_id": "MLA3677881124",
+    "sku": "50020",
+    "title": "Treonato De Magnesio 1000 Mg Geonat Para Concentración Y Memoria  60 Comprimidos Sin Sabor",
+    "available_quantity": 59,
+    "sold_quantity": 46,
+    "logistic_type": "fulfillment"
+  },
+  {
+    "item_id": "MLA1926311309",
+    "sku": "50023",
+    "title": "Bisglicinato De Magnesio Geonat Geomagnesium Con Vitaminas B En Comprimidos X 60 Sin Sabor",
+    "available_quantity": 70,
+    "sold_quantity": 14,
+    "logistic_type": "fulfillment"
+  }
+]
