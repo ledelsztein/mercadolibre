@@ -113,6 +113,18 @@
     padding: 7px 10px; min-width: 160px;
   }
   .filters input:focus-visible, .filters select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .metric-chips { display: flex; gap: 8px; margin: 10px 0 16px; flex-wrap: wrap; }
+  .metric-chip {
+    font-family: var(--font-body); font-size: 12.5px; font-weight: 600; color: var(--text-muted);
+    background: var(--surface-2); border: 1px solid var(--border); border-radius: 999px;
+    padding: 6px 14px; cursor: pointer;
+  }
+  .metric-chip:hover { background: var(--accent-soft); color: var(--text); }
+  .metric-chip.active { background: var(--accent); color: var(--surface); border-color: var(--accent); }
+  .metric-chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .vm-legend { display: flex; gap: 16px; margin: 10px 0 6px; flex-wrap: wrap; }
+  .vm-legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); }
+  .vm-legend-swatch { width: 10px; height: 10px; border-radius: 3px; flex-shrink: 0; }
   .filters button {
     align-self: flex-end; font-family: var(--font-body); font-size: 12.5px; font-weight: 600;
     color: var(--text-muted); background: none; border: 1px solid var(--border); border-radius: 7px;
@@ -322,11 +334,23 @@
 
     <section class="panel">
       <div class="panel-head">
-        <h2>Ventas móviles (7 días)</h2>
-        <div class="note">Cada punto es la suma de ese día más los 6 anteriores</div>
+        <h2>Ventas móviles</h2>
+        <div class="note">Suma móvil de la ventana elegida · combiná métricas para ir comparando</div>
       </div>
       <div class="panel-body">
-        <div class="chart-wrap" id="chart-ventas-moviles"></div>
+        <div class="metric-chips" id="vm-ventana">
+          <button type="button" class="metric-chip active" data-ventana="7" aria-pressed="true">7 días</button>
+          <button type="button" class="metric-chip" data-ventana="30" aria-pressed="false">30 días</button>
+          <button type="button" class="metric-chip" data-ventana="ambas" aria-pressed="false">Ambas</button>
+        </div>
+        <div class="metric-chips" id="vm-metricas">
+          <button type="button" class="metric-chip active" data-metrica="monto" aria-pressed="true">Monto</button>
+          <button type="button" class="metric-chip" data-metrica="unidades" aria-pressed="false">Unidades</button>
+          <button type="button" class="metric-chip" data-metrica="ordenes" aria-pressed="false">Órdenes</button>
+        </div>
+        <div class="vm-legend" id="vm-legend"></div>
+        <div class="chart-wrap" id="vm-chart"></div>
+        <div class="note" style="margin-top:6px">Cada línea está indexada a su propio pico (0–100%) para poder comparar magnitudes distintas en un solo gráfico — el valor real está en el tooltip.</div>
       </div>
     </section>
 
@@ -532,34 +556,69 @@ function monotoneSmoothPath(points) {
   return d;
 }
 
+const VM_METRIC_CONFIG = {
+  monto: { label: 'Monto', dayKey: 'venta_dia', key7: 'movil_7d', key30: 'movil_30d', colorVar: '--accent', fmt: v => fmt(v, { maximumFractionDigits: 0 }) },
+  unidades: { label: 'Unidades', dayKey: 'qty_dia', key7: 'qty_movil_7d', key30: 'qty_movil_30d', colorVar: '--positive', fmt: v => Math.round(v).toLocaleString('es-AR') },
+  ordenes: { label: 'Órdenes', dayKey: 'ordenes_dia', key7: 'ordenes_movil_7d', key30: 'ordenes_movil_30d', colorVar: '--negative', fmt: v => Math.round(v).toLocaleString('es-AR') },
+};
+const VM_METRIC_ORDER = ['monto', 'unidades', 'ordenes'];
+let vmVentana = '7';
+const vmMetricas = new Set(['monto']);
+
 function renderVentasMoviles() {
   const data = DATA.ventas_moviles_7d;
-  const container = document.getElementById('chart-ventas-moviles');
+  const chartContainer = document.getElementById('vm-chart');
+  const legendContainer = document.getElementById('vm-legend');
   if (!data || data.length < 2) {
-    container.innerHTML = '<div class="donut-empty">No hay suficientes días para graficar</div>';
+    chartContainer.innerHTML = '<div class="donut-empty">No hay suficientes días para graficar</div>';
+    legendContainer.innerHTML = '';
     return;
   }
+  const metricasActivas = VM_METRIC_ORDER.filter(m => vmMetricas.has(m));
+  if (!metricasActivas.length) {
+    chartContainer.innerHTML = '<div class="donut-empty">Elegí al menos una métrica</div>';
+    legendContainer.innerHTML = '';
+    return;
+  }
+  const ventanas = vmVentana === 'ambas' ? ['7', '30'] : [vmVentana];
 
-  const VW = 900, VH = 260, M = { l: 64, r: 12, t: 14, b: 30 };
-  const plotW = VW - M.l - M.r, plotH = VH - M.t - M.b;
-  const n = data.length;
-  const maxV = Math.max(...data.map(d => d.movil_7d)) * 1.08 || 1;
+  // una linea por (metrica x ventana) -- color = metrica (identidad), trazo
+  // solido/punteado = ventana, normalizada 0-100 sobre su propio pico para
+  // poder comparar magnitudes muy distintas (pesos vs unidades vs ordenes)
+  // en un mismo eje sin un dual-axis enganoso.
+  const lines = [];
+  metricasActivas.forEach(m => {
+    const cfg = VM_METRIC_CONFIG[m];
+    ventanas.forEach(v => {
+      const key = v === '7' ? cfg.key7 : cfg.key30;
+      const values = data.map(d => d[key]);
+      const maxV = Math.max(...values) || 1;
+      lines.push({
+        metric: m, ventana: v, key, cfg, maxV,
+        label: ventanas.length > 1 ? `${cfg.label} — ${v}d` : cfg.label,
+        dashed: v === '30',
+        norm: values.map(x => (x / maxV) * 100),
+      });
+    });
+  });
 
-  const xAt = i => M.l + (n === 1 ? 0 : (i / (n - 1)) * plotW);
-  const yAt = v => M.t + (1 - v / maxV) * plotH;
-
-  const points = data.map((d, i) => ({ x: xAt(i), y: yAt(d.movil_7d) }));
-  const linePath = monotoneSmoothPath(points);
-  const areaPath = `${linePath} L ${xAt(n - 1).toFixed(1)},${(M.t + plotH).toFixed(1)} L ${xAt(0).toFixed(1)},${(M.t + plotH).toFixed(1)} Z`;
-
-  // gridlines + labels en 0%, 50%, 100% del maximo
-  const gridVals = [0, maxV / 2, maxV];
-  const gridSvg = gridVals.map(v => `
-    <line class="chart-gridline" x1="${M.l}" x2="${VW - M.r}" y1="${yAt(v).toFixed(1)}" y2="${yAt(v).toFixed(1)}"></line>
-    <text class="chart-axis-label" x="${M.l - 8}" y="${(yAt(v) + 3).toFixed(1)}" text-anchor="end">${fmt(v, { maximumFractionDigits: 0 })}</text>
+  legendContainer.innerHTML = lines.map(l => `
+    <span class="vm-legend-item"><span class="vm-legend-swatch" style="background:var(${l.cfg.colorVar});${l.dashed ? 'background-image:repeating-linear-gradient(90deg, var(--surface) 0 2px, transparent 2px 4px)' : ''}"></span>${l.label}</span>
   `).join('');
 
-  // labels de fecha en el eje X: ~6 parejas, siempre incluye el primero y el ultimo
+  const VW = 900, VH = 280, M = { l: 48, r: 12, t: 14, b: 30 };
+  const plotW = VW - M.l - M.r, plotH = VH - M.t - M.b;
+  const n = data.length;
+
+  const xAt = i => M.l + (n === 1 ? 0 : (i / (n - 1)) * plotW);
+  const yAt = v => M.t + (1 - v / 100) * plotH;
+
+  const gridVals = [0, 50, 100];
+  const gridSvg = gridVals.map(v => `
+    <line class="chart-gridline" x1="${M.l}" x2="${VW - M.r}" y1="${yAt(v).toFixed(1)}" y2="${yAt(v).toFixed(1)}"></line>
+    <text class="chart-axis-label" x="${M.l - 8}" y="${(yAt(v) + 3).toFixed(1)}" text-anchor="end">${v}%</text>
+  `).join('');
+
   const nLabels = Math.min(6, n);
   const step = (n - 1) / (nLabels - 1 || 1);
   const idxLabels = Array.from({ length: nLabels }, (_, k) => Math.round(k * step));
@@ -567,24 +626,33 @@ function renderVentasMoviles() {
     <text class="chart-axis-label" x="${xAt(i).toFixed(1)}" y="${VH - 8}" text-anchor="middle">${fmtDateShort(data[i].fecha)}</text>
   `).join('');
 
-  container.innerHTML = `
-    <svg viewBox="0 0 ${VW} ${VH}" preserveAspectRatio="none" role="img" aria-label="Ventas moviles de 7 dias">
+  const linesSvg = lines.map(l => {
+    const points = l.norm.map((v, i) => ({ x: xAt(i), y: yAt(v) }));
+    const linePath = monotoneSmoothPath(points);
+    return `<path class="chart-line" d="${linePath}" style="stroke:var(${l.cfg.colorVar});${l.dashed ? 'stroke-dasharray:6,4;' : ''}"></path>`;
+  }).join('');
+
+  const dotsSvg = lines.map((l, li) => `
+    <circle class="chart-dot" id="vm-dot-${li}" r="4" style="display:none;fill:var(${l.cfg.colorVar})"></circle>
+  `).join('');
+
+  chartContainer.innerHTML = `
+    <svg viewBox="0 0 ${VW} ${VH}" preserveAspectRatio="none" role="img" aria-label="Ventas moviles">
       ${gridSvg}
-      <path class="chart-area" d="${areaPath}"></path>
-      <path class="chart-line" d="${linePath}"></path>
-      <line class="chart-crosshair" id="chart-crosshair" x1="0" x2="0" y1="${M.t}" y2="${M.t + plotH}" style="display:none"></line>
-      <circle class="chart-dot" id="chart-dot" r="4" style="display:none"></circle>
+      ${linesSvg}
+      <line class="chart-crosshair" id="vm-crosshair" x1="0" x2="0" y1="${M.t}" y2="${M.t + plotH}" style="display:none"></line>
+      ${dotsSvg}
       ${xLabelsSvg}
-      <rect class="chart-hit" id="chart-hit" x="${M.l}" y="${M.t}" width="${plotW}" height="${plotH}"></rect>
+      <rect class="chart-hit" id="vm-hit" x="${M.l}" y="${M.t}" width="${plotW}" height="${plotH}"></rect>
     </svg>
-    <div class="chart-tooltip" id="chart-tooltip"></div>
+    <div class="chart-tooltip" id="vm-tooltip"></div>
   `;
 
-  const svg = container.querySelector('svg');
-  const hit = document.getElementById('chart-hit');
-  const crosshair = document.getElementById('chart-crosshair');
-  const dot = document.getElementById('chart-dot');
-  const tooltip = document.getElementById('chart-tooltip');
+  const svg = chartContainer.querySelector('svg');
+  const hit = document.getElementById('vm-hit');
+  const crosshair = document.getElementById('vm-crosshair');
+  const tooltip = document.getElementById('vm-tooltip');
+  const dots = lines.map((l, li) => document.getElementById(`vm-dot-${li}`));
 
   function onMove(evt) {
     const rect = svg.getBoundingClientRect();
@@ -593,21 +661,25 @@ function renderVentasMoviles() {
     let i = Math.round(((xUser - M.l) / plotW) * (n - 1));
     i = Math.max(0, Math.min(n - 1, i));
     const d = data[i];
-    const px = xAt(i), py = yAt(d.movil_7d);
+    const px = xAt(i);
 
     crosshair.setAttribute('x1', px); crosshair.setAttribute('x2', px);
     crosshair.style.display = '';
-    dot.setAttribute('cx', px); dot.setAttribute('cy', py);
-    dot.style.display = '';
+    lines.forEach((l, li) => {
+      const py = yAt(l.norm[i]);
+      dots[li].setAttribute('cx', px); dots[li].setAttribute('cy', py);
+      dots[li].style.display = '';
+    });
 
-    tooltip.innerHTML = `<div class="date">${fmtDateShort(d.fecha)}</div><div class="val">${fmt(d.movil_7d)}</div>`;
+    const valsHtml = lines.map(l => `<div class="val">${l.label}: ${l.cfg.fmt(d[l.key])}</div>`).join('');
+    tooltip.innerHTML = `<div class="date">${fmtDateShort(d.fecha)}</div>${valsHtml}<div class="date">ese día: ${d.qty_dia} u. / ${d.ordenes_dia} orden${d.ordenes_dia === 1 ? '' : 'es'}</div>`;
     tooltip.style.left = ((px / VW) * rect.width) + 'px';
-    tooltip.style.top = ((py / VH) * rect.height) + 'px';
+    tooltip.style.top = ((yAt(lines[0].norm[i]) / VH) * rect.height) + 'px';
     tooltip.classList.add('visible');
   }
   function onLeave() {
     crosshair.style.display = 'none';
-    dot.style.display = 'none';
+    dots.forEach(dot => dot.style.display = 'none');
     tooltip.classList.remove('visible');
   }
   hit.addEventListener('mousemove', onMove);
@@ -615,6 +687,32 @@ function renderVentasMoviles() {
   hit.addEventListener('touchmove', onMove, { passive: true });
   hit.addEventListener('touchend', onLeave);
 }
+
+document.querySelectorAll('#vm-ventana .metric-chip').forEach(btn => {
+  btn.addEventListener('click', () => {
+    vmVentana = btn.dataset.ventana;
+    document.querySelectorAll('#vm-ventana .metric-chip').forEach(b => {
+      const isActive = b === btn;
+      b.classList.toggle('active', isActive);
+      b.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+    });
+    renderVentasMoviles();
+  });
+});
+document.querySelectorAll('#vm-metricas .metric-chip').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const m = btn.dataset.metrica;
+    if (vmMetricas.has(m)) {
+      if (vmMetricas.size > 1) vmMetricas.delete(m);
+    } else {
+      vmMetricas.add(m);
+    }
+    const isActive = vmMetricas.has(m);
+    btn.classList.toggle('active', isActive);
+    btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+    renderVentasMoviles();
+  });
+});
 
 const MESES_LARGO = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
 let visitasGranularity = 'dia';

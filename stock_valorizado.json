@@ -2905,5 +2905,1805 @@
     "stock": 1,
     "precio": 13255.6,
     "importe": 13255.6
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA3471136932",
+    "sku": "50014",
+    "producto": "L-arginina + L-citrulina + Ginseng | M1 Energy | Bylappiel Sin Sabor",
+    "stock": 135,
+    "precio": 23808.0,
+    "importe": 3214080.0
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA1926311309",
+    "sku": "50023",
+    "producto": "Bisglicinato De Magnesio Geonat Geomagnesium Con Vitaminas B En Comprimidos X 60 Sin Sabor",
+    "stock": 151,
+    "precio": 17980.0,
+    "importe": 2714980.0
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA1977869383",
+    "sku": "50033",
+    "producto": "Geonat Aceite De Pescado Omega 3 Omeganat Colesterol 60 Cápsulas Sin Sabor",
+    "stock": 59,
+    "precio": 26660.0,
+    "importe": 1572940.0
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA1977669679",
+    "sku": "50030",
+    "producto": "Star Nutrition Creatina 100% Pura Polvo Sin Sabor",
+    "stock": 35,
+    "precio": 31744,
+    "importe": 1111040
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA3770705240",
+    "sku": "50029",
+    "producto": "Creatina Monohidrato Ena Sport 300g Micronizada - 60 Servicios - Potencia Masa Muscular Y Rendimiento Deportivo Neutro",
+    "stock": 24,
+    "precio": 31620,
+    "importe": 758880
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA3232759300",
+    "sku": "50005",
+    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
+    "stock": 26,
+    "precio": 26784,
+    "importe": 696384
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA2275448906",
+    "sku": "20006",
+    "producto": "Cuchillo Mesa Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 9,
+    "precio": 66761.6,
+    "importe": 600854.4
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA1516314673",
+    "sku": "20008",
+    "producto": "Cuchillo Asado Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 9,
+    "precio": 52563.6,
+    "importe": 473072.4
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA2275436420",
+    "sku": "10009",
+    "producto": "Cuchillo Grille Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 10,
+    "precio": 45545.2,
+    "importe": 455452.0
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA1977868557",
+    "sku": "50032",
+    "producto": "Colágeno Hidrolizado En Polvo Star Nutrition Pote 210g Limón Limón",
+    "stock": 12,
+    "precio": 27900.0,
+    "importe": 334800.0
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA1961104511",
+    "sku": "50024",
+    "producto": "Juego Set Toalla Toallon Oregon 100% Algodón 630 G/m2 Ultra Blanco",
+    "stock": 4,
+    "precio": 74400.0,
+    "importe": 297600.0
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA1729211787",
+    "sku": "50001",
+    "producto": "Tabla De Picar De Corte 35x24cm Acero Inoxidable 304 Liso Acero Inoxidable",
+    "stock": 5,
+    "precio": 52080.0,
+    "importe": 260400.0
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA1961104507",
+    "sku": "50025",
+    "producto": "Juego Set Toalla Toallon Oregon 100% Algodón 630 G/m2 Ultra Gris Oscurso Aluminium",
+    "stock": 3,
+    "precio": 74400.0,
+    "importe": 223200.0
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA1961104509",
+    "sku": "50027",
+    "producto": "Juego Set Toalla Toallon Oregon 100% Algodón 630 G/m2 Ultra Marrón Claro Honey",
+    "stock": 2,
+    "precio": 74400.0,
+    "importe": 148800.0
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA1961117287",
+    "sku": "50026",
+    "producto": "Juego Set Toalla Toallon Oregon 100% Algodón 630 G/m2 Ultra Marrón Oscuro Wood",
+    "stock": 2,
+    "precio": 74400.0,
+    "importe": 148800.0
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA1763092117",
+    "sku": "50003",
+    "producto": "Toallón Oregon Hotelero 100% Algodón 630gr Blanco 90x150 Blanco Ultra 630",
+    "stock": 4,
+    "precio": 32686.4,
+    "importe": 130745.6
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA1516293305",
+    "sku": "10003",
+    "producto": "Cuchara Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 6,
+    "precio": 19269.6,
+    "importe": 115617.6
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA1516301921",
+    "sku": "10006",
+    "producto": "Cuchillo Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 3,
+    "precio": 28033.92,
+    "importe": 84101.76
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA2275474776",
+    "sku": "10002",
+    "producto": "Cuchara Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 4,
+    "precio": 20075.6,
+    "importe": 80302.4
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA1961117963",
+    "sku": "50028",
+    "producto": "Toalla Cara Oregon Hotelera 100% Algodón 400gr Blanca 30x48 Blanco Liso",
+    "stock": 10,
+    "precio": 6200.0,
+    "importe": 62000.0
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA2275436422",
+    "sku": "10007",
+    "producto": "Cuchillo Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 26912.96,
+    "importe": 53825.92
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA2275474780",
+    "sku": "10005",
+    "producto": "Cuchara Cafe Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 4,
+    "precio": 9343.4,
+    "importe": 37373.6
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA2275436424",
+    "sku": "30009",
+    "producto": "Untador Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 18147.4,
+    "importe": 36294.8
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA1784323187",
+    "sku": "50007",
+    "producto": "Almohada Hipoalergenica Lavable Fibra Siliconada 50x70 Blanco",
+    "stock": 1,
+    "precio": 32240,
+    "importe": 32240
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA2275461880",
+    "sku": "10004",
+    "producto": "Cuchara Te Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 10626.8,
+    "importe": 21253.6
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA2275397446",
+    "sku": "10001",
+    "producto": "Tenedor Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 1,
+    "precio": 19269.6,
+    "importe": 19269.6
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA1926313573",
+    "sku": "50021",
+    "producto": "Pancakes Proteicos Granger X 400 Gr Sabor Chocolate",
+    "stock": 1,
+    "precio": 17360.0,
+    "importe": 17360.0
+  },
+  {
+    "fecha": "2026-08-25",
+    "item_id": "MLA2275397448",
+    "sku": "20005",
+    "producto": "Cuchara Cafe Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 1,
+    "precio": 13255.6,
+    "importe": 13255.6
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA3677881124",
+    "sku": "50020",
+    "producto": "Treonato De Magnesio 1000 Mg Geonat Para Concentración Y Memoria  60 Comprimidos Sin Sabor",
+    "stock": 495,
+    "precio": 23888,
+    "importe": 11824560
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA1977867145",
+    "sku": "50031",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907g Vainilla 2l Vainilla Gourmet",
+    "stock": 34,
+    "precio": 112644,
+    "importe": 3829896
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA3471136932",
+    "sku": "50014",
+    "producto": "L-arginina + L-citrulina + Ginseng | M1 Energy | Bylappiel Sin Sabor",
+    "stock": 133,
+    "precio": 19200,
+    "importe": 2553600
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA1926311309",
+    "sku": "50023",
+    "producto": "Bisglicinato De Magnesio Geonat Geomagnesium Con Vitaminas B En Comprimidos X 60 Sin Sabor",
+    "stock": 110,
+    "precio": 18375,
+    "importe": 2021250
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA1977869383",
+    "sku": "50033",
+    "producto": "Geonat Aceite De Pescado Omega 3 Omeganat Colesterol 60 Cápsulas Sin Sabor",
+    "stock": 35,
+    "precio": 26660.0,
+    "importe": 933100.0
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA3770705240",
+    "sku": "50029",
+    "producto": "Creatina Monohidrato Ena Sport 300g Micronizada - 60 Servicios - Potencia Masa Muscular Y Rendimiento Deportivo Sin Sabor",
+    "stock": 24,
+    "precio": 30000,
+    "importe": 720000
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA2275448906",
+    "sku": "20006",
+    "producto": "Cuchillo Mesa Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 9,
+    "precio": 66761.6,
+    "importe": 600854.4
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA3232759300",
+    "sku": "50005",
+    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
+    "stock": 22,
+    "precio": 26784,
+    "importe": 589248
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA1516314673",
+    "sku": "20008",
+    "producto": "Cuchillo Asado Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 9,
+    "precio": 52563.6,
+    "importe": 473072.4
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA2275436420",
+    "sku": "10009",
+    "producto": "Cuchillo Grille Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 10,
+    "precio": 45545.2,
+    "importe": 455452.0
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA1977868561",
+    "sku": "50032",
+    "producto": "Colageno Hydrolizado X210 Gr. Suplemento Sabor Limón - Star Nutrition",
+    "stock": 12,
+    "precio": 27900.0,
+    "importe": 334800.0
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA1961104511",
+    "sku": "50024",
+    "producto": "Juego Set Toalla Toallon Oregon 100% Algodón 630 G/m2 Ultra Blanco",
+    "stock": 4,
+    "precio": 74400.0,
+    "importe": 297600.0
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA1729211787",
+    "sku": "50001",
+    "producto": "Tabla De Picar De Corte 35x24cm Acero Inoxidable 304 Liso Acero Inoxidable",
+    "stock": 5,
+    "precio": 52080.0,
+    "importe": 260400.0
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA1977669677",
+    "sku": "50030",
+    "producto": "Creatina Monohidrato Star Nutrition Micronizada 300g Neutro Sin Sabor",
+    "stock": 5,
+    "precio": 32941.0,
+    "importe": 164705.0
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA1516293305",
+    "sku": "10003",
+    "producto": "Cuchara Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 6,
+    "precio": 19269.6,
+    "importe": 115617.6
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA1516301921",
+    "sku": "10006",
+    "producto": "Cuchillo Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 3,
+    "precio": 28033.92,
+    "importe": 84101.76
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA2275474776",
+    "sku": "10002",
+    "producto": "Cuchara Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 4,
+    "precio": 20075.6,
+    "importe": 80302.4
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA1961104509",
+    "sku": "50027",
+    "producto": "Juego Set Toalla Toallon Oregon 100% Algodón 630 G/m2 Ultra Marrón Claro Honey",
+    "stock": 1,
+    "precio": 74400.0,
+    "importe": 74400.0
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA1763092117",
+    "sku": "50003",
+    "producto": "Toallón Oregon Hotelero 100% Algodón 630gr Blanco 90x150 Blanco Ultra 630",
+    "stock": 2,
+    "precio": 32686.4,
+    "importe": 65372.8
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA2275436422",
+    "sku": "10007",
+    "producto": "Cuchillo Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 26912.96,
+    "importe": 53825.92
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA2275474780",
+    "sku": "10005",
+    "producto": "Cuchara Cafe Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 4,
+    "precio": 9343.4,
+    "importe": 37373.6
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA2275436424",
+    "sku": "30009",
+    "producto": "Untador Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 18147.4,
+    "importe": 36294.8
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA1784323187",
+    "sku": "50007",
+    "producto": "Almohada Hipoalergenica Lavable Fibra Siliconada 50x70 Blanco",
+    "stock": 1,
+    "precio": 32240,
+    "importe": 32240
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA2275461880",
+    "sku": "10004",
+    "producto": "Cuchara Te Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 10626.8,
+    "importe": 21253.6
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA2275397446",
+    "sku": "10001",
+    "producto": "Tenedor Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 1,
+    "precio": 19269.6,
+    "importe": 19269.6
+  },
+  {
+    "fecha": "2026-08-31",
+    "item_id": "MLA2275397448",
+    "sku": "20005",
+    "producto": "Cuchara Cafe Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 1,
+    "precio": 13255.6,
+    "importe": 13255.6
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA3677881124",
+    "sku": "50020",
+    "producto": "Treonato De Magnesio 1000 Mg Geonat Para Concentración Y Memoria  60 Comprimidos Sin Sabor",
+    "stock": 490,
+    "precio": 19587,
+    "importe": 9597630
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA1977867145",
+    "sku": "50031",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907g Vainilla 2l Vainilla Gourmet",
+    "stock": 32,
+    "precio": 110950.0,
+    "importe": 3550400.0
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA3471136932",
+    "sku": "50014",
+    "producto": "L-arginina + L-citrulina + Ginseng | M1 Energy | Bylappiel Sin Sabor",
+    "stock": 132,
+    "precio": 19000.0,
+    "importe": 2508000.0
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA1977669679",
+    "sku": "50030",
+    "producto": "Creatina Monohidratada 100% Pura 300 Gramos En Pote Polvo - Star Nutrition Sin Sabor",
+    "stock": 58,
+    "precio": 32941.0,
+    "importe": 1910578.0
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA1926311309",
+    "sku": "50023",
+    "producto": "Bisglicinato De Magnesio Geonat Geomagnesium Con Vitaminas B En Comprimidos X 60 Sin Sabor",
+    "stock": 109,
+    "precio": 15725,
+    "importe": 1714025
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA1977869381",
+    "sku": "50033",
+    "producto": "Omega 3 Epa Aceite Pescado Geonat Colesterol 60 Cápsulas Sin Sabor",
+    "stock": 32,
+    "precio": 26660.0,
+    "importe": 853120.0
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA3770705240",
+    "sku": "50029",
+    "producto": "Creatina Monohidrato Ena Sport 300g Micronizada - 60 Servicios - Potencia Masa Muscular Y Rendimiento Deportivo Sin Sabor",
+    "stock": 24,
+    "precio": 30000,
+    "importe": 720000
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA2275448906",
+    "sku": "20006",
+    "producto": "Cuchillo Mesa Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 9,
+    "precio": 66761.6,
+    "importe": 600854.4
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA3232759300",
+    "sku": "50005",
+    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
+    "stock": 21,
+    "precio": 26784,
+    "importe": 562464
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA1516314673",
+    "sku": "20008",
+    "producto": "Cuchillo Asado Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 9,
+    "precio": 52563.6,
+    "importe": 473072.4
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA2275436420",
+    "sku": "10009",
+    "producto": "Cuchillo Grille Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 10,
+    "precio": 45545.2,
+    "importe": 455452.0
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA1977868561",
+    "sku": "50032",
+    "producto": "Colageno Hydrolizado X210 Gr. Suplemento Sabor Limón - Star Nutrition",
+    "stock": 12,
+    "precio": 27900.0,
+    "importe": 334800.0
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA1961104511",
+    "sku": "50024",
+    "producto": "Juego Set Toalla Toallon Oregon 100% Algodón 630 G/m2 Ultra Blanco",
+    "stock": 4,
+    "precio": 74400.0,
+    "importe": 297600.0
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA1729211787",
+    "sku": "50001",
+    "producto": "Tabla De Picar De Corte 35x24cm Acero Inoxidable 304 Liso Acero Inoxidable",
+    "stock": 5,
+    "precio": 52080.0,
+    "importe": 260400.0
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA1516293305",
+    "sku": "10003",
+    "producto": "Cuchara Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 6,
+    "precio": 19269.6,
+    "importe": 115617.6
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA1516301921",
+    "sku": "10006",
+    "producto": "Cuchillo Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 3,
+    "precio": 28033.92,
+    "importe": 84101.76
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA2275474776",
+    "sku": "10002",
+    "producto": "Cuchara Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 4,
+    "precio": 20075.6,
+    "importe": 80302.4
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA1961104509",
+    "sku": "50027",
+    "producto": "Juego Set Toalla Toallon Oregon 100% Algodón 630 G/m2 Ultra Marrón Claro Honey",
+    "stock": 1,
+    "precio": 74400.0,
+    "importe": 74400.0
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA1763092117",
+    "sku": "50003",
+    "producto": "Toallón Oregon Hotelero 100% Algodón 630gr Blanco 90x150 Blanco Ultra 630",
+    "stock": 2,
+    "precio": 32686.4,
+    "importe": 65372.8
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA2275436422",
+    "sku": "10007",
+    "producto": "Cuchillo Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 26912.96,
+    "importe": 53825.92
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA2275474780",
+    "sku": "10005",
+    "producto": "Cuchara Cafe Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 4,
+    "precio": 9343.4,
+    "importe": 37373.6
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA2275436424",
+    "sku": "30009",
+    "producto": "Untador Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 18147.4,
+    "importe": 36294.8
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA1784323187",
+    "sku": "50007",
+    "producto": "Almohada Hipoalergenica Lavable Fibra Siliconada 50x70 Blanco",
+    "stock": 1,
+    "precio": 32240,
+    "importe": 32240
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA2275461880",
+    "sku": "10004",
+    "producto": "Cuchara Te Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 10626.8,
+    "importe": 21253.6
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA2275397446",
+    "sku": "10001",
+    "producto": "Tenedor Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 1,
+    "precio": 19269.6,
+    "importe": 19269.6
+  },
+  {
+    "fecha": "2026-09-01",
+    "item_id": "MLA2275397448",
+    "sku": "20005",
+    "producto": "Cuchara Cafe Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 1,
+    "precio": 13255.6,
+    "importe": 13255.6
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA3677881124",
+    "sku": "50020",
+    "producto": "Treonato De Magnesio 1000 Mg Geonat Para Concentración Y Memoria  60 Comprimidos Sin Sabor",
+    "stock": 454,
+    "precio": 19587,
+    "importe": 8892498
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA1977867145",
+    "sku": "50031",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907g Vainilla 2l Vainilla Gourmet",
+    "stock": 27,
+    "precio": 110950.0,
+    "importe": 2995650.0
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA3471136932",
+    "sku": "50014",
+    "producto": "Lappiel Energía Especific L-arginina L-citrulina Ginseng M1 Especific Energy Comprimidos Capsulas Pastillas Sin Sabor",
+    "stock": 127,
+    "precio": 19199.0,
+    "importe": 2438273.0
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA1977669679",
+    "sku": "50030",
+    "producto": "Creatina Monohidratada 100% Pura 300 Gramos En Pote Polvo - Star Nutrition Sin Sabor",
+    "stock": 52,
+    "precio": 32941.0,
+    "importe": 1712932.0
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA1926311309",
+    "sku": "50023",
+    "producto": "Bisglicinato De Magnesio Geonat Geomagnesium Con Vitaminas B En Comprimidos X 60 Sin Sabor",
+    "stock": 92,
+    "precio": 15725,
+    "importe": 1446700
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA1977869381",
+    "sku": "50033",
+    "producto": "Omega 3 Epa Aceite Pescado Geonat Colesterol 60 Cápsulas Sin Sabor",
+    "stock": 31,
+    "precio": 26660.0,
+    "importe": 826460.0
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA3770705240",
+    "sku": "50029",
+    "producto": "Creatina Monohidrato Ena Sport 300g Micronizada - 60 Servicios - Potencia Masa Muscular Y Rendimiento Deportivo Sin Sabor",
+    "stock": 24,
+    "precio": 30000,
+    "importe": 720000
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA2275448906",
+    "sku": "20006",
+    "producto": "Cuchillo Mesa Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 9,
+    "precio": 66761.6,
+    "importe": 600854.4
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA1516314673",
+    "sku": "20008",
+    "producto": "Cuchillo Asado Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 9,
+    "precio": 52563.6,
+    "importe": 473072.4
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA2275436420",
+    "sku": "10009",
+    "producto": "Cuchillo Grille Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 10,
+    "precio": 45545.2,
+    "importe": 455452.0
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA3232759300",
+    "sku": "50005",
+    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
+    "stock": 15,
+    "precio": 26784,
+    "importe": 401760
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA1977868557",
+    "sku": "50032",
+    "producto": "Colágeno Hidrolizado En Polvo Star Nutrition Pote 210g Limón Limón",
+    "stock": 12,
+    "precio": 27900.0,
+    "importe": 334800.0
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA1729211787",
+    "sku": "50001",
+    "producto": "Tabla De Picar De Corte 35x24cm Acero Inoxidable 304 Liso Acero Inoxidable",
+    "stock": 5,
+    "precio": 52080.0,
+    "importe": 260400.0
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA1516293305",
+    "sku": "10003",
+    "producto": "Cuchara Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 6,
+    "precio": 19269.6,
+    "importe": 115617.6
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA1516301921",
+    "sku": "10006",
+    "producto": "Cuchillo Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 3,
+    "precio": 28033.92,
+    "importe": 84101.76
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA2275474776",
+    "sku": "10002",
+    "producto": "Cuchara Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 4,
+    "precio": 20075.6,
+    "importe": 80302.4
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA1961104509",
+    "sku": "50027",
+    "producto": "Juego Set Toalla Toallon Oregon 100% Algodón 630 G/m2 Ultra Marrón Claro Honey",
+    "stock": 1,
+    "precio": 74400.0,
+    "importe": 74400.0
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA1961104511",
+    "sku": "50024",
+    "producto": "Juego Set Toalla Toallon Oregon 100% Algodón 630 G/m2 Ultra Blanco",
+    "stock": 1,
+    "precio": 74400.0,
+    "importe": 74400.0
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA1763092117",
+    "sku": "50003",
+    "producto": "Toallón Oregon Hotelero 100% Algodón 630gr Blanco 90x150 Blanco Ultra 630",
+    "stock": 2,
+    "precio": 32686.4,
+    "importe": 65372.8
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA2275436422",
+    "sku": "10007",
+    "producto": "Cuchillo Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 26912.96,
+    "importe": 53825.92
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA2275474780",
+    "sku": "10005",
+    "producto": "Cuchara Cafe Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 4,
+    "precio": 9343.4,
+    "importe": 37373.6
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA2275436424",
+    "sku": "30009",
+    "producto": "Untador Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 18147.4,
+    "importe": 36294.8
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA1784323187",
+    "sku": "50007",
+    "producto": "Almohada Hipoalergenica Lavable Fibra Siliconada 50x70 Blanco",
+    "stock": 1,
+    "precio": 32240,
+    "importe": 32240
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA2275461880",
+    "sku": "10004",
+    "producto": "Cuchara Te Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 10626.8,
+    "importe": 21253.6
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA2275397446",
+    "sku": "10001",
+    "producto": "Tenedor Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 1,
+    "precio": 19269.6,
+    "importe": 19269.6
+  },
+  {
+    "fecha": "2026-09-04",
+    "item_id": "MLA2275397448",
+    "sku": "20005",
+    "producto": "Cuchara Cafe Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 1,
+    "precio": 13255.6,
+    "importe": 13255.6
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA3677881124",
+    "sku": "50020",
+    "producto": "Treonato De Magnesio 1000 Mg Geonat Para Concentración Y Memoria  60 Comprimidos Sin Sabor",
+    "stock": 422,
+    "precio": 19587,
+    "importe": 8265714
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA3770872430",
+    "sku": "50031",
+    "producto": "Iso Gold Nutrition Protein Sabor Gourmet Vainilla X907gr Vainilla Gourmet",
+    "stock": 27,
+    "precio": 110950.0,
+    "importe": 2995650.0
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA3471136932",
+    "sku": "50014",
+    "producto": "Lappiel Energía Especific L-arginina L-citrulina Ginseng M1 Especific Energy Comprimidos Capsulas Pastillas Sin Sabor",
+    "stock": 126,
+    "precio": 19199.0,
+    "importe": 2419074.0
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA1977669679",
+    "sku": "50030",
+    "producto": "Creatina Monohidratada 100% Pura 300 Gramos En Pote Polvo - Star Nutrition Sin Sabor",
+    "stock": 52,
+    "precio": 32000.0,
+    "importe": 1664000.0
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA1926311309",
+    "sku": "50023",
+    "producto": "Bisglicinato De Magnesio Geonat Geomagnesium Con Vitaminas B En Comprimidos X 60 Sin Sabor",
+    "stock": 89,
+    "precio": 15725,
+    "importe": 1399525
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA1977869383",
+    "sku": "50033",
+    "producto": "Geonat Aceite De Pescado Omega 3 Omeganat Colesterol 60 Cápsulas Sin Sabor",
+    "stock": 29,
+    "precio": 26660.0,
+    "importe": 773140.0
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA2275448906",
+    "sku": "20006",
+    "producto": "Cuchillo Mesa Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 9,
+    "precio": 66761.6,
+    "importe": 600854.4
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA3770705240",
+    "sku": "50029",
+    "producto": "Creatina Monohidrato Ena Sport 300g Micronizada - 60 Servicios - Potencia Masa Muscular Y Rendimiento Deportivo Sin Sabor",
+    "stock": 18,
+    "precio": 29990.0,
+    "importe": 539820.0
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA1516314673",
+    "sku": "20008",
+    "producto": "Cuchillo Asado Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 9,
+    "precio": 52563.6,
+    "importe": 473072.4
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA2275436420",
+    "sku": "10009",
+    "producto": "Cuchillo Grille Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 10,
+    "precio": 45545.2,
+    "importe": 455452.0
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA1977868557",
+    "sku": "50032",
+    "producto": "Colágeno Hidrolizado En Polvo Star Nutrition Pote 210g Limón Limón",
+    "stock": 12,
+    "precio": 23000,
+    "importe": 276000
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA1729211787",
+    "sku": "50001",
+    "producto": "Tabla De Picar De Corte 35x24cm Acero Inoxidable 304 Liso Acero Inoxidable",
+    "stock": 5,
+    "precio": 52080.0,
+    "importe": 260400.0
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA3232759300",
+    "sku": "50005",
+    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
+    "stock": 9,
+    "precio": 26784,
+    "importe": 241056
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA1516293305",
+    "sku": "10003",
+    "producto": "Cuchara Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 6,
+    "precio": 19269.6,
+    "importe": 115617.6
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA1516301921",
+    "sku": "10006",
+    "producto": "Cuchillo Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 3,
+    "precio": 28033.92,
+    "importe": 84101.76
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA2275474776",
+    "sku": "10002",
+    "producto": "Cuchara Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 4,
+    "precio": 20075.6,
+    "importe": 80302.4
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA1961104509",
+    "sku": "50027",
+    "producto": "Juego Set Toalla Toallon Oregon 100% Algodón 630 G/m2 Ultra Marrón Claro Honey",
+    "stock": 1,
+    "precio": 74400.0,
+    "importe": 74400.0
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA1961104511",
+    "sku": "50024",
+    "producto": "Juego Set Toalla Toallon Oregon 100% Algodón 630 G/m2 Ultra Blanco",
+    "stock": 1,
+    "precio": 74400.0,
+    "importe": 74400.0
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA2275436422",
+    "sku": "10007",
+    "producto": "Cuchillo Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 26912.96,
+    "importe": 53825.92
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA2275474780",
+    "sku": "10005",
+    "producto": "Cuchara Cafe Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 4,
+    "precio": 9343.4,
+    "importe": 37373.6
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA2275436424",
+    "sku": "30009",
+    "producto": "Untador Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 18147.4,
+    "importe": 36294.8
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA1784323187",
+    "sku": "50007",
+    "producto": "Almohada Hipoalergenica Lavable Fibra Siliconada 50x70 Blanco",
+    "stock": 1,
+    "precio": 32240,
+    "importe": 32240
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA2275461880",
+    "sku": "10004",
+    "producto": "Cuchara Te Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 10626.8,
+    "importe": 21253.6
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA2275397446",
+    "sku": "10001",
+    "producto": "Tenedor Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 1,
+    "precio": 19269.6,
+    "importe": 19269.6
+  },
+  {
+    "fecha": "2026-09-07",
+    "item_id": "MLA2275397448",
+    "sku": "20005",
+    "producto": "Cuchara Cafe Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 1,
+    "precio": 13255.6,
+    "importe": 13255.6
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA3677881124",
+    "sku": "50020",
+    "producto": "Treonato De Magnesio 1000 Mg Geonat Para Concentración Y Memoria  60 Comprimidos Sin Sabor",
+    "stock": 407,
+    "precio": 20500.0,
+    "importe": 8343500.0
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA1926311309",
+    "sku": "50023",
+    "producto": "Bisglicinato De Magnesio Geonat Geomagnesium Con Vitaminas B En Comprimidos X 60 Sin Sabor",
+    "stock": 421,
+    "precio": 16500.0,
+    "importe": 6946500.0
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA3471136932",
+    "sku": "50014",
+    "producto": "Lappiel Energía Especific L-arginina L-citrulina Ginseng M1 Especific Energy Comprimidos Capsulas Pastillas Sin Sabor",
+    "stock": 126,
+    "precio": 19199.0,
+    "importe": 2419074.0
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA1977867145",
+    "sku": "50031",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907g Vainilla 2l Vainilla Gourmet",
+    "stock": 21,
+    "precio": 110950.0,
+    "importe": 2329950.0
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA1977869383",
+    "sku": "50033",
+    "producto": "Geonat Aceite De Pescado Omega 3 Omeganat Colesterol 60 Cápsulas Sin Sabor",
+    "stock": 74,
+    "precio": 26660.0,
+    "importe": 1972840.0
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA1977669677",
+    "sku": "50030",
+    "producto": "Creatina Monohidrato Star Nutrition Micronizada 300g Neutro Sin Sabor",
+    "stock": 42,
+    "precio": 32000.0,
+    "importe": 1344000.0
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA2275448906",
+    "sku": "20006",
+    "producto": "Cuchillo Mesa Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 9,
+    "precio": 66761.6,
+    "importe": 600854.4
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA1516314673",
+    "sku": "20008",
+    "producto": "Cuchillo Asado Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 9,
+    "precio": 52563.6,
+    "importe": 473072.4
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA2275436420",
+    "sku": "10009",
+    "producto": "Cuchillo Grille Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 10,
+    "precio": 45545.2,
+    "importe": 455452.0
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA1729211787",
+    "sku": "50001",
+    "producto": "Tabla De Picar De Corte 35x24cm Acero Inoxidable 304 Liso Acero Inoxidable",
+    "stock": 5,
+    "precio": 52080.0,
+    "importe": 260400.0
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA3232759300",
+    "sku": "50005",
+    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
+    "stock": 9,
+    "precio": 26784,
+    "importe": 241056
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA1977868557",
+    "sku": "50032",
+    "producto": "Colágeno Hidrolizado En Polvo Star Nutrition Pote 210g Limón Limón",
+    "stock": 7,
+    "precio": 22000,
+    "importe": 154000
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA1516293305",
+    "sku": "10003",
+    "producto": "Cuchara Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 6,
+    "precio": 19269.6,
+    "importe": 115617.6
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA1516301921",
+    "sku": "10006",
+    "producto": "Cuchillo Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 3,
+    "precio": 28033.92,
+    "importe": 84101.76
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA2275474776",
+    "sku": "10002",
+    "producto": "Cuchara Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 4,
+    "precio": 20075.6,
+    "importe": 80302.4
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA1961104509",
+    "sku": "50027",
+    "producto": "Juego Set Toalla Toallon Oregon 100% Algodón 630 G/m2 Ultra Marrón Claro Honey",
+    "stock": 1,
+    "precio": 74400.0,
+    "importe": 74400.0
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA1961104511",
+    "sku": "50024",
+    "producto": "Juego Set Toalla Toallon Oregon 100% Algodón 630 G/m2 Ultra Blanco",
+    "stock": 1,
+    "precio": 74400.0,
+    "importe": 74400.0
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA2275436422",
+    "sku": "10007",
+    "producto": "Cuchillo Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 26912.96,
+    "importe": 53825.92
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA2275474780",
+    "sku": "10005",
+    "producto": "Cuchara Cafe Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 4,
+    "precio": 9343.4,
+    "importe": 37373.6
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA2275436424",
+    "sku": "30009",
+    "producto": "Untador Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 18147.4,
+    "importe": 36294.8
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA1784323187",
+    "sku": "50007",
+    "producto": "Almohada Hipoalergenica Lavable Fibra Siliconada 50x70 Blanco",
+    "stock": 1,
+    "precio": 32240,
+    "importe": 32240
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA2275461880",
+    "sku": "10004",
+    "producto": "Cuchara Te Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 10626.8,
+    "importe": 21253.6
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA2275397446",
+    "sku": "10001",
+    "producto": "Tenedor Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 1,
+    "precio": 19269.6,
+    "importe": 19269.6
+  },
+  {
+    "fecha": "2026-09-08",
+    "item_id": "MLA2275397448",
+    "sku": "20005",
+    "producto": "Cuchara Cafe Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 1,
+    "precio": 13255.6,
+    "importe": 13255.6
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA3677881124",
+    "sku": "50020",
+    "producto": "Treonato De Magnesio 1000 Mg Geonat Para Concentración Y Memoria  60 Comprimidos Sin Sabor",
+    "stock": 388,
+    "precio": 20500.0,
+    "importe": 7954000.0
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA1926311309",
+    "sku": "50023",
+    "producto": "Bisglicinato De Magnesio Geonat Geomagnesium Con Vitaminas B En Comprimidos X 60 Sin Sabor",
+    "stock": 417,
+    "precio": 16500.0,
+    "importe": 6880500.0
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA3471136932",
+    "sku": "50014",
+    "producto": "Lappiel Energía Especific L-arginina L-citrulina Ginseng M1 Especific Energy Comprimidos Capsulas Pastillas Sin Sabor",
+    "stock": 126,
+    "precio": 19199.0,
+    "importe": 2419074.0
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA3770872430",
+    "sku": "50031",
+    "producto": "Iso Gold Nutrition Protein Sabor Gourmet Vainilla X907gr Vainilla Gourmet",
+    "stock": 17,
+    "precio": 110950.0,
+    "importe": 1886150.0
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA1977869381",
+    "sku": "50033",
+    "producto": "Omega 3 Epa Aceite Pescado Geonat Colesterol 60 Cápsulas Sin Sabor",
+    "stock": 65,
+    "precio": 26660.0,
+    "importe": 1732900.0
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA2275448906",
+    "sku": "20006",
+    "producto": "Cuchillo Mesa Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 9,
+    "precio": 66761.6,
+    "importe": 600854.4
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA1977669679",
+    "sku": "50030",
+    "producto": "Creatina Monohidratada 100% Pura 300 Gramos En Pote Polvo - Star Nutrition Sin Sabor",
+    "stock": 17,
+    "precio": 32000.0,
+    "importe": 544000.0
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA1516314673",
+    "sku": "20008",
+    "producto": "Cuchillo Asado Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 9,
+    "precio": 52563.6,
+    "importe": 473072.4
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA2275436420",
+    "sku": "10009",
+    "producto": "Cuchillo Grille Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 10,
+    "precio": 45545.2,
+    "importe": 455452.0
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA3770867494",
+    "sku": "50029",
+    "producto": "Creatina Monohidratada Ena Sport Micronizada 300g Neutro Neutro",
+    "stock": 13,
+    "precio": 29990.0,
+    "importe": 389870.0
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA1729211787",
+    "sku": "50001",
+    "producto": "Tabla De Picar De Corte 35x24cm Acero Inoxidable 304 Liso Acero Inoxidable",
+    "stock": 5,
+    "precio": 52080.0,
+    "importe": 260400.0
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA3232759300",
+    "sku": "50005",
+    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
+    "stock": 9,
+    "precio": 26784,
+    "importe": 241056
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA1516293305",
+    "sku": "10003",
+    "producto": "Cuchara Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 6,
+    "precio": 19269.6,
+    "importe": 115617.6
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA1516301921",
+    "sku": "10006",
+    "producto": "Cuchillo Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 3,
+    "precio": 28033.92,
+    "importe": 84101.76
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA2275474776",
+    "sku": "10002",
+    "producto": "Cuchara Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 4,
+    "precio": 20075.6,
+    "importe": 80302.4
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA1961104509",
+    "sku": "50027",
+    "producto": "Juego Set Toalla Toallon Oregon 100% Algodón 630 G/m2 Ultra Marrón Claro Honey",
+    "stock": 1,
+    "precio": 74400.0,
+    "importe": 74400.0
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA1961104511",
+    "sku": "50024",
+    "producto": "Juego Set Toalla Toallon Oregon 100% Algodón 630 G/m2 Ultra Blanco",
+    "stock": 1,
+    "precio": 74400.0,
+    "importe": 74400.0
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA2275474780",
+    "sku": "10005",
+    "producto": "Cuchara Cafe Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 4,
+    "precio": 9343.4,
+    "importe": 37373.6
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA2275436424",
+    "sku": "30009",
+    "producto": "Untador Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 18147.4,
+    "importe": 36294.8
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA1784323187",
+    "sku": "50007",
+    "producto": "Almohada Hipoalergenica Lavable Fibra Siliconada 50x70 Blanco",
+    "stock": 1,
+    "precio": 32240,
+    "importe": 32240
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA2275436422",
+    "sku": "10007",
+    "producto": "Cuchillo Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 1,
+    "precio": 26912.96,
+    "importe": 26912.96
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA2275461880",
+    "sku": "10004",
+    "producto": "Cuchara Te Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 10626.8,
+    "importe": 21253.6
+  },
+  {
+    "fecha": "2026-09-10",
+    "item_id": "MLA2275397446",
+    "sku": "10001",
+    "producto": "Tenedor Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 1,
+    "precio": 19269.6,
+    "importe": 19269.6
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA3677881124",
+    "sku": "50020",
+    "producto": "Treonato De Magnesio 1000 Mg Geonat Para Concentración Y Memoria  60 Comprimidos Sin Sabor",
+    "stock": 341,
+    "precio": 21200.0,
+    "importe": 7229200.0
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA1926311309",
+    "sku": "50023",
+    "producto": "Bisglicinato De Magnesio Geonat Geomagnesium Con Vitaminas B En Comprimidos X 60 Sin Sabor",
+    "stock": 395,
+    "precio": 16450.0,
+    "importe": 6497750.0
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA3471136932",
+    "sku": "50014",
+    "producto": "L-arginina + L-citrulina + Ginseng | M1 Energy | Bylappiel Sin Sabor",
+    "stock": 120,
+    "precio": 18000,
+    "importe": 2160000
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA1977869381",
+    "sku": "50033",
+    "producto": "Omega 3 Epa Aceite Pescado Geonat Colesterol 60 Cápsulas Sin Sabor",
+    "stock": 53,
+    "precio": 22000,
+    "importe": 1166000
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA1977867145",
+    "sku": "50031",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907g Vainilla 2l Vainilla Gourmet",
+    "stock": 8,
+    "precio": 110950.0,
+    "importe": 887600.0
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA2275448906",
+    "sku": "20006",
+    "producto": "Cuchillo Mesa Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 9,
+    "precio": 66761.6,
+    "importe": 600854.4
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA1516314673",
+    "sku": "20008",
+    "producto": "Cuchillo Asado Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 9,
+    "precio": 52563.6,
+    "importe": 473072.4
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA2275436420",
+    "sku": "10009",
+    "producto": "Cuchillo Grille Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 10,
+    "precio": 45545.2,
+    "importe": 455452.0
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA3770705240",
+    "sku": "50029",
+    "producto": "Creatina Monohidrato Ena Sport 300g Micronizada - 60 Servicios - Potencia Masa Muscular Y Rendimiento Deportivo Sin Sabor",
+    "stock": 13,
+    "precio": 30000.0,
+    "importe": 390000.0
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA1977669679",
+    "sku": "50030",
+    "producto": "Creatina Monohidratada 100% Pura 300 Gramos Sin Sabor En Pote Polvo - Star Nutrition",
+    "stock": 10,
+    "precio": 32000.0,
+    "importe": 320000.0
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA1729211787",
+    "sku": "50001",
+    "producto": "Tabla De Picar De Corte 35x24cm Acero Inoxidable 304 Liso Acero Inoxidable",
+    "stock": 5,
+    "precio": 52080.0,
+    "importe": 260400.0
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA3566784906",
+    "sku": "50005",
+    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Plus",
+    "stock": 6,
+    "precio": 29000,
+    "importe": 174000
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA1516293305",
+    "sku": "10003",
+    "producto": "Cuchara Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 6,
+    "precio": 19269.6,
+    "importe": 115617.6
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA1516301921",
+    "sku": "10006",
+    "producto": "Cuchillo Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 3,
+    "precio": 35042.4,
+    "importe": 105127.2
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA2275474776",
+    "sku": "10002",
+    "producto": "Cuchara Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 4,
+    "precio": 20075.6,
+    "importe": 80302.4
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA1961104511",
+    "sku": "50024",
+    "producto": "Juego Set Toalla Toallon Oregon 100% Algodón 630 G/m2 Ultra Blanco",
+    "stock": 1,
+    "precio": 74400.0,
+    "importe": 74400.0
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA1961104509",
+    "sku": "50027",
+    "producto": "Juego Set Toalla Toallon Oregon 100% Algodón 630 G/m2 Ultra Marrón Claro Honey",
+    "stock": 1,
+    "precio": 74400.0,
+    "importe": 74400.0
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA2275474780",
+    "sku": "10005",
+    "producto": "Cuchara Cafe Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 4,
+    "precio": 9343.4,
+    "importe": 37373.6
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA2275436424",
+    "sku": "30009",
+    "producto": "Untador Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 18147.4,
+    "importe": 36294.8
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA2275436422",
+    "sku": "10007",
+    "producto": "Cuchillo Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 1,
+    "precio": 33641.2,
+    "importe": 33641.2
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA2275461880",
+    "sku": "10004",
+    "producto": "Cuchara Te Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 2,
+    "precio": 10626.8,
+    "importe": 21253.6
+  },
+  {
+    "fecha": "2026-09-14",
+    "item_id": "MLA2275397446",
+    "sku": "10001",
+    "producto": "Tenedor Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "stock": 1,
+    "precio": 19269.6,
+    "importe": 19269.6
   }
 ]

@@ -31,7 +31,8 @@ PERIODOS = [
     ('mayo', '2026-05-01', '2026-05-31'),
     ('junio', '2026-06-01', '2026-06-30'),
     ('julio', '2026-07-01', '2026-07-31'),
-    ('agosto', '2026-08-01', '2026-08-23'),
+    ('agosto', '2026-08-01', '2026-08-31'),
+    ('septiembre', '2026-09-01', '2026-09-13'),
 ]
 
 mes_key_by_label = {label.lower().split(' ')[0]: label for label in PNL}
@@ -205,8 +206,12 @@ ordenes.sort(key=lambda o: o['fecha'], reverse=True)
 
 # ---------- ventas moviles de 7 dias (suma de cada dia + los 6 anteriores) ----------
 daily_ventas = {}
+daily_qty = {}
+daily_ordenes = {}
 for r in base_ventas_all:
     daily_ventas[r['fecha']] = daily_ventas.get(r['fecha'], 0.0) + r['importe_c']
+    daily_qty[r['fecha']] = daily_qty.get(r['fecha'], 0) + r['qty']
+    daily_ordenes.setdefault(r['fecha'], set()).add(r['order_id'])
 
 fechas_presentes = sorted(daily_ventas)
 if fechas_presentes:
@@ -222,10 +227,19 @@ else:
 
 ventas_moviles_7d = []
 for i, f in enumerate(todas_las_fechas):
-    ventana = todas_las_fechas[max(0, i - 6):i + 1]
-    suma_movil = sum(daily_ventas.get(x, 0.0) for x in ventana)
+    ventana_7 = todas_las_fechas[max(0, i - 6):i + 1]
+    ventana_30 = todas_las_fechas[max(0, i - 29):i + 1]
     ventas_moviles_7d.append({
-        'fecha': f, 'venta_dia': round(daily_ventas.get(f, 0.0), 2), 'movil_7d': round(suma_movil, 2),
+        'fecha': f,
+        'venta_dia': round(daily_ventas.get(f, 0.0), 2),
+        'movil_7d': round(sum(daily_ventas.get(x, 0.0) for x in ventana_7), 2),
+        'movil_30d': round(sum(daily_ventas.get(x, 0.0) for x in ventana_30), 2),
+        'qty_dia': daily_qty.get(f, 0),
+        'qty_movil_7d': sum(daily_qty.get(x, 0) for x in ventana_7),
+        'qty_movil_30d': sum(daily_qty.get(x, 0) for x in ventana_30),
+        'ordenes_dia': len(daily_ordenes.get(f, ())),
+        'ordenes_movil_7d': sum(len(daily_ordenes.get(x, ())) for x in ventana_7),
+        'ordenes_movil_30d': sum(len(daily_ordenes.get(x, ())) for x in ventana_30),
     })
 
 visitas = []

@@ -406,5 +406,85 @@
     "detalle": "doc 5009119726",
     "importe": 3625.0,
     "period_key": "2026-08-01"
+  },
+  {
+    "fecha": "2026-09-07",
+    "grupo": "ML",
+    "categoria": "Percepción impuesto IIBB Buenos Aires",
+    "detalle": "doc 5103133020",
+    "importe": 3871.13,
+    "period_key": "2026-09-01"
+  },
+  {
+    "fecha": "2026-09-07",
+    "grupo": "ML",
+    "categoria": "Percepción de impuesto IIBB régimen general de Catamarca",
+    "detalle": "doc 5103133020",
+    "importe": 96778.3,
+    "period_key": "2026-09-01"
+  },
+  {
+    "fecha": "2026-09-07",
+    "grupo": "ML",
+    "categoria": "Percepción impuesto IIBB CABA",
+    "detalle": "doc 5103133020",
+    "importe": 116133.96,
+    "period_key": "2026-09-01"
+  },
+  {
+    "fecha": "2026-09-07",
+    "grupo": "ML",
+    "categoria": "Percepción impuesto IIBB Com. Electrónico CABA",
+    "detalle": "doc 5103133020",
+    "importe": 64086.56,
+    "period_key": "2026-09-01"
+  },
+  {
+    "fecha": "2026-09-07",
+    "grupo": "ML",
+    "categoria": "Percep. gral. impuesto IIBB Bs. As. Mercado Envíos",
+    "detalle": "doc 5105067491",
+    "importe": 1533.19,
+    "period_key": "2026-09-01"
+  },
+  {
+    "fecha": "2026-09-07",
+    "grupo": "ML",
+    "categoria": "Percep. gral. impuesto IIBB CABA Mercado Envíos",
+    "detalle": "doc 5105067491",
+    "importe": 45995.77,
+    "period_key": "2026-09-01"
+  },
+  {
+    "fecha": "2026-09-07",
+    "grupo": "ML",
+    "categoria": "Percepción de impuesto IIBB régimen general de Salta",
+    "detalle": "doc 5105067491",
+    "importe": 93.83,
+    "period_key": "2026-09-01"
+  },
+  {
+    "fecha": "2026-09-07",
+    "grupo": "MP",
+    "categoria": "Cargo por percepción de IIBB del régimen general para CABA",
+    "detalle": "doc 5124126829",
+    "importe": 3522.51,
+    "period_key": "2026-09-01"
+  },
+  {
+    "fecha": "2026-09-07",
+    "grupo": "MP",
+    "categoria": "Cargo por percepción de IIBB del régimen general para Catamarca",
+    "detalle": "doc 5124126829",
+    "importe": 2935.42,
+    "period_key": "2026-09-01"
+  },
+  {
+    "fecha": "2026-09-07",
+    "grupo": "MP",
+    "categoria": "Cargo por percepción de IIBB del régimen general para Buenos Aires",
+    "detalle": "doc 5124126829",
+    "importe": 117.42,
+    "period_key": "2026-09-01"
   }
 ]

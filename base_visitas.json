@@ -61,27 +61,27 @@
   },
   {
     "fecha": "2026-05-02",
-    "visitas": 58,
+    "visitas": 0,
     "compras": 2,
-    "cvr": 0.0345
+    "cvr": 0.0
   },
   {
     "fecha": "2026-05-03",
-    "visitas": 55,
+    "visitas": 0,
     "compras": 3,
-    "cvr": 0.0545
+    "cvr": 0.0
   },
   {
     "fecha": "2026-05-04",
-    "visitas": 56,
+    "visitas": 0,
     "compras": 2,
-    "cvr": 0.0357
+    "cvr": 0.0
   },
   {
     "fecha": "2026-05-05",
-    "visitas": 39,
+    "visitas": 0,
     "compras": 1,
-    "cvr": 0.0256
+    "cvr": 0.0
   },
   {
     "fecha": "2026-05-06",
@@ -91,39 +91,39 @@
   },
   {
     "fecha": "2026-05-07",
-    "visitas": 65,
+    "visitas": 0,
     "compras": 1,
-    "cvr": 0.0154
+    "cvr": 0.0
   },
   {
     "fecha": "2026-05-08",
-    "visitas": 47,
+    "visitas": 0,
     "compras": 2,
-    "cvr": 0.0426
+    "cvr": 0.0
   },
   {
     "fecha": "2026-05-09",
-    "visitas": 77,
+    "visitas": 0,
     "compras": 2,
-    "cvr": 0.026
+    "cvr": 0.0
   },
   {
     "fecha": "2026-05-10",
-    "visitas": 134,
+    "visitas": 0,
     "compras": 2,
-    "cvr": 0.0149
+    "cvr": 0.0
   },
   {
     "fecha": "2026-05-11",
-    "visitas": 133,
+    "visitas": 0,
     "compras": 9,
-    "cvr": 0.0677
+    "cvr": 0.0
   },
   {
     "fecha": "2026-05-12",
-    "visitas": 132,
+    "visitas": 0,
     "compras": 9,
-    "cvr": 0.0682
+    "cvr": 0.0
   },
   {
     "fecha": "2026-05-13",
@@ -650,8 +650,8 @@
   {
     "fecha": "2026-08-08",
     "visitas": 184,
-    "compras": 32,
-    "cvr": 0.1739
+    "compras": 31,
+    "cvr": 0.1685
   },
   {
     "fecha": "2026-08-09",
@@ -698,8 +698,8 @@
   {
     "fecha": "2026-08-16",
     "visitas": 271,
-    "compras": 24,
-    "cvr": 0.0886
+    "compras": 23,
+    "cvr": 0.0849
   },
   {
     "fecha": "2026-08-17",
@@ -745,7 +745,109 @@
   },
   {
     "fecha": "2026-08-24",
-    "visitas": 55,
+    "visitas": 251,
+    "compras": 37,
+    "cvr": 0.1474
+  },
+  {
+    "fecha": "2026-08-25",
+    "visitas": 249,
+    "compras": 16,
+    "cvr": 0.0643
+  },
+  {
+    "fecha": "2026-08-26",
+    "visitas": 218,
+    "compras": 32,
+    "cvr": 0.1468
+  },
+  {
+    "fecha": "2026-08-27",
+    "visitas": 251,
+    "compras": 19,
+    "cvr": 0.0757
+  },
+  {
+    "fecha": "2026-08-28",
+    "visitas": 243,
+    "compras": 15,
+    "cvr": 0.0617
+  },
+  {
+    "fecha": "2026-08-29",
+    "visitas": 148,
+    "compras": 15,
+    "cvr": 0.1014
+  },
+  {
+    "fecha": "2026-08-30",
+    "visitas": 227,
+    "compras": 13,
+    "cvr": 0.0573
+  },
+  {
+    "fecha": "2026-08-31",
+    "visitas": 257,
+    "compras": 20,
+    "cvr": 0.0778
+  },
+  {
+    "fecha": "2026-09-01",
+    "visitas": 209,
+    "compras": 22,
+    "cvr": 0.1053
+  },
+  {
+    "fecha": "2026-09-02",
+    "visitas": 194,
+    "compras": 18,
+    "cvr": 0.0928
+  },
+  {
+    "fecha": "2026-09-03",
+    "visitas": 232,
+    "compras": 26,
+    "cvr": 0.1121
+  },
+  {
+    "fecha": "2026-09-04",
+    "visitas": 148,
+    "compras": 11,
+    "cvr": 0.0743
+  },
+  {
+    "fecha": "2026-09-05",
+    "visitas": 149,
+    "compras": 12,
+    "cvr": 0.0805
+  },
+  {
+    "fecha": "2026-09-06",
+    "visitas": 175,
+    "compras": 11,
+    "cvr": 0.0629
+  },
+  {
+    "fecha": "2026-09-07",
+    "visitas": 255,
+    "compras": 28,
+    "cvr": 0.1098
+  },
+  {
+    "fecha": "2026-09-08",
+    "visitas": 241,
+    "compras": 39,
+    "cvr": 0.1618
+  },
+  {
+    "fecha": "2026-09-09",
+    "visitas": 201,
+    "compras": 38,
+    "cvr": 0.1891
+  },
+  {
+    "fecha": "2026-09-10",
+    "visitas": 51,
     "compras": 0,
     "cvr": 0.0
   }

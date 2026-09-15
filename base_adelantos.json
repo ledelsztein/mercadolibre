@@ -31,20 +31,32 @@
   },
   {
     "fecha": "2026-08-12",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 17524.64,
     "costo_c": 21204.82
   },
   {
     "fecha": "2026-08-14",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 43874.0,
     "costo_c": 53087.54
   },
   {
     "fecha": "2026-08-21",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 37793.93,
     "costo_c": 45730.66
+  },
+  {
+    "fecha": "2026-08-27",
+    "factura": null,
+    "costo_s": 18224.4,
+    "costo_c": 22051.53
+  },
+  {
+    "fecha": "2026-09-14",
+    "factura": "pendiente fc",
+    "costo_s": 64036.31,
+    "costo_c": 77483.94
   }
 ]

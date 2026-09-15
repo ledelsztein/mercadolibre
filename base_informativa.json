@@ -159,5 +159,19 @@
     "detalle": "Mercado Connecting - Factura FC 03321-00001328",
     "importe_sin_iva": 1575000.0,
     "importe_con_iva": 1905750.0
+  },
+  {
+    "fecha": "2026-08-20",
+    "categoria": "IIBB",
+    "detalle": "Pago de Ingresos Brutos",
+    "importe_sin_iva": 28096.92,
+    "importe_con_iva": 28096.92
+  },
+  {
+    "fecha": "2026-09-03",
+    "categoria": "Logística Flex",
+    "detalle": "Factura FC 0002-00004776",
+    "importe_sin_iva": 33024.75,
+    "importe_con_iva": 39959.95
   }
 ]
