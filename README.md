@@ -9,5 +9,6 @@ Google Sheet + dashboard.
 - **Setup en una compu nueva**: ver [SETUP.md](SETUP.md).
 - **Cómo se arma el pipeline, reglas de cada tabla, decisiones ya validadas**: ver [docs/memoria/](docs/memoria/).
 - **Actualizar el tablero**: skill `actualizar-tablero` en `.claude/skills/` (invoca a las 7 skills `actualizar-base-*`).
+- **Monitoreo de precios de mayoristas**: skill `monitorear-mayorista-enm` en `.claude/skills/` -- corre diario (trigger programado) y avisa si cambia un precio o desaparece un ítem de la lista del mayorista ENM. Snapshots en `monitoring/`.
 
 Repo conectado a Claude Code.
