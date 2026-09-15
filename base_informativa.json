@@ -173,5 +173,12 @@
     "detalle": "Factura FC 0002-00004776",
     "importe_sin_iva": 33024.75,
     "importe_con_iva": 39959.95
+  },
+  {
+    "fecha": "2026-09-07",
+    "categoria": "Autónomos",
+    "detalle": "Pago Autónomos Septiembre (sin IVA aplicable)",
+    "importe_sin_iva": 103603.74,
+    "importe_con_iva": 103603.74
   }
 ]
