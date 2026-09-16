@@ -23,6 +23,12 @@
     --tag7-bg: #DEE3E8; --tag7-fg: #45566B;
     --tag8-bg: #F3DEDA; --tag8-fg: #A63B2E;
     --tag9-bg: #E3E8D3; --tag9-fg: #5B6B2E;
+    --series-1: #2a78d6;
+    --series-2: #eb6834;
+    --series-3: #1baf7a;
+    --series-4: #eda100;
+    --series-5: #e87ba4;
+    --series-6: #008300;
     --shadow: 0 1px 2px rgba(30,28,18,0.06), 0 8px 24px -12px rgba(30,28,18,0.18);
     --radius: 10px;
     --font-display: Charter, 'Iowan Old Style', 'Palatino Linotype', Georgia, 'Times New Roman', serif;
@@ -53,6 +59,12 @@
       --tag7-bg: #232830; --tag7-fg: #93A7BE;
       --tag8-bg: #3A211D; --tag8-fg: #E38175;
       --tag9-bg: #262B19; --tag9-fg: #A0B369;
+      --series-1: #3987e5;
+      --series-2: #d95926;
+      --series-3: #199e70;
+      --series-4: #c98500;
+      --series-5: #d55181;
+      --series-6: #008300;
       --shadow: 0 1px 2px rgba(0,0,0,0.4), 0 12px 28px -14px rgba(0,0,0,0.6);
     }
   }
@@ -70,6 +82,8 @@
     --tag7-bg: #232830; --tag7-fg: #93A7BE;
     --tag8-bg: #3A211D; --tag8-fg: #E38175;
     --tag9-bg: #262B19; --tag9-fg: #A0B369;
+    --series-1: #3987e5; --series-2: #d95926; --series-3: #199e70;
+    --series-4: #c98500; --series-5: #d55181; --series-6: #008300;
     --shadow: 0 1px 2px rgba(0,0,0,0.4), 0 12px 28px -14px rgba(0,0,0,0.6);
   }
   :root[data-theme="light"] {
@@ -86,6 +100,8 @@
     --tag7-bg: #DEE3E8; --tag7-fg: #45566B;
     --tag8-bg: #F3DEDA; --tag8-fg: #A63B2E;
     --tag9-bg: #E3E8D3; --tag9-fg: #5B6B2E;
+    --series-1: #2a78d6; --series-2: #eb6834; --series-3: #1baf7a;
+    --series-4: #eda100; --series-5: #e87ba4; --series-6: #008300;
     --shadow: 0 1px 2px rgba(30,28,18,0.06), 0 8px 24px -12px rgba(30,28,18,0.18);
   }
 
@@ -378,6 +394,12 @@
   @media (prefers-reduced-motion: no-preference) {
     .card, .panel { transition: transform .15s ease; }
   }
+
+  /* ---------- Glosario ---------- */
+  .glossary { display: grid; gap: 14px; grid-template-columns: repeat(2, 1fr); }
+  @media (max-width: 760px) { .glossary { grid-template-columns: 1fr; } }
+  .glossary dt { font-weight: 700; font-size: 13px; margin-bottom: 3px; }
+  .glossary dd { margin: 0; color: var(--text-muted); font-size: 12.5px; line-height: 1.6; }
 </style>
 
 <div class="wrap">
@@ -424,6 +446,33 @@
       </div>
       <div class="panel-body table-scroll">
         <table class="pnl-table" id="pnl-table"></table>
+      </div>
+    </section>
+  </div>
+
+  <div class="view" data-view="balance_salida">
+    <section class="summary" id="bs-summary"></section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Balance de Salida — evolución diaria</h2>
+        <div class="note">"Si vendo todo hoy, ¿con cuánta plata me queda?" · elegí qué variables comparar</div>
+      </div>
+      <div class="panel-body">
+        <div class="metric-chips" id="bs-metricas"></div>
+        <div class="vm-legend" id="bs-legend"></div>
+        <div class="chart-wrap" id="bs-chart"></div>
+        <div class="note" style="margin-top:6px">Valores en pesos, mismo eje para las variables activas (se reescala según lo que tengas tildado).</div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Glosario</h2>
+        <div class="note">Qué significa cada número de esta sección</div>
+      </div>
+      <div class="panel-body">
+        <dl class="glossary" id="bs-glossary"></dl>
       </div>
     </section>
   </div>
@@ -520,6 +569,7 @@ const monthKeys = Object.keys(DATA.pnl);
 
 const SECTIONS = [
   { key: 'resumen', label: 'Resumen' },
+  { key: 'balance_salida', label: 'Balance de Salida' },
   { key: 'categoria', label: 'Rentabilidad por categoría' },
   { key: 'envios', label: 'Distribución de ventas por tipo de envío' },
   { key: 'visitas', label: 'Vistas y CVR' },
@@ -776,6 +826,199 @@ document.querySelectorAll('#vm-metricas .metric-chip').forEach(btn => {
     renderVentasMoviles();
   });
 });
+
+// ---------- Balance de Salida ----------
+const BS_METRIC_CONFIG = {
+  total_stock_recibido:      { label: 'Ingreso Recibido',           key: 'total_stock_recibido',      colorVar: '--series-1' },
+  autonomos:                 { label: 'Autónomos',                  key: 'autonomos',                  colorVar: '--series-2' },
+  iibb:                      { label: 'IIBB',                       key: 'iibb',                       colorVar: '--series-3' },
+  percepciones_retenciones:  { label: 'Percepciones y Retenciones', key: 'percepciones_retenciones',  colorVar: '--series-4' },
+  deudas_pendientes:         { label: 'Deudas Pendientes',          key: 'deudas_pendientes',          colorVar: '--series-5' },
+  balance_salida:            { label: 'Saldo Final',                key: 'balance_salida',             colorVar: '--series-6' },
+};
+const BS_METRIC_ORDER = ['total_stock_recibido', 'autonomos', 'iibb', 'percepciones_retenciones', 'deudas_pendientes', 'balance_salida'];
+const bsMetricas = new Set(['total_stock_recibido', 'balance_salida']);
+
+function renderBalanceSalidaSummary() {
+  const el = document.getElementById('bs-summary');
+  const data = DATA.balance_salida;
+  if (!data || !data.length) { el.innerHTML = '<div class="card"><div class="label">Balance de Salida</div><div class="value">Sin datos todavía</div></div>'; return; }
+  const last = data[data.length - 1];
+  el.innerHTML = `
+    <div class="card">
+      <div class="label">Ingreso Recibido${last.total_stock_valorizado ? '' : ''}</div>
+      <div class="value">${fmt(last.total_stock_recibido)}</div>
+      <div class="pct" style="color:var(--text-muted);background:var(--surface-2)">si vendo todo el stock hoy</div>
+    </div>
+    <div class="card">
+      <div class="label">Autónomos + IIBB + Percepciones</div>
+      <div class="value">${fmt(last.autonomos + last.iibb + last.percepciones_retenciones)}</div>
+      <div class="pct" style="color:var(--text-muted);background:var(--surface-2)">últimos pagos/período cargados</div>
+    </div>
+    <div class="card">
+      <div class="label">Deudas Pendientes</div>
+      <div class="value">${fmt(last.deudas_pendientes)}</div>
+      <div class="pct" style="color:var(--text-muted);background:var(--surface-2)">a hoy, según deudas_pendientes</div>
+    </div>
+    <div class="card">
+      <div class="label">Saldo Final${last.balance_salida < 0 ? ' ⚠' : ''}</div>
+      <div class="value" style="color:${last.balance_salida >= 0 ? 'var(--positive)' : 'var(--negative)'}">${fmt(last.balance_salida)}</div>
+      <div class="pct ${last.balance_salida >= 0 ? 'pos' : 'neg'}">${last.balance_salida >= 0 ? '▲' : '▼'} al ${fmtDateShort(last.fecha)}</div>
+    </div>`;
+}
+
+function renderBalanceSalidaChips() {
+  const el = document.getElementById('bs-metricas');
+  el.innerHTML = BS_METRIC_ORDER.map(m => {
+    const cfg = BS_METRIC_CONFIG[m];
+    const active = bsMetricas.has(m);
+    return `<button type="button" class="metric-chip${active ? ' active' : ''}" data-metrica="${m}" aria-pressed="${active}">
+      <span style="display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:6px;background:var(${cfg.colorVar});vertical-align:1px"></span>${cfg.label}
+    </button>`;
+  }).join('');
+  el.querySelectorAll('.metric-chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const m = btn.dataset.metrica;
+      if (bsMetricas.has(m)) {
+        if (bsMetricas.size > 1) bsMetricas.delete(m);
+      } else {
+        bsMetricas.add(m);
+      }
+      renderBalanceSalidaChips();
+      renderBalanceSalidaChart();
+    });
+  });
+}
+
+function renderBalanceSalidaChart() {
+  const data = DATA.balance_salida;
+  const chartContainer = document.getElementById('bs-chart');
+  const legendContainer = document.getElementById('bs-legend');
+  if (!data || data.length < 2) {
+    chartContainer.innerHTML = '<div class="donut-empty">Todavía no hay suficientes días para graficar (hace falta más de una foto diaria)</div>';
+    legendContainer.innerHTML = '';
+    return;
+  }
+  const metricasActivas = BS_METRIC_ORDER.filter(m => bsMetricas.has(m));
+  if (!metricasActivas.length) {
+    chartContainer.innerHTML = '<div class="donut-empty">Elegí al menos una variable</div>';
+    legendContainer.innerHTML = '';
+    return;
+  }
+
+  const lines = metricasActivas.map(m => {
+    const cfg = BS_METRIC_CONFIG[m];
+    return { metric: m, cfg, label: cfg.label, values: data.map(d => d[cfg.key]) };
+  });
+
+  legendContainer.innerHTML = lines.map(l => `
+    <span class="vm-legend-item"><span class="vm-legend-swatch" style="background:var(${l.cfg.colorVar})"></span>${l.label}</span>
+  `).join('');
+
+  const VW = 900, VH = 280, M = { l: 64, r: 12, t: 14, b: 30 };
+  const plotW = VW - M.l - M.r, plotH = VH - M.t - M.b;
+  const n = data.length;
+
+  // eje $ compartido, escalado al maximo (en valor absoluto) de las lineas
+  // activas -- a diferencia de "Ventas moviles" no se normaliza a 0-100 por
+  // linea porque todas estas variables ya estan en la misma unidad (pesos) y
+  // compararlas de verdad (no solo su forma) es el objetivo de este grafico.
+  const allValues = lines.flatMap(l => l.values);
+  const maxAbs = Math.max(...allValues.map(Math.abs), 1);
+  const hasNegative = allValues.some(v => v < 0);
+  const yMin = hasNegative ? -maxAbs : 0;
+  const yMax = maxAbs;
+
+  const xAt = i => M.l + (n === 1 ? 0 : (i / (n - 1)) * plotW);
+  const yAt = v => M.t + (1 - (v - yMin) / (yMax - yMin)) * plotH;
+
+  const gridVals = hasNegative ? [yMin, yMin / 2, 0, yMax / 2, yMax] : [0, yMax / 2, yMax];
+  const gridSvg = gridVals.map(v => `
+    <line class="chart-gridline" x1="${M.l}" x2="${VW - M.r}" y1="${yAt(v).toFixed(1)}" y2="${yAt(v).toFixed(1)}"></line>
+    <text class="chart-axis-label" x="${M.l - 8}" y="${(yAt(v) + 3).toFixed(1)}" text-anchor="end">${fmt(v, { maximumFractionDigits: 0, notation: 'compact' })}</text>
+  `).join('');
+
+  const nLabels = Math.min(6, n);
+  const step = (n - 1) / (nLabels - 1 || 1);
+  const idxLabels = Array.from({ length: nLabels }, (_, k) => Math.round(k * step));
+  const xLabelsSvg = idxLabels.map(i => `
+    <text class="chart-axis-label" x="${xAt(i).toFixed(1)}" y="${VH - 8}" text-anchor="middle">${fmtDateShort(data[i].fecha)}</text>
+  `).join('');
+
+  const linesSvg = lines.map(l => {
+    const points = l.values.map((v, i) => ({ x: xAt(i), y: yAt(v) }));
+    const linePath = monotoneSmoothPath(points);
+    return `<path class="chart-line" d="${linePath}" style="stroke:var(${l.cfg.colorVar})"></path>`;
+  }).join('');
+
+  const dotsSvg = lines.map((l, li) => `
+    <circle class="chart-dot" id="bs-dot-${li}" r="4" style="display:none;fill:var(${l.cfg.colorVar})"></circle>
+  `).join('');
+
+  chartContainer.innerHTML = `
+    <svg viewBox="0 0 ${VW} ${VH}" preserveAspectRatio="none" role="img" aria-label="Balance de salida">
+      ${gridSvg}
+      ${linesSvg}
+      <line class="chart-crosshair" id="bs-crosshair" x1="0" x2="0" y1="${M.t}" y2="${M.t + plotH}" style="display:none"></line>
+      ${dotsSvg}
+      ${xLabelsSvg}
+      <rect class="chart-hit" id="bs-hit" x="${M.l}" y="${M.t}" width="${plotW}" height="${plotH}"></rect>
+    </svg>
+    <div class="chart-tooltip" id="bs-tooltip"></div>
+  `;
+
+  const svg = chartContainer.querySelector('svg');
+  const hit = document.getElementById('bs-hit');
+  const crosshair = document.getElementById('bs-crosshair');
+  const tooltip = document.getElementById('bs-tooltip');
+  const dots = lines.map((l, li) => document.getElementById(`bs-dot-${li}`));
+
+  function onMove(evt) {
+    const rect = svg.getBoundingClientRect();
+    const clientX = evt.touches ? evt.touches[0].clientX : evt.clientX;
+    const xUser = ((clientX - rect.left) / rect.width) * VW;
+    let i = Math.round(((xUser - M.l) / plotW) * (n - 1));
+    i = Math.max(0, Math.min(n - 1, i));
+    const d = data[i];
+    const px = xAt(i);
+
+    crosshair.setAttribute('x1', px); crosshair.setAttribute('x2', px);
+    crosshair.style.display = '';
+    lines.forEach((l, li) => {
+      const py = yAt(l.values[i]);
+      dots[li].setAttribute('cx', px); dots[li].setAttribute('cy', py);
+      dots[li].style.display = '';
+    });
+
+    const valsHtml = lines.map(l => `<div class="val">${l.label}: ${fmt(l.values[i])}</div>`).join('');
+    tooltip.innerHTML = `<div class="date">${fmtDateShort(d.fecha)}</div>${valsHtml}`;
+    tooltip.style.left = ((px / VW) * rect.width) + 'px';
+    tooltip.style.top = ((yAt(lines[0].values[i]) / VH) * rect.height) + 'px';
+    tooltip.classList.add('visible');
+  }
+  function onLeave() {
+    crosshair.style.display = 'none';
+    dots.forEach(dot => dot.style.display = 'none');
+    tooltip.classList.remove('visible');
+  }
+  hit.addEventListener('mousemove', onMove);
+  hit.addEventListener('mouseleave', onLeave);
+  hit.addEventListener('touchmove', onMove, { passive: true });
+  hit.addEventListener('touchend', onLeave);
+}
+
+const BS_GLOSSARY = [
+  ['Total Stock Valorizado', 'Todo el stock activo (sin kits) valorizado a precio de lista, sin descontar nada — lo que dice el cartel. Es solo referencia, no entra en el cálculo del Saldo Final.'],
+  ['Ingreso Recibido (Total Stock Recibido)', 'Lo que realmente entraría a la cuenta si se vendiera todo el stock activo hoy: Precio de cada publicación menos la comisión de MercadoLibre y, cuando el envío es gratis, el costo de envío que absorbe Deleite — sumado por publicación (Recibís × stock) y por todo el catálogo.'],
+  ['Autónomos', 'El último pago de Autónomos cargado en base_informativa. Se toma un solo pago (el más reciente), no la suma histórica — representa el próximo vencimiento, no lo ya pagado en el año.'],
+  ['IIBB', 'El último pago de Ingresos Brutos cargado en base_informativa. Mismo criterio que Autónomos: un solo pago, el más reciente.'],
+  ['Percepciones y Retenciones', 'Todo lo que MercadoLibre y Mercado Pago percibieron/retuvieron en el último período de facturación (todas las líneas de ese mes en base_impositiva, sumadas).'],
+  ['Deudas Pendientes', 'Suma de lo cargado en la pestaña deudas_pendientes del Sheet que sigue sin pagar a la fecha de este balance (fecha de la deuda ya pasó, y no tiene fecha de pago cargada, o esa fecha es posterior). Esta pestaña la carga Lucas directo en el Sheet.'],
+  ['Saldo Final (Balance de Salida)', 'Ingreso Recibido menos Autónomos, menos IIBB, menos Percepciones y Retenciones, menos Deudas Pendientes. Es la respuesta a "si vendo todo hoy, ¿con cuánto me quedo después de cubrir lo que debo?".'],
+];
+function renderBalanceSalidaGlossary() {
+  document.getElementById('bs-glossary').innerHTML = BS_GLOSSARY.map(([term, def]) => `<dt>${term}</dt><dd>${def}</dd>`).join('');
+}
 
 const MESES_LARGO = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
 let visitasGranularity = 'dia';
@@ -1111,6 +1354,10 @@ function renderAll() {
   renderTabs();
   renderSummary();
   renderVentasMoviles();
+  renderBalanceSalidaSummary();
+  renderBalanceSalidaChips();
+  renderBalanceSalidaChart();
+  renderBalanceSalidaGlossary();
   renderPnlTable();
   renderCategoryProducts();
   renderShipPivot();
