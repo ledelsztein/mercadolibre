@@ -13,6 +13,16 @@
     --positive-soft: #DCEBE1;
     --negative: #A63B2E;
     --negative-soft: #F3DEDA;
+    --tag0-bg: #EADFC8; --tag0-fg: #8C5A22;
+    --tag1-bg: #DCE7F5; --tag1-fg: #2E5FA3;
+    --tag2-bg: #D8EEE7; --tag2-fg: #1F7A63;
+    --tag3-bg: #E7E0F5; --tag3-fg: #5B3FA3;
+    --tag4-bg: #F5DCE8; --tag4-fg: #A3356F;
+    --tag5-bg: #F5E2D3; --tag5-fg: #B35A1F;
+    --tag6-bg: #F5EDCB; --tag6-fg: #8C7412;
+    --tag7-bg: #DEE3E8; --tag7-fg: #45566B;
+    --tag8-bg: #F3DEDA; --tag8-fg: #A63B2E;
+    --tag9-bg: #E3E8D3; --tag9-fg: #5B6B2E;
     --shadow: 0 1px 2px rgba(30,28,18,0.06), 0 8px 24px -12px rgba(30,28,18,0.18);
     --radius: 10px;
     --font-display: Charter, 'Iowan Old Style', 'Palatino Linotype', Georgia, 'Times New Roman', serif;
@@ -33,6 +43,16 @@
       --positive-soft: #1C3128;
       --negative: #E38175;
       --negative-soft: #3A211D;
+      --tag0-bg: #3A2E17; --tag0-fg: #D8A85E;
+      --tag1-bg: #1C2C3E; --tag1-fg: #7FAEE0;
+      --tag2-bg: #16332C; --tag2-fg: #5FC9AE;
+      --tag3-bg: #2A2140; --tag3-fg: #A78BDE;
+      --tag4-bg: #3A1E2C; --tag4-fg: #E087B3;
+      --tag5-bg: #3A2717; --tag5-fg: #E0985F;
+      --tag6-bg: #3A3419; --tag6-fg: #D8BE5E;
+      --tag7-bg: #232830; --tag7-fg: #93A7BE;
+      --tag8-bg: #3A211D; --tag8-fg: #E38175;
+      --tag9-bg: #262B19; --tag9-fg: #A0B369;
       --shadow: 0 1px 2px rgba(0,0,0,0.4), 0 12px 28px -14px rgba(0,0,0,0.6);
     }
   }
@@ -40,12 +60,32 @@
     --bg: #16150F; --surface: #1E1C15; --surface-2: #23211A; --border: #3A3728;
     --text: #F1EEE1; --text-muted: #A8A48E; --accent: #D8A85E; --accent-soft: #3A2E17;
     --positive: #5FB98D; --positive-soft: #1C3128; --negative: #E38175; --negative-soft: #3A211D;
+    --tag0-bg: #3A2E17; --tag0-fg: #D8A85E;
+    --tag1-bg: #1C2C3E; --tag1-fg: #7FAEE0;
+    --tag2-bg: #16332C; --tag2-fg: #5FC9AE;
+    --tag3-bg: #2A2140; --tag3-fg: #A78BDE;
+    --tag4-bg: #3A1E2C; --tag4-fg: #E087B3;
+    --tag5-bg: #3A2717; --tag5-fg: #E0985F;
+    --tag6-bg: #3A3419; --tag6-fg: #D8BE5E;
+    --tag7-bg: #232830; --tag7-fg: #93A7BE;
+    --tag8-bg: #3A211D; --tag8-fg: #E38175;
+    --tag9-bg: #262B19; --tag9-fg: #A0B369;
     --shadow: 0 1px 2px rgba(0,0,0,0.4), 0 12px 28px -14px rgba(0,0,0,0.6);
   }
   :root[data-theme="light"] {
     --bg: #EEEEE5; --surface: #FFFFFF; --surface-2: #F7F6EF; --border: #DBD8C9;
     --text: #1B1A14; --text-muted: #6C6A5A; --accent: #8C5A22; --accent-soft: #EADFC8;
     --positive: #276B4E; --positive-soft: #DCEBE1; --negative: #A63B2E; --negative-soft: #F3DEDA;
+    --tag0-bg: #EADFC8; --tag0-fg: #8C5A22;
+    --tag1-bg: #DCE7F5; --tag1-fg: #2E5FA3;
+    --tag2-bg: #D8EEE7; --tag2-fg: #1F7A63;
+    --tag3-bg: #E7E0F5; --tag3-fg: #5B3FA3;
+    --tag4-bg: #F5DCE8; --tag4-fg: #A3356F;
+    --tag5-bg: #F5E2D3; --tag5-fg: #B35A1F;
+    --tag6-bg: #F5EDCB; --tag6-fg: #8C7412;
+    --tag7-bg: #DEE3E8; --tag7-fg: #45566B;
+    --tag8-bg: #F3DEDA; --tag8-fg: #A63B2E;
+    --tag9-bg: #E3E8D3; --tag9-fg: #5B6B2E;
     --shadow: 0 1px 2px rgba(30,28,18,0.06), 0 8px 24px -12px rgba(30,28,18,0.18);
   }
 
@@ -295,8 +335,30 @@
   table.products td { padding: 6px 7px; vertical-align: middle; }
   table.products td.name { max-width: 260px; }
   table.products td.name .sku { display: block; font-family: var(--font-mono); font-size: 9.5px; color: var(--text-muted); }
-  table.products td.name .title { font-weight: 500; }
+  table.products td.name .title {
+    display: block; max-width: 240px; font-weight: 500;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
   table.products td.cat { color: var(--text-muted); font-size: 10.5px; }
+  .cat-tag {
+    display: inline-block; font-size: 10.5px; font-weight: 600;
+    padding: 2px 9px; border-radius: 999px; white-space: nowrap;
+  }
+  .cat-tag-0 { background: var(--tag0-bg); color: var(--tag0-fg); }
+  .cat-tag-1 { background: var(--tag1-bg); color: var(--tag1-fg); }
+  .cat-tag-2 { background: var(--tag2-bg); color: var(--tag2-fg); }
+  .cat-tag-3 { background: var(--tag3-bg); color: var(--tag3-fg); }
+  .cat-tag-4 { background: var(--tag4-bg); color: var(--tag4-fg); }
+  .cat-tag-5 { background: var(--tag5-bg); color: var(--tag5-fg); }
+  .cat-tag-6 { background: var(--tag6-bg); color: var(--tag6-fg); }
+  .cat-tag-7 { background: var(--tag7-bg); color: var(--tag7-fg); }
+  .cat-tag-8 { background: var(--tag8-bg); color: var(--tag8-fg); }
+  .cat-tag-9 { background: var(--tag9-bg); color: var(--tag9-fg); }
+  table.products td.name .order-link {
+    display: inline; font-family: var(--font-mono); font-size: 9.5px;
+    color: var(--accent); text-decoration: none;
+  }
+  table.products td.name .order-link:hover { text-decoration: underline; }
   .margin-pill {
     display: inline-flex; align-items: center; gap: 5px; font-variant-numeric: tabular-nums;
     font-weight: 700; font-size: 11px;
@@ -964,6 +1026,17 @@ function renderShipPivot() {
 }
 
 const ORDENES_ROW_LIMIT = 300; // evita renderizar miles de filas sin filtrar
+const CAT_TAG_COUNT = 10;
+
+function catTagIdx(cat) {
+  let h = 0;
+  for (let i = 0; i < cat.length; i++) h = (h * 31 + cat.charCodeAt(i)) >>> 0;
+  return h % CAT_TAG_COUNT;
+}
+
+function escAttr(s) {
+  return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+}
 
 function populateCatFilter() {
   const select = document.getElementById('filter-cat');
@@ -996,13 +1069,16 @@ function renderOrdenes() {
         <th class="num">Costo</th><th class="num">Resultado Neto</th><th class="num">Margen %</th>
       </tr>
     </thead>`;
-  const body = shown.map(o => `
+  const body = shown.map(o => {
+    const ventaId = o.pack_id || o.order_id;
+    const ventaUrl = `https://vendedores.mercadolibre.com.ar/ventas/${ventaId}/detalle`;
+    return `
     <tr>
       <td>${o.fecha}</td>
-      <td class="name"><span class="sku">${o.order_id}</span></td>
+      <td class="name"><a class="order-link" href="${ventaUrl}" target="_blank" rel="noopener noreferrer">${o.order_id}</a></td>
       <td class="name"><span class="sku">${o.pack_id || '—'}</span></td>
-      <td class="name"><span class="title">${o.title}</span><span class="sku">SKU ${o.sku} · ${o.item_id}</span></td>
-      <td class="cat">${o.cat}</td>
+      <td class="name"><span class="title" title="${escAttr(o.title)}">${o.title}</span><span class="sku">SKU ${o.sku} · ${o.item_id}</span></td>
+      <td class="cat"><span class="cat-tag cat-tag-${catTagIdx(o.cat)}">${o.cat}</span></td>
       <td>${o.tipo_envio}</td>
       <td class="num">${o.qty}</td>
       <td class="num">${fmt(o.venta)}</td>
@@ -1012,7 +1088,8 @@ function renderOrdenes() {
       <td class="num">${fmt(o.margen)}</td>
       <td class="num">${fmtPct(o.margen_pct)}</td>
     </tr>
-  `).join('');
+  `;
+  }).join('');
   document.getElementById('ordenes-table').innerHTML = head + `<tbody>${body}</tbody>`;
   if (rows.length > ORDENES_ROW_LIMIT) {
     note.textContent += ` (mostrando las primeras ${ORDENES_ROW_LIMIT} — acotá con los filtros para ver el resto)`;
