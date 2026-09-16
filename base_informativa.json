@@ -180,5 +180,12 @@
     "detalle": "Pago Autónomos Septiembre (sin IVA aplicable)",
     "importe_sin_iva": 103603.74,
     "importe_con_iva": 103603.74
+  },
+  {
+    "fecha": "2026-09-14",
+    "categoria": "Otros cargos logísticos",
+    "detalle": "Alan Jalef - Factura 00001-00000047 (monotributista, sin IVA)",
+    "importe_sin_iva": 30000.0,
+    "importe_con_iva": 30000.0
   }
 ]
