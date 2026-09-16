@@ -250,11 +250,16 @@ if os.path.exists('base_visitas.json'):
     ]
     visitas.sort(key=lambda r: r['fecha'])
 
+balance_salida = []
+if os.path.exists('balance_salida.json'):
+    balance_salida = json.load(open('balance_salida.json', encoding='utf-8'))
+    balance_salida.sort(key=lambda r: r['fecha'])
+
 output = {
     'pnl': pnl_out, 'productos': productos, 'categorias': categorias, 'envios_tipo': envios_tipo,
     'meses_pivot': meses_pivot, 'categorias_pivot': categorias_pivot_list, 'productos_pivot': productos_pivot_list,
     'envios_pivot': envios_pivot_list, 'ordenes': ordenes, 'ventas_moviles_7d': ventas_moviles_7d,
-    'visitas': visitas,
+    'visitas': visitas, 'balance_salida': balance_salida,
 }
 with open('dashboard_data.json', 'w', encoding='utf-8') as f:
     json.dump(output, f, ensure_ascii=False, separators=(',', ':'))
