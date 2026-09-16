@@ -17666,19 +17666,6 @@
     "pasante_c": 0.0,
     "pasante_s": 0.0
   },
-  "2000018342622744": {
-    "order_id": 2000018342622744,
-    "pack_id": 2000014922468849,
-    "fecha": "2026-09-08",
-    "shipment_id": 47960211508,
-    "tipo_envio": "Full",
-    "ingreso_c": 0.0,
-    "ingreso_s": 0.0,
-    "costo_c": 0.0,
-    "costo_s": 0.0,
-    "pasante_c": 0.0,
-    "pasante_s": 0.0
-  },
   "2000018342624646": {
     "order_id": 2000018342624646,
     "pack_id": 2000014922468849,
