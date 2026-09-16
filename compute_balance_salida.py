@@ -77,12 +77,27 @@ def parsear_fecha(valor):
 
 
 def parsear_monto(valor):
+    """Si Sheets ya devuelve un numero (celda con formato numerico), se usa
+    directo -- sin ambiguedad. Si viene como texto, hay que adivinar el
+    formato: el estilo argentino ('50.000,50') es inequivoco (punto=miles,
+    coma=decimal), pero un solo punto sin coma es ambiguo ('50.000' miles
+    vs '50000.50' decimal) -- se interpreta como decimal solo si tiene
+    exactamente 1 o 2 digitos despues del punto (formato de centavos),
+    si no se asume separador de miles."""
     if valor is None or valor == '':
         return 0.0
     if isinstance(valor, (int, float)):
         return float(valor)
-    limpio = str(valor).replace('$', '').replace('.', '').replace(',', '.').strip()
-    return float(limpio) if limpio else 0.0
+    texto = str(valor).replace('$', '').strip()
+    if not texto:
+        return 0.0
+    if ',' in texto:
+        limpio = texto.replace('.', '').replace(',', '.')
+    elif texto.count('.') == 1 and len(texto.split('.')[1]) in (1, 2):
+        limpio = texto
+    else:
+        limpio = texto.replace('.', '')
+    return float(limpio)
 
 
 def deudas_pendientes_a_fecha(sheets, spreadsheet_id, fecha):
@@ -92,18 +107,24 @@ def deudas_pendientes_a_fecha(sheets, spreadsheet_id, fecha):
     filas = result.get('values', [])
     total = 0.0
     detalle = []
-    for fila in filas:
+    for i, fila in enumerate(filas):
+        num_fila = i + 2  # +2: la data arranca en la fila 2 del Sheet (1 es el header)
         fila = fila + [''] * (4 - len(fila))
         fecha_deuda_raw, concepto, monto_raw, fecha_pago_raw = fila[:4]
-        fecha_deuda = parsear_fecha(fecha_deuda_raw)
-        fecha_pago = parsear_fecha(fecha_pago_raw)
-        if not fecha_deuda:
+        if not fecha_deuda_raw:
+            continue
+        try:
+            fecha_deuda = parsear_fecha(fecha_deuda_raw)
+            fecha_pago = parsear_fecha(fecha_pago_raw)
+            monto = parsear_monto(monto_raw)
+        except ValueError as exc:
+            print(f'  ADVERTENCIA: fila {num_fila} de deudas_pendientes no se pudo leer ({exc}) -- '
+                  f'se ignora esa fila, revisarla a mano en el Sheet.')
             continue
         if fecha_deuda > fecha:
             continue
         if fecha_pago and fecha_pago <= fecha:
             continue
-        monto = parsear_monto(monto_raw)
         total += monto
         detalle.append({'concepto': concepto, 'monto': monto, 'fecha_deuda': fecha_deuda, 'fecha_pago': fecha_pago})
     return total, detalle

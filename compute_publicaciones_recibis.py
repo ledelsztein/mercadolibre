@@ -7,6 +7,12 @@ Guarda tanto el Recibis POR UNIDAD como el Recibis TOTAL (Recibis x stock
 disponible) -- este ultimo es el que hay que usar para "si vendo todo el
 stock, cuanto entra" (ver tabla "balance_salida", 2026-09-16).
 
+Publicaciones con variaciones (ML "variations", ej. mismo producto en
+colores/talles distintos bajo una sola publicacion): el stock real esta
+repartido en cada variacion, no en available_quantity del item raiz (que
+en ese caso suele venir en 0) -- se suma el stock de todas las
+variaciones. Imprime un AVISO cuando esto pasa (no es un error).
+
 Metodologia confirmada a mano con Lucas comparando contra el desglose real
 del panel de MercadoLibre (icono "i" junto a "Recibis" en Mis publicaciones),
 2026-09-15:
@@ -214,7 +220,16 @@ if __name__ == '__main__':
             print(f"  ERROR en {it.get('id')}: {exc} -- se saltea")
             continue
         recibis = round(precio - c - e, 2)
-        stock = it.get('available_quantity') or 0
+        variaciones = it.get('variations') or []
+        if variaciones:
+            # available_quantity del item raiz no sirve cuando hay variaciones
+            # (color/talle/etc bajo la misma publicacion) -- el stock real esta
+            # repartido en cada variacion.
+            stock = sum(v.get('available_quantity') or 0 for v in variaciones)
+            print(f"  AVISO: {it.get('id')} tiene {len(variaciones)} variaciones -- "
+                  f"stock sumado de todas ellas ({stock}).")
+        else:
+            stock = it.get('available_quantity') or 0
         sku = it.get('seller_custom_field')
         if not sku:
             for attr in it.get('attributes', []):
