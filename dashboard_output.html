@@ -323,12 +323,13 @@
 
   /* ---------- Product table ---------- */
   .table-scroll { overflow-x: auto; }
-  table.products { width: 100%; border-collapse: collapse; font-size: 11.5px; min-width: 600px; }
+  table.products { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 11.5px; min-width: 600px; }
   table.products thead th {
     text-align: left; font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em;
     color: var(--text-muted); font-weight: 600; padding: 6px 7px; border-bottom: 1px solid var(--border);
-    position: sticky; top: 0; background: var(--surface);
+    position: sticky; top: 0; background: var(--surface); z-index: 1;
   }
+  #ordenes-scroll { max-height: 65vh; overflow-y: auto; padding-top: 0; }
   table.products th.num, table.products td.num { text-align: right; font-variant-numeric: tabular-nums; }
   table.products tbody tr { border-bottom: 1px solid var(--border); }
   table.products tbody tr:hover { background: var(--surface-2); }
@@ -495,7 +496,7 @@
           <button type="button" id="filter-clear">Limpiar filtros</button>
         </div>
       </div>
-      <div class="panel-body table-scroll">
+      <div class="panel-body table-scroll" id="ordenes-scroll">
         <table class="pnl-table products" id="ordenes-table"></table>
       </div>
     </section>
