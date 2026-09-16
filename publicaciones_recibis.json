@@ -1,0 +1,222 @@
+[
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA2275474780",
+    "sku": "10005",
+    "producto": "Cuchara Cafe Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "precio": 9343.4,
+    "comision": 2670.78,
+    "envio_absorbido": 0.0,
+    "recibis": 6672.62
+  },
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA2275461880",
+    "sku": "10004",
+    "producto": "Cuchara Te Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "precio": 10626.8,
+    "comision": 2854.95,
+    "envio_absorbido": 0.0,
+    "recibis": 7771.85
+  },
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA1926311309",
+    "sku": "50023",
+    "producto": "Bisglicinato De Magnesio Geonat Geomagnesium Con Vitaminas B En Comprimidos X 60 Sin Sabor",
+    "precio": 16450.0,
+    "comision": 5289.75,
+    "envio_absorbido": 0.0,
+    "recibis": 11160.25
+  },
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA1947819693",
+    "sku": "50014",
+    "producto": "L-arginina + L-citrulina + Ginseng | M1 Energy | Bylappiel Sin Sabor",
+    "precio": 21000,
+    "comision": 8809,
+    "envio_absorbido": 0.0,
+    "recibis": 12191.0
+  },
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA2275436424",
+    "sku": "30009",
+    "producto": "Untador Nicols Atlas Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "precio": 18147.4,
+    "comision": 5344.15,
+    "envio_absorbido": 0.0,
+    "recibis": 12803.25
+  },
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA2275397446",
+    "sku": "10001",
+    "producto": "Tenedor Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "precio": 19269.6,
+    "comision": 5525.19,
+    "envio_absorbido": 0.0,
+    "recibis": 13744.41
+  },
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA1516293305",
+    "sku": "10003",
+    "producto": "Cuchara Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "precio": 19269.6,
+    "comision": 5505.19,
+    "envio_absorbido": 0.0,
+    "recibis": 13764.41
+  },
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA2275474776",
+    "sku": "10002",
+    "producto": "Cuchara Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "precio": 20075.6,
+    "comision": 5620.85,
+    "envio_absorbido": 0.0,
+    "recibis": 14454.75
+  },
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA3677881124",
+    "sku": "50020",
+    "producto": "Treonato De Magnesio 1000 Mg Geonat Para Concentración Y Memoria  60 Comprimidos Sin Sabor",
+    "precio": 21200.0,
+    "comision": 6026,
+    "envio_absorbido": 0.0,
+    "recibis": 15174.0
+  },
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA1977869381",
+    "sku": "50033",
+    "producto": "Omega 3 Epa Aceite Pescado Geonat Colesterol 60 Cápsulas Sin Sabor",
+    "precio": 22000,
+    "comision": 6150,
+    "envio_absorbido": 0.0,
+    "recibis": 15850.0
+  },
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA3770705240",
+    "sku": "50029",
+    "producto": "Creatina Monohidrato Ena Sport 300g Micronizada - 60 Servicios - Potencia Masa Muscular Y Rendimiento Deportivo Sin Sabor",
+    "precio": 30000.0,
+    "comision": 9490,
+    "envio_absorbido": 0.0,
+    "recibis": 20510.0
+  },
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA2275436422",
+    "sku": "10007",
+    "producto": "Cuchillo Postre Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "precio": 33641.2,
+    "comision": 4827.51,
+    "envio_absorbido": 7790,
+    "recibis": 21023.69
+  },
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA3566784906",
+    "sku": "50005",
+    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Plus",
+    "precio": 29000,
+    "comision": 7507,
+    "envio_absorbido": 0.0,
+    "recibis": 21493.0
+  },
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA1516301921",
+    "sku": "10006",
+    "producto": "Cuchillo Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "precio": 35042.4,
+    "comision": 5028.58,
+    "envio_absorbido": 7790,
+    "recibis": 22223.82
+  },
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA1977669679",
+    "sku": "50030",
+    "producto": "Creatina Monohidratada 100% Pura 300 Gramos Sin Sabor En Pote Polvo - Star Nutrition",
+    "precio": 32000.0,
+    "comision": 8300,
+    "envio_absorbido": 0.0,
+    "recibis": 23700.0
+  },
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA1729211787",
+    "sku": "50001",
+    "producto": "Tabla De Picar De Corte 35x24cm Acero Inoxidable 304 Liso Acero Inoxidable",
+    "precio": 52080.0,
+    "comision": 12108.6,
+    "envio_absorbido": 8790,
+    "recibis": 31181.4
+  },
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA2275436420",
+    "sku": "10009",
+    "producto": "Cuchillo Grille Nicols Corintia Inox Pulido Brillante X6 Acero Inoxidable",
+    "precio": 45545.2,
+    "comision": 6535.74,
+    "envio_absorbido": 7790,
+    "recibis": 31219.46
+  },
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA1516314673",
+    "sku": "20008",
+    "producto": "Cuchillo Asado Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "precio": 52563.6,
+    "comision": 7542.88,
+    "envio_absorbido": 8290,
+    "recibis": 36730.72
+  },
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA2275448906",
+    "sku": "20006",
+    "producto": "Cuchillo Mesa Nicols Delta Acero Inox Pulido Brillante X6 Acero Inoxidable",
+    "precio": 66761.6,
+    "comision": 9580.29,
+    "envio_absorbido": 8290,
+    "recibis": 48891.31
+  },
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA1961104509",
+    "sku": "50027",
+    "producto": "Juego Set Toalla Toallon Oregon 100% Algodón 630 G/m2 Ultra Marrón Claro Honey",
+    "precio": 74400.0,
+    "comision": 10639.2,
+    "envio_absorbido": 13090,
+    "recibis": 50670.8
+  },
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA1961104511",
+    "sku": "50024",
+    "producto": "Juego Set Toalla Toallon Oregon 100% Algodón 630 G/m2 Ultra Blanco",
+    "precio": 74400.0,
+    "comision": 10639.2,
+    "envio_absorbido": 13090,
+    "recibis": 50670.8
+  },
+  {
+    "fecha": "2026-09-15",
+    "item_id": "MLA1977867145",
+    "sku": "50031",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907g Vainilla 2l Vainilla Gourmet",
+    "precio": 110950.0,
+    "comision": 17197.25,
+    "envio_absorbido": 8790,
+    "recibis": 84962.75
+  }
+]
