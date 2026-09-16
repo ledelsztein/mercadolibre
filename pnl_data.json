@@ -91,19 +91,19 @@
     "cargo_neto": true,
     "n_ordenes": 727
   },
-  "Septiembre (parcial al 14)": {
-    "ventas": 11099794.35,
+  "Septiembre (parcial al 15)": {
+    "ventas": 12497603.7,
     "envios_ingreso": 128025.5,
     "envios_ingreso_flex": 22470.0,
-    "cogs": 6514263.11,
-    "cargo_venta": 2352586.72,
-    "egreso_envio": 382635.5,
-    "egreso_envio_real": 277080.0,
+    "cogs": 7305304.3,
+    "cargo_venta": 2711314.37,
+    "egreso_envio": 407605.5,
+    "egreso_envio_real": 302050.0,
     "envio_pasante": 105555.5,
-    "publicidad": 237289.87,
-    "cargo_colecta_full": 39026.7,
-    "cargo_almacenamiento_full": 2874.75,
-    "adelanto": 77483.94,
+    "publicidad": 254793.55,
+    "cargo_colecta_full": 64157.33,
+    "cargo_almacenamiento_full": 2959.05,
+    "adelanto": 107217.52,
     "logistica_flex": 39959.95,
     "otros_log": 0,
     "otros_cargos": 0,
@@ -112,6 +112,6 @@
     "percepciones": null,
     "iibb": 0,
     "cargo_neto": true,
-    "n_ordenes": 309
+    "n_ordenes": 348
   }
 }
