@@ -3,6 +3,9 @@ Arma la tabla "publicaciones_recibis": una foto de cuanto RECIBE Lucas neto
 por cada publicacion ACTIVA si se vende hoy a su precio de lista --
 Precio - Comision (cargo por vender + cuotas) - Envio absorbido (cuando el
 envio es gratis y lo paga el vendedor) -- fechada al dia que se corre.
+Guarda tanto el Recibis POR UNIDAD como el Recibis TOTAL (Recibis x stock
+disponible) -- este ultimo es el que hay que usar para "si vendo todo el
+stock, cuanto entra" (ver tabla "balance_salida", 2026-09-16).
 
 Metodologia confirmada a mano con Lucas comparando contra el desglose real
 del panel de MercadoLibre (icono "i" junto a "Recibis" en Mis publicaciones),
@@ -211,6 +214,7 @@ if __name__ == '__main__':
             print(f"  ERROR en {it.get('id')}: {exc} -- se saltea")
             continue
         recibis = round(precio - c - e, 2)
+        stock = it.get('available_quantity') or 0
         sku = it.get('seller_custom_field')
         if not sku:
             for attr in it.get('attributes', []):
@@ -219,6 +223,7 @@ if __name__ == '__main__':
         nuevos.append({
             'fecha': fecha, 'item_id': it.get('id'), 'sku': sku or '', 'producto': it.get('title'),
             'precio': precio, 'comision': round(c, 2), 'envio_absorbido': round(e, 2), 'recibis': recibis,
+            'stock': stock, 'recibis_total': round(recibis * stock, 2),
             'user_product_id': it.get('user_product_id'),
         })
         if (idx + 1) % 10 == 0:
@@ -251,9 +256,9 @@ if __name__ == '__main__':
     registros.sort(key=lambda r: (r['fecha'], r['recibis']))
 
     json.dump(registros, open('publicaciones_recibis.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
-    total = sum(r['recibis'] for r in nuevos)
+    total = sum(r['recibis_total'] for r in nuevos)
     print(f'{fecha}: {len(nuevos)} publicaciones ({n_kits_excluidos} kits excluidos, '
           f'{n_duplicados_excluidos} duplicados catalogo/tradicional excluidos por peor Recibis), '
-          f'Recibis total si se vendiera todo hoy: ${total:,.2f}')
+          f'Recibis total (stock x recibis por unidad) si se vendiera todo hoy: ${total:,.2f}')
     print(f'Guardado publicaciones_recibis.json ({len(registros)} filas en total, '
           f'{len(set(r["fecha"] for r in registros))} fechas distintas)')

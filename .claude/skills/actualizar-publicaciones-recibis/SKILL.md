@@ -50,7 +50,7 @@ de publicaciones de Lucas (2026-09-15): Treonato De Magnesio ($15.174), Creatina
    `logistic_type`, `free_shipping=true`. El campo `coverage.all_country.list_cost` es el
    envío que absorbe Lucas. Si `free_shipping` es `false`, el comprador paga el envío y esto
    queda en 0 -- **no llamar a este endpoint en ese caso** (ahorra llamadas).
-3. **Recibís = Precio - Comisión - Envío absorbido**.
+3. **Recibís = Precio - Comisión - Envío absorbido** (por unidad). **Recibís Total = Recibís × Stock disponible** -- es el que hay que usar para "si vendo todo el stock, cuánto entra" (tabla `balance_salida`, no confundir con el Recibís por unidad).
 
 No usar `/items/{id}/shipping_options` (sin `/free`) para esto -- ese es para cotizar el
 envío que paga el comprador según destino, no el que absorbe el vendedor; da un número

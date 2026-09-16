@@ -15,10 +15,10 @@ sheets = build('sheets', 'v4', credentials=creds)
 
 registros = json.load(open('publicaciones_recibis.json', encoding='utf-8'))
 
-HEADER = ['Fecha', 'SKU', 'Item ID', 'Producto', 'Precio', 'Comisión', 'Envío Absorbido', 'Recibís']
+HEADER = ['Fecha', 'SKU', 'Item ID', 'Producto', 'Precio', 'Comisión', 'Envío Absorbido', 'Recibís', 'Stock', 'Recibís Total']
 rows = [HEADER]
-for r in sorted(registros, key=lambda r: (r['fecha'], r['recibis']), reverse=True):
-    rows.append([r['fecha'], r['sku'], r['item_id'], r['producto'], r['precio'], r['comision'], r['envio_absorbido'], r['recibis']])
+for r in sorted(registros, key=lambda r: (r['fecha'], r['recibis_total']), reverse=True):
+    rows.append([r['fecha'], r['sku'], r['item_id'], r['producto'], r['precio'], r['comision'], r['envio_absorbido'], r['recibis'], r['stock'], r['recibis_total']])
 
 spreadsheet_id = open('sheet_id.txt').read().strip()
 meta = sheets.spreadsheets().get(spreadsheetId=spreadsheet_id).execute()
@@ -29,7 +29,7 @@ if 'publicaciones_recibis' not in existing_titles:
     }).execute()
     print('Tab publicaciones_recibis creada')
 
-sheets.spreadsheets().values().clear(spreadsheetId=spreadsheet_id, range='publicaciones_recibis!A:H', body={}).execute()
+sheets.spreadsheets().values().clear(spreadsheetId=spreadsheet_id, range='publicaciones_recibis!A:J', body={}).execute()
 sheets.spreadsheets().values().update(
     spreadsheetId=spreadsheet_id, range='publicaciones_recibis!A1',
     valueInputOption='USER_ENTERED', body={'values': rows},
@@ -50,6 +50,11 @@ fmt = [
     }},
     {'repeatCell': {
         'range': {'sheetId': sid, 'startRowIndex': 1, 'endRowIndex': len(rows), 'startColumnIndex': 4, 'endColumnIndex': 8},
+        'cell': {'userEnteredFormat': {'numberFormat': {'type': 'CURRENCY', 'pattern': '$#,##0.00'}}},
+        'fields': 'userEnteredFormat.numberFormat',
+    }},
+    {'repeatCell': {
+        'range': {'sheetId': sid, 'startRowIndex': 1, 'endRowIndex': len(rows), 'startColumnIndex': 9, 'endColumnIndex': 10},
         'cell': {'userEnteredFormat': {'numberFormat': {'type': 'CURRENCY', 'pattern': '$#,##0.00'}}},
         'fields': 'userEnteredFormat.numberFormat',
     }},
