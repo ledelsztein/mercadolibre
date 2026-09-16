@@ -32,7 +32,7 @@ PERIODOS = [
     ('junio', '2026-06-01', '2026-06-30'),
     ('julio', '2026-07-01', '2026-07-31'),
     ('agosto', '2026-08-01', '2026-08-31'),
-    ('septiembre', '2026-09-01', '2026-09-14'),
+    ('septiembre', '2026-09-01', '2026-09-15'),
 ]
 
 mes_key_by_label = {label.lower().split(' ')[0]: label for label in PNL}

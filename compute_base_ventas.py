@@ -165,6 +165,13 @@ def fetch_order_base(order_id):
         p = get_mp(f'https://api.mercadopago.com/v1/payments/{pago["id"]}')
         for c in p.get('charges_details', []):
             amt = c['amounts']['original']
+            # accounts.from indica quien paga el cargo -- "payer" (ej.
+            # financing_fee de cuotas con interes que paga el comprador
+            # directo a MP) no te lo descuentan a vos, no es un cargo propio.
+            # Confirmado 2026-09-16 contra net_received_amount real (caso
+            # orden 2000018463293462): incluirlo daba margen negativo falso.
+            if c.get('type') == 'fee' and c.get('accounts', {}).get('from') != 'collector':
+                continue
             if c.get('type') == 'fee' and c.get('name') == 'meli_percentage_fee':
                 cargo_var += amt
             elif c.get('type') == 'fee' and c.get('name') == 'flat_fee':
