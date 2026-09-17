@@ -9,6 +9,10 @@ Repo: `C:\Users\User\Projects\mercadolibre`. Todos los comandos se corren parado
 
 `base_envios` es la contracara de `base_ventas` (misma granularidad, una fila por orden pagada) pero enfocada solo en la economía del envío -- no en toda la venta. Ver memoria `mercadolibre-base-envios` para el detalle completo.
 
+## Paso 0 -- re-verificar status de los últimos 30 días (si esta skill se invoca sola)
+
+Si esto NO se está corriendo como parte de `actualizar-tablero` (que ya incluye este paso), correr primero `python verificar_status_reciente.py` -- ver `actualizar-base-ventas` para el detalle de qué hace y por qué.
+
 ## Paso 1 -- reportar cobertura y pedir el rango
 
 ```bash

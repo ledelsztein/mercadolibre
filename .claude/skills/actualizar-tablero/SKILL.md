@@ -1,6 +1,6 @@
 ---
 name: actualizar-tablero
-description: "Actualiza TODO el tablero de Deleite (MercadoLibre): las 7 tablas base_* del Sheet (base_ventas, base_envios, base_ads, base_informativa, base_impositiva, base_full, base_adelantos), la foto diaria de stock_valorizado, el P&L (pnl_data.json), y el dashboard HTML publicado -- de punta a punta, en una sola pasada. Usar SIEMPRE que Lucas pida actualizar el tablero, el dashboard, el P&L completo, 'todo', o traer los datos hasta hoy/ayer -- no solo cuando lo pida con estas palabras exactas. Para actualizar SOLO una tabla puntual, invocar directamente su skill (actualizar-base-ventas, actualizar-base-envios, actualizar-base-ads, actualizar-base-informativa, actualizar-base-impositiva, actualizar-base-full, actualizar-base-adelantos, actualizar-stock-valorizado); esta skill es la orquestadora que las llama a todas."
+description: "Actualiza TODO el tablero de Deleite (MercadoLibre): las 7 tablas base_* del Sheet (base_ventas, base_envios, base_ads, base_informativa, base_impositiva, base_full, base_adelantos), las fotos diarias de stock_valorizado y publicaciones_recibis, balance_salida, el P&L (pnl_data.json), y el dashboard HTML publicado -- de punta a punta, en una sola pasada, incluyendo un re-chequeo de status de ordenes de los ultimos 30 dias. Usar SIEMPRE que Lucas pida actualizar el tablero, el dashboard, el P&L completo, 'todo', o traer los datos hasta hoy/ayer -- no solo cuando lo pida con estas palabras exactas. Para actualizar SOLO una tabla puntual, invocar directamente su skill (actualizar-base-ventas, actualizar-base-envios, actualizar-base-ads, actualizar-base-informativa, actualizar-base-impositiva, actualizar-base-full, actualizar-base-adelantos, actualizar-stock-valorizado, actualizar-publicaciones-recibis, actualizar-balance-salida); esta skill es la orquestadora que las llama a todas."
 ---
 
 # Actualizar el tablero completo (Deleite / MercadoLibre)
@@ -18,6 +18,14 @@ Cuando Lucas invoca esta skill directamente, el rango a actualizar se calcula so
 3. **El rango a actualizar es desde el día siguiente al último dato guardado, hasta `hoy_real - 1` inclusive** — puede ser más de un día (Lucas no la corre necesariamente todos los días, puede haber quedado un hueco de varios días sin ejecutar). No asumir que solo pasó un día.
 4. Decirle a Lucas el rango que se va a actualizar (transparencia), pero **no hace falta esperar su confirmación** para arrancar — a diferencia de una corrida exploratoria/puntual, esta es la corrida de rutina que él mismo pidió poder disparar directo.
 
+## Paso 0.5 — re-verificar status de los últimos 30 días (pedido de Lucas, 2026-09-17)
+
+```bash
+python verificar_status_reciente.py
+```
+
+Ninguna otra parte del pipeline vuelve a chequear si una orden ya guardada (de hace más de 1 día) cambió de `paid` a `cancelled`/`refunded` -- una vez procesada, queda así para siempre salvo que este script la agarre. Corre barato (solo re-pega a `/orders/search` para los últimos 30 días, no a los ~1600+ pedidos históricos desde mayo -- MercadoLibre no permite que una orden cambie de status pasado ese plazo). Si imprime "ATENCION", ya sacó las órdenes afectadas de `base_ventas.json`/`base_envios.json` -- avisarle a Lucas cuáles y por qué, y no olvidarse de correr `build_base_ventas_sheet.py`/`build_base_envios_sheet.py` para esas dos tablas antes de seguir (el Paso 2 de acá abajo ya regenera P&L/dashboard con los datos corregidos, pero el Sheet de esas dos tablas puntuales no se toca solo con eso).
+
 ## Paso 1 — invocar cada skill de tabla, en este orden
 
 1. **Invocar la skill `actualizar-base-ventas`** con el rango completo calculado en el Paso 0 más 1 día de margen hacia atrás (no hace falta todo el mes -- confirmado que ningún shipment compartido cruza fechas distintas, ver esa skill para el detalle). Si el rango cruza de un mes a otro, correr por separado cada mes que toque.
@@ -27,7 +35,9 @@ Cuando Lucas invoca esta skill directamente, el rango a actualizar se calcula so
 5. **Invocar la skill `actualizar-base-impositiva`** — SOLO si cerró un período de Facturación nuevo desde la última corrida (corren 7-a-6, cierran el 7 del mes siguiente). Si no cerró ninguno, saltear este paso entero.
 6. **Invocar la skill `actualizar-base-full`** (siempre el rango completo mayo–hoy, es barata, cachea agresivo igual que `base_ads`).
 7. **Invocar la skill `actualizar-base-adelantos`** (mismo criterio que `base_full`).
-8. **Invocar la skill `actualizar-stock-valorizado`** — foto de HOY (fecha real, no `hoy_real - 1`; esta tabla no sigue la convención de día cerrado porque no es un dato de ventas, es el estado actual de las publicaciones). Independiente del resto: no alimenta el P&L ni el dashboard, así que no hace falta tocar `PERIODOS` ni nada del Paso 2 por esta tabla.
+8. **Invocar la skill `actualizar-stock-valorizado`** — foto de HOY (fecha real, no `hoy_real - 1`; esta tabla no sigue la convención de día cerrado porque no es un dato de ventas, es el estado actual de las publicaciones). Independiente del P&L/dashboard del Paso 2, pero SÍ la necesita el Paso 9 (`balance_salida`) como referencia.
+9. **Invocar la skill `actualizar-publicaciones-recibis`** — también foto de HOY, mismo criterio que `stock_valorizado`.
+10. **Invocar la skill `actualizar-balance-salida`** — depende de los dos pasos anteriores (`stock_valorizado` y `publicaciones_recibis`) ya corridos hoy, además de `base_informativa` (Autónomos/IIBB) y `base_impositiva` (Percepciones) frescos. Correr último dentro de este Paso 1.
 
 ## Paso 2 — regenerar P&L, dashboard y Sheet
 
@@ -48,7 +58,7 @@ Copiar `dashboard_output.html` al scratchpad y llamar a la herramienta Artifact 
 
 ## Paso 4 — reportar, no solo decir "listo"
 
-Contarle a Lucas: cuántas órdenes nuevas entraron, si algo quedó excluido (no "paid"), si hubo algún shipment compartido prorrateado, si saltó algún paso (ej. `base_impositiva` porque no cerró período), y — sobre todo — **si algún número se movió de forma no trivial contra la corrida anterior** (ej. publicidad que creció por facturación tardía, o un mes que cambia de signo). No hay que esconder sorpresas, hay que señalarlas.
+Contarle a Lucas: cuántas órdenes nuevas entraron, si algo quedó excluido (no "paid"), si el Paso 0.5 encontró alguna orden que cambió de status (cuál, y a qué pasó), si hubo algún shipment compartido prorrateado, si saltó algún paso (ej. `base_impositiva` porque no cerró período), y — sobre todo — **si algún número se movió de forma no trivial contra la corrida anterior** (ej. publicidad que creció por facturación tardía, o un mes que cambia de signo). No hay que esconder sorpresas, hay que señalarlas.
 
 ## Reglas que no hay que re-derivar (resumen — el detalle completo está en cada skill de tabla y en la memoria)
 

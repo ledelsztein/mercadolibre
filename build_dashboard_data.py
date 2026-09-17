@@ -50,6 +50,18 @@ for label, m in PNL.items():
     m['resultado_neto'] = m['resultado_bruto'] - m['total_impuestos'] if m['percepciones'] is not None else None
     m['margen_neto'] = (m['resultado_neto'] / m['ventas']) if (m['resultado_neto'] is not None and m['ventas']) else None
 
+    # Version estimada (pedido de Lucas, 2026-09-17) para el mes en curso: si
+    # falta el dato real de Percepciones y/o IIBB, se usa el estimado que ya
+    # trae pnl_data.json (ultimo valor real conocido) para poder mostrar un
+    # Resultado Neto aproximado en vez de dejarlo "pendiente" todo el mes.
+    if m['percepciones'] is None or m['iibb'] == 0:
+        percepciones_est = m['percepciones'] if m['percepciones'] is not None else m.get('percepciones_estimado')
+        iibb_est = m['iibb'] if m['iibb'] else m.get('iibb_estimado')
+        if percepciones_est is not None and iibb_est is not None:
+            m['total_impuestos_estimado'] = m['autonomos'] + percepciones_est + iibb_est
+            m['resultado_neto_estimado'] = m['resultado_bruto'] - m['total_impuestos_estimado']
+            m['margen_neto_estimado'] = (m['resultado_neto_estimado'] / m['ventas']) if m['ventas'] else None
+
     # Punto de equilibrio: clasificacion fijo/variable pedida por Lucas
     # (impuestos -- IIBB y percepciones -- quedan afuera del calculo).
     # cargo_colecta_full/cargo_almacenamiento_full/adelanto (2026-07-31)
@@ -272,6 +284,8 @@ for periodo, m in pnl_out.items():
         notes.append(f"<li><b>{m['label']}</b> está parcial — todavía no incluye el resto del mes.</li>")
     if m['percepciones'] is None:
         notes.append(f"<li><b>Percepciones y Retenciones</b> de {m['label']} recién se conocen cuando MercadoLibre cierra el período de facturación.</li>")
+    if m.get('resultado_neto_estimado') is not None:
+        notes.append(f"<li>Los valores con <b>~</b> en {m['label']} (Percepciones, IIBB, Total Impuestos, Resultado Neto, Margen Neto) son un <b>estimado</b> usando el último valor real conocido (mes anterior) — se reemplazan por el valor real cuando cierra el período de facturación y/o se carga el pago de IIBB del mes.</li>")
 notes.append("<li>Todo el P&L (Ventas, Cargos, Costos, Envíos, Publicidad, Informativo) sale ahora de las tablas <b>base_ventas / base_envios / base_ads / base_informativa / base_impositiva</b> del Sheet — ya no hay carga manual de estos números.</li>")
 notes.append("<li>En \"Rentabilidad por producto\", \"Por categoría\" y \"Envíos por tipo\", el <b>Resultado Neto</b> es Venta − Cargo por venta − Envío − Costo de producto (ya no hay línea de Descuentos: el cargo por venta viene siempre neto, ver base_ventas).</li>")
 notes.append("<li>El <b>Costo de producto</b> (COGS) se toma de la planilla de costos, que viene sin IVA, y se le suma 21% para quedar en la misma base que la Venta (que sí incluye IVA) — sin este ajuste el resultado quedaba inflado.</li>")

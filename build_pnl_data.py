@@ -53,6 +53,8 @@ def en_rango(fecha, desde, hasta):
 
 
 pnl_out = {}
+prev_percepciones = None
+prev_iibb = None
 for label, (desde, hasta, imp_key) in PERIODOS.items():
     ventas_rows = [r for r in base_ventas if en_rango(r['fecha'], desde, hasta)]
     envios_rows = [r for r in base_envios if en_rango(r['fecha'], desde, hasta)]
@@ -103,6 +105,24 @@ for label, (desde, hasta, imp_key) in PERIODOS.items():
         'cargo_neto': True,  # base_ventas siempre es neto (nunca bruto/descuento de Facturacion)
         'n_ordenes': len(ventas_rows),
     }
+
+    # Estimado para el periodo abierto (pedido de Lucas, 2026-09-17): mientras
+    # no cierra el periodo de Facturacion no hay Percepciones reales, y el
+    # pago de IIBB del mes todavia no se cargo en base_informativa -- en vez
+    # de dejar todo "pendiente" hasta el cierre, se ofrece una estimacion con
+    # el ultimo valor real conocido (mes anterior) para poder ver como viene
+    # el mes en curso. Los campos reales (percepciones/iibb) NO se tocan --
+    # siguen senializando "todavia no se sabe" para quien los usa (ej.
+    # compute_balance_salida.py, que necesita el dato real, no una estimacion).
+    if percepciones is None and prev_percepciones is not None:
+        pnl_out[label]['percepciones_estimado'] = prev_percepciones
+    if informativo['iibb'] == 0 and prev_iibb is not None:
+        pnl_out[label]['iibb_estimado'] = prev_iibb
+
+    if percepciones is not None:
+        prev_percepciones = percepciones
+    if informativo['iibb']:
+        prev_iibb = informativo['iibb']
 
 json.dump(pnl_out, open('pnl_data.json', 'w', encoding='utf-8'), indent=2, ensure_ascii=False)
 print('Guardado pnl_data.json:')

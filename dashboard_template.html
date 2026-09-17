@@ -279,6 +279,7 @@
   table.pnl-table tr.result td.neg { color: var(--negative); }
   table.pnl-table td.pending { color: var(--text-muted); font-style: italic; font-weight: 400; }
   table.pnl-table td.pct { color: var(--text-muted); font-style: italic; }
+  table.pnl-table td.estimate { font-style: italic; opacity: 0.75; }
   .tag {
     font-family: var(--font-mono); font-size: 9.5px; letter-spacing: 0.04em;
     color: var(--text-muted); background: var(--surface-2); border: 1px solid var(--border);
@@ -624,12 +625,12 @@ const PNL_ROWS = [
   { label: 'Margen Bruto %', key: 'margen_bruto', pct: true },
   { section: 'Impuestos' },
   { label: 'Autónomos', key: 'autonomos', tag: 'informativo' },
-  { label: 'Percepciones y Retenciones', key: 'percepciones' },
-  { label: 'Pago de Ingresos Brutos', key: 'iibb', tag: 'informativo' },
-  { label: 'Total Impuestos', key: 'total_impuestos', total: true, dependsOnPercepciones: true },
+  { label: 'Percepciones y Retenciones', key: 'percepciones', estimateKey: 'percepciones_estimado' },
+  { label: 'Pago de Ingresos Brutos', key: 'iibb', tag: 'informativo', estimateKey: 'iibb_estimado', zeroIsMissing: true },
+  { label: 'Total Impuestos', key: 'total_impuestos', total: true, dependsOnPercepciones: true, estimateKey: 'total_impuestos_estimado' },
   { section: 'Resultado Final' },
-  { label: 'Resultado Neto', key: 'resultado_neto', result: true, dependsOnPercepciones: true },
-  { label: 'Margen Neto %', key: 'margen_neto', pct: true, dependsOnPercepciones: true },
+  { label: 'Resultado Neto', key: 'resultado_neto', result: true, dependsOnPercepciones: true, estimateKey: 'resultado_neto_estimado' },
+  { label: 'Margen Neto %', key: 'margen_neto', pct: true, dependsOnPercepciones: true, estimateKey: 'margen_neto_estimado' },
   { section: 'Punto de Equilibrio' },
   { label: 'Costos Variables', key: 'costos_variables' },
   { label: 'Costos Fijos (incl. Autónomos)', key: 'costos_fijos' },
@@ -1174,10 +1175,16 @@ function renderPnlTable() {
       const m = DATA.pnl[k];
       let v = m[r.key];
       if (r.dependsOnPercepciones && m.percepciones === null) v = null;
+      let esEstimado = false;
+      const faltaReal = v === null || v === undefined || (r.zeroIsMissing && v === 0 && m[r.estimateKey] != null);
+      if (faltaReal && r.estimateKey && m[r.estimateKey] != null) {
+        v = m[r.estimateKey];
+        esEstimado = true;
+      }
       if (v === null || v === undefined) return `<td class="pending">pendiente</td>`;
-      if (r.pct) return `<td class="pct">${fmtPct(v)}</td>`;
+      if (r.pct) return `<td class="pct${esEstimado ? ' estimate' : ''}">${esEstimado ? '~' : ''}${fmtPct(v)}</td>`;
       const signCls = r.result ? (v >= 0 ? 'pos' : 'neg') : '';
-      return `<td class="${signCls}">${fmt(v)}</td>`;
+      return `<td class="${signCls}${esEstimado ? ' estimate' : ''}">${esEstimado ? '~' : ''}${fmt(v)}</td>`;
     }).join('');
     const tag = r.tag ? `<span class="tag">${r.tag}</span>` : '';
     return `<tr class="${cls}"><td>${r.label}${tag}</td>${cells}</tr>`;

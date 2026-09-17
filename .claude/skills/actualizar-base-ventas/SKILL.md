@@ -9,6 +9,16 @@ Repo: `C:\Users\User\Projects\mercadolibre`. Todos los comandos de este skill se
 
 `base_ventas` es un libro mayor: una fila por **orden pagada**, con el desglose completo de la venta (Precio, Importe, Cargos, Impuestos, Costo, Resultado Neto), cada monto en su versión con IVA y sin IVA. Es la fuente granular que respalda al P&L agregado -- no se toca la metodología sin que Lucas lo pida explícitamente, porque salió de varias rondas de corrección suya contra ventas reales.
 
+## Paso 0 -- re-verificar status de los últimos 30 días (si esta skill se invoca sola)
+
+Si esto NO se está corriendo como parte de `actualizar-tablero` (que ya incluye este paso), correr primero:
+
+```bash
+python verificar_status_reciente.py
+```
+
+Detecta y saca de `base_ventas.json`/`base_envios.json` cualquier orden que haya cambiado de `paid` a `cancelled`/`refunded` después de guardada -- nada más en el pipeline vuelve a chequear esto una vez procesada una orden. Solo mira los últimos 30 días (no todo el historial), porque ML no permite que una orden cambie de status pasado ese plazo.
+
 ## Paso 1 -- reportar cobertura y pedir el rango
 
 Nunca reprocesar todo el histórico sin que Lucas lo pida. Correr primero:
