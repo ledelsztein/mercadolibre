@@ -22,3 +22,33 @@ una tarea pide explícitamente escribir algo en MercadoLibre (por ejemplo actual
 precio o un stock), primero hay que confirmar con Lucas el alcance exacto de esa escritura
 puntual antes de tocar código o ejecutar nada — no asumir que el pedido general habilita
 escrituras futuras.
+
+## Sincronizar con `origin/main` antes de actualizar cualquier tabla
+
+Lucas dispara actualizaciones de este pipeline desde varias sesiones distintas (terminal
+local, sesiones cloud/PR, distintas ventanas de Claude Code) que no comparten estado entre
+sí. Si una sesión corre sobre un checkout local desactualizado, recalcula desde una base
+vieja, pierde datos que Lucas ya pasó en otra sesión (por ejemplo un monto de una tabla
+informativa) y puede terminar pisando o duplicando trabajo ya mergeado. Pasó una vez
+(sesión del 2026-09-17: el checkout local estaba 9 commits atrás de `origin/main`, con un
+PR ya mergeado que traía el Autónomos de septiembre, mientras la sesión local tenía sin
+commitear un cargo distinto -- Alan Jalef -- que el PR no tenía; hubo que reconciliar ambos
+a mano).
+
+**Por eso, antes de correr `actualizar-tablero` o cualquier `actualizar-base-*` puntual,
+siempre correr primero:**
+
+```bash
+git fetch origin && git status
+```
+
+- Si el local está atrás de `origin/main` y puede hacer fast-forward limpio (sin cambios sin
+  commitear que se pisen), actualizar con `git pull` antes de seguir.
+- Si hay cambios sin commitear en archivos de datos (`base_*.json`, `pnl_data.json`,
+  `dashboard_data.json`, etc.) que además difieren de `origin/main`, **no descartarlos a
+  ciegas ni pisarlos con `git reset --hard`** sin antes diffear archivo por archivo contra
+  `origin/main` -- puede haber datos reales (como el caso de Alan Jalef) que solo existen en
+  un lado. Si algo diverge de verdad, avisarle a Lucas qué se encontró en cada lado antes de
+  decidir qué conservar.
+- Si el local y `origin/main` ya coinciden o el local está adelante (branch propia con commits
+  nuevos), no hace falta hacer nada especial acá.
