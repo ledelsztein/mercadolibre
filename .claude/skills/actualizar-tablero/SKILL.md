@@ -37,6 +37,7 @@ Ninguna otra parte del pipeline vuelve a chequear si una orden ya guardada (de h
 5. **Invocar la skill `actualizar-base-full`** (siempre el rango completo mayo–hoy, es barata, cachea agresivo igual que `base_ads`).
 6. **Invocar la skill `actualizar-base-adelantos`** (mismo criterio que `base_full`).
 7. **Invocar la skill `actualizar-stock-valorizado`** — foto de HOY (fecha real, no `hoy_real - 1`; esta tabla no sigue la convención de día cerrado porque no es un dato de ventas, es el estado actual de las publicaciones). Independiente del P&L/dashboard del Paso 2, pero SÍ la necesita el Paso 9 (`balance_salida`) como referencia.
+7.5. **Correr `python check_productos_sin_costo.py`** (pedido de Lucas, 2026-09-22) — usa la foto de `stock_valorizado` recién tomada en el paso anterior, no pega de nuevo a la API. Chequea qué publicaciones activas no tienen ningún costo cargado en `data/Costos.xlsx` (o lo tienen en 0) -- si compute_base_ventas.py calcula una venta de esos productos, el costo sale $0 y el margen queda inflado sin que se note. Guardar la lista para el Paso 4 (reportarla a Lucas), no hace falta bloquear el resto del pipeline por esto.
 8. **Invocar la skill `actualizar-publicaciones-recibis`** — también foto de HOY, mismo criterio que `stock_valorizado`.
 9. **Invocar la skill `actualizar-balance-salida`** — depende de los dos pasos anteriores (`stock_valorizado` y `publicaciones_recibis`) ya corridos hoy, además de `base_informativa` (Autónomos/IIBB) y `base_impositiva` (Percepciones) frescos -- con los valores ya cargados hasta ahora, no con lo que Lucas conteste en el Paso 5. Correr último dentro de este Paso 1.
 
@@ -59,7 +60,7 @@ Copiar `dashboard_output.html` al scratchpad y llamar a la herramienta Artifact 
 
 ## Paso 4 — reportar, no solo decir "listo"
 
-Contarle a Lucas: cuántas órdenes nuevas entraron, si algo quedó excluido (no "paid"), si el Paso 0.5 encontró alguna orden que cambió de status (cuál, y a qué pasó), si hubo algún shipment compartido prorrateado, si saltó algún paso (ej. `base_impositiva` porque no cerró período), y — sobre todo — **si algún número se movió de forma no trivial contra la corrida anterior** (ej. publicidad que creció por facturación tardía, o un mes que cambia de signo). No hay que esconder sorpresas, hay que señalarlas.
+Contarle a Lucas: cuántas órdenes nuevas entraron, si algo quedó excluido (no "paid"), si el Paso 0.5 encontró alguna orden que cambió de status (cuál, y a qué pasó), si hubo algún shipment compartido prorrateado, si saltó algún paso (ej. `base_impositiva` porque no cerró período), si el Paso 7.5 encontró publicaciones activas sin costo cargado (cuáles, para que Lucas los pase), y — sobre todo — **si algún número se movió de forma no trivial contra la corrida anterior** (ej. publicidad que creció por facturación tardía, o un mes que cambia de signo). No hay que esconder sorpresas, hay que señalarlas.
 
 **Siempre mandar los dos links al final** (pedido de Lucas, 2026-09-18) -- el del Google Sheet de Deleite (P&L/todas las tablas) y el del Artifact del dashboard (`https://claude.ai/code/artifact/acc4defe-62ef-46c0-8991-9ee404d96590`). No dar por sobreentendido que ya los tiene de antes.
 
