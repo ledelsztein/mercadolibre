@@ -187,5 +187,12 @@
     "detalle": "Alan Jalef - Cargo Logístico (monotributista, sin IVA)",
     "importe_sin_iva": 30000.0,
     "importe_con_iva": 30000.0
+  },
+  {
+    "fecha": "2026-09-18",
+    "categoria": "IIBB",
+    "detalle": "Pago de Ingresos Brutos (sin IVA aplicable)",
+    "importe_sin_iva": 156864.61,
+    "importe_con_iva": 156864.61
   }
 ]

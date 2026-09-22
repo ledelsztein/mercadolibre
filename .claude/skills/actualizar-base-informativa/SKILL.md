@@ -27,6 +27,10 @@ python build_base_informativa_sheet.py
 
 Si en algún momento (armando el P&L, actualizando el tablero) falta un dato de esta tabla para un período nuevo o extendido, **preguntarle a Lucas explícitamente** -- no copiar el valor del mes anterior, no asumir $0, no inventar. Si él confirma "sin cambios" respecto de un valor ya cargado, se puede reetiquetar la fecha del registro existente (ver ejemplo real: "Julio parcial al 21" pasó a "al 23" con el mismo importe, marcado en el `detalle` como "sin cambios").
 
+**Preguntar con la herramienta `AskUserQuestion`** (formulario clickeable, una pregunta por categoría con datos pendientes), no como texto plano -- pedido explícito de Lucas (2026-09-18), prefiere tocar una opción a tener que escribir la respuesta.
+
+**Cuando esta skill corre como parte de `actualizar-tablero`**: la pregunta se manda al FINAL de todo el pipeline (después de publicar el dashboard), no acá en el medio -- así el resto de las tablas/P&L/dashboard corren sin esperar la respuesta de Lucas. Ver el Paso 5 de `actualizar-tablero` para el detalle de qué re-correr si la respuesta trae datos nuevos.
+
 `Percepciones` **no** se carga acá -- esa sale de Facturación vía `base_impositiva` (ver esa skill/memoria), porque no es un dato que Lucas pase a mano.
 
 Ver memoria `mercadolibre-base-informativa` para más contexto.

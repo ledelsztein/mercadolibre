@@ -28,16 +28,17 @@ Ninguna otra parte del pipeline vuelve a chequear si una orden ya guardada (de h
 
 ## Paso 1 — invocar cada skill de tabla, en este orden
 
+**`actualizar-base-informativa` NO se invoca acá** -- pedido de Lucas (2026-09-18): la pregunta por facturas/gastos nuevos se manda recién al final (Paso 5), para no bloquear el resto del pipeline en el medio esperando su respuesta. Este Paso 1 corre entero con los datos de `base_informativa` que ya estén cargados (Autónomos/IIBB más recientes, etc.) tal como están.
+
 1. **Invocar la skill `actualizar-base-ventas`** con el rango completo calculado en el Paso 0 más 1 día de margen hacia atrás (no hace falta todo el mes -- confirmado que ningún shipment compartido cruza fechas distintas, ver esa skill para el detalle). Si el rango cruza de un mes a otro, correr por separado cada mes que toque.
 2. **Invocar la skill `actualizar-base-envios`** con el mismo rango.
 3. **Invocar la skill `actualizar-base-ads`** (siempre el rango completo mayo–hoy, es barata).
-4. **Invocar la skill `actualizar-base-informativa`** — preguntarle a Lucas por facturas/gastos nuevos antes, nunca asumir.
-5. **Invocar la skill `actualizar-base-impositiva`** — SOLO si cerró un período de Facturación nuevo desde la última corrida (corren 7-a-6, cierran el 7 del mes siguiente). Si no cerró ninguno, saltear este paso entero.
-6. **Invocar la skill `actualizar-base-full`** (siempre el rango completo mayo–hoy, es barata, cachea agresivo igual que `base_ads`).
-7. **Invocar la skill `actualizar-base-adelantos`** (mismo criterio que `base_full`).
-8. **Invocar la skill `actualizar-stock-valorizado`** — foto de HOY (fecha real, no `hoy_real - 1`; esta tabla no sigue la convención de día cerrado porque no es un dato de ventas, es el estado actual de las publicaciones). Independiente del P&L/dashboard del Paso 2, pero SÍ la necesita el Paso 9 (`balance_salida`) como referencia.
-9. **Invocar la skill `actualizar-publicaciones-recibis`** — también foto de HOY, mismo criterio que `stock_valorizado`.
-10. **Invocar la skill `actualizar-balance-salida`** — depende de los dos pasos anteriores (`stock_valorizado` y `publicaciones_recibis`) ya corridos hoy, además de `base_informativa` (Autónomos/IIBB) y `base_impositiva` (Percepciones) frescos. Correr último dentro de este Paso 1.
+4. **Invocar la skill `actualizar-base-impositiva`** — SOLO si cerró un período de Facturación nuevo desde la última corrida (corren 7-a-6, cierran el 7 del mes siguiente). Si no cerró ninguno, saltear este paso entero.
+5. **Invocar la skill `actualizar-base-full`** (siempre el rango completo mayo–hoy, es barata, cachea agresivo igual que `base_ads`).
+6. **Invocar la skill `actualizar-base-adelantos`** (mismo criterio que `base_full`).
+7. **Invocar la skill `actualizar-stock-valorizado`** — foto de HOY (fecha real, no `hoy_real - 1`; esta tabla no sigue la convención de día cerrado porque no es un dato de ventas, es el estado actual de las publicaciones). Independiente del P&L/dashboard del Paso 2, pero SÍ la necesita el Paso 9 (`balance_salida`) como referencia.
+8. **Invocar la skill `actualizar-publicaciones-recibis`** — también foto de HOY, mismo criterio que `stock_valorizado`.
+9. **Invocar la skill `actualizar-balance-salida`** — depende de los dos pasos anteriores (`stock_valorizado` y `publicaciones_recibis`) ya corridos hoy, además de `base_informativa` (Autónomos/IIBB) y `base_impositiva` (Percepciones) frescos -- con los valores ya cargados hasta ahora, no con lo que Lucas conteste en el Paso 5. Correr último dentro de este Paso 1.
 
 ## Paso 2 — regenerar P&L, dashboard y Sheet
 
@@ -59,6 +60,18 @@ Copiar `dashboard_output.html` al scratchpad y llamar a la herramienta Artifact 
 ## Paso 4 — reportar, no solo decir "listo"
 
 Contarle a Lucas: cuántas órdenes nuevas entraron, si algo quedó excluido (no "paid"), si el Paso 0.5 encontró alguna orden que cambió de status (cuál, y a qué pasó), si hubo algún shipment compartido prorrateado, si saltó algún paso (ej. `base_impositiva` porque no cerró período), y — sobre todo — **si algún número se movió de forma no trivial contra la corrida anterior** (ej. publicidad que creció por facturación tardía, o un mes que cambia de signo). No hay que esconder sorpresas, hay que señalarlas.
+
+**Siempre mandar los dos links al final** (pedido de Lucas, 2026-09-18) -- el del Google Sheet de Deleite (P&L/todas las tablas) y el del Artifact del dashboard (`https://claude.ai/code/artifact/acc4defe-62ef-46c0-8991-9ee404d96590`). No dar por sobreentendido que ya los tiene de antes.
+
+## Paso 5 — preguntar por `base_informativa` (al final, para no bloquear el resto)
+
+Recién acá invocar la skill `actualizar-base-informativa` para preguntarle a Lucas por facturas/gastos nuevos en cada categoría (Logística Flex, Otros cargos logísticos, Otros cargos, Autónomos, IIBB) -- **usar `AskUserQuestion`** (formulario clickeable), no texto plano, pedido explícito de Lucas.
+
+- **Si no hay nada nuevo**: listo, no hace falta re-correr nada más.
+- **Si trae datos nuevos**: cargarlos en `base_informativa.json`, correr `python build_base_informativa_sheet.py`, y evaluar qué más depende de eso:
+  - Si tocó `Autónomos` o `IIBB`, volver a correr `actualizar-balance-salida` (esos valores alimentan el cálculo).
+  - Volver a correr el Paso 2 completo (`build_pnl_data.py` / `build_dashboard_data.py` / `build_sheet.py`) y el Paso 3 (publicar el dashboard de nuevo) para que el P&L y el dashboard reflejen el dato nuevo.
+  - Avisarle a Lucas que se actualizó por el dato nuevo y qué cambió.
 
 ## Reglas que no hay que re-derivar (resumen — el detalle completo está en cada skill de tabla y en la memoria)
 
