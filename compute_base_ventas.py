@@ -158,14 +158,27 @@ def fetch_order_base(order_id):
     # aprobados) -- los cargos hay que sumarlos de TODOS los aprobados, nunca
     # asumir que estan en payments[0] (confirmado con casos reales de ambos
     # tipos, ver mercadolibre-base-ventas)
-    cargo_var = cargo_fij = envio_cargo_propio = impuestos = 0.0
+    cargo_var = cargo_fij = cargo_cupon = envio_cargo_propio = impuestos = 0.0
     for pago in o['payments']:
         if pago.get('status') != 'approved':
             continue
         p = get_mp(f'https://api.mercadopago.com/v1/payments/{pago["id"]}')
         for c in p.get('charges_details', []):
             amt = c['amounts']['original']
-            if c.get('type') == 'fee' and c.get('name') == 'meli_percentage_fee':
+            # solo cuentan los cargos que paga Lucas (accounts.from == 'collector').
+            # Error real (2026-09-23, orden 2000018573593808): el financing_fee
+            # de cuotas lo paga el COMPRADOR (from 'payer' -> 'mp') y se estaba
+            # sumando como cargo variable -- inflaba el cargo $36.598. Idem el
+            # coupon_code (from 'ml' -> 'payer'), que es descuento que financia ML.
+            pagador = (c.get('accounts') or {}).get('from')
+            if pagador is not None and pagador != 'collector':
+                continue
+            if c.get('type') == 'coupon':
+                # coupon_fee: lo que ML le cobra a Lucas por un cupon que uso el
+                # comprador -- columna aparte "Cargo por cupon" (pedido de Lucas
+                # 2026-09-23). Confirmado contra net_received_amount.
+                cargo_cupon += amt
+            elif c.get('type') == 'fee' and c.get('name') == 'meli_percentage_fee':
                 cargo_var += amt
             elif c.get('type') == 'fee' and c.get('name') == 'flat_fee':
                 cargo_fij += amt
@@ -183,6 +196,7 @@ def fetch_order_base(order_id):
         'item_id': item['id'], 'sku': item.get('seller_sku') or '', 'title': item['title'], 'qty': qty,
         'cat_id': item['category_id'],
         'unit_price': unit_price, 'importe': importe, 'cargo_var': cargo_var, 'cargo_fij': cargo_fij,
+        'cargo_cupon': cargo_cupon,
         'impuestos': impuestos, 'envio_cargo_propio': envio_cargo_propio, 'costo_s': costo_s,
         'shipment_id': o.get('shipping', {}).get('id'),
     }
@@ -198,12 +212,13 @@ def compute_row(base, envio_cargo, envio_ingreso, envio_pasante, logistic_type):
     importe = base['importe']
     cargo_var = base['cargo_var']
     cargo_fij = base['cargo_fij']
+    cargo_cupon = base['cargo_cupon']
     impuestos = base['impuestos']
     unit_price = base['unit_price']
     costo_s = base['costo_s']
     costo_c = costo_s * IVA
 
-    importe_recibido_c = importe - cargo_var - cargo_fij - envio_cargo + envio_ingreso - impuestos
+    importe_recibido_c = importe - cargo_var - cargo_fij - cargo_cupon - envio_cargo + envio_ingreso - impuestos
     resultado_neto_c = importe_recibido_c - costo_c
     margen_c = resultado_neto_c / importe if importe else 0
 
@@ -211,9 +226,10 @@ def compute_row(base, envio_cargo, envio_ingreso, envio_pasante, logistic_type):
     importe_s = importe / IVA
     cargo_var_s = cargo_var / IVA
     cargo_fij_s = cargo_fij / IVA
+    cargo_cupon_s = cargo_cupon / IVA
     envio_cargo_s = envio_cargo / IVA
     envio_ingreso_s = envio_ingreso / IVA
-    importe_recibido_s = importe_s - cargo_var_s - cargo_fij_s - envio_cargo_s + envio_ingreso_s - impuestos
+    importe_recibido_s = importe_s - cargo_var_s - cargo_fij_s - cargo_cupon_s - envio_cargo_s + envio_ingreso_s - impuestos
     resultado_neto_s = importe_recibido_s - costo_s
     margen_s = resultado_neto_s / importe_s if importe_s else 0
 
@@ -223,6 +239,7 @@ def compute_row(base, envio_cargo, envio_ingreso, envio_pasante, logistic_type):
         'qty': base['qty'], 'tipo_envio': SHIP_TYPE_NAMES.get(logistic_type, logistic_type),
         'precio_c': round(unit_price, 2), 'importe_c': round(importe, 2),
         'cargo_var_c': round(-cargo_var, 2), 'cargo_fij_c': round(-cargo_fij, 2),
+        'cargo_cupon_c': round(-cargo_cupon, 2),
         'envio_cargo_c': round(-envio_cargo, 2), 'envio_ingreso_c': round(envio_ingreso, 2),
         'envio_pasante_c': round(envio_pasante, 2),
         'impuestos': round(-impuestos, 2),
@@ -230,6 +247,7 @@ def compute_row(base, envio_cargo, envio_ingreso, envio_pasante, logistic_type):
         'resultado_neto_c': round(resultado_neto_c, 2), 'margen_c': margen_c,
         'precio_s': round(unit_price_s, 2), 'importe_s': round(importe_s, 2),
         'cargo_var_s': round(-cargo_var_s, 2), 'cargo_fij_s': round(-cargo_fij_s, 2),
+        'cargo_cupon_s': round(-cargo_cupon_s, 2),
         'envio_cargo_s': round(-envio_cargo_s, 2), 'envio_ingreso_s': round(envio_ingreso_s, 2),
         'envio_pasante_s': round(envio_pasante / IVA, 2),
         'importe_recibido_s': round(importe_recibido_s, 2), 'costo_s': round(-costo_s, 2),

@@ -37,6 +37,7 @@ pnl_rows = [
     ['EGRESOS'] + [''] * len(meses),
     ['Costo de Mercaderia Vendida'] + [PNL[m]['cogs'] for m in PNL],
     ['Cargos por ventas'] + [PNL[m]['cargo_venta'] for m in PNL],
+    ['Cargo por cupon'] + [PNL[m]['cargo_cupon'] for m in PNL],
     ['Egresos por envio Full/Colecta (real)'] + [PNL[m]['egreso_envio_real'] for m in PNL],
     ['Envio pasante Full/Colecta (comprador financia, se cancela)'] + [PNL[m]['envio_pasante'] for m in PNL],
     ['Publicidad'] + [PNL[m]['publicidad'] for m in PNL],
@@ -48,7 +49,7 @@ pnl_rows = [
     ['Otros cargos (informativo)'] + [PNL[m]['otros_cargos'] for m in PNL],
     ['Gastos de Agencia (informativo)'] + [PNL[m]['gastos_agencia'] for m in PNL],
 ]
-total_egresos = {m: PNL[m]['cogs'] + PNL[m]['cargo_venta'] + PNL[m]['egreso_envio'] + PNL[m]['publicidad']
+total_egresos = {m: PNL[m]['cogs'] + PNL[m]['cargo_venta'] + PNL[m]['cargo_cupon'] + PNL[m]['egreso_envio'] + PNL[m]['publicidad']
                   + PNL[m]['logistica_flex'] + PNL[m]['otros_log'] + PNL[m]['otros_cargos'] + PNL[m]['gastos_agencia']
                   + PNL[m]['cargo_colecta_full'] + PNL[m]['cargo_almacenamiento_full'] + PNL[m]['adelanto'] for m in PNL}
 total_ingresos = {m: PNL[m]['ventas'] + PNL[m]['envios_ingreso'] for m in PNL}
@@ -76,7 +77,7 @@ pnl_rows += [
 # IIBB y Percepciones quedan afuera del calculo por ser impuestos, no costos.
 # cargo_colecta_full/cargo_almacenamiento_full/adelanto (2026-07-31)
 # tambien son Costo Variable, per Lucas.
-costos_variables = {m: PNL[m]['cogs'] + PNL[m]['cargo_venta'] + PNL[m]['egreso_envio']
+costos_variables = {m: PNL[m]['cogs'] + PNL[m]['cargo_venta'] + PNL[m]['cargo_cupon'] + PNL[m]['egreso_envio']
                      + PNL[m]['logistica_flex'] + PNL[m]['otros_log']
                      + PNL[m]['cargo_colecta_full'] + PNL[m]['cargo_almacenamiento_full'] + PNL[m]['adelanto'] for m in PNL}
 costos_fijos = {m: PNL[m]['publicidad'] + PNL[m]['otros_cargos'] + PNL[m]['gastos_agencia'] + PNL[m]['autonomos'] for m in PNL}
@@ -126,7 +127,7 @@ for periodo, desde, hasta in PERIODOS:
     by_item = {}
     by_tipo = {}
     for r in registros:
-        venta = r['importe_c']; costo = -r['costo_c']; cargo = -(r['cargo_var_c'] + r['cargo_fij_c'])
+        venta = r['importe_c']; costo = -r['costo_c']; cargo = -(r['cargo_var_c'] + r['cargo_fij_c'] + r.get('cargo_cupon_c', 0.0))
         envio = envio_neto_by_order.get(r['order_id'], 0.0)
         item = by_item.setdefault(r['item_id'], {'sku': r['sku'], 'title': r['title'], 'cat_id': r.get('cat_id'), 'venta': 0.0, 'costo': 0.0, 'cargo': 0.0, 'envio': 0.0})
         item['venta'] += venta; item['costo'] += costo; item['cargo'] += cargo; item['envio'] += envio

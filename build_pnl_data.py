@@ -66,6 +66,7 @@ for label, (desde, hasta, imp_key) in PERIODOS.items():
     ventas = sum(r['importe_c'] for r in ventas_rows)
     cogs = -sum(r['costo_c'] for r in ventas_rows)
     cargo_venta = -sum(r['cargo_var_c'] + r['cargo_fij_c'] for r in ventas_rows)
+    cargo_cupon = -sum(r.get('cargo_cupon_c', 0.0) for r in ventas_rows)
     envios_ingreso = sum(r['ingreso_c'] for r in envios_rows)
     egreso_envio = sum(r['costo_c'] for r in envios_rows)
     envio_pasante = sum(r['pasante_c'] for r in envios_rows)
@@ -88,7 +89,7 @@ for label, (desde, hasta, imp_key) in PERIODOS.items():
     pnl_out[label] = {
         'ventas': round(ventas, 2), 'envios_ingreso': round(envios_ingreso, 2),
         'envios_ingreso_flex': round(envios_ingreso_flex, 2),
-        'cogs': round(cogs, 2), 'cargo_venta': round(cargo_venta, 2), 'egreso_envio': round(egreso_envio, 2),
+        'cogs': round(cogs, 2), 'cargo_venta': round(cargo_venta, 2), 'cargo_cupon': round(cargo_cupon, 2), 'egreso_envio': round(egreso_envio, 2),
         'egreso_envio_real': round(egreso_envio_real, 2),
         'envio_pasante': round(envio_pasante, 2),
         'publicidad': round(publicidad, 2),

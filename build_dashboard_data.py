@@ -41,7 +41,7 @@ for label, m in PNL.items():
     m['label'] = label
     m['parcial'] = '(parcial' in label.lower()
     m['total_ingresos'] = m['ventas'] + m['envios_ingreso']
-    m['total_egresos'] = (m['cogs'] + m['cargo_venta'] + m['egreso_envio'] + m['publicidad']
+    m['total_egresos'] = (m['cogs'] + m['cargo_venta'] + m['cargo_cupon'] + m['egreso_envio'] + m['publicidad']
                             + m['logistica_flex'] + m['otros_log'] + m['otros_cargos'] + m['gastos_agencia']
                             + m['cargo_colecta_full'] + m['cargo_almacenamiento_full'] + m['adelanto'])
     m['resultado_bruto'] = m['total_ingresos'] - m['total_egresos']
@@ -66,7 +66,7 @@ for label, m in PNL.items():
     # (impuestos -- IIBB y percepciones -- quedan afuera del calculo).
     # cargo_colecta_full/cargo_almacenamiento_full/adelanto (2026-07-31)
     # tambien son Costo Variable, per Lucas.
-    m['costos_variables'] = (m['cogs'] + m['cargo_venta'] + m['egreso_envio'] + m['logistica_flex'] + m['otros_log']
+    m['costos_variables'] = (m['cogs'] + m['cargo_venta'] + m['cargo_cupon'] + m['egreso_envio'] + m['logistica_flex'] + m['otros_log']
                               + m['cargo_colecta_full'] + m['cargo_almacenamiento_full'] + m['adelanto'])
     m['costos_fijos'] = m['publicidad'] + m['otros_cargos'] + m['gastos_agencia'] + m['autonomos']
     m['margen_contribucion'] = m['total_ingresos'] - m['costos_variables']
@@ -96,7 +96,7 @@ for periodo, desde, hasta in PERIODOS:
     for r in registros:
         venta = r['importe_c']
         costo = -r['costo_c']
-        cargo = -(r['cargo_var_c'] + r['cargo_fij_c'])
+        cargo = -(r['cargo_var_c'] + r['cargo_fij_c'] + r.get('cargo_cupon_c', 0.0))
         envio = envio_neto_by_order.get(r['order_id'], 0.0)
 
         item = by_item.setdefault(r['item_id'], {
@@ -204,7 +204,7 @@ ordenes = []
 for r in base_ventas_all:
     venta = r['importe_c']
     costo = -r['costo_c']
-    cargo = -(r['cargo_var_c'] + r['cargo_fij_c'])
+    cargo = -(r['cargo_var_c'] + r['cargo_fij_c'] + r.get('cargo_cupon_c', 0.0))
     envio = envio_neto_by_order.get(r['order_id'], 0.0)
     resultado_neto = venta - cargo - envio - costo
     ordenes.append({

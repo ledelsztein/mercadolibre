@@ -22,28 +22,28 @@ CAT_NAMES = json.load(open('cat_names.json', encoding='utf-8'))
 
 HEADER = [
     'Orden_id', 'Pack_id', 'Fecha', 'ITEM_ID', 'SKU', 'Título producto', 'Categoría', 'Cantidad', 'Tipo de envío',
-    'Precio', 'Importe', 'Cargos variables (comisión)', 'Cargos fijos', 'Cargos por envíos',
+    'Precio', 'Importe', 'Cargos variables (comisión)', 'Cargos fijos', 'Cargo por cupón', 'Cargos por envíos',
     'Ingresos por envíos', 'Impuestos de la operación (percepción/retención)', 'Importe recibido',
     'Costo de mercadería vendida', 'Resultado Neto', 'Margen Neto',
     'Resultado Neto sin Flex', 'Margen Neto sin Flex',
-    'Precio s/IVA', 'Importe s/IVA', 'Cargos variables (comisión) s/IVA', 'Cargos fijos s/IVA',
+    'Precio s/IVA', 'Importe s/IVA', 'Cargos variables (comisión) s/IVA', 'Cargos fijos s/IVA', 'Cargo por cupón s/IVA',
     'Cargos por envíos s/IVA', 'Ingresos por envíos s/IVA', 'Importe recibido s/IVA',
     'Costo de mercadería vendida s/IVA', 'Resultado Neto s/IVA', 'Margen Neto s/IVA',
     'Resultado Neto sin Flex s/IVA', 'Margen Neto sin Flex s/IVA',
 ]
 
-N_MONEY_C = 12  # precio..costo (con IVA), columnas I..T antes de margen
-N_MONEY_S = 12  # idem sin IVA
+N_MONEY_C = 13  # precio..costo (con IVA), columnas I..T antes de margen
+N_MONEY_S = 13  # idem sin IVA
 
 
 def row_of(r):
     return [
         f"'{r['order_id']}", f"'{r['pack_id']}", r['fecha'], r['item_id'], r['sku'], r['title'],
         CAT_NAMES.get(r.get('cat_id'), r.get('cat_id') or ''), r['qty'], r['tipo_envio'],
-        r['precio_c'], r['importe_c'], r['cargo_var_c'], r['cargo_fij_c'], r['envio_cargo_c'],
+        r['precio_c'], r['importe_c'], r['cargo_var_c'], r['cargo_fij_c'], r.get('cargo_cupon_c', 0.0), r['envio_cargo_c'],
         r['envio_ingreso_c'], r['impuestos'], r['importe_recibido_c'], r['costo_c'], r['resultado_neto_c'],
         r['margen_c'], r['resultado_neto_sinflex_c'], r['margen_sinflex_c'],
-        r['precio_s'], r['importe_s'], r['cargo_var_s'], r['cargo_fij_s'], r['envio_cargo_s'],
+        r['precio_s'], r['importe_s'], r['cargo_var_s'], r['cargo_fij_s'], r.get('cargo_cupon_s', 0.0), r['envio_cargo_s'],
         r['envio_ingreso_s'], r['importe_recibido_s'], r['costo_s'], r['resultado_neto_s'],
         r['margen_s'], r['resultado_neto_sinflex_s'], r['margen_sinflex_s'],
     ]
@@ -68,7 +68,7 @@ if 'base_ventas' not in existing_titles:
     }).execute()
     print('Tab base_ventas creada')
 
-sheets.spreadsheets().values().clear(spreadsheetId=spreadsheet_id, range='base_ventas!A:AG', body={}).execute()
+sheets.spreadsheets().values().clear(spreadsheetId=spreadsheet_id, range='base_ventas!A:AZ', body={}).execute()
 
 sheets.spreadsheets().values().update(
     spreadsheetId=spreadsheet_id, range='base_ventas!A1',
@@ -88,14 +88,14 @@ fmt = [
         'properties': {'sheetId': sid, 'gridProperties': {'frozenRowCount': 1, 'frozenColumnCount': 9}},
         'fields': 'gridProperties(frozenRowCount,frozenColumnCount)',
     }},
-    # moneda: dos bloques de 12 columnas (con IVA, luego sin IVA) arrancando despues de las columnas de identificacion
+    # moneda: dos bloques de 13 columnas (con IVA, luego sin IVA) arrancando despues de las columnas de identificacion
     {'repeatCell': {
-        'range': {'sheetId': sid, 'startRowIndex': 1, 'endRowIndex': len(rows), 'startColumnIndex': 9, 'endColumnIndex': 21},
+        'range': {'sheetId': sid, 'startRowIndex': 1, 'endRowIndex': len(rows), 'startColumnIndex': 9, 'endColumnIndex': HEADER.index('Precio s/IVA')},
         'cell': {'userEnteredFormat': {'numberFormat': {'type': 'CURRENCY', 'pattern': '$#,##0.00'}}},
         'fields': 'userEnteredFormat.numberFormat',
     }},
     {'repeatCell': {
-        'range': {'sheetId': sid, 'startRowIndex': 1, 'endRowIndex': len(rows), 'startColumnIndex': 21, 'endColumnIndex': 33},
+        'range': {'sheetId': sid, 'startRowIndex': 1, 'endRowIndex': len(rows), 'startColumnIndex': HEADER.index('Precio s/IVA'), 'endColumnIndex': len(HEADER)},
         'cell': {'userEnteredFormat': {'numberFormat': {'type': 'CURRENCY', 'pattern': '$#,##0.00'}}},
         'fields': 'userEnteredFormat.numberFormat',
     }},

@@ -5,6 +5,7 @@
     "envios_ingreso_flex": 181929.01,
     "cogs": 1465232.82,
     "cargo_venta": 263532.08,
+    "cargo_cupon": -0.0,
     "egreso_envio": 69725.83,
     "egreso_envio_real": 37544.83,
     "envio_pasante": 32181.0,
@@ -28,6 +29,7 @@
     "envios_ingreso_flex": 516254.0,
     "cogs": 3670310.33,
     "cargo_venta": 918278.43,
+    "cargo_cupon": -0.0,
     "egreso_envio": 179949.7,
     "egreso_envio_real": 118117.2,
     "envio_pasante": 61832.5,
@@ -51,6 +53,7 @@
     "envios_ingreso_flex": 195516.0,
     "cogs": 6098877.63,
     "cargo_venta": 1753283.87,
+    "cargo_cupon": -0.0,
     "egreso_envio": 401319.0,
     "egreso_envio_real": 279018.5,
     "envio_pasante": 122300.5,
@@ -74,6 +77,7 @@
     "envios_ingreso_flex": 6228.0,
     "cogs": 12051576.64,
     "cargo_venta": 4650562.57,
+    "cargo_cupon": -0.0,
     "egreso_envio": 1126589.0,
     "egreso_envio_real": 398335.0,
     "envio_pasante": 728254.0,
@@ -92,11 +96,12 @@
     "n_ordenes": 727
   },
   "Septiembre (parcial al 22)": {
-    "ventas": 19242003.56,
+    "ventas": 19219876.56,
     "envios_ingreso": 142384.0,
     "envios_ingreso_flex": 22470.0,
-    "cogs": 11053468.22,
-    "cargo_venta": 4173494.9,
+    "cogs": 11039880.15,
+    "cargo_venta": 4099992.42,
+    "cargo_cupon": 182346.79,
     "egreso_envio": 889468.0,
     "egreso_envio_real": 769554.0,
     "envio_pasante": 119914.0,
@@ -112,7 +117,7 @@
     "percepciones": null,
     "iibb": 156864.61,
     "cargo_neto": true,
-    "n_ordenes": 498,
+    "n_ordenes": 497,
     "percepciones_estimado": 335068.09
   }
 }

@@ -53,7 +53,11 @@ def main():
         print(f'Re-verificando {mes} ({f_desde}..{f_hasta})...')
         fetch_and_merge(mes, f_desde, f_hasta)
         orders = json.load(open(f'ordenes_{mes}.json', encoding='utf-8'))
-        validos.update(o['id'] for o in orders)
+        # misma regla que compute_base_ventas.py: solo status == 'paid'. El cache
+        # (fetch_orders.is_valid) deja pasar partially_refunded -- con eso se
+        # escapo una orden paid -> partially_refunded durante 2 semanas (2026-09-23,
+        # orden 2000018342622744).
+        validos.update(o['id'] for o in orders if o['status'] == 'paid')
 
     cambios = {}
     for path in ('base_ventas.json', 'base_envios.json'):
