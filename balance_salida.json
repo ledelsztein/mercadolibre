@@ -52,6 +52,32 @@
     "balance_salida": 6604156.87
   },
   {
+    "fecha": "2026-09-20",
+    "total_stock_valorizado": 26398646.8,
+    "total_stock_recibido": 18875787.23,
+    "autonomos": 103603.74,
+    "autonomos_fecha_pago": "2026-09-07",
+    "iibb": 28096.92,
+    "iibb_fecha_pago": "2026-08-20",
+    "percepciones_retenciones": 335068.09,
+    "percepciones_retenciones_periodo": "2026-09-01",
+    "deudas_pendientes": 12389970.56,
+    "balance_salida": 6019047.92
+  },
+  {
+    "fecha": "2026-09-21",
+    "total_stock_valorizado": 24953810.8,
+    "total_stock_recibido": 17809354.41,
+    "autonomos": 103603.74,
+    "autonomos_fecha_pago": "2026-09-07",
+    "iibb": 28096.92,
+    "iibb_fecha_pago": "2026-08-20",
+    "percepciones_retenciones": 335068.09,
+    "percepciones_retenciones_periodo": "2026-09-01",
+    "deudas_pendientes": 12389970.56,
+    "balance_salida": 4952615.1
+  },
+  {
     "fecha": "2026-09-22",
     "total_stock_valorizado": 24455986.8,
     "total_stock_recibido": 17454643.13,
