@@ -1969,7 +1969,19 @@
   },
   {
     "fecha": "2026-09-23",
-    "item_id": "MLA3571928900",
+    "item_id": "MLA3283469316",
+    "sku": "50006",
+    "producto": "Yerba Mate Canarias Tradicional 1 Kg",
+    "precio": 11300.0,
+    "comision": 2879,
+    "envio_absorbido": 0.0,
+    "recibis": 8421.0,
+    "stock": 180,
+    "recibis_total": 1515780.0
+  },
+  {
+    "fecha": "2026-09-23",
+    "item_id": "MLA3232809762",
     "sku": "50004",
     "producto": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
     "precio": 13020.0,
@@ -1993,9 +2005,9 @@
   },
   {
     "fecha": "2026-09-23",
-    "item_id": "MLA2091401043",
+    "item_id": "MLA2091401039",
     "sku": "50028",
-    "producto": "Kit X 3 Toalla De Cara Facial Oregon Hotelera 100% Algodón 400gr Blanca 30x50 Blanco Lisa",
+    "producto": "Kit X 3 Toalla Cara Oregon Hotelera Algodón Blanca 30x50 Blanco Lisa",
     "precio": 16000,
     "comision": 5060,
     "envio_absorbido": 0.0,
@@ -2012,8 +2024,8 @@
     "comision": 5289.75,
     "envio_absorbido": 0.0,
     "recibis": 11160.25,
-    "stock": 311,
-    "recibis_total": 3470837.75
+    "stock": 310,
+    "recibis_total": 3459677.5
   },
   {
     "fecha": "2026-09-23",
@@ -2024,8 +2036,8 @@
     "comision": 8809,
     "envio_absorbido": 0.0,
     "recibis": 12191.0,
-    "stock": 109,
-    "recibis_total": 1328819.0
+    "stock": 108,
+    "recibis_total": 1316628.0
   },
   {
     "fecha": "2026-09-23",
@@ -2084,8 +2096,8 @@
     "comision": 6026,
     "envio_absorbido": 0.0,
     "recibis": 15174.0,
-    "stock": 286,
-    "recibis_total": 4339764.0
+    "stock": 285,
+    "recibis_total": 4324590.0
   },
   {
     "fecha": "2026-09-23",
@@ -2113,15 +2125,15 @@
   },
   {
     "fecha": "2026-09-23",
-    "item_id": "MLA3566784906",
+    "item_id": "MLA3232759300",
     "sku": "50005",
-    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Plus",
+    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
     "precio": 29000,
     "comision": 7507,
     "envio_absorbido": 0.0,
     "recibis": 21493.0,
-    "stock": 58,
-    "recibis_total": 1246594.0
+    "stock": 55,
+    "recibis_total": 1182115.0
   },
   {
     "fecha": "2026-09-23",
@@ -2132,8 +2144,8 @@
     "comision": 7990,
     "envio_absorbido": 0.0,
     "recibis": 22010.0,
-    "stock": 43,
-    "recibis_total": 946430.0
+    "stock": 40,
+    "recibis_total": 880400.0
   },
   {
     "fecha": "2026-09-23",
@@ -2240,7 +2252,7 @@
     "comision": 17197.25,
     "envio_absorbido": 8790,
     "recibis": 84962.75,
-    "stock": 28,
-    "recibis_total": 2378957.0
+    "stock": 27,
+    "recibis_total": 2293994.25
   }
 ]

@@ -6187,54 +6187,63 @@
     "item_id": "MLA3677881124",
     "sku": "50020",
     "producto": "Treonato De Magnesio 1000 Mg Geonat Para Concentración Y Memoria  60 Comprimidos Sin Sabor",
-    "stock": 286,
+    "stock": 285,
     "precio": 21200.0,
-    "importe": 6063200.0
+    "importe": 6042000.0
   },
   {
     "fecha": "2026-09-23",
     "item_id": "MLA1926311309",
     "sku": "50023",
     "producto": "Bisglicinato De Magnesio Geonat Geomagnesium Con Vitaminas B En Comprimidos X 60 Sin Sabor",
-    "stock": 311,
+    "stock": 310,
     "precio": 16450.0,
-    "importe": 5115950.0
+    "importe": 5099500.0
   },
   {
     "fecha": "2026-09-23",
     "item_id": "MLA3770872430",
     "sku": "50031",
     "producto": "Iso Gold Nutrition Protein Sabor Gourmet Vainilla X907gr Vainilla Gourmet",
-    "stock": 28,
+    "stock": 27,
     "precio": 110950.0,
-    "importe": 3106600.0
+    "importe": 2995650.0
+  },
+  {
+    "fecha": "2026-09-23",
+    "item_id": "MLA1778680761",
+    "sku": "50006",
+    "producto": "Yerba Mate Canarias Tradicional 1 Kg Sin Palo",
+    "stock": 180,
+    "precio": 11300.0,
+    "importe": 2034000.0
   },
   {
     "fecha": "2026-09-23",
     "item_id": "MLA3471136932",
     "sku": "50014",
     "producto": "L-arginina + L-citrulina + Ginseng | M1 Energy | Bylappiel Sin Sabor",
-    "stock": 109,
+    "stock": 108,
     "precio": 18000,
-    "importe": 1962000
+    "importe": 1944000
   },
   {
     "fecha": "2026-09-23",
-    "item_id": "MLA3566784906",
+    "item_id": "MLA3232759300",
     "sku": "50005",
-    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Plus",
-    "stock": 58,
+    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
+    "stock": 55,
     "precio": 29000,
-    "importe": 1682000
+    "importe": 1595000
   },
   {
     "fecha": "2026-09-23",
     "item_id": "MLA1977669679",
     "sku": "50030",
     "producto": "Creatina Monohidratada 100% Pura 300 Gramos Sin Sabor En Pote Polvo - Star Nutrition",
-    "stock": 43,
+    "stock": 40,
     "precio": 30000.0,
-    "importe": 1290000.0
+    "importe": 1200000.0
   },
   {
     "fecha": "2026-09-23",
@@ -6292,18 +6301,18 @@
   },
   {
     "fecha": "2026-09-23",
-    "item_id": "MLA3770867494",
+    "item_id": "MLA3770705240",
     "sku": "50029",
-    "producto": "Creatina Monohidratada Ena Sport Micronizada 300g Neutro Neutro",
+    "producto": "Creatina Monohidrato Ena Sport 300g Micronizada - 60 Servicios - Potencia Masa Muscular Y Rendimiento Deportivo Sin Sabor",
     "stock": 5,
     "precio": 30000.0,
     "importe": 150000.0
   },
   {
     "fecha": "2026-09-23",
-    "item_id": "MLA2091401043",
+    "item_id": "MLA2091401039",
     "sku": "50028",
-    "producto": "Kit X 3 Toalla De Cara Facial Oregon Hotelera 100% Algodón 400gr Blanca 30x50 Blanco Lisa",
+    "producto": "Kit X 3 Toalla Cara Oregon Hotelera Algodón Blanca 30x50 Blanco Lisa",
     "stock": 8,
     "precio": 16000,
     "importe": 128000
@@ -6319,18 +6328,18 @@
   },
   {
     "fecha": "2026-09-23",
-    "item_id": "MLA2097402363",
-    "sku": "50041",
-    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Negro Imperial",
+    "item_id": "MLA2097402365",
+    "sku": "50042",
+    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Marrón Imperial",
     "stock": 2,
     "precio": 55000,
     "importe": 110000
   },
   {
     "fecha": "2026-09-23",
-    "item_id": "MLA2097402365",
-    "sku": "50042",
-    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Marrón Imperial",
+    "item_id": "MLA2097402363",
+    "sku": "50041",
+    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Negro Imperial",
     "stock": 2,
     "precio": 55000,
     "importe": 110000
