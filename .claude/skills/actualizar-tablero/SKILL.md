@@ -74,6 +74,10 @@ Recién acá invocar la skill `actualizar-base-informativa` para preguntarle a L
   - Volver a correr el Paso 2 completo (`build_pnl_data.py` / `build_dashboard_data.py` / `build_sheet.py`) y el Paso 3 (publicar el dashboard de nuevo) para que el P&L y el dashboard reflejen el dato nuevo.
   - Avisarle a Lucas que se actualizó por el dato nuevo y qué cambió.
 
+## Paso 6 — commitear y pushear a `origin/main` (siempre, sin preguntar)
+
+Pedido de Lucas (2026-09-23): al terminar (después del Paso 5, y de re-correr lo que haga falta si trajo datos nuevos), **commitear todos los cambios y pushear a `origin/main` sin preguntarle** — así otras sesiones arrancan desde la base al día (ver CLAUDE.md, sección de sincronizar). Antes del push, `git fetch origin` y verificar que no haya commits nuevos en `origin/main`; si los hay, integrarlos (sin pisar datos, mismo criterio que CLAUDE.md) antes de pushear. Mensaje tipo `Actualizar tablero completo hasta DD/MM` con un resumen corto de qué se actualizó/salteó.
+
 ## Reglas que no hay que re-derivar (resumen — el detalle completo está en cada skill de tabla y en la memoria)
 
 - Cargo por venta siempre **neto** (nunca bruto/descuento de Facturación) — ver `actualizar-base-ventas` / `mercadolibre-base-ventas`.
