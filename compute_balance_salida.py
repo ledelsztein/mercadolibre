@@ -43,7 +43,7 @@ import sys
 from datetime import date, datetime, timedelta
 
 from dotenv import load_dotenv
-from google.oauth2.credentials import Credentials
+from google_creds import get_creds
 from googleapiclient.discovery import build
 
 load_dotenv()
@@ -133,7 +133,7 @@ def deudas_pendientes_a_fecha(sheets, spreadsheet_id, fecha):
 if __name__ == '__main__':
     fecha = sys.argv[1] if len(sys.argv) > 1 else date.today().isoformat()
 
-    creds = Credentials.from_authorized_user_file('google_token.json')
+    creds = get_creds()
     sheets = build('sheets', 'v4', credentials=creds)
     spreadsheet_id = open('sheet_id.txt').read().strip()
 

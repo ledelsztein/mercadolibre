@@ -17,10 +17,10 @@ ese archivo si se quiere crear una hoja nueva en vez de actualizar la actual.
 import json
 import os
 
-from google.oauth2.credentials import Credentials
+from google_creds import get_creds
 from googleapiclient.discovery import build
 
-creds = Credentials.from_authorized_user_file('google_token.json')
+creds = get_creds()
 sheets = build('sheets', 'v4', credentials=creds)
 
 # ---------- P&L consolidado (uno o mas meses) ----------

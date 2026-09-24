@@ -220,7 +220,8 @@ Two CSS-conic-gradient donuts (Ventas, Costos totales) per period + a legend; cl
 
 ## Google Sheets/Drive setup
 
-- OAuth credentials in `.env`: `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET` (Google Cloud Console, OAuth consent screen in "Testing" mode with `lucasedelsztein@gmail.com` as test user).
+- **Since 2026-09-24 all scripts get credentials via `google_creds.get_creds()`**: service account first (`GOOGLE_SA_JSON` env var with the full key JSON, or local `google_sa.json`, both scoped to `spreadsheets` only), falling back to the OAuth `google_token.json` below. The service account never expires; the Deleite Sheet must be shared as Editor with its `client_email`. Moved to this because the OAuth app can't be published to "In production" without a homepage/privacy-policy on an owned domain, so its refresh token kept dying every 7 days. Caveat: service accounts have no Drive storage, so `build_sheet.py` without `sheet_id.txt` (creating a brand-new Sheet) won't work under the SA -- create the Sheet by hand and share it instead.
+- (Legacy) OAuth credentials in `.env`: `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET` (Google Cloud Console, OAuth consent screen in "Testing" mode with `lucasedelsztein@gmail.com` as test user).
 - `auth_google.py` → `google_token.json` (gitignored). Scopes: `spreadsheets`, `drive.file`. **The OAuth consent screen is in "Testing" mode** -- confirmed 2026-07-28 that the refresh token can expire/get revoked (`google.auth.exceptions.RefreshError: invalid_grant: Token has been expired or revoked`), requiring Lucas to re-run `python auth_google.py` and complete the interactive browser login again himself -- can't be worked around unattended. If any `build_*_sheet.py` script suddenly throws this, this is why.
 - Sheet ID in `sheet_id.txt` — delete it to force creating a fresh Sheet instead of updating.
 

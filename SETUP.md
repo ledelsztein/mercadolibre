@@ -11,7 +11,7 @@
    GOOGLE_CLIENT_SECRET=<pedirle a Lucas>
    ```
 4. Autenticar MercadoLibre: correr `auth.py` (abre el navegador, pide pegar el `code` de la URL de redirect — la app requiere PKCE). Genera `token.json` (gitignored, se refresca solo después via `refresh_token`).
-5. Autenticar Google: correr `auth_google.py` (login interactivo por navegador). Genera `google_token.json` (gitignored).
+5. Autenticar Google: copiar la clave JSON de la service account (pedirle a Lucas) como `google_sa.json` en la raíz del repo (gitignored), o cargarla entera en la variable de entorno `GOOGLE_SA_JSON`. No vence ni pide login. Ver `google_creds.py`. (Fallback viejo: `auth_google.py` → `google_token.json`, que vence cada 7 días porque la app OAuth está en modo "Prueba".)
 6. Listo — `sheet_id.txt` y `data/Costos.xlsx` ya vienen en el repo, así que `/actualizar-tablero` debería correr de punta a punta sin más setup.
 
 Detalle completo (por qué PKCE, qué app de MercadoLibre, etc.) en

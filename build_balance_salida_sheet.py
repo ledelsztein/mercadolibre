@@ -7,10 +7,10 @@ Uso:
 """
 import json
 
-from google.oauth2.credentials import Credentials
+from google_creds import get_creds
 from googleapiclient.discovery import build
 
-creds = Credentials.from_authorized_user_file('google_token.json')
+creds = get_creds()
 sheets = build('sheets', 'v4', credentials=creds)
 
 registros = json.load(open('balance_salida.json', encoding='utf-8'))

@@ -11,10 +11,10 @@ import json
 import os
 from collections import defaultdict
 
-from google.oauth2.credentials import Credentials
+from google_creds import get_creds
 from googleapiclient.discovery import build
 
-creds = Credentials.from_authorized_user_file('google_token.json')
+creds = get_creds()
 sheets = build('sheets', 'v4', credentials=creds)
 
 base = json.load(open('base_ventas.json', encoding='utf-8'))
