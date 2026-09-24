@@ -2269,15 +2269,15 @@
   },
   {
     "fecha": "2026-09-24",
-    "item_id": "MLA3283469316",
+    "item_id": "MLA1778680761",
     "sku": "50006",
-    "producto": "Yerba Mate Canarias Tradicional 1 Kg",
+    "producto": "Yerba Mate Canarias Tradicional 1 Kg Sin Palo",
     "precio": 11300.0,
     "comision": 2879,
     "envio_absorbido": 0.0,
     "recibis": 8421.0,
-    "stock": 274,
-    "recibis_total": 2307354.0
+    "stock": 255,
+    "recibis_total": 2147355.0
   },
   {
     "fecha": "2026-09-24",
@@ -2324,8 +2324,8 @@
     "comision": 5289.75,
     "envio_absorbido": 0.0,
     "recibis": 11160.25,
-    "stock": 302,
-    "recibis_total": 3370395.5
+    "stock": 297,
+    "recibis_total": 3314594.25
   },
   {
     "fecha": "2026-09-24",
@@ -2396,8 +2396,8 @@
     "comision": 6026,
     "envio_absorbido": 0.0,
     "recibis": 15174.0,
-    "stock": 283,
-    "recibis_total": 4294242.0
+    "stock": 279,
+    "recibis_total": 4233546.0
   },
   {
     "fecha": "2026-09-24",
@@ -2444,8 +2444,8 @@
     "comision": 7990,
     "envio_absorbido": 0.0,
     "recibis": 22010.0,
-    "stock": 38,
-    "recibis_total": 836380.0
+    "stock": 32,
+    "recibis_total": 704320.0
   },
   {
     "fecha": "2026-09-24",
@@ -2485,9 +2485,9 @@
   },
   {
     "fecha": "2026-09-24",
-    "item_id": "MLA2097402363",
-    "sku": "50041",
-    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Negro Imperial",
+    "item_id": "MLA2097402365",
+    "sku": "50042",
+    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Marrón Imperial",
     "precio": 55000,
     "comision": 10642.5,
     "envio_absorbido": 8790,
@@ -2497,9 +2497,9 @@
   },
   {
     "fecha": "2026-09-24",
-    "item_id": "MLA2097402365",
-    "sku": "50042",
-    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Marrón Imperial",
+    "item_id": "MLA2097402363",
+    "sku": "50041",
+    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Negro Imperial",
     "precio": 55000,
     "comision": 10642.5,
     "envio_absorbido": 8790,
@@ -2545,14 +2545,14 @@
   },
   {
     "fecha": "2026-09-24",
-    "item_id": "MLA3770872430",
+    "item_id": "MLA1977867145",
     "sku": "50031",
-    "producto": "Iso Gold Nutrition Protein Sabor Gourmet Vainilla X907gr Vainilla Gourmet",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907g Vainilla 2l Vainilla Gourmet",
     "precio": 110950.0,
     "comision": 17197.25,
     "envio_absorbido": 8790,
     "recibis": 84962.75,
-    "stock": 25,
-    "recibis_total": 2124068.75
+    "stock": 24,
+    "recibis_total": 2039106.0
   }
 ]
