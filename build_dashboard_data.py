@@ -21,9 +21,10 @@ Uso:
 import json
 import os
 from datetime import date
+from cat_names import load_cat_names
 
 PNL = json.load(open('pnl_data.json', encoding='utf-8'))
-CAT_NAMES = json.load(open('cat_names.json', encoding='utf-8'))
+CAT_NAMES = load_cat_names(r.get('cat_id') for r in json.load(open('base_ventas.json', encoding='utf-8')).values())
 
 # (periodo corto para dashboard_data.json, fecha_desde, fecha_hasta) -- el
 # periodo corto debe ser la primera palabra en minuscula del label de PNL

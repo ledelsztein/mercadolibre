@@ -19,6 +19,7 @@ import os
 
 from google_creds import get_creds
 from googleapiclient.discovery import build
+from cat_names import load_cat_names
 
 creds = get_creds()
 sheets = build('sheets', 'v4', credentials=creds)
@@ -97,7 +98,7 @@ pnl_rows += [
 ]
 
 # ---------- base_ventas + base_envios: fuente unica, pivotada por mes (sin repetir filas) ----------
-CAT_NAMES = json.load(open('cat_names.json', encoding='utf-8'))
+CAT_NAMES = load_cat_names(r.get('cat_id') for r in json.load(open('base_ventas.json', encoding='utf-8')).values())
 PERIODOS = [
     ('mayo', '2026-05-01', '2026-05-31'),
     ('junio', '2026-06-01', '2026-06-30'),
