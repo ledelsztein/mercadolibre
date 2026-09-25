@@ -6655,27 +6655,18 @@
     "item_id": "MLA1926311309",
     "sku": "50023",
     "producto": "Bisglicinato De Magnesio Geonat Geomagnesium Con Vitaminas B En Comprimidos X 60 Sin Sabor",
-    "stock": 297,
+    "stock": 294,
     "precio": 16450.0,
-    "importe": 4885650.0
+    "importe": 4836300.0
   },
   {
     "fecha": "2026-09-25",
     "item_id": "MLA3283469316",
     "sku": "50006",
     "producto": "Yerba Mate Canarias Tradicional 1 Kg",
-    "stock": 208,
+    "stock": 183,
     "precio": 11500.0,
-    "importe": 2392000.0
-  },
-  {
-    "fecha": "2026-09-25",
-    "item_id": "MLA3770872430",
-    "sku": "50031",
-    "producto": "Iso Gold Nutrition Protein Sabor Gourmet Vainilla X907gr Vainilla Gourmet",
-    "stock": 21,
-    "precio": 110950.0,
-    "importe": 2329950.0
+    "importe": 2104500.0
   },
   {
     "fecha": "2026-09-25",
@@ -6688,6 +6679,15 @@
   },
   {
     "fecha": "2026-09-25",
+    "item_id": "MLA3770872430",
+    "sku": "50031",
+    "producto": "Iso Gold Nutrition Protein Sabor Gourmet Vainilla X907gr Vainilla Gourmet",
+    "stock": 17,
+    "precio": 110950.0,
+    "importe": 1886150.0
+  },
+  {
+    "fecha": "2026-09-25",
     "item_id": "MLA3232759300",
     "sku": "50005",
     "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
@@ -6697,12 +6697,12 @@
   },
   {
     "fecha": "2026-09-25",
-    "item_id": "MLA1977669677",
+    "item_id": "MLA1977669679",
     "sku": "50030",
-    "producto": "Creatina Monohidrato Star Nutrition Micronizada 300g Neutro Sin Sabor",
-    "stock": 27,
+    "producto": "Creatina Monohidratada 100% Pura 300 Gramos Sin Sabor En Pote Polvo - Star Nutrition",
+    "stock": 26,
     "precio": 30000.0,
-    "importe": 810000.0
+    "importe": 780000.0
   },
   {
     "fecha": "2026-09-25",
@@ -6710,8 +6710,8 @@
     "sku": "50037",
     "producto": "Canarias Serena 1kg",
     "stock": 60,
-    "precio": 12500.0,
-    "importe": 750000.0
+    "precio": 12499.0,
+    "importe": 749940.0
   },
   {
     "fecha": "2026-09-25",
@@ -6760,9 +6760,9 @@
   },
   {
     "fecha": "2026-09-25",
-    "item_id": "MLA3770705240",
+    "item_id": "MLA3770867494",
     "sku": "50029",
-    "producto": "Creatina Monohidrato Ena Sport 300g Micronizada - 60 Servicios - Potencia Masa Muscular Y Rendimiento Deportivo Sin Sabor",
+    "producto": "Creatina Monohidratada Ena Sport Micronizada 300g Neutro Neutro",
     "stock": 5,
     "precio": 30000.0,
     "importe": 150000.0
@@ -6787,18 +6787,18 @@
   },
   {
     "fecha": "2026-09-25",
-    "item_id": "MLA2097402363",
-    "sku": "50041",
-    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Negro Imperial",
+    "item_id": "MLA2097402365",
+    "sku": "50042",
+    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Marrón Imperial",
     "stock": 2,
     "precio": 55000,
     "importe": 110000
   },
   {
     "fecha": "2026-09-25",
-    "item_id": "MLA2097402365",
-    "sku": "50042",
-    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Marrón Imperial",
+    "item_id": "MLA2097402363",
+    "sku": "50041",
+    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Negro Imperial",
     "stock": 2,
     "precio": 55000,
     "importe": 110000

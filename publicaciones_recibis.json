@@ -2588,20 +2588,20 @@
     "comision": 2905,
     "envio_absorbido": 0.0,
     "recibis": 8595.0,
-    "stock": 208,
-    "recibis_total": 1787760.0
+    "stock": 183,
+    "recibis_total": 1572885.0
   },
   {
     "fecha": "2026-09-25",
     "item_id": "MLA3949953586",
     "sku": "50037",
     "producto": "Canarias Serena 1kg",
-    "precio": 12500.0,
-    "comision": 3035,
+    "precio": 12499.0,
+    "comision": 3034.87,
     "envio_absorbido": 0.0,
-    "recibis": 9465.0,
+    "recibis": 9464.13,
     "stock": 60,
-    "recibis_total": 567900.0
+    "recibis_total": 567847.8
   },
   {
     "fecha": "2026-09-25",
@@ -2636,8 +2636,8 @@
     "comision": 5289.75,
     "envio_absorbido": 0.0,
     "recibis": 11160.25,
-    "stock": 297,
-    "recibis_total": 3314594.25
+    "stock": 294,
+    "recibis_total": 3281113.5
   },
   {
     "fecha": "2026-09-25",
@@ -2756,8 +2756,8 @@
     "comision": 7990,
     "envio_absorbido": 0.0,
     "recibis": 22010.0,
-    "stock": 27,
-    "recibis_total": 594270.0
+    "stock": 26,
+    "recibis_total": 572260.0
   },
   {
     "fecha": "2026-09-25",
@@ -2797,9 +2797,9 @@
   },
   {
     "fecha": "2026-09-25",
-    "item_id": "MLA2097402363",
-    "sku": "50041",
-    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Negro Imperial",
+    "item_id": "MLA2097402365",
+    "sku": "50042",
+    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Marrón Imperial",
     "precio": 55000,
     "comision": 10642.5,
     "envio_absorbido": 8790,
@@ -2809,9 +2809,9 @@
   },
   {
     "fecha": "2026-09-25",
-    "item_id": "MLA2097402365",
-    "sku": "50042",
-    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Marrón Imperial",
+    "item_id": "MLA2097402363",
+    "sku": "50041",
+    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Negro Imperial",
     "precio": 55000,
     "comision": 10642.5,
     "envio_absorbido": 8790,
@@ -2864,7 +2864,7 @@
     "comision": 17197.25,
     "envio_absorbido": 8790,
     "recibis": 84962.75,
-    "stock": 21,
-    "recibis_total": 1784217.75
+    "stock": 17,
+    "recibis_total": 1444366.75
   }
 ]
