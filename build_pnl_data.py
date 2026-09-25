@@ -5,6 +5,9 @@ mano de informativo). Ver memoria mercadolibre-pnl-pipeline para el detalle
 de por que se llego a esta arquitectura. base_full/base_adelantos (2026-07-31)
 son las mas nuevas -- cargos Full (envio + almacenamiento) y adelanto de
 disponibilidad de dinero, ninguno capturado antes en ningun lado.
+base_cargos_ml (2026-09-25) suma Mantenimiento de Mi pagina y Devoluciones,
+y la Publicidad se abre en Publicidad Ventas / Publicidad Pagina (campania de
+Seguidores) -- 'publicidad' sigue siendo el total de las dos.
 
 Todo el P&L queda en base CON IVA (misma base que ventas = total_amount de
 la orden, que ya viene con IVA) -- logistica_flex/otros_log/otros_cargos
@@ -37,6 +40,7 @@ base_informativa = json.load(open('base_informativa.json', encoding='utf-8'))
 base_impositiva = json.load(open('base_impositiva.json', encoding='utf-8'))
 base_full = json.load(open('base_full.json', encoding='utf-8'))
 base_adelantos = json.load(open('base_adelantos.json', encoding='utf-8'))
+base_cargos_ml = json.load(open('base_cargos_ml.json', encoding='utf-8'))
 
 INFORMATIVO_CATS = {
     'logistica_flex': 'Logística Flex',
@@ -62,6 +66,7 @@ for label, (desde, hasta, imp_key) in PERIODOS.items():
     inf_rows = [r for r in base_informativa if en_rango(r['fecha'], desde, hasta)]
     full_rows = [r for r in base_full if en_rango(r['fecha'], desde, hasta)]
     adelantos_rows = [r for r in base_adelantos if en_rango(r['fecha'], desde, hasta)]
+    cargos_ml_rows = [r for r in base_cargos_ml if en_rango(r['fecha'], desde, hasta)]
 
     ventas = sum(r['importe_c'] for r in ventas_rows)
     cogs = -sum(r['costo_c'] for r in ventas_rows)
@@ -72,7 +77,11 @@ for label, (desde, hasta, imp_key) in PERIODOS.items():
     envio_pasante = sum(r['pasante_c'] for r in envios_rows)
     envios_ingreso_flex = envios_ingreso - envio_pasante
     egreso_envio_real = egreso_envio - envio_pasante
-    publicidad = sum(r['costo_c'] for r in ads_rows)
+    publicidad_ventas = sum(r['costo_ventas_c'] for r in ads_rows)
+    publicidad_pagina = sum(r['costo_pagina_c'] for r in ads_rows)
+    publicidad = publicidad_ventas + publicidad_pagina
+    mi_pagina = sum(r['mi_pagina_c'] for r in cargos_ml_rows)
+    devoluciones = sum(r['devoluciones_c'] for r in cargos_ml_rows)
     cargo_colecta_full = sum(r['deposito_full_c'] for r in full_rows)
     cargo_almacenamiento_full = sum(r['almacenamiento_full_c'] for r in full_rows)
     adelanto = sum(r['costo_c'] for r in adelantos_rows)
@@ -93,6 +102,10 @@ for label, (desde, hasta, imp_key) in PERIODOS.items():
         'egreso_envio_real': round(egreso_envio_real, 2),
         'envio_pasante': round(envio_pasante, 2),
         'publicidad': round(publicidad, 2),
+        'publicidad_ventas': round(publicidad_ventas, 2),
+        'publicidad_pagina': round(publicidad_pagina, 2),
+        'mi_pagina': round(mi_pagina, 2),
+        'devoluciones': round(devoluciones, 2),
         'cargo_colecta_full': round(cargo_colecta_full, 2),
         'cargo_almacenamiento_full': round(cargo_almacenamiento_full, 2),
         'adelanto': round(adelanto, 2),

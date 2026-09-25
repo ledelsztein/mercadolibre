@@ -1,0 +1,34 @@
+[
+  {
+    "fecha": "2026-07-14",
+    "factura": "0058A00860281",
+    "mi_pagina_s": 8104.13,
+    "mi_pagina_c": 9806.0,
+    "devoluciones_s": 0.0,
+    "devoluciones_c": 0.0
+  },
+  {
+    "fecha": "2026-08-02",
+    "factura": "0058A00860281",
+    "mi_pagina_s": 13222.31,
+    "mi_pagina_c": 15999.0,
+    "devoluciones_s": 0.0,
+    "devoluciones_c": 0.0
+  },
+  {
+    "fecha": "2026-09-02",
+    "factura": "0011A05238580",
+    "mi_pagina_s": 13222.31,
+    "mi_pagina_c": 15999.0,
+    "devoluciones_s": 0.0,
+    "devoluciones_c": 0.0
+  },
+  {
+    "fecha": "2026-09-21",
+    "factura": "pendiente fc",
+    "mi_pagina_s": 0.0,
+    "mi_pagina_c": 0.0,
+    "devoluciones_s": 7495.87,
+    "devoluciones_c": 9070.0
+  }
+]

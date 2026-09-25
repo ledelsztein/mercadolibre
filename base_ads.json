@@ -7,7 +7,11 @@
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 15862,
-    "clicks": 20
+    "clicks": 20,
+    "costo_ventas_s": 604.15,
+    "costo_ventas_c": 731.02,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-02",
@@ -17,7 +21,11 @@
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 25038,
-    "clicks": 36
+    "clicks": 36,
+    "costo_ventas_s": 1484.98,
+    "costo_ventas_c": 1796.83,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-03",
@@ -27,7 +35,11 @@
     "ventas_s": 51582.64,
     "ventas_c": 62415.0,
     "impresiones": 26343,
-    "clicks": 52
+    "clicks": 52,
+    "costo_ventas_s": 2307.27,
+    "costo_ventas_c": 2791.8,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-04",
@@ -37,7 +49,11 @@
     "ventas_s": 9871.9,
     "ventas_c": 11945.0,
     "impresiones": 33865,
-    "clicks": 58
+    "clicks": 58,
+    "costo_ventas_s": 2936.46,
+    "costo_ventas_c": 3553.12,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-05",
@@ -47,7 +63,11 @@
     "ventas_s": 9871.9,
     "ventas_c": 11945.0,
     "impresiones": 33255,
-    "clicks": 42
+    "clicks": 42,
+    "costo_ventas_s": 6445.52,
+    "costo_ventas_c": 7799.08,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-06",
@@ -57,7 +77,11 @@
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 22388,
-    "clicks": 28
+    "clicks": 28,
+    "costo_ventas_s": 4512.69,
+    "costo_ventas_c": 5460.35,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-07",
@@ -67,7 +91,11 @@
     "ventas_s": 29615.7,
     "ventas_c": 35835.0,
     "impresiones": 27880,
-    "clicks": 64
+    "clicks": 64,
+    "costo_ventas_s": 1958.18,
+    "costo_ventas_c": 2369.4,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-08",
@@ -77,7 +105,11 @@
     "ventas_s": 8834.71,
     "ventas_c": 10690.0,
     "impresiones": 16867,
-    "clicks": 30
+    "clicks": 30,
+    "costo_ventas_s": 5066.65,
+    "costo_ventas_c": 6130.65,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-09",
@@ -87,7 +119,11 @@
     "ventas_s": 19743.8,
     "ventas_c": 23890.0,
     "impresiones": 20487,
-    "clicks": 35
+    "clicks": 35,
+    "costo_ventas_s": 2411.21,
+    "costo_ventas_c": 2917.56,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-10",
@@ -97,7 +133,11 @@
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 25938,
-    "clicks": 37
+    "clicks": 37,
+    "costo_ventas_s": 3231.6,
+    "costo_ventas_c": 3910.24,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-11",
@@ -107,117 +147,165 @@
     "ventas_s": 207938.41,
     "ventas_c": 251605.48,
     "impresiones": 52804,
-    "clicks": 97
+    "clicks": 97,
+    "costo_ventas_s": 2958.63,
+    "costo_ventas_c": 3579.94,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-12",
     "factura": "0011A04964303",
-    "costo_s": 16395.36,
-    "costo_c": 19838.38,
+    "costo_s": 16342.45,
+    "costo_c": 19774.36,
     "ventas_s": 178643.34,
     "ventas_c": 216158.44,
     "impresiones": 42869,
-    "clicks": 101
+    "clicks": 101,
+    "costo_ventas_s": 16342.45,
+    "costo_ventas_c": 19774.36,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-13",
     "factura": "0011A04964303",
-    "costo_s": 26562.79,
-    "costo_c": 32140.98,
+    "costo_s": 26122.0,
+    "costo_c": 31607.62,
     "ventas_s": 26528.93,
     "ventas_c": 32100.0,
     "impresiones": 54320,
-    "clicks": 101
+    "clicks": 101,
+    "costo_ventas_s": 26122.0,
+    "costo_ventas_c": 31607.62,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-14",
     "factura": "0011A04964303",
-    "costo_s": 43532.0,
-    "costo_c": 52673.72,
+    "costo_s": 26122.0,
+    "costo_c": 31607.62,
     "ventas_s": 102268.6,
     "ventas_c": 123745.0,
     "impresiones": 33101,
-    "clicks": 57
+    "clicks": 57,
+    "costo_ventas_s": 26122.0,
+    "costo_ventas_c": 31607.62,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-15",
     "factura": "0011A04964303",
-    "costo_s": 28584.82,
-    "costo_c": 34587.63,
+    "costo_s": 11497.73,
+    "costo_c": 13912.25,
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 29913,
-    "clicks": 32
+    "clicks": 32,
+    "costo_ventas_s": 11497.73,
+    "costo_ventas_c": 13912.25,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-16",
     "factura": "0011A04964303",
-    "costo_s": 16389.84,
-    "costo_c": 19831.71,
+    "costo_s": 7358.34,
+    "costo_c": 8903.59,
     "ventas_s": 37520.66,
     "ventas_c": 45400.0,
     "impresiones": 26885,
-    "clicks": 42
+    "clicks": 42,
+    "costo_ventas_s": 7358.34,
+    "costo_ventas_c": 8903.59,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-17",
     "factura": "0011A04964303",
-    "costo_s": 16460.86,
-    "costo_c": 19917.64,
+    "costo_s": 7566.96,
+    "costo_c": 9156.02,
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 43261,
-    "clicks": 76
+    "clicks": 76,
+    "costo_ventas_s": 7566.96,
+    "costo_ventas_c": 9156.02,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-18",
     "factura": "0011A04964303",
-    "costo_s": 17138.66,
-    "costo_c": 20737.78,
+    "costo_s": 8298.71,
+    "costo_c": 10041.44,
     "ventas_s": 108148.76,
     "ventas_c": 130860.0,
     "impresiones": 46038,
-    "clicks": 76
+    "clicks": 76,
+    "costo_ventas_s": 8298.71,
+    "costo_ventas_c": 10041.44,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-19",
     "factura": "0011A04964303",
-    "costo_s": 23562.38,
-    "costo_c": 28510.48,
+    "costo_s": 14628.79,
+    "costo_c": 17700.84,
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 39407,
-    "clicks": 65
+    "clicks": 65,
+    "costo_ventas_s": 14628.79,
+    "costo_ventas_c": 17700.84,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-20",
     "factura": "0011A04964303",
-    "costo_s": 20874.93,
-    "costo_c": 25258.67,
+    "costo_s": 12071.78,
+    "costo_c": 14606.85,
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 19452,
-    "clicks": 17
+    "clicks": 17,
+    "costo_ventas_s": 12071.78,
+    "costo_ventas_c": 14606.85,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-21",
     "factura": "0011A04964303",
-    "costo_s": 3089.65,
-    "costo_c": 3738.48,
+    "costo_s": 1800.86,
+    "costo_c": 2179.04,
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 26361,
-    "clicks": 16
+    "clicks": 16,
+    "costo_ventas_s": 1800.86,
+    "costo_ventas_c": 2179.04,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-22",
     "factura": "0011A04964303",
-    "costo_s": 13084.28,
-    "costo_c": 15831.98,
+    "costo_s": 5365.93,
+    "costo_c": 6492.78,
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 18129,
-    "clicks": 24
+    "clicks": 24,
+    "costo_ventas_s": 1114.43,
+    "costo_ventas_c": 1348.46,
+    "costo_pagina_s": 4251.5,
+    "costo_pagina_c": 5144.32
   },
   {
     "fecha": "2026-05-23",
@@ -227,7 +315,11 @@
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 12479,
-    "clicks": 8
+    "clicks": 8,
+    "costo_ventas_s": 1690.26,
+    "costo_ventas_c": 2045.21,
+    "costo_pagina_s": 4503.65,
+    "costo_pagina_c": 5449.42
   },
   {
     "fecha": "2026-05-24",
@@ -237,7 +329,11 @@
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 9264,
-    "clicks": 7
+    "clicks": 7,
+    "costo_ventas_s": 273.11,
+    "costo_ventas_c": 330.46,
+    "costo_pagina_s": 4421.72,
+    "costo_pagina_c": 5350.28
   },
   {
     "fecha": "2026-05-25",
@@ -247,7 +343,11 @@
     "ventas_s": 88404.96,
     "ventas_c": 106970.0,
     "impresiones": 15378,
-    "clicks": 8
+    "clicks": 8,
+    "costo_ventas_s": 218.57,
+    "costo_ventas_c": 264.47,
+    "costo_pagina_s": 4411.27,
+    "costo_pagina_c": 5337.64
   },
   {
     "fecha": "2026-05-26",
@@ -257,7 +357,11 @@
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 37283,
-    "clicks": 49
+    "clicks": 49,
+    "costo_ventas_s": 237.29,
+    "costo_ventas_c": 287.12,
+    "costo_pagina_s": 4447.63,
+    "costo_pagina_c": 5381.63
   },
   {
     "fecha": "2026-05-27",
@@ -267,7 +371,11 @@
     "ventas_s": 26528.93,
     "ventas_c": 32100.0,
     "impresiones": 54093,
-    "clicks": 73
+    "clicks": 73,
+    "costo_ventas_s": 9835.48,
+    "costo_ventas_c": 11900.93,
+    "costo_pagina_s": 4424.09,
+    "costo_pagina_c": 5353.15
   },
   {
     "fecha": "2026-05-28",
@@ -277,7 +385,11 @@
     "ventas_s": 25537.19,
     "ventas_c": 30900.0,
     "impresiones": 58115,
-    "clicks": 54
+    "clicks": 54,
+    "costo_ventas_s": 12946.64,
+    "costo_ventas_c": 15665.43,
+    "costo_pagina_s": 4430.6,
+    "costo_pagina_c": 5361.02
   },
   {
     "fecha": "2026-05-29",
@@ -287,7 +399,11 @@
     "ventas_s": 15202.48,
     "ventas_c": 18395.0,
     "impresiones": 52759,
-    "clicks": 49
+    "clicks": 49,
+    "costo_ventas_s": 9173.77,
+    "costo_ventas_c": 11100.26,
+    "costo_pagina_s": 1727.04,
+    "costo_pagina_c": 2089.72
   },
   {
     "fecha": "2026-05-30",
@@ -297,7 +413,11 @@
     "ventas_s": 44214.88,
     "ventas_c": 53500.0,
     "impresiones": 45759,
-    "clicks": 56
+    "clicks": 56,
+    "costo_ventas_s": 6635.64,
+    "costo_ventas_c": 8029.12,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-05-31",
@@ -307,7 +427,11 @@
     "ventas_s": 67359.5,
     "ventas_c": 81505.0,
     "impresiones": 52980,
-    "clicks": 61
+    "clicks": 61,
+    "costo_ventas_s": 7412.21,
+    "costo_ventas_c": 8968.78,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-01",
@@ -317,7 +441,11 @@
     "ventas_s": 332620.25,
     "ventas_c": 402470.5,
     "impresiones": 62943,
-    "clicks": 86
+    "clicks": 86,
+    "costo_ventas_s": 6454.73,
+    "costo_ventas_c": 7810.22,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-02",
@@ -327,7 +455,11 @@
     "ventas_s": 40140.5,
     "ventas_c": 48570.0,
     "impresiones": 35153,
-    "clicks": 43
+    "clicks": 43,
+    "costo_ventas_s": 15476.31,
+    "costo_ventas_c": 18726.33,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-03",
@@ -337,7 +469,11 @@
     "ventas_s": 46272.73,
     "ventas_c": 55990.0,
     "impresiones": 15840,
-    "clicks": 49
+    "clicks": 49,
+    "costo_ventas_s": 10322.12,
+    "costo_ventas_c": 12489.77,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-04",
@@ -347,7 +483,11 @@
     "ventas_s": 214653.93,
     "ventas_c": 259731.25,
     "impresiones": 44602,
-    "clicks": 74
+    "clicks": 74,
+    "costo_ventas_s": 11571.59,
+    "costo_ventas_c": 14001.62,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-05",
@@ -357,7 +497,11 @@
     "ventas_s": 85479.34,
     "ventas_c": 103430.0,
     "impresiones": 15606,
-    "clicks": 59
+    "clicks": 59,
+    "costo_ventas_s": 20464.71,
+    "costo_ventas_c": 24762.3,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-06",
@@ -367,7 +511,11 @@
     "ventas_s": 159173.55,
     "ventas_c": 192600.0,
     "impresiones": 17427,
-    "clicks": 45
+    "clicks": 45,
+    "costo_ventas_s": 15271.02,
+    "costo_ventas_c": 18477.93,
+    "costo_pagina_s": 3714.97,
+    "costo_pagina_c": 4495.11
   },
   {
     "fecha": "2026-06-07",
@@ -377,7 +525,11 @@
     "ventas_s": 26528.93,
     "ventas_c": 32100.0,
     "impresiones": 29856,
-    "clicks": 78
+    "clicks": 78,
+    "costo_ventas_s": 17000.0,
+    "costo_ventas_c": 20570.0,
+    "costo_pagina_s": 5020.53,
+    "costo_pagina_c": 6074.84
   },
   {
     "fecha": "2026-06-08",
@@ -387,7 +539,11 @@
     "ventas_s": 204272.73,
     "ventas_c": 247170.0,
     "impresiones": 20486,
-    "clicks": 38
+    "clicks": 38,
+    "costo_ventas_s": 19869.23,
+    "costo_ventas_c": 24041.77,
+    "costo_pagina_s": 4475.95,
+    "costo_pagina_c": 5415.9
   },
   {
     "fecha": "2026-06-09",
@@ -397,7 +553,11 @@
     "ventas_s": 61561.98,
     "ventas_c": 74490.0,
     "impresiones": 31492,
-    "clicks": 56
+    "clicks": 56,
+    "costo_ventas_s": 15545.0,
+    "costo_ventas_c": 18809.45,
+    "costo_pagina_s": 4398.56,
+    "costo_pagina_c": 5322.26
   },
   {
     "fecha": "2026-06-10",
@@ -407,7 +567,11 @@
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 15209,
-    "clicks": 50
+    "clicks": 50,
+    "costo_ventas_s": 16934.93,
+    "costo_ventas_c": 20491.26,
+    "costo_pagina_s": 4514.99,
+    "costo_pagina_c": 5463.14
   },
   {
     "fecha": "2026-06-11",
@@ -417,7 +581,11 @@
     "ventas_s": 71628.1,
     "ventas_c": 86670.0,
     "impresiones": 29542,
-    "clicks": 59
+    "clicks": 59,
+    "costo_ventas_s": 17382.0,
+    "costo_ventas_c": 21032.22,
+    "costo_pagina_s": 4390.92,
+    "costo_pagina_c": 5313.01
   },
   {
     "fecha": "2026-06-12",
@@ -427,7 +595,11 @@
     "ventas_s": 53057.85,
     "ventas_c": 64200.0,
     "impresiones": 30024,
-    "clicks": 69
+    "clicks": 69,
+    "costo_ventas_s": 17382.0,
+    "costo_ventas_c": 21032.22,
+    "costo_pagina_s": 4380.95,
+    "costo_pagina_c": 5300.95
   },
   {
     "fecha": "2026-06-13",
@@ -437,7 +609,11 @@
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 34982,
-    "clicks": 54
+    "clicks": 54,
+    "costo_ventas_s": 17118.53,
+    "costo_ventas_c": 20713.42,
+    "costo_pagina_s": 1915.64,
+    "costo_pagina_c": 2317.93
   },
   {
     "fecha": "2026-06-14",
@@ -447,7 +623,11 @@
     "ventas_s": 36178.51,
     "ventas_c": 43776.0,
     "impresiones": 36367,
-    "clicks": 49
+    "clicks": 49,
+    "costo_ventas_s": 13187.55,
+    "costo_ventas_c": 15956.94,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-15",
@@ -457,7 +637,11 @@
     "ventas_s": 26528.93,
     "ventas_c": 32100.0,
     "impresiones": 45729,
-    "clicks": 74
+    "clicks": 74,
+    "costo_ventas_s": 9394.24,
+    "costo_ventas_c": 11367.03,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-16",
@@ -467,7 +651,11 @@
     "ventas_s": 183466.94,
     "ventas_c": 221995.0,
     "impresiones": 32079,
-    "clicks": 58
+    "clicks": 58,
+    "costo_ventas_s": 13489.61,
+    "costo_ventas_c": 16322.43,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-17",
@@ -477,7 +665,11 @@
     "ventas_s": 211475.41,
     "ventas_c": 255885.25,
     "impresiones": 22392,
-    "clicks": 43
+    "clicks": 43,
+    "costo_ventas_s": 11322.3,
+    "costo_ventas_c": 13699.98,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-18",
@@ -487,7 +679,11 @@
     "ventas_s": 17685.95,
     "ventas_c": 21400.0,
     "impresiones": 33220,
-    "clicks": 36
+    "clicks": 36,
+    "costo_ventas_s": 9549.24,
+    "costo_ventas_c": 11554.58,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-19",
@@ -497,7 +693,11 @@
     "ventas_s": 25650.83,
     "ventas_c": 31037.5,
     "impresiones": 11892,
-    "clicks": 28
+    "clicks": 28,
+    "costo_ventas_s": 4994.77,
+    "costo_ventas_c": 6043.67,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-20",
@@ -507,7 +707,11 @@
     "ventas_s": 19743.8,
     "ventas_c": 23890.0,
     "impresiones": 12497,
-    "clicks": 22
+    "clicks": 22,
+    "costo_ventas_s": 5202.37,
+    "costo_ventas_c": 6294.87,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-21",
@@ -517,7 +721,11 @@
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 8174,
-    "clicks": 19
+    "clicks": 19,
+    "costo_ventas_s": 4741.3,
+    "costo_ventas_c": 5736.97,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-22",
@@ -527,7 +735,11 @@
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 12643,
-    "clicks": 35
+    "clicks": 35,
+    "costo_ventas_s": 5258.0,
+    "costo_ventas_c": 6362.18,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-23",
@@ -537,7 +749,11 @@
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 8259,
-    "clicks": 31
+    "clicks": 31,
+    "costo_ventas_s": 5999.94,
+    "costo_ventas_c": 7259.93,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-24",
@@ -547,7 +763,11 @@
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 19147,
-    "clicks": 21
+    "clicks": 21,
+    "costo_ventas_s": 6395.4,
+    "costo_ventas_c": 7738.43,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-25",
@@ -557,7 +777,11 @@
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 4743,
-    "clicks": 12
+    "clicks": 12,
+    "costo_ventas_s": 4023.25,
+    "costo_ventas_c": 4868.13,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-26",
@@ -567,7 +791,11 @@
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 2517,
-    "clicks": 9
+    "clicks": 9,
+    "costo_ventas_s": 907.29,
+    "costo_ventas_c": 1097.82,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-27",
@@ -577,7 +805,11 @@
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 2502,
-    "clicks": 9
+    "clicks": 9,
+    "costo_ventas_s": 412.47,
+    "costo_ventas_c": 499.09,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-28",
@@ -587,7 +819,11 @@
     "ventas_s": 27503.87,
     "ventas_c": 33279.68,
     "impresiones": 4294,
-    "clicks": 8
+    "clicks": 8,
+    "costo_ventas_s": 1284.07,
+    "costo_ventas_c": 1553.72,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-29",
@@ -597,7 +833,11 @@
     "ventas_s": 140068.6,
     "ventas_c": 169483.0,
     "impresiones": 6092,
-    "clicks": 27
+    "clicks": 27,
+    "costo_ventas_s": 203.0,
+    "costo_ventas_c": 245.63,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-06-30",
@@ -607,7 +847,11 @@
     "ventas_s": 42844.21,
     "ventas_c": 51841.5,
     "impresiones": 12883,
-    "clicks": 41
+    "clicks": 41,
+    "costo_ventas_s": 10882.2,
+    "costo_ventas_c": 13167.46,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-01",
@@ -617,7 +861,11 @@
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 16917,
-    "clicks": 60
+    "clicks": 60,
+    "costo_ventas_s": 15717.65,
+    "costo_ventas_c": 19018.36,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-02",
@@ -627,7 +875,11 @@
     "ventas_s": 65289.88,
     "ventas_c": 79000.75,
     "impresiones": 9636,
-    "clicks": 34
+    "clicks": 34,
+    "costo_ventas_s": 23218.02,
+    "costo_ventas_c": 28093.8,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-03",
@@ -637,7 +889,11 @@
     "ventas_s": 21422.11,
     "ventas_c": 25920.75,
     "impresiones": 6717,
-    "clicks": 28
+    "clicks": 28,
+    "costo_ventas_s": 16485.0,
+    "costo_ventas_c": 19946.85,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-04",
@@ -647,7 +903,11 @@
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 7082,
-    "clicks": 33
+    "clicks": 33,
+    "costo_ventas_s": 15254.73,
+    "costo_ventas_c": 18458.22,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-05",
@@ -657,7 +917,11 @@
     "ventas_s": 47603.31,
     "ventas_c": 57600.0,
     "impresiones": 5495,
-    "clicks": 23
+    "clicks": 23,
+    "costo_ventas_s": 14790.09,
+    "costo_ventas_c": 17896.01,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-06",
@@ -667,627 +931,879 @@
     "ventas_s": 47603.31,
     "ventas_c": 57600.0,
     "impresiones": 11028,
-    "clicks": 27
+    "clicks": 27,
+    "costo_ventas_s": 12202.0,
+    "costo_ventas_c": 14764.42,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-07",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 8088.02,
     "costo_c": 9786.5,
     "ventas_s": 7529.34,
     "ventas_c": 9110.5,
     "impresiones": 1797,
-    "clicks": 5
+    "clicks": 5,
+    "costo_ventas_s": 8088.02,
+    "costo_ventas_c": 9786.5,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-08",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 1889.16,
     "costo_c": 2285.88,
     "ventas_s": 47603.31,
     "ventas_c": 57600.0,
     "impresiones": 824,
-    "clicks": 6
+    "clicks": 6,
+    "costo_ventas_s": 1889.16,
+    "costo_ventas_c": 2285.88,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-09",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 5255.56,
     "costo_c": 6359.23,
     "ventas_s": 202946.28,
     "ventas_c": 245565.0,
     "impresiones": 3966,
-    "clicks": 31
+    "clicks": 31,
+    "costo_ventas_s": 5255.56,
+    "costo_ventas_c": 6359.23,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-10",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 17694.75,
     "costo_c": 21410.65,
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 7793,
-    "clicks": 21
+    "clicks": 21,
+    "costo_ventas_s": 17694.75,
+    "costo_ventas_c": 21410.65,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-11",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 5570.55,
     "costo_c": 6740.37,
     "ventas_s": 45099.17,
     "ventas_c": 54570.0,
     "impresiones": 3719,
-    "clicks": 38
+    "clicks": 38,
+    "costo_ventas_s": 5570.55,
+    "costo_ventas_c": 6740.37,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-12",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 18231.68,
     "costo_c": 22060.33,
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 3500,
-    "clicks": 33
+    "clicks": 33,
+    "costo_ventas_s": 18231.68,
+    "costo_ventas_c": 22060.33,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-13",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 13312.0,
     "costo_c": 16107.52,
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 3505,
-    "clicks": 24
+    "clicks": 24,
+    "costo_ventas_s": 13312.0,
+    "costo_ventas_c": 16107.52,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-14",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 3400,
-    "clicks": 21
+    "clicks": 21,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-15",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 607,
-    "clicks": 8
+    "clicks": 8,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-16",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 2859.09,
     "costo_c": 3459.5,
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 87,
-    "clicks": 0
+    "clicks": 0,
+    "costo_ventas_s": 2859.09,
+    "costo_ventas_c": 3459.5,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-17",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 0.0,
     "costo_c": 0.0,
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 250,
-    "clicks": 0
+    "clicks": 0,
+    "costo_ventas_s": 0.0,
+    "costo_ventas_c": 0.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-18",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 0.0,
     "costo_c": 0.0,
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 1413,
-    "clicks": 4
+    "clicks": 4,
+    "costo_ventas_s": 0.0,
+    "costo_ventas_c": 0.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-19",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 373.96,
     "costo_c": 452.49,
     "ventas_s": 69351.12,
     "ventas_c": 83914.86,
     "impresiones": 2571,
-    "clicks": 11
+    "clicks": 11,
+    "costo_ventas_s": 373.96,
+    "costo_ventas_c": 452.49,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-20",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 6047.64,
     "costo_c": 7317.64,
     "ventas_s": 94809.92,
     "ventas_c": 114720.0,
     "impresiones": 9525,
-    "clicks": 19
+    "clicks": 19,
+    "costo_ventas_s": 6047.64,
+    "costo_ventas_c": 7317.64,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-21",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 8780.01,
     "costo_c": 10623.81,
     "ventas_s": 54292.45,
     "ventas_c": 65693.86,
     "impresiones": 11530,
-    "clicks": 47
+    "clicks": 47,
+    "costo_ventas_s": 8780.01,
+    "costo_ventas_c": 10623.81,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-22",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 25000.0,
     "costo_c": 30250.0,
     "ventas_s": 102570.66,
     "ventas_c": 124110.5,
     "impresiones": 15168,
-    "clicks": 67
+    "clicks": 67,
+    "costo_ventas_s": 25000.0,
+    "costo_ventas_c": 30250.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-23",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 21442.69,
     "costo_c": 25945.65,
     "ventas_s": 90198.35,
     "ventas_c": 109140.0,
     "impresiones": 18330,
-    "clicks": 70
+    "clicks": 70,
+    "costo_ventas_s": 21442.69,
+    "costo_ventas_c": 25945.65,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-24",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 24119.23,
     "costo_c": 29184.27,
     "ventas_s": 77152.41,
     "ventas_c": 93354.42,
     "impresiones": 11703,
-    "clicks": 62
+    "clicks": 62,
+    "costo_ventas_s": 24119.23,
+    "costo_ventas_c": 29184.27,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-25",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 24828.71,
     "costo_c": 30042.74,
     "ventas_s": 144754.96,
     "ventas_c": 175153.5,
     "impresiones": 14798,
-    "clicks": 91
+    "clicks": 91,
+    "costo_ventas_s": 24828.71,
+    "costo_ventas_c": 30042.74,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-26",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 30000.0,
     "costo_c": 36300.0,
     "ventas_s": 182055.77,
     "ventas_c": 220287.48,
     "impresiones": 11322,
-    "clicks": 58
+    "clicks": 58,
+    "costo_ventas_s": 30000.0,
+    "costo_ventas_c": 36300.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-27",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 19327.67,
     "costo_c": 23386.48,
     "ventas_s": 79421.49,
     "ventas_c": 96100.0,
     "impresiones": 12000,
-    "clicks": 65
+    "clicks": 65,
+    "costo_ventas_s": 19327.67,
+    "costo_ventas_c": 23386.48,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-28",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 20673.0,
     "costo_c": 25014.33,
     "ventas_s": 205821.37,
     "ventas_c": 249043.86,
     "impresiones": 14712,
-    "clicks": 55
+    "clicks": 55,
+    "costo_ventas_s": 20673.0,
+    "costo_ventas_c": 25014.33,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-29",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 19079.23,
     "costo_c": 23085.87,
     "ventas_s": 235785.12,
     "ventas_c": 285300.0,
     "impresiones": 10866,
-    "clicks": 61
+    "clicks": 61,
+    "costo_ventas_s": 19079.23,
+    "costo_ventas_c": 23085.87,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-30",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 20000.0,
     "costo_c": 24200.0,
     "ventas_s": 31735.54,
     "ventas_c": 38400.0,
     "impresiones": 14684,
-    "clicks": 59
+    "clicks": 59,
+    "costo_ventas_s": 20000.0,
+    "costo_ventas_c": 24200.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-07-31",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 18777.17,
     "costo_c": 22720.38,
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 2885,
-    "clicks": 13
+    "clicks": 13,
+    "costo_ventas_s": 18777.17,
+    "costo_ventas_c": 22720.38,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-01",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 15282.43,
     "costo_c": 18491.74,
     "ventas_s": 190909.09,
     "ventas_c": 231000.0,
     "impresiones": 19785,
-    "clicks": 54
+    "clicks": 54,
+    "costo_ventas_s": 15282.43,
+    "costo_ventas_c": 18491.74,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-02",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 16408.0,
     "costo_c": 19853.68,
     "ventas_s": 52066.12,
     "ventas_c": 63000.0,
     "impresiones": 8850,
-    "clicks": 33
+    "clicks": 33,
+    "costo_ventas_s": 16408.0,
+    "costo_ventas_c": 19853.68,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-03",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 187272.73,
     "ventas_c": 226600.0,
     "impresiones": 10021,
-    "clicks": 32
+    "clicks": 32,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-04",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 277057.79,
     "ventas_c": 335239.92,
     "impresiones": 0,
-    "clicks": 33
+    "clicks": 33,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-05",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 8186,
-    "clicks": 28
+    "clicks": 28,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-06",
-    "factura": null,
+    "factura": "0058A00860281",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 7054,
-    "clicks": 21
+    "clicks": 21,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-07",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 31404.96,
     "ventas_c": 38000.0,
     "impresiones": 17561,
-    "clicks": 26
+    "clicks": 26,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-08",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 125619.83,
     "ventas_c": 152000.0,
     "impresiones": 19857,
-    "clicks": 32
+    "clicks": 32,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-09",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 30247.93,
     "ventas_c": 36600.0,
     "impresiones": 16799,
-    "clicks": 31
+    "clicks": 31,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-10",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 15702.48,
     "ventas_c": 19000.0,
     "impresiones": 19485,
-    "clicks": 27
+    "clicks": 27,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-11",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 62809.92,
     "ventas_c": 76000.0,
     "impresiones": 11765,
-    "clicks": 21
+    "clicks": 21,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-12",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 32231.4,
     "ventas_c": 39000.0,
     "impresiones": 9347,
-    "clicks": 32
+    "clicks": 32,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-13",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 47107.44,
     "ventas_c": 57000.0,
     "impresiones": 5956,
-    "clicks": 30
+    "clicks": 30,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-14",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 62809.92,
     "ventas_c": 76000.0,
     "impresiones": 12648,
-    "clicks": 43
+    "clicks": 43,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-15",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 85065.79,
     "ventas_c": 102929.6,
     "impresiones": 10887,
-    "clicks": 40
+    "clicks": 40,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-16",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 15576.86,
     "ventas_c": 18848.0,
     "impresiones": 10093,
-    "clicks": 52
+    "clicks": 52,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-17",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 106168.6,
     "ventas_c": 128464.0,
     "impresiones": 11919,
-    "clicks": 55
+    "clicks": 55,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-18",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 38911.57,
     "ventas_c": 47083.0,
     "impresiones": 17233,
-    "clicks": 35
+    "clicks": 35,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-19",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 11887.6,
     "ventas_c": 14384.0,
     "impresiones": 23940,
-    "clicks": 63
+    "clicks": 63,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-20",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 68446.28,
     "ventas_c": 82820.0,
     "impresiones": 19872,
-    "clicks": 33
+    "clicks": 33,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-21",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 8415.77,
     "costo_c": 10183.08,
     "ventas_s": 38122.31,
     "ventas_c": 46128.0,
     "impresiones": 12030,
-    "clicks": 32
+    "clicks": 32,
+    "costo_ventas_s": 8415.77,
+    "costo_ventas_c": 10183.08,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-22",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 11529.57,
     "costo_c": 13950.78,
     "ventas_s": 105348.74,
     "ventas_c": 127471.97,
     "impresiones": 14851,
-    "clicks": 36
+    "clicks": 36,
+    "costo_ventas_s": 11529.57,
+    "costo_ventas_c": 13950.78,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-23",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 9056.72,
     "costo_c": 10958.63,
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 20446,
-    "clicks": 49
+    "clicks": 49,
+    "costo_ventas_s": 9056.72,
+    "costo_ventas_c": 10958.63,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-24",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 10998.0,
     "costo_c": 13307.58,
     "ventas_s": 41401.65,
     "ventas_c": 50096.0,
     "impresiones": 8772,
-    "clicks": 29
+    "clicks": 29,
+    "costo_ventas_s": 10998.0,
+    "costo_ventas_c": 13307.58,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-25",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 26234.71,
     "ventas_c": 31744.0,
     "impresiones": 8804,
-    "clicks": 37
+    "clicks": 37,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-26",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 9151.81,
     "costo_c": 11073.69,
     "ventas_s": 77155.37,
     "ventas_c": 93358.0,
     "impresiones": 13443,
-    "clicks": 36
+    "clicks": 36,
+    "costo_ventas_s": 9151.81,
+    "costo_ventas_c": 11073.69,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-27",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 15400.0,
     "costo_c": 18634.0,
     "ventas_s": 70830.58,
     "ventas_c": 85705.0,
     "impresiones": 10108,
-    "clicks": 31
+    "clicks": 31,
+    "costo_ventas_s": 15400.0,
+    "costo_ventas_c": 18634.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-28",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 10000.0,
     "costo_c": 12100.0,
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 14830,
-    "clicks": 27
+    "clicks": 27,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-29",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 6961.36,
     "costo_c": 8423.25,
     "ventas_s": 355600.0,
     "ventas_c": 430276.0,
     "impresiones": 9950,
-    "clicks": 38
+    "clicks": 38,
+    "costo_ventas_s": 6961.36,
+    "costo_ventas_c": 8423.25,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-30",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 8066.05,
     "costo_c": 9759.92,
     "ventas_s": 12272.73,
     "ventas_c": 14850.0,
     "impresiones": 17409,
-    "clicks": 49
+    "clicks": 49,
+    "costo_ventas_s": 8066.05,
+    "costo_ventas_c": 9759.92,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-08-31",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 12290.98,
     "costo_c": 14872.09,
     "ventas_s": 27223.97,
     "ventas_c": 32941.0,
     "impresiones": 4838,
-    "clicks": 29
+    "clicks": 29,
+    "costo_ventas_s": 12290.98,
+    "costo_ventas_c": 14872.09,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-09-01",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 12683.0,
     "costo_c": 15346.43,
     "ventas_s": 27223.97,
     "ventas_c": 32941.0,
     "impresiones": 6053,
-    "clicks": 21
+    "clicks": 21,
+    "costo_ventas_s": 12683.0,
+    "costo_ventas_c": 15346.43,
+    "costo_pagina_s": 0.0,
+    "costo_pagina_c": 0.0
   },
   {
     "fecha": "2026-09-02",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 11678.53,
     "costo_c": 14131.02,
     "ventas_s": 27223.97,
     "ventas_c": 32941.0,
     "impresiones": 4993,
-    "clicks": 20
+    "clicks": 20,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 1678.53,
+    "costo_pagina_c": 2031.02
   },
   {
     "fecha": "2026-09-03",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 12546.12,
     "costo_c": 15180.8,
     "ventas_s": 13273.55,
     "ventas_c": 16061.0,
     "impresiones": 4267,
-    "clicks": 31
+    "clicks": 31,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 2546.12,
+    "costo_pagina_c": 3080.8
   },
   {
     "fecha": "2026-09-04",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 14451.14,
     "costo_c": 17485.88,
     "ventas_s": 32375.21,
     "ventas_c": 39174.0,
     "impresiones": 2757,
-    "clicks": 22
+    "clicks": 22,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 4451.14,
+    "costo_pagina_c": 5385.88
   },
   {
     "fecha": "2026-09-05",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 14503.48,
     "costo_c": 17549.21,
     "ventas_s": 109021.49,
     "ventas_c": 131916.0,
     "impresiones": 7162,
-    "clicks": 45
+    "clicks": 45,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 4503.48,
+    "costo_pagina_c": 5449.21
   },
   {
     "fecha": "2026-09-06",
-    "factura": null,
+    "factura": "0011A05238580",
     "costo_s": 14466.03,
     "costo_c": 17503.9,
     "ventas_s": 70215.7,
     "ventas_c": 84961.0,
     "impresiones": 6392,
-    "clicks": 35
+    "clicks": 35,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 4466.03,
+    "costo_pagina_c": 5403.9
   },
   {
     "fecha": "2026-09-07",
@@ -1297,7 +1813,11 @@
     "ventas_s": 16187.6,
     "ventas_c": 19587.0,
     "impresiones": 4297,
-    "clicks": 16
+    "clicks": 16,
+    "costo_ventas_s": 9270.42,
+    "costo_ventas_c": 11217.21,
+    "costo_pagina_s": 4425.0,
+    "costo_pagina_c": 5354.25
   },
   {
     "fecha": "2026-09-08",
@@ -1307,7 +1827,11 @@
     "ventas_s": 232253.72,
     "ventas_c": 281027.0,
     "impresiones": 5184,
-    "clicks": 30
+    "clicks": 30,
+    "costo_ventas_s": 10730.0,
+    "costo_ventas_c": 12983.3,
+    "costo_pagina_s": 4464.95,
+    "costo_pagina_c": 5402.59
   },
   {
     "fecha": "2026-09-09",
@@ -1317,7 +1841,11 @@
     "ventas_s": 267200.83,
     "ventas_c": 323313.0,
     "impresiones": 7893,
-    "clicks": 32
+    "clicks": 32,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 4504.37,
+    "costo_pagina_c": 5450.29
   },
   {
     "fecha": "2026-09-10",
@@ -1327,7 +1855,11 @@
     "ventas_s": 25706.61,
     "ventas_c": 31105.0,
     "impresiones": 3510,
-    "clicks": 17
+    "clicks": 17,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 4646.45,
+    "costo_pagina_c": 5622.2
   },
   {
     "fecha": "2026-09-11",
@@ -1337,7 +1869,11 @@
     "ventas_s": 156157.02,
     "ventas_c": 188950.0,
     "impresiones": 5627,
-    "clicks": 34
+    "clicks": 34,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 4499.39,
+    "costo_pagina_c": 5444.26
   },
   {
     "fecha": "2026-09-12",
@@ -1347,7 +1883,11 @@
     "ventas_s": 33884.3,
     "ventas_c": 41000.0,
     "impresiones": 5151,
-    "clicks": 20
+    "clicks": 20,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 4493.8,
+    "costo_pagina_c": 5437.5
   },
   {
     "fecha": "2026-09-13",
@@ -1357,7 +1897,11 @@
     "ventas_s": 33884.3,
     "ventas_c": 41000.0,
     "impresiones": 2954,
-    "clicks": 24
+    "clicks": 24,
+    "costo_ventas_s": 9787.01,
+    "costo_ventas_c": 11842.28,
+    "costo_pagina_s": 4466.69,
+    "costo_pagina_c": 5404.7
   },
   {
     "fecha": "2026-09-14",
@@ -1367,7 +1911,11 @@
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 6321,
-    "clicks": 30
+    "clicks": 30,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 4490.95,
+    "costo_pagina_c": 5434.05
   },
   {
     "fecha": "2026-09-15",
@@ -1377,7 +1925,11 @@
     "ventas_s": 17520.66,
     "ventas_c": 21200.0,
     "impresiones": 5196,
-    "clicks": 30
+    "clicks": 30,
+    "costo_ventas_s": 10000.0,
+    "costo_ventas_c": 12100.0,
+    "costo_pagina_s": 4465.85,
+    "costo_pagina_c": 5403.68
   },
   {
     "fecha": "2026-09-16",
@@ -1387,7 +1939,11 @@
     "ventas_s": 78652.89,
     "ventas_c": 95170.0,
     "impresiones": 6480,
-    "clicks": 35
+    "clicks": 35,
+    "costo_ventas_s": 10185.4,
+    "costo_ventas_c": 12324.34,
+    "costo_pagina_s": 4502.97,
+    "costo_pagina_c": 5448.59
   },
   {
     "fecha": "2026-09-17",
@@ -1397,7 +1953,11 @@
     "ventas_s": 27190.08,
     "ventas_c": 32900.0,
     "impresiones": 1883,
-    "clicks": 13
+    "clicks": 13,
+    "costo_ventas_s": 11200.0,
+    "costo_ventas_c": 13552.0,
+    "costo_pagina_s": 4468.26,
+    "costo_pagina_c": 5406.6
   },
   {
     "fecha": "2026-09-18",
@@ -1407,7 +1967,11 @@
     "ventas_s": 14876.03,
     "ventas_c": 18000.0,
     "impresiones": 2661,
-    "clicks": 8
+    "clicks": 8,
+    "costo_ventas_s": 8749.82,
+    "costo_ventas_c": 10587.28,
+    "costo_pagina_s": 4425.0,
+    "costo_pagina_c": 5354.25
   },
   {
     "fecha": "2026-09-19",
@@ -1417,7 +1981,11 @@
     "ventas_s": 0.0,
     "ventas_c": 0.0,
     "impresiones": 3986,
-    "clicks": 23
+    "clicks": 23,
+    "costo_ventas_s": 9647.23,
+    "costo_ventas_c": 11673.15,
+    "costo_pagina_s": 4459.2,
+    "costo_pagina_c": 5395.63
   },
   {
     "fecha": "2026-09-20",
@@ -1427,7 +1995,11 @@
     "ventas_s": 40553.18,
     "ventas_c": 49069.35,
     "impresiones": 6434,
-    "clicks": 34
+    "clicks": 34,
+    "costo_ventas_s": 8050.28,
+    "costo_ventas_c": 9740.84,
+    "costo_pagina_s": 4425.0,
+    "costo_pagina_c": 5354.25
   },
   {
     "fecha": "2026-09-21",
@@ -1437,7 +2009,11 @@
     "ventas_s": 182583.47,
     "ventas_c": 220926.0,
     "impresiones": 12574,
-    "clicks": 52
+    "clicks": 52,
+    "costo_ventas_s": 8846.43,
+    "costo_ventas_c": 10704.18,
+    "costo_pagina_s": 4425.3,
+    "costo_pagina_c": 5354.61
   },
   {
     "fecha": "2026-09-22",
@@ -1447,7 +2023,11 @@
     "ventas_s": 17520.66,
     "ventas_c": 21200.0,
     "impresiones": 2517,
-    "clicks": 15
+    "clicks": 15,
+    "costo_ventas_s": 19542.65,
+    "costo_ventas_c": 23646.61,
+    "costo_pagina_s": 5294.39,
+    "costo_pagina_c": 6406.21
   },
   {
     "fecha": "2026-09-23",
@@ -1457,7 +2037,11 @@
     "ventas_s": 142060.71,
     "ventas_c": 171893.46,
     "impresiones": 14687,
-    "clicks": 51
+    "clicks": 51,
+    "costo_ventas_s": 19007.93,
+    "costo_ventas_c": 22999.6,
+    "costo_pagina_s": 5435.26,
+    "costo_pagina_c": 6576.66
   },
   {
     "fecha": "2026-09-24",
@@ -1467,6 +2051,10 @@
     "ventas_s": 270035.92,
     "ventas_c": 326743.46,
     "impresiones": 18368,
-    "clicks": 71
+    "clicks": 71,
+    "costo_ventas_s": 17905.6,
+    "costo_ventas_c": 21665.77,
+    "costo_pagina_s": 3575.08,
+    "costo_pagina_c": 4325.85
   }
 ]

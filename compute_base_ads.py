@@ -3,6 +3,15 @@ Arma la tabla "base_ads": una fila por DIA (sin desglose por campania), con:
 - Costo: de FACTURACION (Billing API, marketplace MCLICS, grupo ML) -- es la
   plata real que cobra Mercado Libre, incluye Product Ads Y Display Ads
   (la API de Ads solo puede ver Product Ads, por eso el costo NO sale de ahi).
+  Se abre en dos (pedido de Lucas, 2026-09-25):
+    * Publicidad Ventas = todo MCLICS salvo Seguidores (PADS Product Ads,
+      Display Ads, etc.) -> costo_ventas_s/_c
+    * Publicidad Pagina = campania de Seguidores de "Mi pagina" (CDLIT, y su
+      anulacion BDLIT) -> costo_pagina_s/_c
+  costo_s/_c sigue siendo el total (ventas + pagina).
+  Las entradas detail_type BONUS (anulaciones, ej. BDLIT) RESTAN: hasta
+  2026-09-25 se sumaban por error, lo que inflaba la publicidad de mayo/junio
+  en ~$107K (junio tuvo $53.5K de BDLIT contados con signo positivo).
 - Ventas atribuidas, Impresiones, Clicks: de la API de Ads (Product Ads),
   sumadas entre todas las campanias del dia.
 
@@ -48,6 +57,7 @@ from dotenv import load_dotenv
 load_dotenv()
 IVA = 1.21
 SITE_ID = 'MLA'
+CODES_PAGINA = {'CDLIT', 'BDLIT'}  # campania de Seguidores de Mi pagina (+ su anulacion)
 CACHE_STATE_FILE = 'base_ads_cache_state.json'
 
 
@@ -180,7 +190,8 @@ if __name__ == '__main__':
 
     current_period = billing_period_for_date(date.today().isoformat())
 
-    costo_by_day = defaultdict(float)
+    costo_ventas_by_day = defaultdict(float)
+    costo_pagina_by_day = defaultdict(float)
     factura_by_period = {}
     periodos_pedidos_ahora = set()
     for pk in sorted(all_periods):
@@ -206,9 +217,15 @@ if __name__ == '__main__':
             periodos_cerrados[pk] = factura_by_period[pk]
         mclics = [e for e in by_id.values() if e['marketplace_info']['marketplace'] == 'MCLICS']
         for e in mclics:
-            day = e['charge_info']['creation_date_time'][:10]
-            if fecha_desde <= day <= fecha_hasta:
-                costo_by_day[day] += e['charge_info']['detail_amount']
+            ci = e['charge_info']
+            day = ci['creation_date_time'][:10]
+            if not (fecha_desde <= day <= fecha_hasta):
+                continue
+            amount = -ci['detail_amount'] if ci.get('detail_type') == 'BONUS' else ci['detail_amount']
+            if ci['detail_sub_type'] in CODES_PAGINA:
+                costo_pagina_by_day[day] += amount
+            else:
+                costo_ventas_by_day[day] += amount
         print(f'  {len(mclics)} entradas MCLICS en el periodo -- factura: {factura_by_period[pk]}')
 
     # dias cuyo periodo se pidio esta corrida (abierto o recien cerrado) --
@@ -269,11 +286,19 @@ if __name__ == '__main__':
 
     dias_a_tocar = dias_con_costo_fresco | dias_ads_frescos
     for day in dias_a_tocar:
-        base = dict(existing.get(day, {'fecha': day, 'factura': 'pendiente fc', 'costo_s': 0, 'costo_c': 0, 'ventas_s': 0, 'ventas_c': 0, 'impresiones': 0, 'clicks': 0}))
+        base = dict(existing.get(day, {'fecha': day, 'factura': 'pendiente fc', 'costo_s': 0, 'costo_c': 0,
+                                       'costo_ventas_s': 0, 'costo_ventas_c': 0, 'costo_pagina_s': 0, 'costo_pagina_c': 0,
+                                       'ventas_s': 0, 'ventas_c': 0, 'impresiones': 0, 'clicks': 0}))
         if day in dias_con_costo_fresco:
-            costo_c = costo_by_day.get(day, 0.0)
+            costo_ventas_c = costo_ventas_by_day.get(day, 0.0)
+            costo_pagina_c = costo_pagina_by_day.get(day, 0.0)
+            costo_c = costo_ventas_c + costo_pagina_c
             base['costo_s'] = round(costo_c / IVA, 2)
             base['costo_c'] = round(costo_c, 2)
+            base['costo_ventas_s'] = round(costo_ventas_c / IVA, 2)
+            base['costo_ventas_c'] = round(costo_ventas_c, 2)
+            base['costo_pagina_s'] = round(costo_pagina_c / IVA, 2)
+            base['costo_pagina_c'] = round(costo_pagina_c, 2)
             base['factura'] = factura_by_period.get(billing_period_for_date(day), base.get('factura', 'pendiente fc'))
         if day in dias_ads_frescos:
             ventas_c = ventas_by_day.get(day, 0.0)

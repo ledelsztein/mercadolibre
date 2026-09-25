@@ -35,6 +35,11 @@ PERIODOS = [
     ('agosto', '2026-08-01', '2026-08-31'),
     ('septiembre', '2026-09-01', '2026-09-24'),
 ]
+# El dashboard muestra solo los ultimos 3 meses cerrados + el mes en curso
+# (pedido de Lucas, 2026-09-25, para que no quede tan largo). El Sheet sigue
+# teniendo todos los meses. El listado de ordenes y las ventas moviles no se
+# recortan (ya son por fecha, no por columna de mes).
+PERIODOS = PERIODOS[-4:]
 
 mes_key_by_label = {label.lower().split(' ')[0]: label for label in PNL}
 
@@ -44,7 +49,8 @@ for label, m in PNL.items():
     m['total_ingresos'] = m['ventas'] + m['envios_ingreso']
     m['total_egresos'] = (m['cogs'] + m['cargo_venta'] + m['cargo_cupon'] + m['egreso_envio'] + m['publicidad']
                             + m['logistica_flex'] + m['otros_log'] + m['otros_cargos'] + m['gastos_agencia']
-                            + m['cargo_colecta_full'] + m['cargo_almacenamiento_full'] + m['adelanto'])
+                            + m['cargo_colecta_full'] + m['cargo_almacenamiento_full'] + m['adelanto']
+                            + m['mi_pagina'] + m['devoluciones'])
     m['resultado_bruto'] = m['total_ingresos'] - m['total_egresos']
     m['margen_bruto'] = m['resultado_bruto'] / m['ventas'] if m['ventas'] else 0
     m['total_impuestos'] = m['autonomos'] + (m['percepciones'] or 0) + m['iibb']
@@ -66,10 +72,12 @@ for label, m in PNL.items():
     # Punto de equilibrio: clasificacion fijo/variable pedida por Lucas
     # (impuestos -- IIBB y percepciones -- quedan afuera del calculo).
     # cargo_colecta_full/cargo_almacenamiento_full/adelanto (2026-07-31)
-    # tambien son Costo Variable, per Lucas.
+    # tambien son Costo Variable, per Lucas. Devoluciones = Variable y
+    # Mi pagina = Fijo (2026-09-25); 'publicidad' es el total de Publicidad
+    # Ventas + Publicidad Pagina, las dos fijas.
     m['costos_variables'] = (m['cogs'] + m['cargo_venta'] + m['cargo_cupon'] + m['egreso_envio'] + m['logistica_flex'] + m['otros_log']
-                              + m['cargo_colecta_full'] + m['cargo_almacenamiento_full'] + m['adelanto'])
-    m['costos_fijos'] = m['publicidad'] + m['otros_cargos'] + m['gastos_agencia'] + m['autonomos']
+                              + m['cargo_colecta_full'] + m['cargo_almacenamiento_full'] + m['adelanto'] + m['devoluciones'])
+    m['costos_fijos'] = m['publicidad'] + m['mi_pagina'] + m['otros_cargos'] + m['gastos_agencia'] + m['autonomos']
     m['margen_contribucion'] = m['total_ingresos'] - m['costos_variables']
     m['margen_contribucion_pct'] = m['margen_contribucion'] / m['ventas'] if m['ventas'] else 0
     m['punto_equilibrio'] = (m['costos_fijos'] / m['margen_contribucion_pct']) if m['margen_contribucion_pct'] > 0 else None
@@ -290,7 +298,9 @@ for periodo, m in pnl_out.items():
 notes.append("<li>Todo el P&L (Ventas, Cargos, Costos, Envíos, Publicidad, Informativo) sale ahora de las tablas <b>base_ventas / base_envios / base_ads / base_informativa / base_impositiva</b> del Sheet — ya no hay carga manual de estos números.</li>")
 notes.append("<li>En \"Rentabilidad por producto\", \"Por categoría\" y \"Envíos por tipo\", el <b>Resultado Neto</b> es Venta − Cargo por venta − Envío − Costo de producto (ya no hay línea de Descuentos: el cargo por venta viene siempre neto, ver base_ventas).</li>")
 notes.append("<li>El <b>Costo de producto</b> (COGS) se toma de la planilla de costos, que viene sin IVA, y se le suma 21% para quedar en la misma base que la Venta (que sí incluye IVA) — sin este ajuste el resultado quedaba inflado.</li>")
-notes.append("<li>La <b>Publicidad</b> sale de Facturación (lo que Mercado Libre realmente cobra, incluye Product Ads y Display Ads) — la tabla base_ads con el detalle de campaña/clicks/impresiones es informativa y no necesariamente suma igual.</li>")
+notes.append("<li>La <b>Publicidad</b> sale de Facturación (lo que Mercado Libre realmente cobra) y se abre en <b>Publicidad Ventas</b> (Product Ads, Display Ads) y <b>Publicidad Página</b> (campaña de Seguidores de Mi página); las anulaciones que hace ML restan. La tabla base_ads con el detalle de clicks/impresiones es informativa y no necesariamente suma igual.</li>")
+notes.append("<li><b>Mantenimiento Mi página</b> (costo fijo) y <b>Cargo por devoluciones</b> (costo variable) salen de Facturación, tabla base_cargos_ml.</li>")
+notes.append("<li>Se muestran los últimos 3 meses cerrados + el mes en curso; el histórico completo está en el Google Sheet.</li>")
 
 template = open('dashboard_template.html', encoding='utf-8').read()
 template = template.replace('__DATA_JSON__', json.dumps(output, ensure_ascii=False))

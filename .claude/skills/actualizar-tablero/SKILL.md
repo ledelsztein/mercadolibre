@@ -1,13 +1,13 @@
 ---
 name: actualizar-tablero
-description: "Actualiza TODO el tablero de Deleite (MercadoLibre): las 7 tablas base_* del Sheet (base_ventas, base_envios, base_ads, base_informativa, base_impositiva, base_full, base_adelantos), las fotos diarias de stock_valorizado y publicaciones_recibis, balance_salida, el P&L (pnl_data.json), y el dashboard HTML publicado -- de punta a punta, en una sola pasada, incluyendo un re-chequeo de status de ordenes de los ultimos 30 dias. Usar SIEMPRE que Lucas pida actualizar el tablero, el dashboard, el P&L completo, 'todo', o traer los datos hasta hoy/ayer -- no solo cuando lo pida con estas palabras exactas. Para actualizar SOLO una tabla puntual, invocar directamente su skill (actualizar-base-ventas, actualizar-base-envios, actualizar-base-ads, actualizar-base-informativa, actualizar-base-impositiva, actualizar-base-full, actualizar-base-adelantos, actualizar-stock-valorizado, actualizar-publicaciones-recibis, actualizar-balance-salida); esta skill es la orquestadora que las llama a todas."
+description: "Actualiza TODO el tablero de Deleite (MercadoLibre): las 8 tablas base_* del Sheet (base_ventas, base_envios, base_ads, base_informativa, base_impositiva, base_full, base_adelantos, base_cargos_ml), las fotos diarias de stock_valorizado y publicaciones_recibis, balance_salida, el P&L (pnl_data.json), y el dashboard HTML publicado -- de punta a punta, en una sola pasada, incluyendo un re-chequeo de status de ordenes de los ultimos 30 dias. Usar SIEMPRE que Lucas pida actualizar el tablero, el dashboard, el P&L completo, 'todo', o traer los datos hasta hoy/ayer -- no solo cuando lo pida con estas palabras exactas. Para actualizar SOLO una tabla puntual, invocar directamente su skill (actualizar-base-ventas, actualizar-base-envios, actualizar-base-ads, actualizar-base-informativa, actualizar-base-impositiva, actualizar-base-full, actualizar-base-adelantos, actualizar-base-cargos-ml, actualizar-stock-valorizado, actualizar-publicaciones-recibis, actualizar-balance-salida); esta skill es la orquestadora que las llama a todas."
 ---
 
 # Actualizar el tablero completo (Deleite / MercadoLibre)
 
 Repo: `C:\Users\User\Projects\mercadolibre`. Todos los comandos se corren parados ahí.
 
-Esta skill **no repite los pasos de cada tabla** — invoca a cada una de las 7 skills `actualizar-base-*` como sub-pasos (usar la herramienta Skill para cada una), y agrega encima lo que les falta: el chequeo de fecha real, `base_impositiva` (que solo aplica a veces), regenerar `pnl_data.json`/dashboard/Sheet, y publicar. Si algo de una tabla puntual no cierra, el detalle vive en la skill de esa tabla (o en la memoria correspondiente), no acá.
+Esta skill **no repite los pasos de cada tabla** — invoca a cada una de las 8 skills `actualizar-base-*` como sub-pasos (usar la herramienta Skill para cada una), y agrega encima lo que les falta: el chequeo de fecha real, `base_impositiva` (que solo aplica a veces), regenerar `pnl_data.json`/dashboard/Sheet, y publicar. Si algo de una tabla puntual no cierra, el detalle vive en la skill de esa tabla (o en la memoria correspondiente), no acá.
 
 ## Paso 0 — fecha real y rango a cubrir (automático, sin preguntarle a Lucas)
 
@@ -36,6 +36,7 @@ Ninguna otra parte del pipeline vuelve a chequear si una orden ya guardada (de h
 4. **Invocar la skill `actualizar-base-impositiva`** — SOLO si cerró un período de Facturación nuevo desde la última corrida (corren 7-a-6, cierran el 7 del mes siguiente). Si no cerró ninguno, saltear este paso entero.
 5. **Invocar la skill `actualizar-base-full`** (siempre el rango completo mayo–hoy, es barata, cachea agresivo igual que `base_ads`).
 6. **Invocar la skill `actualizar-base-adelantos`** (mismo criterio que `base_full`).
+6.5. **Invocar la skill `actualizar-base-cargos-ml`** (Mi página + devoluciones, 2026-09-25; mismo criterio que `base_full`).
 7. **Invocar la skill `actualizar-stock-valorizado`** — foto de HOY (fecha real, no `hoy_real - 1`; esta tabla no sigue la convención de día cerrado porque no es un dato de ventas, es el estado actual de las publicaciones). Independiente del P&L/dashboard del Paso 2, pero SÍ la necesita el Paso 9 (`balance_salida`) como referencia.
 7.5. **Correr `python check_productos_sin_costo.py`** (pedido de Lucas, 2026-09-22) — usa la foto de `stock_valorizado` recién tomada en el paso anterior, no pega de nuevo a la API. Chequea qué publicaciones activas no tienen ningún costo cargado en `data/Costos.xlsx` (o lo tienen en 0) -- si compute_base_ventas.py calcula una venta de esos productos, el costo sale $0 y el margen queda inflado sin que se note. Guardar la lista para el Paso 4 (reportarla a Lucas), no hace falta bloquear el resto del pipeline por esto.
 8. **Invocar la skill `actualizar-publicaciones-recibis`** — también foto de HOY, mismo criterio que `stock_valorizado`.
@@ -46,6 +47,8 @@ Ninguna otra parte del pipeline vuelve a chequear si una orden ya guardada (de h
 ```bash
 python build_pnl_data.py
 ```
+
+El dashboard (`build_dashboard_data.py`) muestra solo los **últimos 3 meses cerrados + el mes en curso** (recorta `PERIODOS[-4:]`, pedido de Lucas 2026-09-25); el Sheet sigue teniendo todos los meses. Igual hay que mantener completo el `PERIODOS` de los tres scripts.
 
 **Antes de correrlo, revisar el diccionario `PERIODOS` adentro de `build_pnl_data.py`** (y el mismo diccionario duplicado en `build_dashboard_data.py` y `build_sheet.py` — tres copias, ninguna de las skills de tabla las toca, hay que actualizarlas a mano acá si el corte de "mes parcial" avanzó o si cerró un mes y hay que agregar el siguiente como parcial nuevo).
 
@@ -84,4 +87,5 @@ Pedido de Lucas (2026-09-23): al terminar (después del Paso 5, y de re-correr l
 - Publicidad del P&L sale de **Facturación** (Billing, marketplace MCLICS), no de `base_ads` — ver `actualizar-base-ads` / `mercadolibre-base-ads`.
 - Costo de mercadería con IVA = costo de la planilla (sin IVA) × 1.21.
 - Margen Bruto/Neto = Resultado / **Ventas** (no Ingresos totales).
+- Publicidad se abre en **Publicidad Ventas** y **Publicidad Página** (Seguidores), las dos Costo Fijo -- ver `actualizar-base-ads`. Mantenimiento de Mi página es Costo Fijo y Devoluciones Costo Variable -- ver `actualizar-base-cargos-ml`.
 - Cargos Full (`base_full`) y adelanto de disponibilidad de dinero (`base_adelantos`) son Costo Variable en el punto de equilibrio — ver `actualizar-base-full` / `actualizar-base-adelantos`.

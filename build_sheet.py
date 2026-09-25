@@ -41,7 +41,10 @@ pnl_rows = [
     ['Cargo por cupon'] + [PNL[m]['cargo_cupon'] for m in PNL],
     ['Egresos por envio Full/Colecta (real)'] + [PNL[m]['egreso_envio_real'] for m in PNL],
     ['Envio pasante Full/Colecta (comprador financia, se cancela)'] + [PNL[m]['envio_pasante'] for m in PNL],
-    ['Publicidad'] + [PNL[m]['publicidad'] for m in PNL],
+    ['Publicidad Ventas'] + [PNL[m]['publicidad_ventas'] for m in PNL],
+    ['Publicidad Pagina (Seguidores)'] + [PNL[m]['publicidad_pagina'] for m in PNL],
+    ['Mantenimiento Mi pagina'] + [PNL[m]['mi_pagina'] for m in PNL],
+    ['Cargo por devoluciones'] + [PNL[m]['devoluciones'] for m in PNL],
     ['Cargo por colecta Full'] + [PNL[m]['cargo_colecta_full'] for m in PNL],
     ['Cargo por almacenamiento Full'] + [PNL[m]['cargo_almacenamiento_full'] for m in PNL],
     ['Adelanto de disponibilidad de dinero'] + [PNL[m]['adelanto'] for m in PNL],
@@ -52,7 +55,8 @@ pnl_rows = [
 ]
 total_egresos = {m: PNL[m]['cogs'] + PNL[m]['cargo_venta'] + PNL[m]['cargo_cupon'] + PNL[m]['egreso_envio'] + PNL[m]['publicidad']
                   + PNL[m]['logistica_flex'] + PNL[m]['otros_log'] + PNL[m]['otros_cargos'] + PNL[m]['gastos_agencia']
-                  + PNL[m]['cargo_colecta_full'] + PNL[m]['cargo_almacenamiento_full'] + PNL[m]['adelanto'] for m in PNL}
+                  + PNL[m]['cargo_colecta_full'] + PNL[m]['cargo_almacenamiento_full'] + PNL[m]['adelanto']
+                  + PNL[m]['mi_pagina'] + PNL[m]['devoluciones'] for m in PNL}
 total_ingresos = {m: PNL[m]['ventas'] + PNL[m]['envios_ingreso'] for m in PNL}
 resultado_bruto = {m: total_ingresos[m] - total_egresos[m] for m in PNL}
 margen_bruto = {m: resultado_bruto[m] / PNL[m]['ventas'] if PNL[m]['ventas'] else 0 for m in PNL}
@@ -77,11 +81,13 @@ pnl_rows += [
 # pasa a Costo Fijo aca (aunque en el bloque de arriba vive en Impuestos);
 # IIBB y Percepciones quedan afuera del calculo por ser impuestos, no costos.
 # cargo_colecta_full/cargo_almacenamiento_full/adelanto (2026-07-31)
-# tambien son Costo Variable, per Lucas.
+# tambien son Costo Variable, per Lucas. Devoluciones = Variable y Mi pagina
+# = Fijo (2026-09-25); 'publicidad' = Publicidad Ventas + Pagina, las dos fijas.
 costos_variables = {m: PNL[m]['cogs'] + PNL[m]['cargo_venta'] + PNL[m]['cargo_cupon'] + PNL[m]['egreso_envio']
                      + PNL[m]['logistica_flex'] + PNL[m]['otros_log']
-                     + PNL[m]['cargo_colecta_full'] + PNL[m]['cargo_almacenamiento_full'] + PNL[m]['adelanto'] for m in PNL}
-costos_fijos = {m: PNL[m]['publicidad'] + PNL[m]['otros_cargos'] + PNL[m]['gastos_agencia'] + PNL[m]['autonomos'] for m in PNL}
+                     + PNL[m]['cargo_colecta_full'] + PNL[m]['cargo_almacenamiento_full'] + PNL[m]['adelanto']
+                     + PNL[m]['devoluciones'] for m in PNL}
+costos_fijos = {m: PNL[m]['publicidad'] + PNL[m]['mi_pagina'] + PNL[m]['otros_cargos'] + PNL[m]['gastos_agencia'] + PNL[m]['autonomos'] for m in PNL}
 margen_contribucion = {m: total_ingresos[m] - costos_variables[m] for m in PNL}
 margen_contribucion_pct = {m: margen_contribucion[m] / PNL[m]['ventas'] if PNL[m]['ventas'] else 0 for m in PNL}
 punto_equilibrio = {m: (costos_fijos[m] / margen_contribucion_pct[m]) if margen_contribucion_pct[m] > 0 else None for m in PNL}
@@ -230,9 +236,9 @@ else:
     open('sheet_id.txt', 'w').write(spreadsheet_id)
     print('Sheet creado:', spreadsheet['spreadsheetUrl'])
 
-# limpiar las 3 tabs pivotadas antes de escribir -- el ancho/alto cambia con
+# limpiar P&L y las 3 tabs pivotadas antes de escribir -- el ancho/alto cambia con
 # la cantidad de productos/categorias, y values().update() no achica la hoja
-for t in ['Rentabilidad por Producto', 'Por Categoria', 'Envios por Tipo']:
+for t in ['P&L', 'Rentabilidad por Producto', 'Por Categoria', 'Envios por Tipo']:
     sheets.spreadsheets().values().clear(spreadsheetId=spreadsheet_id, range=f"'{t}'!A:ZZ", body={}).execute()
 
 data = [
@@ -267,10 +273,10 @@ for title in TABS:
         }
     })
 
-# moneda para columnas B:D de P&L (filas de montos)
+# moneda para todas las columnas de meses de P&L (filas de montos)
 fmt_requests.append({
     'repeatCell': {
-        'range': {'sheetId': sheet_id_by_title['P&L'], 'startRowIndex': 1, 'endRowIndex': len(pnl_rows), 'startColumnIndex': 1, 'endColumnIndex': 4},
+        'range': {'sheetId': sheet_id_by_title['P&L'], 'startRowIndex': 1, 'endRowIndex': len(pnl_rows), 'startColumnIndex': 1, 'endColumnIndex': len(meses) + 1},
         'cell': {'userEnteredFormat': {'numberFormat': {'type': 'CURRENCY', 'pattern': '$#,##0.00'}}},
         'fields': 'userEnteredFormat.numberFormat',
     }
@@ -279,7 +285,7 @@ for i, row in enumerate(pnl_rows):
     if '%' in row[0]:
         fmt_requests.append({
             'repeatCell': {
-                'range': {'sheetId': sheet_id_by_title['P&L'], 'startRowIndex': i, 'endRowIndex': i + 1, 'startColumnIndex': 1, 'endColumnIndex': 4},
+                'range': {'sheetId': sheet_id_by_title['P&L'], 'startRowIndex': i, 'endRowIndex': i + 1, 'startColumnIndex': 1, 'endColumnIndex': len(meses) + 1},
                 'cell': {'userEnteredFormat': {'numberFormat': {'type': 'PERCENT', 'pattern': '0.00%'}}},
                 'fields': 'userEnteredFormat.numberFormat',
             }
