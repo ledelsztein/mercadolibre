@@ -670,5 +670,29 @@
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 314.01,
     "almacenamiento_full_c": 379.95
+  },
+  {
+    "fecha": "2026-09-25",
+    "factura": "pendiente fc",
+    "deposito_full_s": 25763.12,
+    "deposito_full_c": 31173.37,
+    "almacenamiento_full_s": 297.89,
+    "almacenamiento_full_c": 360.45
+  },
+  {
+    "fecha": "2026-09-26",
+    "factura": "pendiente fc",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 283.51,
+    "almacenamiento_full_c": 343.05
+  },
+  {
+    "fecha": "2026-09-27",
+    "factura": "pendiente fc",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 278.93,
+    "almacenamiento_full_c": 337.5
   }
 ]
