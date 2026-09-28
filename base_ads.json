@@ -2056,5 +2056,61 @@
     "costo_ventas_c": 21665.77,
     "costo_pagina_s": 3575.08,
     "costo_pagina_c": 4325.85
+  },
+  {
+    "fecha": "2026-09-25",
+    "factura": "pendiente fc",
+    "costo_s": 23937.07,
+    "costo_c": 28963.85,
+    "costo_ventas_s": 15219.53,
+    "costo_ventas_c": 18415.63,
+    "costo_pagina_s": 8717.54,
+    "costo_pagina_c": 10548.22,
+    "ventas_s": 197928.48,
+    "ventas_c": 239493.46,
+    "impresiones": 14982,
+    "clicks": 62
+  },
+  {
+    "fecha": "2026-09-26",
+    "factura": "pendiente fc",
+    "costo_s": 22420.49,
+    "costo_c": 27128.79,
+    "costo_ventas_s": 16503.0,
+    "costo_ventas_c": 19968.63,
+    "costo_pagina_s": 5917.49,
+    "costo_pagina_c": 7160.16,
+    "ventas_s": 108264.46,
+    "ventas_c": 131000.0,
+    "impresiones": 15381,
+    "clicks": 54
+  },
+  {
+    "fecha": "2026-09-27",
+    "factura": "pendiente fc",
+    "costo_s": 23173.1,
+    "costo_c": 28039.45,
+    "costo_ventas_s": 15850.7,
+    "costo_ventas_c": 19179.35,
+    "costo_pagina_s": 7322.4,
+    "costo_pagina_c": 8860.1,
+    "ventas_s": 312551.17,
+    "ventas_c": 378186.92,
+    "impresiones": 13257,
+    "clicks": 61
+  },
+  {
+    "fecha": "2026-09-28",
+    "factura": "pendiente fc",
+    "costo_s": 23148.64,
+    "costo_c": 28009.85,
+    "costo_ventas_s": 15872.0,
+    "costo_ventas_c": 19205.12,
+    "costo_pagina_s": 7276.64,
+    "costo_pagina_c": 8804.73,
+    "ventas_s": 118595.04,
+    "ventas_c": 143500.0,
+    "impresiones": 16042,
+    "clicks": 83
   }
 ]
