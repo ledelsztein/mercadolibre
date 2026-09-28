@@ -3205,18 +3205,6 @@
   },
   {
     "fecha": "2026-09-28",
-    "item_id": "MLA3283469316",
-    "sku": "50006",
-    "producto": "Yerba Mate Canarias Tradicional 1 Kg",
-    "precio": 11500.0,
-    "comision": 2905,
-    "envio_absorbido": 0.0,
-    "recibis": 8595.0,
-    "stock": 4,
-    "recibis_total": 34380.0
-  },
-  {
-    "fecha": "2026-09-28",
     "item_id": "MLA3949953582",
     "sku": "50037",
     "producto": "Yerba Mate Canarias Serena Compuesta Con Hierbas X 1kg",
@@ -3224,8 +3212,8 @@
     "comision": 2999.25,
     "envio_absorbido": 0.0,
     "recibis": 9225.75,
-    "stock": 49,
-    "recibis_total": 452061.75
+    "stock": 48,
+    "recibis_total": 442836.0
   },
   {
     "fecha": "2026-09-28",
@@ -3260,8 +3248,8 @@
     "comision": 5289.75,
     "envio_absorbido": 0.0,
     "recibis": 11160.25,
-    "stock": 281,
-    "recibis_total": 3136030.25
+    "stock": 277,
+    "recibis_total": 3091389.25
   },
   {
     "fecha": "2026-09-28",
@@ -3272,8 +3260,8 @@
     "comision": 8809,
     "envio_absorbido": 0.0,
     "recibis": 12191.0,
-    "stock": 105,
-    "recibis_total": 1280055.0
+    "stock": 103,
+    "recibis_total": 1255673.0
   },
   {
     "fecha": "2026-09-28",
@@ -3320,8 +3308,8 @@
     "comision": 5840,
     "envio_absorbido": 0.0,
     "recibis": 14160.0,
-    "stock": 262,
-    "recibis_total": 3709920.0
+    "stock": 258,
+    "recibis_total": 3653280.0
   },
   {
     "fecha": "2026-09-28",
@@ -3337,21 +3325,21 @@
   },
   {
     "fecha": "2026-09-28",
-    "item_id": "MLA3770705240",
+    "item_id": "MLA3770867494",
     "sku": "50029",
-    "producto": "Creatina Monohidrato Ena Sport 300g Micronizada - 60 Servicios - Potencia Masa Muscular Y Rendimiento Deportivo Sin Sabor",
+    "producto": "Creatina Monohidratada Ena Sport Micronizada 300g Neutro Neutro",
     "precio": 30000.0,
     "comision": 9490,
     "envio_absorbido": 0.0,
     "recibis": 20510.0,
-    "stock": 5,
-    "recibis_total": 102550.0
+    "stock": 4,
+    "recibis_total": 82040.0
   },
   {
     "fecha": "2026-09-28",
-    "item_id": "MLA3232759300",
+    "item_id": "MLA3566784906",
     "sku": "50005",
-    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
+    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Plus",
     "precio": 27900.0,
     "comision": 7349.7,
     "envio_absorbido": 0.0,
@@ -3385,9 +3373,9 @@
   },
   {
     "fecha": "2026-09-28",
-    "item_id": "MLA1977669679",
+    "item_id": "MLA1977669677",
     "sku": "50030",
-    "producto": "Creatina Star Nutrition En Polvo Sin Sabor X 300g",
+    "producto": "Creatina Monohidrato Star Nutrition Micronizada 300g Neutro Sin Sabor",
     "precio": 31000.0,
     "comision": 8145,
     "envio_absorbido": 0.0,
