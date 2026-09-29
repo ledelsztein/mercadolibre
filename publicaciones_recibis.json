@@ -3524,26 +3524,26 @@
     "comision": 2999.25,
     "envio_absorbido": 0.0,
     "recibis": 9225.75,
-    "stock": 44,
-    "recibis_total": 405933.0
+    "stock": 29,
+    "recibis_total": 267546.75
   },
   {
     "fecha": "2026-09-29",
-    "item_id": "MLA3571928900",
+    "item_id": "MLA3232809762",
     "sku": "50004",
     "producto": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
     "precio": 13020.0,
     "comision": 3217.9,
     "envio_absorbido": 0.0,
     "recibis": 9802.1,
-    "stock": 50,
-    "recibis_total": 490105.0
+    "stock": 41,
+    "recibis_total": 401886.1
   },
   {
     "fecha": "2026-09-29",
-    "item_id": "MLA2091401043",
+    "item_id": "MLA2091401039",
     "sku": "50028",
-    "producto": "Kit X 3 Toalla De Cara Facial Oregon Hotelera 100% Algodón 400gr Blanca 30x50 Blanco Lisa",
+    "producto": "Kit X 3 Toalla Cara Oregon Hotelera Algodón Blanca 30x50 Blanco Lisa",
     "precio": 16000,
     "comision": 5060,
     "envio_absorbido": 0.0,
@@ -3560,8 +3560,8 @@
     "comision": 5289.75,
     "envio_absorbido": 0.0,
     "recibis": 11160.25,
-    "stock": 270,
-    "recibis_total": 3013267.5
+    "stock": 248,
+    "recibis_total": 2767742.0
   },
   {
     "fecha": "2026-09-29",
@@ -3572,8 +3572,8 @@
     "comision": 8809,
     "envio_absorbido": 0.0,
     "recibis": 12191.0,
-    "stock": 101,
-    "recibis_total": 1231291.0
+    "stock": 100,
+    "recibis_total": 1219100.0
   },
   {
     "fecha": "2026-09-29",
@@ -3620,8 +3620,8 @@
     "comision": 5840,
     "envio_absorbido": 0.0,
     "recibis": 14160.0,
-    "stock": 246,
-    "recibis_total": 3483360.0
+    "stock": 233,
+    "recibis_total": 3299280.0
   },
   {
     "fecha": "2026-09-29",
@@ -3640,12 +3640,12 @@
     "item_id": "MLA2123732493",
     "sku": "50043",
     "producto": "Creatina Gold Nutrition Black Line En Polvo Sin Sabor X 300g",
-    "precio": 28150,
-    "comision": 7683.25,
+    "precio": 27500.0,
+    "comision": 7582.5,
     "envio_absorbido": 0.0,
-    "recibis": 20466.75,
+    "recibis": 19917.5,
     "stock": 30,
-    "recibis_total": 614002.5
+    "recibis_total": 597525.0
   },
   {
     "fecha": "2026-09-29",
@@ -3656,20 +3656,20 @@
     "comision": 9490,
     "envio_absorbido": 0.0,
     "recibis": 20510.0,
-    "stock": 3,
-    "recibis_total": 61530.0
+    "stock": 2,
+    "recibis_total": 41020.0
   },
   {
     "fecha": "2026-09-29",
-    "item_id": "MLA3232759300",
+    "item_id": "MLA3566784906",
     "sku": "50005",
-    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
+    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Plus",
     "precio": 27900.0,
     "comision": 7349.7,
     "envio_absorbido": 0.0,
     "recibis": 20550.3,
-    "stock": 54,
-    "recibis_total": 1109716.2
+    "stock": 46,
+    "recibis_total": 945313.8
   },
   {
     "fecha": "2026-09-29",
@@ -3697,9 +3697,9 @@
   },
   {
     "fecha": "2026-09-29",
-    "item_id": "MLA1977669679",
+    "item_id": "MLA1977669677",
     "sku": "50030",
-    "producto": "Creatina Star Nutrition En Polvo Sin Sabor X 300g",
+    "producto": "Creatina Monohidrato Star Nutrition Micronizada 300g Neutro Sin Sabor",
     "precio": 31000.0,
     "comision": 8145,
     "envio_absorbido": 0.0,
@@ -3733,27 +3733,27 @@
   },
   {
     "fecha": "2026-09-29",
-    "item_id": "MLA2097402365",
-    "sku": "50042",
-    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Marrón Imperial",
-    "precio": 55000,
-    "comision": 10642.5,
-    "envio_absorbido": 8790,
-    "recibis": 35567.5,
-    "stock": 2,
-    "recibis_total": 71135.0
-  },
-  {
-    "fecha": "2026-09-29",
     "item_id": "MLA2097402363",
     "sku": "50041",
     "producto": "Mate Imperial Cuero Calabaza Con Bombilla Negro Imperial",
     "precio": 55000,
-    "comision": 10642.5,
+    "comision": 12787.5,
     "envio_absorbido": 8790,
-    "recibis": 35567.5,
+    "recibis": 33422.5,
     "stock": 2,
-    "recibis_total": 71135.0
+    "recibis_total": 66845.0
+  },
+  {
+    "fecha": "2026-09-29",
+    "item_id": "MLA2097402365",
+    "sku": "50042",
+    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Marrón Imperial",
+    "precio": 55000,
+    "comision": 12787.5,
+    "envio_absorbido": 8790,
+    "recibis": 33422.5,
+    "stock": 2,
+    "recibis_total": 66845.0
   },
   {
     "fecha": "2026-09-29",
@@ -3805,9 +3805,9 @@
   },
   {
     "fecha": "2026-09-29",
-    "item_id": "MLA2090594295",
+    "item_id": "MLA3949765754",
     "sku": "50040",
-    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Gourmet Milk Chocolate",
+    "producto": "Proteína 100% Whey Protein 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
     "precio": 88624.0,
     "comision": 13736.72,
     "envio_absorbido": 8790,
@@ -3824,14 +3824,14 @@
     "comision": 17197.25,
     "envio_absorbido": 8790,
     "recibis": 84962.75,
-    "stock": 54,
-    "recibis_total": 4587988.5
+    "stock": 51,
+    "recibis_total": 4333100.25
   },
   {
     "fecha": "2026-09-29",
-    "item_id": "MLA2090592693",
+    "item_id": "MLA2090592695",
     "sku": "50038",
-    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 2lb Chocolate 1k Gourmet Milk Chocolate",
+    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
     "precio": 110950,
     "comision": 17197.25,
     "envio_absorbido": 8790,
