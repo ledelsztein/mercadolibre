@@ -7345,12 +7345,12 @@
   },
   {
     "fecha": "2026-09-29",
-    "item_id": "MLA1977867145",
+    "item_id": "MLA3770872430",
     "sku": "50031",
-    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907g Vainilla 2l Vainilla Gourmet",
-    "stock": 54,
+    "producto": "Iso Gold Nutrition Protein Sabor Gourmet Vainilla X907gr Vainilla Gourmet",
+    "stock": 51,
     "precio": 110950.0,
-    "importe": 5991300.0
+    "importe": 5658450.0
   },
   {
     "fecha": "2026-09-29",
@@ -7366,18 +7366,18 @@
     "item_id": "MLA3677881124",
     "sku": "50020",
     "producto": "Treonato De Magnesio Provefarma Geonat Treonato 1000 En Comprimidos Sin Sabor De 60 Un",
-    "stock": 246,
+    "stock": 233,
     "precio": 20000.0,
-    "importe": 4920000.0
+    "importe": 4660000.0
   },
   {
     "fecha": "2026-09-29",
     "item_id": "MLA1926311309",
     "sku": "50023",
     "producto": "Bisglicinato De Magnesio Geonat Geomagnesium En Comprimidos Sin Sabor De 60 Un",
-    "stock": 270,
+    "stock": 248,
     "precio": 16450.0,
-    "importe": 4441500.0
+    "importe": 4079600.0
   },
   {
     "fecha": "2026-09-29",
@@ -7402,45 +7402,36 @@
     "item_id": "MLA3471136932",
     "sku": "50014",
     "producto": "L-arginina L-citrulina Ginseng Lappiel Energía Especific M1 Especific Energy En Comprimidos Sin Sabor De 60 Un",
-    "stock": 101,
+    "stock": 100,
     "precio": 18000,
-    "importe": 1818000
+    "importe": 1800000
   },
   {
     "fecha": "2026-09-29",
     "item_id": "MLA3232759300",
     "sku": "50005",
     "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
-    "stock": 54,
+    "stock": 46,
     "precio": 27900.0,
-    "importe": 1506600.0
+    "importe": 1283400.0
   },
   {
     "fecha": "2026-09-29",
-    "item_id": "MLA2123732493",
+    "item_id": "MLA2123719629",
     "sku": "50043",
-    "producto": "Creatina Gold Nutrition Black Line En Polvo Sin Sabor X 300g",
+    "producto": "Creatina Monohidrato Micronizada Gold Nutrition 300g Neutro Sin Sabor",
     "stock": 30,
-    "precio": 28150,
-    "importe": 844500
+    "precio": 27500.0,
+    "importe": 825000.0
   },
   {
     "fecha": "2026-09-29",
-    "item_id": "MLA1977669679",
+    "item_id": "MLA1977669677",
     "sku": "50030",
-    "producto": "Creatina Star Nutrition En Polvo Sin Sabor X 300g",
+    "producto": "Creatina Monohidrato Star Nutrition Micronizada 300g Neutro Sin Sabor",
     "stock": 25,
     "precio": 31000.0,
     "importe": 775000.0
-  },
-  {
-    "fecha": "2026-09-29",
-    "item_id": "MLA3232809762",
-    "sku": "50004",
-    "producto": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
-    "stock": 50,
-    "precio": 13020.0,
-    "importe": 651000.0
   },
   {
     "fecha": "2026-09-29",
@@ -7453,12 +7444,12 @@
   },
   {
     "fecha": "2026-09-29",
-    "item_id": "MLA3949953582",
-    "sku": "50037",
-    "producto": "Yerba Mate Canarias Serena Compuesta Con Hierbas X 1kg",
-    "stock": 44,
-    "precio": 12225.0,
-    "importe": 537900.0
+    "item_id": "MLA3571928900",
+    "sku": "50004",
+    "producto": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
+    "stock": 41,
+    "precio": 13020.0,
+    "importe": 533820.0
   },
   {
     "fecha": "2026-09-29",
@@ -7480,6 +7471,15 @@
   },
   {
     "fecha": "2026-09-29",
+    "item_id": "MLA3949953582",
+    "sku": "50037",
+    "producto": "Yerba Mate Canarias Serena Compuesta Con Hierbas X 1kg",
+    "stock": 29,
+    "precio": 12225.0,
+    "importe": 354525.0
+  },
+  {
+    "fecha": "2026-09-29",
     "item_id": "MLA1729211787",
     "sku": "50001",
     "producto": "Tabla De Picar De Corte 35x24cm Acero Inoxidable 304 Liso Acero Inoxidable",
@@ -7498,9 +7498,9 @@
   },
   {
     "fecha": "2026-09-29",
-    "item_id": "MLA2091401043",
+    "item_id": "MLA2091401039",
     "sku": "50028",
-    "producto": "Kit X 3 Toalla De Cara Facial Oregon Hotelera 100% Algodón 400gr Blanca 30x50 Blanco Lisa",
+    "producto": "Kit X 3 Toalla Cara Oregon Hotelera Algodón Blanca 30x50 Blanco Lisa",
     "stock": 7,
     "precio": 16000,
     "importe": 112000
@@ -7534,15 +7534,6 @@
   },
   {
     "fecha": "2026-09-29",
-    "item_id": "MLA3770867494",
-    "sku": "50029",
-    "producto": "Creatina Monohidratada Ena Sport Micronizada 300g Neutro Neutro",
-    "stock": 3,
-    "precio": 30000.0,
-    "importe": 90000.0
-  },
-  {
-    "fecha": "2026-09-29",
     "item_id": "MLA2275474776",
     "sku": "10002",
     "producto": "Cuchara Mesa Nicols Corintia Acero Inox Pulido Brillante X6 Acero Inoxidable",
@@ -7558,6 +7549,15 @@
     "stock": 1,
     "precio": 74400.0,
     "importe": 74400.0
+  },
+  {
+    "fecha": "2026-09-29",
+    "item_id": "MLA3770867494",
+    "sku": "50029",
+    "producto": "Creatina Monohidratada Ena Sport Micronizada 300g Neutro Neutro",
+    "stock": 2,
+    "precio": 30000.0,
+    "importe": 60000.0
   },
   {
     "fecha": "2026-09-29",
