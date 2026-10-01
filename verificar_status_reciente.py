@@ -69,7 +69,7 @@ def main():
                 eliminadas.append(oid_str)
                 del base[oid_str]
         if eliminadas:
-            json.dump(base, open(path, 'w', encoding='utf-8'), ensure_ascii=False)
+            json.dump(base, open(path, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
             cambios[path] = eliminadas
 
     if cambios:
