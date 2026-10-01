@@ -7879,45 +7879,36 @@
     "item_id": "MLA3770872430",
     "sku": "50031",
     "producto": "Proteína Gold Nutrition Premium Isolate En Polvo Sabor Vainilla Gourmet X 907g",
-    "stock": 45,
+    "stock": 43,
     "precio": 110950.0,
-    "importe": 4992750.0
+    "importe": 4770850.0
   },
   {
     "fecha": "2026-10-01",
     "item_id": "MLA3677881124",
     "sku": "50020",
     "producto": "Treonato De Magnesio Provefarma Geonat Treonato 1000 En Comprimidos Sin Sabor De 60 Un",
-    "stock": 213,
+    "stock": 201,
     "precio": 20500.0,
-    "importe": 4366500.0
+    "importe": 4120500.0
   },
   {
     "fecha": "2026-10-01",
     "item_id": "MLA1926311309",
     "sku": "50023",
     "producto": "Bisglicinato De Magnesio Geonat Geomagnesium En Comprimidos Sin Sabor De 60 Un",
-    "stock": 207,
+    "stock": 202,
     "precio": 16450.0,
-    "importe": 3405150.0
+    "importe": 3322900.0
   },
   {
     "fecha": "2026-10-01",
     "item_id": "MLA3949765754",
     "sku": "50040",
     "producto": "Proteína 100% Whey Protein 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
-    "stock": 30,
+    "stock": 29,
     "precio": 88500.0,
-    "importe": 2655000.0
-  },
-  {
-    "fecha": "2026-10-01",
-    "item_id": "MLA2090594293",
-    "sku": "50039",
-    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
-    "stock": 21,
-    "precio": 88624.0,
-    "importe": 1861104.0
+    "importe": 2566500.0
   },
   {
     "fecha": "2026-10-01",
@@ -7930,48 +7921,48 @@
   },
   {
     "fecha": "2026-10-01",
-    "item_id": "MLA3232759300",
+    "item_id": "MLA2090594323",
+    "sku": "50039",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Suplementos Proteína 100% Sabor Vainilla Gourmet",
+    "stock": 17,
+    "precio": 88624.0,
+    "importe": 1506608.0
+  },
+  {
+    "fecha": "2026-10-01",
+    "item_id": "MLA3566784906",
     "sku": "50005",
-    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
-    "stock": 44,
+    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Plus",
+    "stock": 41,
     "precio": 27900.0,
-    "importe": 1227600.0
+    "importe": 1143900.0
   },
   {
     "fecha": "2026-10-01",
-    "item_id": "MLA2123732493",
+    "item_id": "MLA2123719629",
     "sku": "50043",
-    "producto": "Creatina Gold Nutrition Black Line En Polvo Sin Sabor X 300g",
-    "stock": 28,
+    "producto": "Creatina Monohidrato Micronizada Gold Nutrition 300g Neutro Sin Sabor",
+    "stock": 26,
     "precio": 26500.0,
-    "importe": 742000.0
-  },
-  {
-    "fecha": "2026-10-01",
-    "item_id": "MLA1977669679",
-    "sku": "50030",
-    "producto": "Creatina Star Nutrition En Polvo Sin Sabor X 300g",
-    "stock": 25,
-    "precio": 27500.0,
-    "importe": 687500.0
+    "importe": 689000.0
   },
   {
     "fecha": "2026-10-01",
     "item_id": "MLA3571928900",
     "sku": "50004",
     "producto": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
-    "stock": 41,
+    "stock": 38,
     "precio": 13020.0,
-    "importe": 533820.0
+    "importe": 494760.0
   },
   {
     "fecha": "2026-10-01",
     "item_id": "MLA3949953582",
     "sku": "50037",
     "producto": "Yerba Mate Canarias Serena Compuesta Con Hierbas X 1kg",
-    "stock": 26,
+    "stock": 23,
     "precio": 12225.0,
-    "importe": 317850.0
+    "importe": 281175.0
   },
   {
     "fecha": "2026-10-01",
@@ -7984,18 +7975,27 @@
   },
   {
     "fecha": "2026-10-01",
-    "item_id": "MLA2097402365",
-    "sku": "50042",
-    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Marrón Imperial",
-    "stock": 2,
-    "precio": 55000,
-    "importe": 110000
+    "item_id": "MLA1977669677",
+    "sku": "50030",
+    "producto": "Creatina Monohidrato Star Nutrition Micronizada 300g Neutro Sin Sabor",
+    "stock": 4,
+    "precio": 27500.0,
+    "importe": 110000.0
   },
   {
     "fecha": "2026-10-01",
     "item_id": "MLA2097402363",
     "sku": "50041",
     "producto": "Mate Imperial Cuero Calabaza Con Bombilla Negro Imperial",
+    "stock": 2,
+    "precio": 55000,
+    "importe": 110000
+  },
+  {
+    "fecha": "2026-10-01",
+    "item_id": "MLA2097402365",
+    "sku": "50042",
+    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Marrón Imperial",
     "stock": 2,
     "precio": 55000,
     "importe": 110000
