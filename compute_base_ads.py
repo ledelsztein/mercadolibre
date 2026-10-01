@@ -59,6 +59,7 @@ IVA = 1.21
 SITE_ID = 'MLA'
 CODES_PAGINA = {'CDLIT', 'BDLIT'}  # campania de Seguidores de Mi pagina (+ su anulacion)
 CACHE_STATE_FILE = 'base_ads_cache_state.json'
+ADS_REFETCH_DIAS = 7
 
 
 def refresh_token():
@@ -246,6 +247,11 @@ if __name__ == '__main__':
         siguiente = date.fromisoformat(ads_checked_hasta)
         siguiente = date.fromordinal(siguiente.toordinal() + 1)
         ads_fetch_desde = siguiente.isoformat()
+    # Siempre re-pedir los ultimos ADS_REFETCH_DIAS dias: el watermark puede haber
+    # quedado en un dia que todavia no habia cerrado (impresiones/clicks/ventas
+    # atribuidas parciales), y las ventas atribuidas llegan con demora.
+    refetch_desde = date.fromordinal(date.fromisoformat(fecha_hasta).toordinal() - ADS_REFETCH_DIAS + 1).isoformat()
+    ads_fetch_desde = max(fecha_desde, min(ads_fetch_desde, refetch_desde))
 
     ventas_by_day = defaultdict(float)
     impresiones_by_day = defaultdict(int)

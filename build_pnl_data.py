@@ -30,7 +30,7 @@ PERIODOS = {
     'Junio': ('2026-06-01', '2026-06-30', '2026-07-01'),
     'Julio': ('2026-07-01', '2026-07-31', '2026-08-01'),
     'Agosto': ('2026-08-01', '2026-08-31', '2026-09-01'),
-    'Septiembre (parcial al 29)': ('2026-09-01', '2026-09-29', None),
+    'Septiembre': ('2026-09-01', '2026-09-30', '2026-10-01'),
 }
 
 base_ventas = list(json.load(open('base_ventas.json', encoding='utf-8')).values())
@@ -90,7 +90,9 @@ for label, (desde, hasta, imp_key) in PERIODOS.items():
     for campo, cat in INFORMATIVO_CATS.items():
         informativo[campo] = sum(r['importe_con_iva'] for r in inf_rows if r['categoria'] == cat)
 
-    if imp_key:
+    # Si el periodo de Facturacion todavia no cerro (no esta en base_impositiva), queda
+    # pendiente (None) en vez de 0 -- asi el dashboard usa el estimado del mes anterior.
+    if imp_key and any(r['period_key'] == imp_key for r in base_impositiva):
         percepciones = sum(r['importe'] for r in base_impositiva if r['period_key'] == imp_key)
     else:
         percepciones = None
