@@ -4189,27 +4189,27 @@
   },
   {
     "fecha": "2026-10-01",
-    "item_id": "MLA3949953586",
+    "item_id": "MLA3949953582",
     "sku": "50037",
-    "producto": "Canarias Serena 1kg",
+    "producto": "Yerba Mate Canarias Serena Compuesta Con Hierbas X 1kg",
     "precio": 12225.0,
     "comision": 1499.62,
     "envio_absorbido": 0.0,
     "recibis": 10725.38,
-    "stock": 26,
-    "recibis_total": 278859.88
+    "stock": 23,
+    "recibis_total": 246683.74
   },
   {
     "fecha": "2026-10-01",
-    "item_id": "MLA3571928900",
+    "item_id": "MLA3232809762",
     "sku": "50004",
     "producto": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
     "precio": 13020.0,
     "comision": 1608.95,
     "envio_absorbido": 0.0,
     "recibis": 11411.05,
-    "stock": 41,
-    "recibis_total": 467853.05
+    "stock": 38,
+    "recibis_total": 433619.9
   },
   {
     "fecha": "2026-10-01",
@@ -4232,8 +4232,8 @@
     "comision": 2644.88,
     "envio_absorbido": 0.0,
     "recibis": 13805.12,
-    "stock": 207,
-    "recibis_total": 2857659.84
+    "stock": 202,
+    "recibis_total": 2788634.24
   },
   {
     "fecha": "2026-10-01",
@@ -4256,50 +4256,50 @@
     "comision": 2958.75,
     "envio_absorbido": 0.0,
     "recibis": 17541.25,
-    "stock": 213,
-    "recibis_total": 3736286.25
+    "stock": 201,
+    "recibis_total": 3525791.25
   },
   {
     "fecha": "2026-10-01",
-    "item_id": "MLA2123732493",
+    "item_id": "MLA2123719629",
     "sku": "50043",
-    "producto": "Creatina Gold Nutrition Black Line En Polvo Sin Sabor X 300g",
+    "producto": "Creatina Monohidrato Micronizada Gold Nutrition 300g Neutro Sin Sabor",
     "precio": 26500.0,
     "comision": 3713.75,
     "envio_absorbido": 0.0,
     "recibis": 22786.25,
-    "stock": 28,
-    "recibis_total": 638015.0
+    "stock": 26,
+    "recibis_total": 592442.5
   },
   {
     "fecha": "2026-10-01",
-    "item_id": "MLA1977669677",
+    "item_id": "MLA1977669679",
     "sku": "50030",
-    "producto": "Creatina Monohidrato Star Nutrition Micronizada 300g Neutro Sin Sabor",
+    "producto": "Creatina Star Nutrition En Polvo Sin Sabor X 300g. Pote",
     "precio": 27500.0,
     "comision": 3801.25,
     "envio_absorbido": 0.0,
     "recibis": 23698.75,
-    "stock": 25,
-    "recibis_total": 592468.75
+    "stock": 4,
+    "recibis_total": 94795.0
   },
   {
     "fecha": "2026-10-01",
-    "item_id": "MLA3566784906",
+    "item_id": "MLA3232759300",
     "sku": "50005",
-    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Plus",
+    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
     "precio": 27900.0,
     "comision": 3674.85,
     "envio_absorbido": 0.0,
     "recibis": 24225.15,
-    "stock": 44,
-    "recibis_total": 1065906.6
+    "stock": 41,
+    "recibis_total": 993231.15
   },
   {
     "fecha": "2026-10-01",
-    "item_id": "MLA2097402365",
-    "sku": "50042",
-    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Marrón Imperial",
+    "item_id": "MLA2097402363",
+    "sku": "50041",
+    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Negro Imperial",
     "precio": 55000,
     "comision": 8841.25,
     "envio_absorbido": 8790,
@@ -4309,9 +4309,9 @@
   },
   {
     "fecha": "2026-10-01",
-    "item_id": "MLA2097402363",
-    "sku": "50041",
-    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Negro Imperial",
+    "item_id": "MLA2097402365",
+    "sku": "50042",
+    "producto": "Mate Imperial Cuero Calabaza Con Bombilla Marrón Imperial",
     "precio": 55000,
     "comision": 8841.25,
     "envio_absorbido": 8790,
@@ -4340,38 +4340,38 @@
     "comision": 6858.75,
     "envio_absorbido": 8790,
     "recibis": 72851.25,
-    "stock": 30,
-    "recibis_total": 2185537.5
+    "stock": 29,
+    "recibis_total": 2112686.25
   },
   {
     "fecha": "2026-10-01",
-    "item_id": "MLA2090594323",
+    "item_id": "MLA2090594293",
     "sku": "50039",
-    "producto": "Whey Protein Gold Nutrition 2 Libras Suplementos Proteína 100% Sabor Vainilla Gourmet",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
     "precio": 88624.0,
     "comision": 6868.36,
     "envio_absorbido": 8790,
     "recibis": 72965.64,
-    "stock": 21,
-    "recibis_total": 1532278.44
+    "stock": 17,
+    "recibis_total": 1240415.88
   },
   {
     "fecha": "2026-10-01",
-    "item_id": "MLA1977867145",
+    "item_id": "MLA3770872430",
     "sku": "50031",
-    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907g Vainilla 2l Vainilla Gourmet",
+    "producto": "Proteína Gold Nutrition Premium Isolate En Polvo Sabor Vainilla Gourmet X 907g",
     "precio": 110950.0,
     "comision": 8598.62,
     "envio_absorbido": 8790,
     "recibis": 93561.38,
-    "stock": 45,
-    "recibis_total": 4210262.1
+    "stock": 43,
+    "recibis_total": 4023139.34
   },
   {
     "fecha": "2026-10-01",
-    "item_id": "MLA2090592695",
+    "item_id": "MLA2090592693",
     "sku": "50038",
-    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 2lb Chocolate 1k Gourmet Milk Chocolate",
     "precio": 110950.0,
     "comision": 8598.62,
     "envio_absorbido": 8790,
