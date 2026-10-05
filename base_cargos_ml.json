@@ -30,5 +30,13 @@
     "mi_pagina_c": 0.0,
     "devoluciones_s": 7495.87,
     "devoluciones_c": 9070.0
+  },
+  {
+    "fecha": "2026-10-02",
+    "factura": "pendiente fc",
+    "mi_pagina_s": 13222.31,
+    "mi_pagina_c": 15999.0,
+    "devoluciones_s": 0.0,
+    "devoluciones_c": 0.0
   }
 ]
