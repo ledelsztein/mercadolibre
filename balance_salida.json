@@ -219,5 +219,18 @@
     "percepciones_retenciones_periodo": "2026-09-01",
     "deudas_pendientes": 21719246.56,
     "balance_salida": -5631365.13
+  },
+  {
+    "fecha": "2026-10-06",
+    "total_stock_valorizado": 20450828.0,
+    "total_stock_recibido": 15056286.36,
+    "autonomos": 103603.74,
+    "autonomos_fecha_pago": "2026-09-07",
+    "iibb": 156864.61,
+    "iibb_fecha_pago": "2026-09-18",
+    "percepciones_retenciones": 335068.09,
+    "percepciones_retenciones_periodo": "2026-09-01",
+    "deudas_pendientes": 21719246.56,
+    "balance_salida": -7258496.64
   }
 ]
