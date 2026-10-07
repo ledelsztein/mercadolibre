@@ -52,3 +52,15 @@ git fetch origin && git status
   decidir qué conservar.
 - Si el local y `origin/main` ya coinciden o el local está adelante (branch propia con commits
   nuevos), no hace falta hacer nada especial acá.
+
+## Cómo interpretar los costos que pasa Lucas (IVA)
+
+`data/Costos.xlsx` guarda el costo **sin IVA** (columna "Costo s/IVA"); el pipeline le suma
+21% (× 1,21) para obtener el costo con IVA. Al cargar un costo que Lucas pasa:
+
+- **"+IVA"** (o "más IVA", "+ IVA"): el valor es neto, todavía **no** contiene el IVA y hay que
+  sumárselo. Va **tal cual** en la columna s/IVA (su versión con IVA sale de × 1,21).
+- **"precio final", "con IVA", "IVA incluido"** o similar: el valor **ya contiene** el IVA.
+  Hay que dividirlo por 1,21 antes de cargarlo en la columna s/IVA.
+- Si no queda claro cuál de los dos es, preguntarle a Lucas antes de cargar (error real
+  2026-10-07: se dividió por 1,21 un costo "+IVA" que ya era neto).
