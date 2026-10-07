@@ -31,7 +31,7 @@ PERIODOS = {
     'Julio': ('2026-07-01', '2026-07-31', '2026-08-01'),
     'Agosto': ('2026-08-01', '2026-08-31', '2026-09-01'),
     'Septiembre': ('2026-09-01', '2026-09-30', '2026-10-01'),
-    'Octubre (parcial al 4)': ('2026-10-01', '2026-10-04', None),
+    'Octubre (parcial al 6)': ('2026-10-01', '2026-10-06', None),
 }
 
 base_ventas = list(json.load(open('base_ventas.json', encoding='utf-8')).values())

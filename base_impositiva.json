@@ -486,5 +486,117 @@
     "detalle": "doc 5124126829",
     "importe": 117.42,
     "period_key": "2026-09-01"
+  },
+  {
+    "fecha": "2026-10-07",
+    "grupo": "ML",
+    "categoria": "Percepción de impuesto IIBB régimen general de Catamarca",
+    "detalle": "doc 5213994580",
+    "importe": 183439.07,
+    "period_key": "2026-10-01"
+  },
+  {
+    "fecha": "2026-10-07",
+    "grupo": "ML",
+    "categoria": "Percepción de impuesto IIBB régimen general de Tucumán",
+    "detalle": "doc 5213994580",
+    "importe": 18343.91,
+    "period_key": "2026-10-01"
+  },
+  {
+    "fecha": "2026-10-07",
+    "grupo": "ML",
+    "categoria": "Percepción impuesto IIBB CABA",
+    "detalle": "doc 5213994580",
+    "importe": 220126.88,
+    "period_key": "2026-10-01"
+  },
+  {
+    "fecha": "2026-10-07",
+    "grupo": "ML",
+    "categoria": "Percepción impuesto IIBB Buenos Aires",
+    "detalle": "doc 5213994580",
+    "importe": 29350.25,
+    "period_key": "2026-10-01"
+  },
+  {
+    "fecha": "2026-10-07",
+    "grupo": "ML",
+    "categoria": "Percepción de impuesto IIBB régimen general de Tucumán",
+    "detalle": "doc 5213994580",
+    "importe": 33896.03,
+    "period_key": "2026-10-01"
+  },
+  {
+    "fecha": "2026-10-07",
+    "grupo": "ML",
+    "categoria": "Percepción impuesto IIBB Com. Electrónico CABA",
+    "detalle": "doc 5213994580",
+    "importe": 151065.23,
+    "period_key": "2026-10-01"
+  },
+  {
+    "fecha": "2026-10-07",
+    "grupo": "ML",
+    "categoria": "Percep. gral. impuesto IIBB Bs. As. Mercado Envíos",
+    "detalle": "doc 5215086076",
+    "importe": 6090.74,
+    "period_key": "2026-10-01"
+  },
+  {
+    "fecha": "2026-10-07",
+    "grupo": "ML",
+    "categoria": "Cargo por percepción de IIBB del régimen general para Tucumán",
+    "detalle": "doc 5215086076",
+    "importe": 3806.71,
+    "period_key": "2026-10-01"
+  },
+  {
+    "fecha": "2026-10-07",
+    "grupo": "ML",
+    "categoria": "Percepción de impuesto IIBB régimen general de Salta",
+    "detalle": "doc 5215086076",
+    "importe": 93.19,
+    "period_key": "2026-10-01"
+  },
+  {
+    "fecha": "2026-10-07",
+    "grupo": "ML",
+    "categoria": "Percep. gral. impuesto IIBB CABA Mercado Envíos",
+    "detalle": "doc 5215086076",
+    "importe": 45680.54,
+    "period_key": "2026-10-01"
+  },
+  {
+    "fecha": "2026-10-07",
+    "grupo": "MP",
+    "categoria": "Cargo por percepción de IIBB del régimen general para CABA",
+    "detalle": "doc 5245228858",
+    "importe": 11484.1,
+    "period_key": "2026-10-01"
+  },
+  {
+    "fecha": "2026-10-07",
+    "grupo": "MP",
+    "categoria": "Cargo por percepción de IIBB del régimen general para Catamarca",
+    "detalle": "doc 5245228858",
+    "importe": 9570.08,
+    "period_key": "2026-10-01"
+  },
+  {
+    "fecha": "2026-10-07",
+    "grupo": "MP",
+    "categoria": "Cargo por percepción de IIBB del régimen general para Tucumán",
+    "detalle": "doc 5245228858",
+    "importe": 957.01,
+    "period_key": "2026-10-01"
+  },
+  {
+    "fecha": "2026-10-07",
+    "grupo": "MP",
+    "categoria": "Cargo por percepción de IIBB del régimen general para Buenos Aires",
+    "detalle": "doc 5245228858",
+    "importe": 1531.21,
+    "period_key": "2026-10-01"
   }
 ]
