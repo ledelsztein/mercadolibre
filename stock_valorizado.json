@@ -8272,18 +8272,18 @@
   },
   {
     "fecha": "2026-10-07",
-    "item_id": "MLA2090592693",
+    "item_id": "MLA2090592695",
     "sku": "50038",
-    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 908 G Gourmet Milk Chocolate",
-    "stock": 46,
+    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
+    "stock": 45,
     "precio": 112644,
-    "importe": 5181624
+    "importe": 5068980
   },
   {
     "fecha": "2026-10-07",
-    "item_id": "MLA1977867145",
+    "item_id": "MLA3770872430",
     "sku": "50031",
-    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907 G Vainilla Gourmet",
+    "producto": "Proteína Gold Nutrition Premium Isolate En Polvo Sabor Vainilla Gourmet X 907g",
     "stock": 38,
     "precio": 112644,
     "importe": 4280472
@@ -8299,9 +8299,9 @@
   },
   {
     "fecha": "2026-10-07",
-    "item_id": "MLA3949765754",
+    "item_id": "MLA2090594295",
     "sku": "50040",
-    "producto": "Proteína 100% Whey Protein 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Gourmet Milk Chocolate",
     "stock": 26,
     "precio": 89511,
     "importe": 2327286
@@ -8317,12 +8317,12 @@
   },
   {
     "fecha": "2026-10-07",
-    "item_id": "MLA3232759300",
+    "item_id": "MLA3566784906",
     "sku": "50005",
-    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
+    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Plus",
     "stock": 35,
-    "precio": 27900.0,
-    "importe": 976500.0
+    "precio": 34000,
+    "importe": 1190000
   },
   {
     "fecha": "2026-10-07",
@@ -8347,24 +8347,24 @@
     "item_id": "MLA2123732493",
     "sku": "50043",
     "producto": "Creatina Gold Nutrition Black Line En Polvo Sin Sabor X 300g",
-    "stock": 15,
+    "stock": 13,
     "precio": 28161,
-    "importe": 422415
+    "importe": 366093
   },
   {
     "fecha": "2026-10-07",
     "item_id": "MLA1926311309",
     "sku": "50023",
     "producto": "Bisglicinato De Magnesio Geonat Geomagnesium En Comprimidos Sin Sabor De 60 Un",
-    "stock": 22,
-    "precio": 16500.0,
-    "importe": 363000.0
+    "stock": 8,
+    "precio": 19000.0,
+    "importe": 152000.0
   },
   {
     "fecha": "2026-10-07",
-    "item_id": "MLA2091401043",
+    "item_id": "MLA2091401039",
     "sku": "50028",
-    "producto": "Kit X 3 Toalla De Cara Facial Oregon Hotelera 100% Algodón 400gr Blanca 30x50 Blanco Lisa",
+    "producto": "Toalla Facial Oregon Hotelero Plus Algodon 30x50 X3un. Blanco Lisa",
     "stock": 7,
     "precio": 16000,
     "importe": 112000
