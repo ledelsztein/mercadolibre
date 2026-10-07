@@ -1807,7 +1807,7 @@
   },
   {
     "fecha": "2026-09-07",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 13695.42,
     "costo_c": 16571.46,
     "ventas_s": 124823.97,
@@ -1821,7 +1821,7 @@
   },
   {
     "fecha": "2026-09-08",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 15194.95,
     "costo_c": 18385.89,
     "ventas_s": 249195.87,
@@ -1835,7 +1835,7 @@
   },
   {
     "fecha": "2026-09-09",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 14504.37,
     "costo_c": 17550.29,
     "ventas_s": 267200.83,
@@ -1849,7 +1849,7 @@
   },
   {
     "fecha": "2026-09-10",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 14646.45,
     "costo_c": 17722.2,
     "ventas_s": 74880.17,
@@ -1863,7 +1863,7 @@
   },
   {
     "fecha": "2026-09-11",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 14499.39,
     "costo_c": 17544.26,
     "ventas_s": 156157.02,
@@ -1877,7 +1877,7 @@
   },
   {
     "fecha": "2026-09-12",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 14493.8,
     "costo_c": 17537.5,
     "ventas_s": 33884.3,
@@ -1891,7 +1891,7 @@
   },
   {
     "fecha": "2026-09-13",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 14253.7,
     "costo_c": 17246.98,
     "ventas_s": 33884.3,
@@ -1905,7 +1905,7 @@
   },
   {
     "fecha": "2026-09-14",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 14490.95,
     "costo_c": 17534.05,
     "ventas_s": 35041.32,
@@ -1919,7 +1919,7 @@
   },
   {
     "fecha": "2026-09-15",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 14465.85,
     "costo_c": 17503.68,
     "ventas_s": 126735.54,
@@ -1933,7 +1933,7 @@
   },
   {
     "fecha": "2026-09-16",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 14688.37,
     "costo_c": 17772.93,
     "ventas_s": 78652.89,
@@ -1947,7 +1947,7 @@
   },
   {
     "fecha": "2026-09-17",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 15668.26,
     "costo_c": 18958.6,
     "ventas_s": 27190.08,
@@ -1961,7 +1961,7 @@
   },
   {
     "fecha": "2026-09-18",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 13174.82,
     "costo_c": 15941.53,
     "ventas_s": 140024.79,
@@ -1975,7 +1975,7 @@
   },
   {
     "fecha": "2026-09-19",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 14106.43,
     "costo_c": 17068.78,
     "ventas_s": 0.0,
@@ -1989,7 +1989,7 @@
   },
   {
     "fecha": "2026-09-20",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 12475.28,
     "costo_c": 15095.09,
     "ventas_s": 40553.18,
@@ -2003,7 +2003,7 @@
   },
   {
     "fecha": "2026-09-21",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 13271.73,
     "costo_c": 16058.79,
     "ventas_s": 182583.47,
@@ -2017,7 +2017,7 @@
   },
   {
     "fecha": "2026-09-22",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 24837.04,
     "costo_c": 30052.82,
     "ventas_s": 523468.88,
@@ -2031,7 +2031,7 @@
   },
   {
     "fecha": "2026-09-23",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 24443.19,
     "costo_c": 29576.26,
     "ventas_s": 142060.71,
@@ -2045,7 +2045,7 @@
   },
   {
     "fecha": "2026-09-24",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 21480.68,
     "costo_c": 25991.62,
     "ventas_s": 270035.92,
@@ -2059,7 +2059,7 @@
   },
   {
     "fecha": "2026-09-25",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 23937.07,
     "costo_c": 28963.85,
     "costo_ventas_s": 15219.53,
@@ -2073,7 +2073,7 @@
   },
   {
     "fecha": "2026-09-26",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 22420.49,
     "costo_c": 27128.79,
     "costo_ventas_s": 16503.0,
@@ -2087,7 +2087,7 @@
   },
   {
     "fecha": "2026-09-27",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 23173.1,
     "costo_c": 28039.45,
     "costo_ventas_s": 15850.7,
@@ -2101,7 +2101,7 @@
   },
   {
     "fecha": "2026-09-28",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 23148.64,
     "costo_c": 28009.85,
     "costo_ventas_s": 15872.0,
@@ -2115,7 +2115,7 @@
   },
   {
     "fecha": "2026-09-29",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 25467.04,
     "costo_c": 30815.12,
     "costo_ventas_s": 18152.0,
@@ -2129,7 +2129,7 @@
   },
   {
     "fecha": "2026-09-30",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 25251.37,
     "costo_c": 30554.16,
     "costo_ventas_s": 18152.0,
@@ -2143,7 +2143,7 @@
   },
   {
     "fecha": "2026-10-01",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 25465.02,
     "costo_c": 30812.67,
     "costo_ventas_s": 18152.0,
@@ -2157,7 +2157,7 @@
   },
   {
     "fecha": "2026-10-02",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 22527.34,
     "costo_c": 27258.08,
     "costo_ventas_s": 18152.0,
@@ -2171,7 +2171,7 @@
   },
   {
     "fecha": "2026-10-03",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 22662.26,
     "costo_c": 27421.33,
     "costo_ventas_s": 18139.08,
@@ -2185,7 +2185,7 @@
   },
   {
     "fecha": "2026-10-04",
-    "factura": "pendiente fc",
+    "factura": null,
     "costo_s": 22572.0,
     "costo_c": 27312.12,
     "costo_ventas_s": 18164.0,
@@ -2196,5 +2196,33 @@
     "ventas_c": 143750.0,
     "impresiones": 14068,
     "clicks": 60
+  },
+  {
+    "fecha": "2026-10-05",
+    "factura": null,
+    "costo_s": 22681.6,
+    "costo_c": 27444.74,
+    "costo_ventas_s": 18152.0,
+    "costo_ventas_c": 21963.92,
+    "costo_pagina_s": 4529.6,
+    "costo_pagina_c": 5480.82,
+    "ventas_s": 189917.36,
+    "ventas_c": 229800.0,
+    "impresiones": 8469,
+    "clicks": 40
+  },
+  {
+    "fecha": "2026-10-06",
+    "factura": null,
+    "costo_s": 22700.44,
+    "costo_c": 27467.53,
+    "costo_ventas_s": 18146.17,
+    "costo_ventas_c": 21956.87,
+    "costo_pagina_s": 4554.26,
+    "costo_pagina_c": 5510.66,
+    "ventas_s": 109090.91,
+    "ventas_c": 132000.0,
+    "impresiones": 7347,
+    "clicks": 54
   }
 ]

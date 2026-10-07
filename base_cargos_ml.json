@@ -25,7 +25,7 @@
   },
   {
     "fecha": "2026-09-21",
-    "factura": "pendiente fc",
+    "factura": null,
     "mi_pagina_s": 0.0,
     "mi_pagina_c": 0.0,
     "devoluciones_s": 7495.87,
@@ -33,7 +33,7 @@
   },
   {
     "fecha": "2026-10-02",
-    "factura": "pendiente fc",
+    "factura": null,
     "mi_pagina_s": 13222.31,
     "mi_pagina_c": 15999.0,
     "devoluciones_s": 0.0,
