@@ -4897,7 +4897,7 @@
   },
   {
     "fecha": "2026-10-08",
-    "item_id": "MLA3571928900",
+    "item_id": "MLA3232809762",
     "sku": "50004",
     "producto": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
     "precio": 13020.0,
@@ -4933,18 +4933,6 @@
   },
   {
     "fecha": "2026-10-08",
-    "item_id": "MLA1926311309",
-    "sku": "50023",
-    "producto": "Bisglicinato De Magnesio Geonat Geomagnesium En Comprimidos Sin Sabor De 60 Un",
-    "precio": 19000.0,
-    "comision": 5685,
-    "envio_absorbido": 0.0,
-    "recibis": 13315.0,
-    "stock": 2,
-    "recibis_total": 26630.0
-  },
-  {
-    "fecha": "2026-10-08",
     "item_id": "MLA3677881124",
     "sku": "50020",
     "producto": "Treonato De Magnesio Provefarma Geonat Treonato 1000 En Comprimidos Sin Sabor De 60 Un",
@@ -4952,8 +4940,8 @@
     "comision": 6018.25,
     "envio_absorbido": 0.0,
     "recibis": 15131.75,
-    "stock": 119,
-    "recibis_total": 1800678.25
+    "stock": 118,
+    "recibis_total": 1785546.5
   },
   {
     "fecha": "2026-10-08",
@@ -4964,8 +4952,8 @@
     "comision": 4862,
     "envio_absorbido": 11790,
     "recibis": 17348,
-    "stock": 35,
-    "recibis_total": 607180
+    "stock": 32,
+    "recibis_total": 555136
   },
   {
     "fecha": "2026-10-08",
@@ -4976,8 +4964,8 @@
     "comision": 7684.96,
     "envio_absorbido": 0.0,
     "recibis": 20476.04,
-    "stock": 10,
-    "recibis_total": 204760.4
+    "stock": 8,
+    "recibis_total": 163808.32
   },
   {
     "fecha": "2026-10-08",
@@ -5029,27 +5017,15 @@
   },
   {
     "fecha": "2026-10-08",
-    "item_id": "MLA2090594323",
+    "item_id": "MLA2090594293",
     "sku": "50039",
-    "producto": "Whey Protein Gold Nutrition 2 Libras Suplementos Proteína 100% Sabor Vainilla Gourmet",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
     "precio": 89511,
     "comision": 13874.2,
     "envio_absorbido": 8790,
     "recibis": 66846.8,
-    "stock": 25,
-    "recibis_total": 1671170.0
-  },
-  {
-    "fecha": "2026-10-08",
-    "item_id": "MLA3770872430",
-    "sku": "50031",
-    "producto": "Proteína Gold Nutrition Premium Isolate En Polvo Sabor Vainilla Gourmet X 907g",
-    "precio": 112644,
-    "comision": 17459.82,
-    "envio_absorbido": 8790,
-    "recibis": 86394.18,
-    "stock": 44,
-    "recibis_total": 3801343.92
+    "stock": 53,
+    "recibis_total": 3542880.4
   },
   {
     "fecha": "2026-10-08",
@@ -5062,5 +5038,17 @@
     "recibis": 86394.18,
     "stock": 44,
     "recibis_total": 3801343.92
+  },
+  {
+    "fecha": "2026-10-08",
+    "item_id": "MLA1977867145",
+    "sku": "50031",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907 G Vainilla Gourmet",
+    "precio": 112644,
+    "comision": 17459.82,
+    "envio_absorbido": 8790,
+    "recibis": 86394.18,
+    "stock": 50,
+    "recibis_total": 4319709.0
   }
 ]
