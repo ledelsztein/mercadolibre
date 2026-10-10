@@ -8638,5 +8638,122 @@
     "stock": 1,
     "precio": 74400.0,
     "importe": 74400.0
+  },
+  {
+    "fecha": "2026-10-10",
+    "item_id": "MLA2090594323",
+    "sku": "50039",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Suplementos Proteína 100% Sabor Vainilla Gourmet",
+    "stock": 73,
+    "precio": 89511,
+    "importe": 6534303
+  },
+  {
+    "fecha": "2026-10-10",
+    "item_id": "MLA3770872430",
+    "sku": "50031",
+    "producto": "Proteína Gold Nutrition Premium Isolate En Polvo Sabor Vainilla Gourmet X 907g",
+    "stock": 50,
+    "precio": 112644,
+    "importe": 5632200
+  },
+  {
+    "fecha": "2026-10-10",
+    "item_id": "MLA2090592695",
+    "sku": "50038",
+    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
+    "stock": 43,
+    "precio": 112644,
+    "importe": 4843692
+  },
+  {
+    "fecha": "2026-10-10",
+    "item_id": "MLA3677881124",
+    "sku": "50020",
+    "producto": "Treonato De Magnesio Provefarma Geonat Treonato 1000 En Comprimidos Sin Sabor De 60 Un",
+    "stock": 115,
+    "precio": 21150.0,
+    "importe": 2432250.0
+  },
+  {
+    "fecha": "2026-10-10",
+    "item_id": "MLA3949765754",
+    "sku": "50040",
+    "producto": "Proteína 100% Whey Protein 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
+    "stock": 24,
+    "precio": 89511,
+    "importe": 2148264
+  },
+  {
+    "fecha": "2026-10-10",
+    "item_id": "MLA3471136932",
+    "sku": "50014",
+    "producto": "L-arginina L-citrulina Ginseng Lappiel Energía Especific M1 Especific Energy En Comprimidos Sin Sabor De 60 Un",
+    "stock": 95,
+    "precio": 19200,
+    "importe": 1824000
+  },
+  {
+    "fecha": "2026-10-10",
+    "item_id": "MLA3232759300",
+    "sku": "50005",
+    "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
+    "stock": 26,
+    "precio": 34000,
+    "importe": 884000
+  },
+  {
+    "fecha": "2026-10-10",
+    "item_id": "MLA3571928900",
+    "sku": "50004",
+    "producto": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
+    "stock": 25,
+    "precio": 13020.0,
+    "importe": 325500.0
+  },
+  {
+    "fecha": "2026-10-10",
+    "item_id": "MLA2123719629",
+    "sku": "50043",
+    "producto": "Creatina Monohidrato Micronizada Gold Nutrition 300g Neutro Sin Sabor",
+    "stock": 6,
+    "precio": 28161,
+    "importe": 168966
+  },
+  {
+    "fecha": "2026-10-10",
+    "item_id": "MLA2091401039",
+    "sku": "50028",
+    "producto": "Toalla Facial Oregon Hotelero Plus Algodon 30x50 X3un. Blanco Lisa",
+    "stock": 7,
+    "precio": 16000,
+    "importe": 112000
+  },
+  {
+    "fecha": "2026-10-10",
+    "item_id": "MLA2097402365",
+    "sku": "50042",
+    "producto": "Mate Imperial Cuero Calabaza Obsesion X El Mate Marrón Imperial",
+    "stock": 2,
+    "precio": 55000,
+    "importe": 110000
+  },
+  {
+    "fecha": "2026-10-10",
+    "item_id": "MLA2097402363",
+    "sku": "50041",
+    "producto": "Mate Imperial Cuero Calabaza Obsesion X El Mate Negro Imperial",
+    "stock": 2,
+    "precio": 55000,
+    "importe": 110000
+  },
+  {
+    "fecha": "2026-10-10",
+    "item_id": "MLA1961104511",
+    "sku": "50024",
+    "producto": "Set Toalla Y Toallón Oregon Ultra 630 100% Algodón Blanco",
+    "stock": 1,
+    "precio": 74400.0,
+    "importe": 74400.0
   }
 ]
