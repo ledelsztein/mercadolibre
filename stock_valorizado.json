@@ -8767,9 +8767,9 @@
   },
   {
     "fecha": "2026-10-11",
-    "item_id": "MLA1977867145",
+    "item_id": "MLA3770872430",
     "sku": "50031",
-    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907 G Vainilla Gourmet",
+    "producto": "Proteína Gold Nutrition Premium Isolate En Polvo Sabor Vainilla Gourmet X 907g",
     "stock": 50,
     "precio": 112644,
     "importe": 5632200
@@ -8788,15 +8788,15 @@
     "item_id": "MLA3677881124",
     "sku": "50020",
     "producto": "Treonato De Magnesio Provefarma Geonat Treonato 1000 En Comprimidos Sin Sabor De 60 Un",
-    "stock": 110,
+    "stock": 108,
     "precio": 21150.0,
-    "importe": 2326500.0
+    "importe": 2284200.0
   },
   {
     "fecha": "2026-10-11",
-    "item_id": "MLA3949765754",
+    "item_id": "MLA2090594295",
     "sku": "50040",
-    "producto": "Proteína 100% Whey Protein 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Gourmet Milk Chocolate",
     "stock": 23,
     "precio": 89511,
     "importe": 2058753
@@ -8815,13 +8815,13 @@
     "item_id": "MLA3232759300",
     "sku": "50005",
     "producto": "Toallón Oregon Hotelero 100% Algodón 550gr Blanco 90x150 Blanco Plus",
-    "stock": 25,
+    "stock": 24,
     "precio": 34000,
-    "importe": 850000
+    "importe": 816000
   },
   {
     "fecha": "2026-10-11",
-    "item_id": "MLA3571928900",
+    "item_id": "MLA3232809762",
     "sku": "50004",
     "producto": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
     "stock": 24,
