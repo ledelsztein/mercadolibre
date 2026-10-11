@@ -274,8 +274,8 @@
   },
   {
     "fecha": "2026-10-11",
-    "total_stock_valorizado": 24698817.0,
-    "total_stock_recibido": 18137633.44,
+    "total_stock_valorizado": 24622517.0,
+    "total_stock_recibido": 18090021.94,
     "autonomos": 103603.74,
     "autonomos_fecha_pago": "2026-09-07",
     "iibb": 156864.61,
@@ -283,6 +283,6 @@
     "percepciones_retenciones": 715434.95,
     "percepciones_retenciones_periodo": "2026-10-01",
     "deudas_pendientes": 21719246.56,
-    "balance_salida": -4557516.42
+    "balance_salida": -4605127.92
   }
 ]
