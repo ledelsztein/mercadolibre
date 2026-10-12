@@ -5521,21 +5521,21 @@
   },
   {
     "fecha": "2026-10-12",
-    "item_id": "MLA3232809762",
+    "item_id": "MLA3571928900",
     "sku": "50004",
     "producto": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
     "precio": 13020.0,
     "comision": 3217.9,
     "envio_absorbido": 0.0,
     "recibis": 9802.1,
-    "stock": 12,
-    "recibis_total": 117625.2
+    "stock": 9,
+    "recibis_total": 88218.9
   },
   {
     "fecha": "2026-10-12",
-    "item_id": "MLA2091401039",
+    "item_id": "MLA2091401043",
     "sku": "50028",
-    "producto": "Toalla Facial Oregon Hotelero Plus Algodon 30x50 X3un. Blanco Lisa",
+    "producto": "Kit X 3 Toalla De Cara Facial Oregon Hotelera 100% Algodón 400gr Blanca 30x50 Blanco Lisa",
     "precio": 16000,
     "comision": 5060,
     "envio_absorbido": 0.0,
@@ -5552,8 +5552,8 @@
     "comision": 8809,
     "envio_absorbido": 0.0,
     "recibis": 12191.0,
-    "stock": 95,
-    "recibis_total": 1158145.0
+    "stock": 94,
+    "recibis_total": 1145954.0
   },
   {
     "fecha": "2026-10-12",
@@ -5576,8 +5576,8 @@
     "comision": 4862,
     "envio_absorbido": 11790,
     "recibis": 17348,
-    "stock": 12,
-    "recibis_total": 208176
+    "stock": 7,
+    "recibis_total": 121436
   },
   {
     "fecha": "2026-10-12",
@@ -5617,18 +5617,6 @@
   },
   {
     "fecha": "2026-10-12",
-    "item_id": "MLA3949765754",
-    "sku": "50040",
-    "producto": "Proteína 100% Whey Protein 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
-    "precio": 89511,
-    "comision": 13874.2,
-    "envio_absorbido": 8790,
-    "recibis": 66846.8,
-    "stock": 23,
-    "recibis_total": 1537476.4
-  },
-  {
-    "fecha": "2026-10-12",
     "item_id": "MLA2090594323",
     "sku": "50039",
     "producto": "Whey Protein Gold Nutrition 2 Libras Suplementos Proteína 100% Sabor Vainilla Gourmet",
@@ -5641,6 +5629,18 @@
   },
   {
     "fecha": "2026-10-12",
+    "item_id": "MLA3949765754",
+    "sku": "50040",
+    "producto": "Proteína 100% Whey Protein 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
+    "precio": 89511,
+    "comision": 13874.2,
+    "envio_absorbido": 8790,
+    "recibis": 66846.8,
+    "stock": 23,
+    "recibis_total": 1537476.4
+  },
+  {
+    "fecha": "2026-10-12",
     "item_id": "MLA2090592695",
     "sku": "50038",
     "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
@@ -5648,8 +5648,8 @@
     "comision": 17459.82,
     "envio_absorbido": 8790,
     "recibis": 86394.18,
-    "stock": 43,
-    "recibis_total": 3714949.74
+    "stock": 42,
+    "recibis_total": 3628555.56
   },
   {
     "fecha": "2026-10-12",
@@ -5660,7 +5660,7 @@
     "comision": 17459.82,
     "envio_absorbido": 8790,
     "recibis": 86394.18,
-    "stock": 50,
-    "recibis_total": 4319709.0
+    "stock": 48,
+    "recibis_total": 4146920.64
   }
 ]
