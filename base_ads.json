@@ -2308,5 +2308,19 @@
     "ventas_c": 526458.46,
     "impresiones": 19944,
     "clicks": 92
+  },
+  {
+    "fecha": "2026-10-13",
+    "factura": "pendiente fc",
+    "costo_s": 37405.12,
+    "costo_c": 45260.2,
+    "costo_ventas_s": 32917.93,
+    "costo_ventas_c": 39830.7,
+    "costo_pagina_s": 4487.19,
+    "costo_pagina_c": 5429.5,
+    "ventas_s": 271250.34,
+    "ventas_c": 328212.91,
+    "impresiones": 16380,
+    "clicks": 64
   }
 ]
