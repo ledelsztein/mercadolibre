@@ -31653,5 +31653,70 @@
     "costo_s": 7264.46,
     "pasante_c": 0.0,
     "pasante_s": 0.0
+  },
+  "2000019040693358": {
+    "order_id": 2000019040693358,
+    "pack_id": 2000015582134951,
+    "fecha": "2026-10-18",
+    "shipment_id": 48286960150,
+    "tipo_envio": "Full",
+    "ingreso_c": 0.0,
+    "ingreso_s": 0.0,
+    "costo_c": 0.0,
+    "costo_s": 0.0,
+    "pasante_c": 0.0,
+    "pasante_s": 0.0
+  },
+  "2000019044860220": {
+    "order_id": 2000019044860220,
+    "pack_id": 2000015585919677,
+    "fecha": "2026-10-18",
+    "shipment_id": 48288488871,
+    "tipo_envio": "Full",
+    "ingreso_c": 0.0,
+    "ingreso_s": 0.0,
+    "costo_c": 0.0,
+    "costo_s": 0.0,
+    "pasante_c": 0.0,
+    "pasante_s": 0.0
+  },
+  "2000019046725250": {
+    "order_id": 2000019046725250,
+    "pack_id": 2000015587661853,
+    "fecha": "2026-10-18",
+    "shipment_id": 48289320293,
+    "tipo_envio": "Full",
+    "ingreso_c": 0.0,
+    "ingreso_s": 0.0,
+    "costo_c": 0.0,
+    "costo_s": 0.0,
+    "pasante_c": 0.0,
+    "pasante_s": 0.0
+  },
+  "2000019051437378": {
+    "order_id": 2000019051437378,
+    "pack_id": 2000015592113985,
+    "fecha": "2026-10-18",
+    "shipment_id": 48291387673,
+    "tipo_envio": "Full",
+    "ingreso_c": 0.0,
+    "ingreso_s": 0.0,
+    "costo_c": 0.0,
+    "costo_s": 0.0,
+    "pasante_c": 0.0,
+    "pasante_s": 0.0
+  },
+  "2000019052258752": {
+    "order_id": 2000019052258752,
+    "pack_id": 2000015592923087,
+    "fecha": "2026-10-18",
+    "shipment_id": 48292085926,
+    "tipo_envio": "Full",
+    "ingreso_c": 0.0,
+    "ingreso_s": 0.0,
+    "costo_c": 0.0,
+    "costo_s": 0.0,
+    "pasante_c": 0.0,
+    "pasante_s": 0.0
   }
 }
