@@ -194,5 +194,12 @@
     "detalle": "Pago de Ingresos Brutos (sin IVA aplicable)",
     "importe_sin_iva": 156864.61,
     "importe_con_iva": 156864.61
+  },
+  {
+    "fecha": "2026-10-21",
+    "categoria": "IIBB",
+    "detalle": "Pago de Ingresos Brutos (sin IVA aplicable)",
+    "importe_sin_iva": 304489.86,
+    "importe_con_iva": 304489.86
   }
 ]
