@@ -6673,7 +6673,7 @@
   },
   {
     "fecha": "2026-10-21",
-    "item_id": "MLA3571928900",
+    "item_id": "MLA3232809762",
     "sku": "50004",
     "producto": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
     "precio": 13020.0,
@@ -6692,26 +6692,14 @@
     "comision": 8704,
     "envio_absorbido": 0.0,
     "recibis": 12296.0,
-    "stock": 90,
-    "recibis_total": 1106640.0
+    "stock": 87,
+    "recibis_total": 1069752.0
   },
   {
     "fecha": "2026-10-21",
-    "item_id": "MLA3677881124",
-    "sku": "50020",
-    "producto": "Treonato De Magnesio Provefarma Geonat Treonato 1000 En Comprimidos Sin Sabor De 60 Un",
-    "precio": 20550.0,
-    "comision": 5925.25,
-    "envio_absorbido": 0.0,
-    "recibis": 14624.75,
-    "stock": 9,
-    "recibis_total": 131622.75
-  },
-  {
-    "fecha": "2026-10-21",
-    "item_id": "MLA2097402363",
-    "sku": "50041",
-    "producto": "Mate Imperial Cuero Calabaza Obsesion X El Mate Negro Imperial",
+    "item_id": "MLA2097402365",
+    "sku": "50042",
+    "producto": "Mate Imperial Cuero Calabaza Obsesion X El Mate Marrón Imperial",
     "precio": 55000,
     "comision": 12567.5,
     "envio_absorbido": 8790,
@@ -6721,9 +6709,9 @@
   },
   {
     "fecha": "2026-10-21",
-    "item_id": "MLA2097402365",
-    "sku": "50042",
-    "producto": "Mate Imperial Cuero Calabaza Obsesion X El Mate Marrón Imperial",
+    "item_id": "MLA2097402363",
+    "sku": "50041",
+    "producto": "Mate Imperial Cuero Calabaza Obsesion X El Mate Negro Imperial",
     "precio": 55000,
     "comision": 12567.5,
     "envio_absorbido": 8790,
@@ -6745,15 +6733,15 @@
   },
   {
     "fecha": "2026-10-21",
-    "item_id": "MLA2090594323",
+    "item_id": "MLA2090594293",
     "sku": "50039",
-    "producto": "Whey Protein Gold Nutrition 2 Libras Suplementos Proteína 100% Sabor Vainilla Gourmet",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
     "precio": 89511,
     "comision": 13874.2,
     "envio_absorbido": 8790,
     "recibis": 66846.8,
-    "stock": 65,
-    "recibis_total": 4345042.0
+    "stock": 64,
+    "recibis_total": 4278195.2
   },
   {
     "fecha": "2026-10-21",
@@ -6769,9 +6757,9 @@
   },
   {
     "fecha": "2026-10-21",
-    "item_id": "MLA2090592693",
+    "item_id": "MLA2090592695",
     "sku": "50038",
-    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 908 G Gourmet Milk Chocolate",
+    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
     "precio": 112644,
     "comision": 17459.82,
     "envio_absorbido": 8790,
@@ -6781,14 +6769,14 @@
   },
   {
     "fecha": "2026-10-21",
-    "item_id": "MLA1977867145",
+    "item_id": "MLA3770872430",
     "sku": "50031",
-    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907 G Vainilla Gourmet",
+    "producto": "Proteína Gold Nutrition Premium Isolate En Polvo Sabor Vainilla Gourmet X 907g",
     "precio": 112644,
     "comision": 17459.82,
     "envio_absorbido": 8790,
     "recibis": 86394.18,
-    "stock": 41,
-    "recibis_total": 3542161.38
+    "stock": 38,
+    "recibis_total": 3282978.84
   }
 ]
