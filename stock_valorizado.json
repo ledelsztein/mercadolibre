@@ -9829,9 +9829,9 @@
   },
   {
     "fecha": "2026-10-22",
-    "item_id": "MLA3770872430",
+    "item_id": "MLA1977867145",
     "sku": "50031",
-    "producto": "Proteína Gold Nutrition Premium Isolate En Polvo Sabor Vainilla Gourmet X 907g",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907 G Vainilla Gourmet",
     "stock": 38,
     "precio": 112644,
     "importe": 4280472
@@ -9850,15 +9850,15 @@
     "item_id": "MLA3471136932",
     "sku": "50014",
     "producto": "L-arginina L-citrulina Ginseng Lappiel Energía Especific M1 Especific Energy En Comprimidos Sin Sabor De 60 Un",
-    "stock": 87,
+    "stock": 86,
     "precio": 19200,
-    "importe": 1670400
+    "importe": 1651200
   },
   {
     "fecha": "2026-10-22",
-    "item_id": "MLA2090594295",
+    "item_id": "MLA3949765754",
     "sku": "50040",
-    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Gourmet Milk Chocolate",
+    "producto": "100% Whey Protein Proteína 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
     "stock": 18,
     "precio": 89511,
     "importe": 1611198
@@ -9889,14 +9889,5 @@
     "stock": 1,
     "precio": 74400.0,
     "importe": 74400.0
-  },
-  {
-    "fecha": "2026-10-22",
-    "item_id": "MLA3571928900",
-    "sku": "50004",
-    "producto": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
-    "stock": 1,
-    "precio": 13020.0,
-    "importe": 13020.0
   }
 ]

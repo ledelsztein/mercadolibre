@@ -6793,18 +6793,6 @@
   },
   {
     "fecha": "2026-10-22",
-    "item_id": "MLA3232809762",
-    "sku": "50004",
-    "producto": "Toalla Oregon Hotelera 100% Algodón 550gr Blanca 45x80 Blanco Plus",
-    "precio": 13020.0,
-    "comision": 3217.9,
-    "envio_absorbido": 0.0,
-    "recibis": 9802.1,
-    "stock": 1,
-    "recibis_total": 9802.1
-  },
-  {
-    "fecha": "2026-10-22",
     "item_id": "MLA1947819693",
     "sku": "50014",
     "producto": "L-arginina L-citrulina Ginseng Lappiel Energía Especific M1 Especific Energy En Comprimidos Sin Sabor De 60 Un",
@@ -6812,8 +6800,8 @@
     "comision": 8704,
     "envio_absorbido": 0.0,
     "recibis": 12296.0,
-    "stock": 87,
-    "recibis_total": 1069752.0
+    "stock": 86,
+    "recibis_total": 1057456.0
   },
   {
     "fecha": "2026-10-22",
@@ -6853,6 +6841,18 @@
   },
   {
     "fecha": "2026-10-22",
+    "item_id": "MLA3949765754",
+    "sku": "50040",
+    "producto": "100% Whey Protein Proteína 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
+    "precio": 89511,
+    "comision": 13874.2,
+    "envio_absorbido": 8790,
+    "recibis": 66846.8,
+    "stock": 18,
+    "recibis_total": 1203242.4
+  },
+  {
+    "fecha": "2026-10-22",
     "item_id": "MLA2090594293",
     "sku": "50039",
     "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
@@ -6862,18 +6862,6 @@
     "recibis": 66846.8,
     "stock": 63,
     "recibis_total": 4211348.4
-  },
-  {
-    "fecha": "2026-10-22",
-    "item_id": "MLA2090594295",
-    "sku": "50040",
-    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Gourmet Milk Chocolate",
-    "precio": 89511,
-    "comision": 13874.2,
-    "envio_absorbido": 8790,
-    "recibis": 66846.8,
-    "stock": 18,
-    "recibis_total": 1203242.4
   },
   {
     "fecha": "2026-10-22",
