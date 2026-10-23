@@ -9901,27 +9901,27 @@
   },
   {
     "fecha": "2026-10-23",
-    "item_id": "MLA2090594323",
+    "item_id": "MLA2090594293",
     "sku": "50039",
-    "producto": "Whey Protein Gold Nutrition 2 Libras Suplementos Proteína 100% Sabor Vainilla Gourmet",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
     "stock": 63,
     "precio": 89511,
     "importe": 5639193
   },
   {
     "fecha": "2026-10-23",
-    "item_id": "MLA1977867145",
+    "item_id": "MLA3770872430",
     "sku": "50031",
-    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907 G Vainilla Gourmet",
-    "stock": 36,
+    "producto": "Proteína Gold Nutrition Premium Isolate En Polvo Sabor Vainilla Gourmet X 907g",
+    "stock": 35,
     "precio": 112644,
-    "importe": 4055184
+    "importe": 3942540
   },
   {
     "fecha": "2026-10-23",
-    "item_id": "MLA2090592693",
+    "item_id": "MLA2090592695",
     "sku": "50038",
-    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 908 G Gourmet Milk Chocolate",
+    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
     "stock": 35,
     "precio": 112644,
     "importe": 3942540
@@ -9946,18 +9946,18 @@
   },
   {
     "fecha": "2026-10-23",
-    "item_id": "MLA2097402365",
-    "sku": "50042",
-    "producto": "Mate Imperial Cuero Calabaza Obsesion X El Mate Marrón Imperial",
+    "item_id": "MLA2097402363",
+    "sku": "50041",
+    "producto": "Mate Imperial Cuero Calabaza Obsesion X El Mate Negro Imperial",
     "stock": 2,
     "precio": 55000,
     "importe": 110000
   },
   {
     "fecha": "2026-10-23",
-    "item_id": "MLA2097402363",
-    "sku": "50041",
-    "producto": "Mate Imperial Cuero Calabaza Obsesion X El Mate Negro Imperial",
+    "item_id": "MLA2097402365",
+    "sku": "50042",
+    "producto": "Mate Imperial Cuero Calabaza Obsesion X El Mate Marrón Imperial",
     "stock": 2,
     "precio": 55000,
     "importe": 110000
