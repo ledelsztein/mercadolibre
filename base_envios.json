@@ -31147,19 +31147,6 @@
     "pasante_c": 0.0,
     "pasante_s": 0.0
   },
-  "2000018956313934": {
-    "order_id": 2000018956313934,
-    "pack_id": 2000015502469461,
-    "fecha": "2026-10-13",
-    "shipment_id": 48246260893,
-    "tipo_envio": "Full",
-    "ingreso_c": 0.0,
-    "ingreso_s": 0.0,
-    "costo_c": 0.0,
-    "costo_s": 0.0,
-    "pasante_c": 0.0,
-    "pasante_s": 0.0
-  },
   "2000018956520518": {
     "order_id": 2000018956520518,
     "pack_id": 2000015502655697,
@@ -32834,6 +32821,45 @@
     "ingreso_s": 0.0,
     "costo_c": 8590.0,
     "costo_s": 7099.17,
+    "pasante_c": 0.0,
+    "pasante_s": 0.0
+  },
+  "2000019117192676": {
+    "order_id": 2000019117192676,
+    "pack_id": 2000015654594381,
+    "fecha": "2026-10-22",
+    "shipment_id": 48323473532,
+    "tipo_envio": "Full",
+    "ingreso_c": 0.0,
+    "ingreso_s": 0.0,
+    "costo_c": 0.0,
+    "costo_s": 0.0,
+    "pasante_c": 0.0,
+    "pasante_s": 0.0
+  },
+  "2000019117224482": {
+    "order_id": 2000019117224482,
+    "pack_id": 2000015654598371,
+    "fecha": "2026-10-22",
+    "shipment_id": 48323131949,
+    "tipo_envio": "Full",
+    "ingreso_c": 0.0,
+    "ingreso_s": 0.0,
+    "costo_c": 0.0,
+    "costo_s": 0.0,
+    "pasante_c": 0.0,
+    "pasante_s": 0.0
+  },
+  "2000019128860362": {
+    "order_id": 2000019128860362,
+    "pack_id": 2000015665643769,
+    "fecha": "2026-10-22",
+    "shipment_id": 48329098540,
+    "tipo_envio": "Full",
+    "ingreso_c": 0.0,
+    "ingreso_s": 0.0,
+    "costo_c": 9590.0,
+    "costo_s": 7925.62,
     "pasante_c": 0.0,
     "pasante_s": 0.0
   }
