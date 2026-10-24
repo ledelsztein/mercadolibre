@@ -2448,5 +2448,33 @@
     "ventas_c": 19200.0,
     "impresiones": 4928,
     "clicks": 25
+  },
+  {
+    "fecha": "2026-10-23",
+    "factura": "pendiente fc",
+    "costo_s": 11331.63,
+    "costo_c": 13711.27,
+    "costo_ventas_s": 9469.07,
+    "costo_ventas_c": 11457.57,
+    "costo_pagina_s": 1862.56,
+    "costo_pagina_c": 2253.7,
+    "ventas_s": 58413.22,
+    "ventas_c": 70680.0,
+    "impresiones": 2186,
+    "clicks": 15
+  },
+  {
+    "fecha": "2026-10-24",
+    "factura": "pendiente fc",
+    "costo_s": 9186.6,
+    "costo_c": 11115.79,
+    "costo_ventas_s": 4767.31,
+    "costo_ventas_c": 5768.44,
+    "costo_pagina_s": 4419.3,
+    "costo_pagina_c": 5347.35,
+    "ventas_s": 0.0,
+    "ventas_c": 0.0,
+    "impresiones": 71,
+    "clicks": 0
   }
 ]
