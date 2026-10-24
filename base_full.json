@@ -894,5 +894,13 @@
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 236.53,
     "almacenamiento_full_c": 286.2
+  },
+  {
+    "fecha": "2026-10-23",
+    "factura": "pendiente fc",
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 234.55,
+    "almacenamiento_full_c": 283.8
   }
 ]
