@@ -10102,18 +10102,18 @@
     "item_id": "MLA2090594293",
     "sku": "50039",
     "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
-    "stock": 62,
+    "stock": 61,
     "precio": 89511,
-    "importe": 5549682
+    "importe": 5460171
   },
   {
     "fecha": "2026-10-26",
-    "item_id": "MLA2090592695",
+    "item_id": "MLA2090592693",
     "sku": "50038",
-    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
-    "stock": 34,
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 908 G Gourmet Milk Chocolate",
+    "stock": 33,
     "precio": 112644,
-    "importe": 3829896
+    "importe": 3717252
   },
   {
     "fecha": "2026-10-26",
@@ -10135,9 +10135,9 @@
   },
   {
     "fecha": "2026-10-26",
-    "item_id": "MLA2090594295",
+    "item_id": "MLA3949765754",
     "sku": "50040",
-    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Gourmet Milk Chocolate",
+    "producto": "100% Whey Protein Proteína 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
     "stock": 18,
     "precio": 89511,
     "importe": 1611198

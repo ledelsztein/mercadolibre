@@ -7220,14 +7220,14 @@
     "comision": 13874.2,
     "envio_absorbido": 8790,
     "recibis": 66846.8,
-    "stock": 62,
-    "recibis_total": 4144501.6
+    "stock": 61,
+    "recibis_total": 4077654.8
   },
   {
     "fecha": "2026-10-26",
-    "item_id": "MLA3770872430",
+    "item_id": "MLA1977867145",
     "sku": "50031",
-    "producto": "Proteína Gold Nutrition Premium Isolate En Polvo Sabor Vainilla Gourmet X 907g",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907 G Vainilla Gourmet",
     "precio": 112644,
     "comision": 17459.82,
     "envio_absorbido": 8790,
@@ -7244,7 +7244,7 @@
     "comision": 17459.82,
     "envio_absorbido": 8790,
     "recibis": 86394.18,
-    "stock": 34,
-    "recibis_total": 2937402.12
+    "stock": 33,
+    "recibis_total": 2851007.94
   }
 ]
