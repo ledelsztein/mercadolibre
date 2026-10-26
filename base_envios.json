@@ -32940,5 +32940,18 @@
     "costo_s": 0.0,
     "pasante_c": 0.0,
     "pasante_s": 0.0
+  },
+  "2000019161878696": {
+    "order_id": 2000019161878696,
+    "pack_id": null,
+    "fecha": "2026-10-25",
+    "shipment_id": 48344758602,
+    "tipo_envio": "Full",
+    "ingreso_c": 0.0,
+    "ingreso_s": 0.0,
+    "costo_c": 8590.0,
+    "costo_s": 7099.17,
+    "pasante_c": 0.0,
+    "pasante_s": 0.0
   }
 }
