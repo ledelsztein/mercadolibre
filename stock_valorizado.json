@@ -10291,18 +10291,9 @@
     "item_id": "MLA2090594293",
     "sku": "50039",
     "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
-    "stock": 61,
+    "stock": 60,
     "precio": 89511,
-    "importe": 5460171
-  },
-  {
-    "fecha": "2026-10-29",
-    "item_id": "MLA2090592695",
-    "sku": "50038",
-    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
-    "stock": 31,
-    "precio": 112644,
-    "importe": 3491964
+    "importe": 5370660
   },
   {
     "fecha": "2026-10-29",
@@ -10315,12 +10306,12 @@
   },
   {
     "fecha": "2026-10-29",
-    "item_id": "MLA3471136932",
-    "sku": "50014",
-    "producto": "L-arginina L-citrulina Ginseng Lappiel Energía Especific M1 Especific Energy En Comprimidos Sin Sabor De 60 Un",
-    "stock": 80,
-    "precio": 19200,
-    "importe": 1536000
+    "item_id": "MLA2090592695",
+    "sku": "50038",
+    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
+    "stock": 29,
+    "precio": 112644,
+    "importe": 3266676
   },
   {
     "fecha": "2026-10-29",
@@ -10330,6 +10321,15 @@
     "stock": 17,
     "precio": 89511,
     "importe": 1521687
+  },
+  {
+    "fecha": "2026-10-29",
+    "item_id": "MLA3471136932",
+    "sku": "50014",
+    "producto": "L-arginina L-citrulina Ginseng Lappiel Energía Especific M1 Especific Energy En Comprimidos Sin Sabor De 60 Un",
+    "stock": 79,
+    "precio": 19200,
+    "importe": 1516800
   },
   {
     "fecha": "2026-10-29",
