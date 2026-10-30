@@ -7508,8 +7508,8 @@
     "comision": 8704,
     "envio_absorbido": 0.0,
     "recibis": 12296.0,
-    "stock": 78,
-    "recibis_total": 959088.0
+    "stock": 73,
+    "recibis_total": 897608.0
   },
   {
     "fecha": "2026-10-30",
@@ -7537,21 +7537,21 @@
   },
   {
     "fecha": "2026-10-30",
-    "item_id": "MLA2090594293",
+    "item_id": "MLA2090594323",
     "sku": "50039",
-    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Suplementos Proteína 100% Sabor Vainilla Gourmet",
     "precio": 89511,
     "comision": 13874.2,
     "envio_absorbido": 8790,
     "recibis": 66846.8,
-    "stock": 59,
-    "recibis_total": 3943961.2
+    "stock": 58,
+    "recibis_total": 3877114.4
   },
   {
     "fecha": "2026-10-30",
-    "item_id": "MLA2090594295",
+    "item_id": "MLA3949765754",
     "sku": "50040",
-    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Gourmet Milk Chocolate",
+    "producto": "100% Whey Protein Proteína 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
     "precio": 89511,
     "comision": 13874.2,
     "envio_absorbido": 8790,
@@ -7561,9 +7561,9 @@
   },
   {
     "fecha": "2026-10-30",
-    "item_id": "MLA3770872430",
+    "item_id": "MLA1977867145",
     "sku": "50031",
-    "producto": "Proteína Gold Nutrition Premium Isolate En Polvo Sabor Vainilla Gourmet X 907g",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907 G Vainilla Gourmet",
     "precio": 112644,
     "comision": 17459.82,
     "envio_absorbido": 8790,
@@ -7580,7 +7580,7 @@
     "comision": 17459.82,
     "envio_absorbido": 8790,
     "recibis": 86394.18,
-    "stock": 29,
-    "recibis_total": 2505431.22
+    "stock": 28,
+    "recibis_total": 2419037.04
   }
 ]
