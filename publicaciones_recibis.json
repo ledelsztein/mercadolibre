@@ -8000,8 +8000,8 @@
     "comision": 5706.5,
     "envio_absorbido": 0.0,
     "recibis": 15293.5,
-    "stock": 51,
-    "recibis_total": 779968.5
+    "stock": 47,
+    "recibis_total": 718794.5
   },
   {
     "fecha": "2026-11-05",
@@ -8017,6 +8017,18 @@
   },
   {
     "fecha": "2026-11-05",
+    "item_id": "MLA3949765754",
+    "sku": "50040",
+    "producto": "100% Whey Protein Proteína 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
+    "precio": 85035.45,
+    "comision": 6590.24,
+    "envio_absorbido": 8790,
+    "recibis": 69655.21,
+    "stock": 13,
+    "recibis_total": 905517.73
+  },
+  {
+    "fecha": "2026-11-05",
     "item_id": "MLA2090594293",
     "sku": "50039",
     "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
@@ -8024,20 +8036,20 @@
     "comision": 6590.24,
     "envio_absorbido": 8790,
     "recibis": 69655.21,
-    "stock": 52,
-    "recibis_total": 3622070.92
+    "stock": 51,
+    "recibis_total": 3552415.71
   },
   {
     "fecha": "2026-11-05",
-    "item_id": "MLA2090594295",
-    "sku": "50040",
-    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Gourmet Milk Chocolate",
-    "precio": 85035.45,
-    "comision": 6590.24,
+    "item_id": "MLA3770872430",
+    "sku": "50031",
+    "producto": "Proteína Gold Nutrition Premium Isolate En Polvo Sabor Vainilla Gourmet X 907g",
+    "precio": 107011.8,
+    "comision": 8293.42,
     "envio_absorbido": 8790,
-    "recibis": 69655.21,
-    "stock": 15,
-    "recibis_total": 1044828.15
+    "recibis": 89928.38,
+    "stock": 25,
+    "recibis_total": 2248209.5
   },
   {
     "fecha": "2026-11-05",
@@ -8050,17 +8062,5 @@
     "recibis": 89928.38,
     "stock": 26,
     "recibis_total": 2338137.88
-  },
-  {
-    "fecha": "2026-11-05",
-    "item_id": "MLA1977867145",
-    "sku": "50031",
-    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907 G Vainilla Gourmet",
-    "precio": 107011.8,
-    "comision": 8293.42,
-    "envio_absorbido": 8790,
-    "recibis": 89928.38,
-    "stock": 27,
-    "recibis_total": 2428066.26
   }
 ]
