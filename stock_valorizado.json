@@ -10771,5 +10771,59 @@
     "stock": 2,
     "precio": 40000,
     "importe": 80000
+  },
+  {
+    "fecha": "2026-11-06",
+    "item_id": "MLA2090594293",
+    "sku": "50039",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
+    "stock": 51,
+    "precio": 85035.45,
+    "importe": 4336807.95
+  },
+  {
+    "fecha": "2026-11-06",
+    "item_id": "MLA2090592693",
+    "sku": "50038",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 908 G Gourmet Milk Chocolate",
+    "stock": 26,
+    "precio": 107011.8,
+    "importe": 2782306.8
+  },
+  {
+    "fecha": "2026-11-06",
+    "item_id": "MLA3770872430",
+    "sku": "50031",
+    "producto": "Proteína Gold Nutrition Premium Isolate En Polvo Sabor Vainilla Gourmet X 907g",
+    "stock": 25,
+    "precio": 107011.8,
+    "importe": 2675295.0
+  },
+  {
+    "fecha": "2026-11-06",
+    "item_id": "MLA2090594295",
+    "sku": "50040",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Gourmet Milk Chocolate",
+    "stock": 13,
+    "precio": 85035.45,
+    "importe": 1105460.85
+  },
+  {
+    "fecha": "2026-11-06",
+    "item_id": "MLA3471136932",
+    "sku": "50014",
+    "producto": "L-arginina L-citrulina Ginseng Lappiel M1 Especific Energy En Comprimidos Sin Sabor",
+    "stock": 44,
+    "precio": 18200.0,
+    "importe": 800800.0
+  },
+  {
+    "fecha": "2026-11-06",
+    "item_id": "MLA2097402363",
+    "sku": "50041",
+    "producto": "Mate Imperial Cuero Calabaza Obsesion X El Mate Negro Imperial",
+    "stock": 2,
+    "precio": 40000,
+    "importe": 80000
   }
 ]
