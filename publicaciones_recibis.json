@@ -8062,5 +8062,77 @@
     "recibis": 89928.38,
     "stock": 27,
     "recibis_total": 2428066.26
+  },
+  {
+    "fecha": "2026-11-06",
+    "item_id": "MLA1947819693",
+    "sku": "50014",
+    "producto": "L-arginina L-citrulina Ginseng Lappiel M1 Especific Energy En Comprimidos Sin Sabor",
+    "precio": 21000,
+    "comision": 5706.5,
+    "envio_absorbido": 0.0,
+    "recibis": 15293.5,
+    "stock": 44,
+    "recibis_total": 672914.0
+  },
+  {
+    "fecha": "2026-11-06",
+    "item_id": "MLA2097402363",
+    "sku": "50041",
+    "producto": "Mate Imperial Cuero Calabaza Obsesion X El Mate Negro Imperial",
+    "precio": 40000,
+    "comision": 6270,
+    "envio_absorbido": 8290,
+    "recibis": 25440,
+    "stock": 2,
+    "recibis_total": 50880
+  },
+  {
+    "fecha": "2026-11-06",
+    "item_id": "MLA3949765754",
+    "sku": "50040",
+    "producto": "100% Whey Protein Proteína 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
+    "precio": 85035.45,
+    "comision": 6590.24,
+    "envio_absorbido": 8790,
+    "recibis": 69655.21,
+    "stock": 13,
+    "recibis_total": 905517.73
+  },
+  {
+    "fecha": "2026-11-06",
+    "item_id": "MLA2090594293",
+    "sku": "50039",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
+    "precio": 85035.45,
+    "comision": 6590.24,
+    "envio_absorbido": 8790,
+    "recibis": 69655.21,
+    "stock": 51,
+    "recibis_total": 3552415.71
+  },
+  {
+    "fecha": "2026-11-06",
+    "item_id": "MLA2090592695",
+    "sku": "50038",
+    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
+    "precio": 107011.8,
+    "comision": 8293.42,
+    "envio_absorbido": 8790,
+    "recibis": 89928.38,
+    "stock": 26,
+    "recibis_total": 2338137.88
+  },
+  {
+    "fecha": "2026-11-06",
+    "item_id": "MLA3770872430",
+    "sku": "50031",
+    "producto": "Proteína Gold Nutrition Premium Isolate En Polvo Sabor Vainilla Gourmet X 907g",
+    "precio": 107011.8,
+    "comision": 8293.42,
+    "envio_absorbido": 8790,
+    "recibis": 89928.38,
+    "stock": 25,
+    "recibis_total": 2248209.5
   }
 ]

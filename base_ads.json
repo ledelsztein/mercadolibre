@@ -2630,5 +2630,19 @@
     "ventas_c": 72800.0,
     "impresiones": 8896,
     "clicks": 63
+  },
+  {
+    "fecha": "2026-11-05",
+    "factura": "pendiente fc",
+    "costo_s": 26918.21,
+    "costo_c": 32571.03,
+    "costo_ventas_s": 22493.21,
+    "costo_ventas_c": 27216.78,
+    "costo_pagina_s": 4425.0,
+    "costo_pagina_c": 5354.25,
+    "ventas_s": 15041.32,
+    "ventas_c": 18200.0,
+    "impresiones": 5195,
+    "clicks": 32
   }
 ]
