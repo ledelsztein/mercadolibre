@@ -10825,5 +10825,77 @@
     "stock": 2,
     "precio": 40000,
     "importe": 80000
+  },
+  {
+    "fecha": "2026-11-07",
+    "item_id": "MLA3283469316",
+    "sku": "50006",
+    "producto": "Yerba Mate Canarias Tradicional 1 Kg",
+    "stock": 400,
+    "precio": 12150,
+    "importe": 4860000
+  },
+  {
+    "fecha": "2026-11-07",
+    "item_id": "MLA3677881124",
+    "sku": "50020",
+    "producto": "Treonato De Magnesio Provefarma Geonat Treonato 1000 En Comprimidos Sin Sabor De 60 Un",
+    "stock": 210,
+    "precio": 20500,
+    "importe": 4305000
+  },
+  {
+    "fecha": "2026-11-07",
+    "item_id": "MLA2090594293",
+    "sku": "50039",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
+    "stock": 49,
+    "precio": 85035.45,
+    "importe": 4166737.05
+  },
+  {
+    "fecha": "2026-11-07",
+    "item_id": "MLA2090592693",
+    "sku": "50038",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 908 G Gourmet Milk Chocolate",
+    "stock": 26,
+    "precio": 107011.8,
+    "importe": 2782306.8
+  },
+  {
+    "fecha": "2026-11-07",
+    "item_id": "MLA1977867145",
+    "sku": "50031",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907 G Vainilla Gourmet",
+    "stock": 24,
+    "precio": 107011.8,
+    "importe": 2568283.2
+  },
+  {
+    "fecha": "2026-11-07",
+    "item_id": "MLA2090594295",
+    "sku": "50040",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Gourmet Milk Chocolate",
+    "stock": 13,
+    "precio": 85035.45,
+    "importe": 1105460.85
+  },
+  {
+    "fecha": "2026-11-07",
+    "item_id": "MLA3471136932",
+    "sku": "50014",
+    "producto": "L-arginina L-citrulina Ginseng Lappiel M1 Especific Energy En Comprimidos Sin Sabor",
+    "stock": 41,
+    "precio": 18200.0,
+    "importe": 746200.0
+  },
+  {
+    "fecha": "2026-11-07",
+    "item_id": "MLA2097402363",
+    "sku": "50041",
+    "producto": "Mate Imperial Cuero Calabaza Obsesion X El Mate Negro Imperial",
+    "stock": 2,
+    "precio": 40000,
+    "importe": 80000
   }
 ]

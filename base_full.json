@@ -769,7 +769,7 @@
   },
   {
     "fecha": "2026-10-07",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 365.45,
@@ -777,7 +777,7 @@
   },
   {
     "fecha": "2026-10-08",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 355.54,
@@ -785,7 +785,7 @@
   },
   {
     "fecha": "2026-10-09",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 446.78,
@@ -793,7 +793,7 @@
   },
   {
     "fecha": "2026-10-10",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 409.09,
@@ -801,7 +801,7 @@
   },
   {
     "fecha": "2026-10-11",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 391.24,
@@ -809,7 +809,7 @@
   },
   {
     "fecha": "2026-10-12",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 339.67,
@@ -817,7 +817,7 @@
   },
   {
     "fecha": "2026-10-13",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 313.88,
@@ -825,7 +825,7 @@
   },
   {
     "fecha": "2026-10-14",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 284.13,
@@ -833,7 +833,7 @@
   },
   {
     "fecha": "2026-10-15",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 266.28,
@@ -841,7 +841,7 @@
   },
   {
     "fecha": "2026-10-16",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 258.35,
@@ -849,7 +849,7 @@
   },
   {
     "fecha": "2026-10-17",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 254.38,
@@ -857,7 +857,7 @@
   },
   {
     "fecha": "2026-10-18",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 250.41,
@@ -865,7 +865,7 @@
   },
   {
     "fecha": "2026-10-19",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 250.41,
@@ -873,7 +873,7 @@
   },
   {
     "fecha": "2026-10-20",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 20270.75,
     "deposito_full_c": 24527.61,
     "almacenamiento_full_s": 248.43,
@@ -881,7 +881,7 @@
   },
   {
     "fecha": "2026-10-21",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 240.5,
@@ -889,7 +889,7 @@
   },
   {
     "fecha": "2026-10-22",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 236.53,
@@ -897,7 +897,7 @@
   },
   {
     "fecha": "2026-10-23",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 234.55,
@@ -905,7 +905,7 @@
   },
   {
     "fecha": "2026-10-24",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 232.56,
@@ -913,7 +913,7 @@
   },
   {
     "fecha": "2026-10-25",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 228.6,
@@ -921,7 +921,7 @@
   },
   {
     "fecha": "2026-10-26",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 228.6,
@@ -929,7 +929,7 @@
   },
   {
     "fecha": "2026-10-27",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 224.63,
@@ -937,7 +937,7 @@
   },
   {
     "fecha": "2026-10-28",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 224.63,
@@ -945,7 +945,7 @@
   },
   {
     "fecha": "2026-10-29",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 218.68,
@@ -953,7 +953,7 @@
   },
   {
     "fecha": "2026-10-30",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 210.74,
@@ -961,7 +961,7 @@
   },
   {
     "fecha": "2026-10-31",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 204.79,
@@ -969,7 +969,7 @@
   },
   {
     "fecha": "2026-11-01",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 204.79,
@@ -977,7 +977,7 @@
   },
   {
     "fecha": "2026-11-02",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 238.02,
@@ -985,7 +985,7 @@
   },
   {
     "fecha": "2026-11-03",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 230.21,
@@ -993,7 +993,7 @@
   },
   {
     "fecha": "2026-11-04",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 221.03,
@@ -1001,10 +1001,18 @@
   },
   {
     "fecha": "2026-11-05",
-    "factura": "pendiente fc",
+    "factura": null,
     "deposito_full_s": 0.0,
     "deposito_full_c": 0.0,
     "almacenamiento_full_s": 217.93,
     "almacenamiento_full_c": 263.7
+  },
+  {
+    "fecha": "2026-11-06",
+    "factura": null,
+    "deposito_full_s": 0.0,
+    "deposito_full_c": 0.0,
+    "almacenamiento_full_s": 208.88,
+    "almacenamiento_full_c": 252.75
   }
 ]
