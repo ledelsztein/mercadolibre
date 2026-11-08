@@ -10903,18 +10903,18 @@
     "item_id": "MLA1778680761",
     "sku": "50006",
     "producto": "Yerba Mate Canarias Tradicional 1 Kg Sin Palo",
-    "stock": 390,
+    "stock": 387,
     "precio": 12150,
-    "importe": 4738500
+    "importe": 4702050
   },
   {
     "fecha": "2026-11-08",
     "item_id": "MLA3677881124",
     "sku": "50020",
     "producto": "Treonato De Magnesio Provefarma Geonat Treonato 1000 En Comprimidos Sin Sabor De 60 Un",
-    "stock": 207,
+    "stock": 206,
     "precio": 20500,
-    "importe": 4243500
+    "importe": 4223000
   },
   {
     "fecha": "2026-11-08",
@@ -10927,9 +10927,9 @@
   },
   {
     "fecha": "2026-11-08",
-    "item_id": "MLA2090592695",
+    "item_id": "MLA2090592693",
     "sku": "50038",
-    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 908 G Gourmet Milk Chocolate",
     "stock": 26,
     "precio": 107011.8,
     "importe": 2782306.8
@@ -10945,9 +10945,9 @@
   },
   {
     "fecha": "2026-11-08",
-    "item_id": "MLA2090594295",
+    "item_id": "MLA3949765754",
     "sku": "50040",
-    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Gourmet Milk Chocolate",
+    "producto": "100% Whey Protein Proteína 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
     "stock": 13,
     "precio": 85035.45,
     "importe": 1105460.85
@@ -10957,9 +10957,9 @@
     "item_id": "MLA3471136932",
     "sku": "50014",
     "producto": "L-arginina L-citrulina Ginseng Lappiel M1 Especific Energy En Comprimidos Sin Sabor",
-    "stock": 39,
+    "stock": 37,
     "precio": 18200.0,
-    "importe": 709800.0
+    "importe": 673400.0
   },
   {
     "fecha": "2026-11-08",
