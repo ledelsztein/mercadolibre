@@ -35,7 +35,7 @@ PERIODOS = [
     ('agosto', '2026-08-01', '2026-08-31'),
     ('septiembre', '2026-09-01', '2026-09-30'),
     ('octubre', '2026-10-01', '2026-10-31'),
-    ('noviembre', '2026-11-01', '2026-11-07'),
+    ('noviembre', '2026-11-01', '2026-11-08'),
 ]
 # El dashboard muestra solo los ultimos 3 meses cerrados + el mes en curso
 # (pedido de Lucas, 2026-09-25, para que no quede tan largo). El Sheet sigue

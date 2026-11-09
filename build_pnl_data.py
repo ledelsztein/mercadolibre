@@ -32,7 +32,7 @@ PERIODOS = {
     'Agosto': ('2026-08-01', '2026-08-31', '2026-09-01'),
     'Septiembre': ('2026-09-01', '2026-09-30', '2026-10-01'),
     'Octubre': ('2026-10-01', '2026-10-31', '2026-11-01'),
-    'Noviembre (parcial al 7)': ('2026-11-01', '2026-11-07', None),
+    'Noviembre (parcial al 8)': ('2026-11-01', '2026-11-08', None),
 }
 
 base_ventas = list(json.load(open('base_ventas.json', encoding='utf-8')).values())
