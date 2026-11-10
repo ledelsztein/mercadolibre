@@ -208,5 +208,19 @@
     "detalle": "Flexit - Envíos Flex (precio final con IVA incluido)",
     "importe_sin_iva": 18370.22,
     "importe_con_iva": 22227.97
+  },
+  {
+    "fecha": "2026-10-08",
+    "categoria": "Autónomos",
+    "detalle": "Pago Autónomos Octubre (sin IVA aplicable)",
+    "importe_sin_iva": 105561.86,
+    "importe_con_iva": 105561.86
+  },
+  {
+    "fecha": "2026-11-10",
+    "categoria": "Autónomos",
+    "detalle": "Pago Autónomos Noviembre (sin IVA aplicable)",
+    "importe_sin_iva": 107789.2,
+    "importe_con_iva": 107789.2
   }
 ]
