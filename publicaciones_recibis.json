@@ -8518,5 +8518,101 @@
     "recibis": 89928.38,
     "stock": 24,
     "recibis_total": 2158281.12
+  },
+  {
+    "fecha": "2026-11-11",
+    "item_id": "MLA3372513504",
+    "sku": "50006",
+    "producto": "Yerba Mate Canarias Tradicional 1 Kg",
+    "precio": 15475.2,
+    "comision": 6808.08,
+    "envio_absorbido": 0.0,
+    "recibis": 8667.12,
+    "stock": 281,
+    "recibis_total": 2435460.72
+  },
+  {
+    "fecha": "2026-11-11",
+    "item_id": "MLA1947819693",
+    "sku": "50014",
+    "producto": "L-arginina L-citrulina Ginseng Lappiel M1 Especific Energy En Comprimidos Sin Sabor",
+    "precio": 21000,
+    "comision": 8704,
+    "envio_absorbido": 0.0,
+    "recibis": 12296.0,
+    "stock": 29,
+    "recibis_total": 356584.0
+  },
+  {
+    "fecha": "2026-11-11",
+    "item_id": "MLA3677881124",
+    "sku": "50020",
+    "producto": "Treonato De Magnesio Provefarma Geonat Treonato 1000 En Comprimidos Sin Sabor De 60 Un",
+    "precio": 20500,
+    "comision": 5917.5,
+    "envio_absorbido": 0.0,
+    "recibis": 14582.5,
+    "stock": 190,
+    "recibis_total": 2770675.0
+  },
+  {
+    "fecha": "2026-11-11",
+    "item_id": "MLA2097402363",
+    "sku": "50041",
+    "producto": "Mate Imperial Cuero Calabaza Obsesion X El Mate Negro Imperial",
+    "precio": 40000,
+    "comision": 9140,
+    "envio_absorbido": 8290,
+    "recibis": 22570,
+    "stock": 1,
+    "recibis_total": 22570
+  },
+  {
+    "fecha": "2026-11-11",
+    "item_id": "MLA2090594293",
+    "sku": "50039",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
+    "precio": 85035.45,
+    "comision": 13180.49,
+    "envio_absorbido": 8790,
+    "recibis": 63064.96,
+    "stock": 48,
+    "recibis_total": 3027118.08
+  },
+  {
+    "fecha": "2026-11-11",
+    "item_id": "MLA2090594295",
+    "sku": "50040",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Gourmet Milk Chocolate",
+    "precio": 85035.45,
+    "comision": 13180.49,
+    "envio_absorbido": 8790,
+    "recibis": 63064.96,
+    "stock": 12,
+    "recibis_total": 756779.52
+  },
+  {
+    "fecha": "2026-11-11",
+    "item_id": "MLA2090592693",
+    "sku": "50038",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 908 G Gourmet Milk Chocolate",
+    "precio": 107011.8,
+    "comision": 16586.83,
+    "envio_absorbido": 8790,
+    "recibis": 81634.97,
+    "stock": 25,
+    "recibis_total": 2040874.25
+  },
+  {
+    "fecha": "2026-11-11",
+    "item_id": "MLA3770872430",
+    "sku": "50031",
+    "producto": "Proteína Gold Nutrition Premium Isolate En Polvo Sabor Vainilla Gourmet X 907g",
+    "precio": 107011.8,
+    "comision": 16586.83,
+    "envio_absorbido": 8790,
+    "recibis": 81634.97,
+    "stock": 23,
+    "recibis_total": 1877604.31
   }
 ]
