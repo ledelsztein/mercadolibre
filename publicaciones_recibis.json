@@ -8528,8 +8528,8 @@
     "comision": 6808.08,
     "envio_absorbido": 0.0,
     "recibis": 8667.12,
-    "stock": 281,
-    "recibis_total": 2435460.72
+    "stock": 238,
+    "recibis_total": 2062774.56
   },
   {
     "fecha": "2026-11-11",
@@ -8540,8 +8540,8 @@
     "comision": 8704,
     "envio_absorbido": 0.0,
     "recibis": 12296.0,
-    "stock": 29,
-    "recibis_total": 356584.0
+    "stock": 23,
+    "recibis_total": 282808.0
   },
   {
     "fecha": "2026-11-11",
@@ -8552,32 +8552,8 @@
     "comision": 5917.5,
     "envio_absorbido": 0.0,
     "recibis": 14582.5,
-    "stock": 190,
-    "recibis_total": 2770675.0
-  },
-  {
-    "fecha": "2026-11-11",
-    "item_id": "MLA2097402363",
-    "sku": "50041",
-    "producto": "Mate Imperial Cuero Calabaza Obsesion X El Mate Negro Imperial",
-    "precio": 40000,
-    "comision": 9140,
-    "envio_absorbido": 8290,
-    "recibis": 22570,
-    "stock": 1,
-    "recibis_total": 22570
-  },
-  {
-    "fecha": "2026-11-11",
-    "item_id": "MLA2090594293",
-    "sku": "50039",
-    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
-    "precio": 85035.45,
-    "comision": 13180.49,
-    "envio_absorbido": 8790,
-    "recibis": 63064.96,
-    "stock": 48,
-    "recibis_total": 3027118.08
+    "stock": 186,
+    "recibis_total": 2712345.0
   },
   {
     "fecha": "2026-11-11",
@@ -8593,15 +8569,15 @@
   },
   {
     "fecha": "2026-11-11",
-    "item_id": "MLA2090592693",
-    "sku": "50038",
-    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 908 G Gourmet Milk Chocolate",
-    "precio": 107011.8,
-    "comision": 16586.83,
+    "item_id": "MLA2090594293",
+    "sku": "50039",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
+    "precio": 85035.45,
+    "comision": 13180.49,
     "envio_absorbido": 8790,
-    "recibis": 81634.97,
-    "stock": 25,
-    "recibis_total": 2040874.25
+    "recibis": 63064.96,
+    "stock": 48,
+    "recibis_total": 3027118.08
   },
   {
     "fecha": "2026-11-11",
@@ -8612,7 +8588,19 @@
     "comision": 16586.83,
     "envio_absorbido": 8790,
     "recibis": 81634.97,
-    "stock": 23,
-    "recibis_total": 1877604.31
+    "stock": 21,
+    "recibis_total": 1714334.37
+  },
+  {
+    "fecha": "2026-11-11",
+    "item_id": "MLA2090592693",
+    "sku": "50038",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 908 G Gourmet Milk Chocolate",
+    "precio": 107011.8,
+    "comision": 16586.83,
+    "envio_absorbido": 8790,
+    "recibis": 81634.97,
+    "stock": 25,
+    "recibis_total": 2040874.25
   }
 ]
