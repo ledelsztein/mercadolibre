@@ -11248,5 +11248,68 @@
     "stock": 22,
     "precio": 18200.0,
     "importe": 400400.0
+  },
+  {
+    "fecha": "2026-11-13",
+    "item_id": "MLA2090594293",
+    "sku": "50039",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
+    "stock": 43,
+    "precio": 85035.45,
+    "importe": 3656524.35
+  },
+  {
+    "fecha": "2026-11-13",
+    "item_id": "MLA3677881124",
+    "sku": "50020",
+    "producto": "Treonato De Magnesio Provefarma Geonat Treonato 1000 En Comprimidos Sin Sabor De 60 Un",
+    "stock": 166,
+    "precio": 20500,
+    "importe": 3403000
+  },
+  {
+    "fecha": "2026-11-13",
+    "item_id": "MLA2090592695",
+    "sku": "50038",
+    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
+    "stock": 24,
+    "precio": 107011.8,
+    "importe": 2568283.2
+  },
+  {
+    "fecha": "2026-11-13",
+    "item_id": "MLA3770872430",
+    "sku": "50031",
+    "producto": "Proteína Gold Nutrition Premium Isolate En Polvo Sabor Vainilla Gourmet X 907g",
+    "stock": 20,
+    "precio": 107011.8,
+    "importe": 2140236.0
+  },
+  {
+    "fecha": "2026-11-13",
+    "item_id": "MLA1778680761",
+    "sku": "50006",
+    "producto": "Yerba Mate Canarias Tradicional 1 Kg Sin Palo",
+    "stock": 133,
+    "precio": 12150,
+    "importe": 1615950
+  },
+  {
+    "fecha": "2026-11-13",
+    "item_id": "MLA3949765754",
+    "sku": "50040",
+    "producto": "100% Whey Protein Proteína 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
+    "stock": 11,
+    "precio": 85035.45,
+    "importe": 935389.95
+  },
+  {
+    "fecha": "2026-11-13",
+    "item_id": "MLA3471136932",
+    "sku": "50014",
+    "producto": "L-arginina L-citrulina Ginseng Lappiel M1 Especific Energy En Comprimidos Sin Sabor",
+    "stock": 13,
+    "precio": 18200.0,
+    "importe": 236600.0
   }
 ]
