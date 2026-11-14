@@ -70,5 +70,11 @@
     "factura": null,
     "costo_s": 294193.76,
     "costo_c": 355974.45
+  },
+  {
+    "fecha": "2026-11-13",
+    "factura": "pendiente fc",
+    "costo_s": 21257.23,
+    "costo_c": 25721.25
   }
 ]
