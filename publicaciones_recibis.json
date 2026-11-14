@@ -8785,18 +8785,6 @@
   },
   {
     "fecha": "2026-11-14",
-    "item_id": "MLA1803968517",
-    "sku": "50006",
-    "producto": "Yerba Mate Canarias Tradicional 1 Kg Sin Palo",
-    "precio": 15475.2,
-    "comision": 6808.08,
-    "envio_absorbido": 0.0,
-    "recibis": 8667.12,
-    "stock": 52,
-    "recibis_total": 450690.24
-  },
-  {
-    "fecha": "2026-11-14",
     "item_id": "MLA1947819693",
     "sku": "50014",
     "producto": "L-arginina L-citrulina Ginseng Lappiel M1 Especific Energy En Comprimidos Sin Sabor",
@@ -8816,8 +8804,8 @@
     "comision": 5917.5,
     "envio_absorbido": 0.0,
     "recibis": 14582.5,
-    "stock": 154,
-    "recibis_total": 2245705.0
+    "stock": 151,
+    "recibis_total": 2201957.5
   },
   {
     "fecha": "2026-11-14",
@@ -8828,8 +8816,8 @@
     "comision": 22680,
     "envio_absorbido": 8790,
     "recibis": 63030,
-    "stock": 38,
-    "recibis_total": 2395140
+    "stock": 37,
+    "recibis_total": 2332110
   },
   {
     "fecha": "2026-11-14",
@@ -8840,26 +8828,26 @@
     "comision": 22680,
     "envio_absorbido": 8790,
     "recibis": 63030,
-    "stock": 10,
-    "recibis_total": 630300
+    "stock": 9,
+    "recibis_total": 567270
   },
   {
     "fecha": "2026-11-14",
-    "item_id": "MLA4196491780",
+    "item_id": "MLA2287745223",
     "sku": "50031",
-    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907 G Vainilla Gourmet",
+    "producto": "Proteína Gold Nutrition Premium Isolate En Polvo Sabor Vainilla Gourmet X 907g",
     "precio": 117161,
     "comision": 28118.64,
     "envio_absorbido": 8790,
     "recibis": 80252.36,
-    "stock": 15,
-    "recibis_total": 1203785.4
+    "stock": 11,
+    "recibis_total": 882775.96
   },
   {
     "fecha": "2026-11-14",
-    "item_id": "MLA2090592693",
+    "item_id": "MLA2090592695",
     "sku": "50038",
-    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 908 G Gourmet Milk Chocolate",
+    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
     "precio": 107011.8,
     "comision": 16586.83,
     "envio_absorbido": 8790,

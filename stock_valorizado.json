@@ -11314,57 +11314,48 @@
   },
   {
     "fecha": "2026-11-14",
-    "item_id": "MLA2090594323",
+    "item_id": "MLA2090594293",
     "sku": "50039",
-    "producto": "Whey Protein Gold Nutrition 2 Libras Suplementos Proteína 100% Sabor Vainilla Gourmet",
-    "stock": 38,
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
+    "stock": 37,
     "precio": 85035.45,
-    "importe": 3231347.1
+    "importe": 3146311.65
   },
   {
     "fecha": "2026-11-14",
     "item_id": "MLA3677881124",
     "sku": "50020",
     "producto": "Treonato De Magnesio Provefarma Geonat Treonato 1000 En Comprimidos Sin Sabor De 60 Un",
-    "stock": 154,
+    "stock": 151,
     "precio": 20500,
-    "importe": 3157000
+    "importe": 3095500
   },
   {
     "fecha": "2026-11-14",
-    "item_id": "MLA2090592695",
+    "item_id": "MLA2090592693",
     "sku": "50038",
-    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 908 G Gourmet Milk Chocolate",
     "stock": 24,
     "precio": 107011.8,
     "importe": 2568283.2
   },
   {
     "fecha": "2026-11-14",
-    "item_id": "MLA1977867145",
+    "item_id": "MLA3770872430",
     "sku": "50031",
-    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907 G Vainilla Gourmet",
-    "stock": 15,
+    "producto": "Proteína Gold Nutrition Premium Isolate En Polvo Sabor Vainilla Gourmet X 907g",
+    "stock": 11,
     "precio": 107011.8,
-    "importe": 1605177.0
+    "importe": 1177129.8
   },
   {
     "fecha": "2026-11-14",
     "item_id": "MLA2090594295",
     "sku": "50040",
     "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Gourmet Milk Chocolate",
-    "stock": 10,
+    "stock": 9,
     "precio": 85035.45,
-    "importe": 850354.5
-  },
-  {
-    "fecha": "2026-11-14",
-    "item_id": "MLA1778680761",
-    "sku": "50006",
-    "producto": "Yerba Mate Canarias Tradicional 1 Kg Sin Palo",
-    "stock": 52,
-    "precio": 12300,
-    "importe": 639600
+    "importe": 765319.05
   },
   {
     "fecha": "2026-11-14",
