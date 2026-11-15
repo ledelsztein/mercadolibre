@@ -8866,5 +8866,77 @@
     "recibis": 81634.97,
     "stock": 24,
     "recibis_total": 1959239.28
+  },
+  {
+    "fecha": "2026-11-15",
+    "item_id": "MLA1947819693",
+    "sku": "50014",
+    "producto": "L-arginina L-citrulina Ginseng Lappiel M1 Especific Energy En Comprimidos Sin Sabor",
+    "precio": 21000,
+    "comision": 8704,
+    "envio_absorbido": 0.0,
+    "recibis": 12296.0,
+    "stock": 10,
+    "recibis_total": 122960.0
+  },
+  {
+    "fecha": "2026-11-15",
+    "item_id": "MLA3677881124",
+    "sku": "50020",
+    "producto": "Treonato De Magnesio Provefarma Geonat Treonato 1000 En Comprimidos Sin Sabor De 60 Un",
+    "precio": 20500,
+    "comision": 5917.5,
+    "envio_absorbido": 0.0,
+    "recibis": 14582.5,
+    "stock": 151,
+    "recibis_total": 2201957.5
+  },
+  {
+    "fecha": "2026-11-15",
+    "item_id": "MLA4196491078",
+    "sku": "50039",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
+    "precio": 94500,
+    "comision": 22680,
+    "envio_absorbido": 8790,
+    "recibis": 63030,
+    "stock": 37,
+    "recibis_total": 2332110
+  },
+  {
+    "fecha": "2026-11-15",
+    "item_id": "MLA4196465974",
+    "sku": "50040",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Gourmet Milk Chocolate",
+    "precio": 94500,
+    "comision": 22680,
+    "envio_absorbido": 8790,
+    "recibis": 63030,
+    "stock": 9,
+    "recibis_total": 567270
+  },
+  {
+    "fecha": "2026-11-15",
+    "item_id": "MLA2287745223",
+    "sku": "50031",
+    "producto": "Proteína Gold Nutrition Premium Isolate En Polvo Sabor Vainilla Gourmet X 907g",
+    "precio": 117161,
+    "comision": 28118.64,
+    "envio_absorbido": 8790,
+    "recibis": 80252.36,
+    "stock": 11,
+    "recibis_total": 882775.96
+  },
+  {
+    "fecha": "2026-11-15",
+    "item_id": "MLA2090592695",
+    "sku": "50038",
+    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
+    "precio": 107011.8,
+    "comision": 16586.83,
+    "envio_absorbido": 8790,
+    "recibis": 81634.97,
+    "stock": 24,
+    "recibis_total": 1959239.28
   }
 ]
