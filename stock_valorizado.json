@@ -11431,56 +11431,47 @@
   },
   {
     "fecha": "2026-11-16",
+    "item_id": "MLA2090594323",
+    "sku": "50039",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Suplementos Proteína 100% Sabor Vainilla Gourmet",
+    "stock": 34,
+    "precio": 89511.0,
+    "importe": 3043374.0
+  },
+  {
+    "fecha": "2026-11-16",
     "item_id": "MLA3677881124",
     "sku": "50020",
     "producto": "Treonato De Magnesio Provefarma Geonat Treonato 1000 En Comprimidos Sin Sabor De 60 Un",
-    "stock": 150,
+    "stock": 144,
     "precio": 20500,
-    "importe": 3075000
+    "importe": 2952000
   },
   {
     "fecha": "2026-11-16",
-    "item_id": "MLA2090594293",
-    "sku": "50039",
-    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
-    "stock": 35,
-    "precio": 85035.45,
-    "importe": 2976240.75
-  },
-  {
-    "fecha": "2026-11-16",
-    "item_id": "MLA2090592693",
+    "item_id": "MLA2090592695",
     "sku": "50038",
-    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 908 G Gourmet Milk Chocolate",
+    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
     "stock": 24,
-    "precio": 107011.8,
-    "importe": 2568283.2
+    "precio": 112644.0,
+    "importe": 2703456.0
   },
   {
     "fecha": "2026-11-16",
-    "item_id": "MLA3770872430",
+    "item_id": "MLA1977867145",
     "sku": "50031",
-    "producto": "Proteína Gold Nutrition Premium Isolate En Polvo Sabor Vainilla Gourmet X 907g",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907 G Vainilla Gourmet",
     "stock": 9,
-    "precio": 107011.8,
-    "importe": 963106.2
+    "precio": 112644.0,
+    "importe": 1013796.0
   },
   {
     "fecha": "2026-11-16",
-    "item_id": "MLA3949765754",
+    "item_id": "MLA2090594295",
     "sku": "50040",
-    "producto": "100% Whey Protein Proteína 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Gourmet Milk Chocolate",
     "stock": 9,
-    "precio": 85035.45,
-    "importe": 765319.05
-  },
-  {
-    "fecha": "2026-11-16",
-    "item_id": "MLA3471136932",
-    "sku": "50014",
-    "producto": "L-arginina L-citrulina Ginseng Lappiel M1 Especific Energy En Comprimidos Sin Sabor",
-    "stock": 7,
-    "precio": 18200.0,
-    "importe": 127400.0
+    "precio": 89511.0,
+    "importe": 805599.0
   }
 ]
