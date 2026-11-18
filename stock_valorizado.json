@@ -11539,21 +11539,12 @@
   },
   {
     "fecha": "2026-11-18",
-    "item_id": "MLA3677881124",
-    "sku": "50020",
-    "producto": "Treonato De Magnesio Provefarma Geonat Treonato 1000 En Comprimidos Sin Sabor De 60 Un",
-    "stock": 125,
-    "precio": 20500,
-    "importe": 2562500
-  },
-  {
-    "fecha": "2026-11-18",
     "item_id": "MLA2090592693",
     "sku": "50038",
     "producto": "Proteína Isolada Hidrolizada Gold Nutrition 908 G Gourmet Milk Chocolate",
-    "stock": 22,
+    "stock": 21,
     "precio": 112644.0,
-    "importe": 2478168.0
+    "importe": 2365524.0
   },
   {
     "fecha": "2026-11-18",
@@ -11566,6 +11557,15 @@
   },
   {
     "fecha": "2026-11-18",
+    "item_id": "MLA3677881124",
+    "sku": "50020",
+    "producto": "Treonato De Magnesio Provefarma Geonat Treonato 1000 En Comprimidos Sin Sabor De 60 Un",
+    "stock": 114,
+    "precio": 20500,
+    "importe": 2337000
+  },
+  {
+    "fecha": "2026-11-18",
     "item_id": "MLA3949765754",
     "sku": "50040",
     "producto": "100% Whey Protein Proteína 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
@@ -11575,11 +11575,11 @@
   },
   {
     "fecha": "2026-11-18",
-    "item_id": "MLA3770872430",
+    "item_id": "MLA1977867145",
     "sku": "50031",
-    "producto": "Proteína Gold Nutrition Premium Isolate En Polvo Sabor Vainilla Gourmet X 907g",
-    "stock": 5,
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907 G Vainilla Gourmet",
+    "stock": 4,
     "precio": 112644.0,
-    "importe": 563220.0
+    "importe": 450576.0
   }
 ]
