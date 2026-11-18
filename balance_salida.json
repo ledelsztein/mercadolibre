@@ -772,11 +772,11 @@
     "total_stock_recibido": 8249056.26,
     "autonomos": 107789.2,
     "autonomos_fecha_pago": "2026-11-10",
-    "iibb": 304489.86,
-    "iibb_fecha_pago": "2026-10-21",
+    "iibb": 166472.15,
+    "iibb_fecha_pago": "2026-11-18",
     "percepciones_retenciones": 382843.45,
     "percepciones_retenciones_periodo": "2026-11-01",
     "deudas_pendientes": 11000000.0,
-    "balance_salida": -3546066.25
+    "balance_salida": -3408048.54
   }
 ]

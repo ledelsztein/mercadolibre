@@ -222,5 +222,12 @@
     "detalle": "Pago Autónomos Noviembre (sin IVA aplicable)",
     "importe_sin_iva": 107789.2,
     "importe_con_iva": 107789.2
+  },
+  {
+    "fecha": "2026-11-18",
+    "categoria": "IIBB",
+    "detalle": "Pago de Ingresos Brutos (sin IVA aplicable)",
+    "importe_sin_iva": 166472.15,
+    "importe_con_iva": 166472.15
   }
 ]
