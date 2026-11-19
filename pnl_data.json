@@ -167,23 +167,23 @@
     "cargo_neto": true,
     "n_ordenes": 534
   },
-  "Noviembre (parcial al 17)": {
-    "ventas": 13626976.3,
+  "Noviembre (parcial al 18)": {
+    "ventas": 14410069.3,
     "envios_ingreso": 41450.0,
     "envios_ingreso_flex": 0.0,
-    "cogs": 9059253.11,
-    "cargo_venta": 2261356.41,
-    "cargo_cupon": 215515.59,
-    "egreso_envio": 570650.0,
-    "egreso_envio_real": 529200.0,
+    "cogs": 9473539.83,
+    "cargo_venta": 2433636.75,
+    "cargo_cupon": 232565.59,
+    "egreso_envio": 605210.0,
+    "egreso_envio_real": 563760.0,
     "envio_pasante": 41450.0,
-    "publicidad": 322614.02,
-    "publicidad_ventas": 294074.63,
+    "publicidad": 336359.25,
+    "publicidad_ventas": 307819.86,
     "publicidad_pagina": 28539.39,
     "mi_pagina": 15999.0,
     "devoluciones": 0.0,
     "cargo_colecta_full": 0.0,
-    "cargo_almacenamiento_full": 3891.0,
+    "cargo_almacenamiento_full": 4042.2,
     "adelanto": 25721.25,
     "logistica_flex": 0,
     "otros_log": 0,
@@ -191,10 +191,9 @@
     "gastos_agencia": 0,
     "autonomos": 107789.2,
     "percepciones": null,
-    "iibb": 0,
+    "iibb": 166472.15,
     "cargo_neto": true,
-    "n_ordenes": 308,
-    "percepciones_estimado": 382843.44999999995,
-    "iibb_estimado": 304489.86
+    "n_ordenes": 323,
+    "percepciones_estimado": 382843.44999999995
   }
 }
