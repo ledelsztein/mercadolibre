@@ -11581,5 +11581,68 @@
     "stock": 5,
     "precio": 112644.0,
     "importe": 563220.0
+  },
+  {
+    "fecha": "2026-11-19",
+    "item_id": "MLA2090594323",
+    "sku": "50039",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Suplementos Proteína 100% Sabor Vainilla Gourmet",
+    "stock": 32,
+    "precio": 89511.0,
+    "importe": 2864352.0
+  },
+  {
+    "fecha": "2026-11-19",
+    "item_id": "MLA2090592693",
+    "sku": "50038",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 908 G Gourmet Milk Chocolate",
+    "stock": 21,
+    "precio": 112644.0,
+    "importe": 2365524.0
+  },
+  {
+    "fecha": "2026-11-19",
+    "item_id": "MLA2297893649",
+    "sku": "50045",
+    "producto": "Yerba Mate Canarias Tradicional Sin Palo Original 1kg X3un.",
+    "stock": 46,
+    "precio": 51000,
+    "importe": 2346000
+  },
+  {
+    "fecha": "2026-11-19",
+    "item_id": "MLA3677881124",
+    "sku": "50020",
+    "producto": "Treonato De Magnesio Provefarma Geonat Treonato 1000 En Comprimidos Sin Sabor De 60 Un",
+    "stock": 112,
+    "precio": 20500,
+    "importe": 2296000
+  },
+  {
+    "fecha": "2026-11-19",
+    "item_id": "MLA1778680761",
+    "sku": "50006",
+    "producto": "Yerba Mate Canarias Tradicional 1 Kg Sin Palo",
+    "stock": 104,
+    "precio": 12300,
+    "importe": 1279200
+  },
+  {
+    "fecha": "2026-11-19",
+    "item_id": "MLA2090594295",
+    "sku": "50040",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Gourmet Milk Chocolate",
+    "stock": 9,
+    "precio": 89511.0,
+    "importe": 805599.0
+  },
+  {
+    "fecha": "2026-11-19",
+    "item_id": "MLA1977867145",
+    "sku": "50031",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 907 G Vainilla Gourmet",
+    "stock": 4,
+    "precio": 112644.0,
+    "importe": 450576.0
   }
 ]
