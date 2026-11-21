@@ -11701,9 +11701,9 @@
   },
   {
     "fecha": "2026-11-21",
-    "item_id": "MLA2090594323",
+    "item_id": "MLA2090594293",
     "sku": "50039",
-    "producto": "Whey Protein Gold Nutrition 2 Libras Suplementos Proteína 100% Sabor Vainilla Gourmet",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
     "stock": 27,
     "precio": 89511.0,
     "importe": 2416797.0
@@ -11722,9 +11722,9 @@
     "item_id": "MLA2090592695",
     "sku": "50038",
     "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
-    "stock": 20,
+    "stock": 19,
     "precio": 112644.0,
-    "importe": 2252880.0
+    "importe": 2140236.0
   },
   {
     "fecha": "2026-11-21",
@@ -11740,18 +11740,9 @@
     "item_id": "MLA3283469316",
     "sku": "50006",
     "producto": "Yerba Mate Canarias Tradicional 1 Kg",
-    "stock": 88,
+    "stock": 72,
     "precio": 12300,
-    "importe": 1082400
-  },
-  {
-    "fecha": "2026-11-21",
-    "item_id": "MLA3949765754",
-    "sku": "50040",
-    "producto": "100% Whey Protein Proteína 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
-    "stock": 9,
-    "precio": 89511.0,
-    "importe": 805599.0
+    "importe": 885600
   },
   {
     "fecha": "2026-11-21",
@@ -11761,5 +11752,14 @@
     "stock": 1,
     "precio": 750000,
     "importe": 750000
+  },
+  {
+    "fecha": "2026-11-21",
+    "item_id": "MLA3949765754",
+    "sku": "50040",
+    "producto": "100% Whey Protein Proteína 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
+    "stock": 8,
+    "precio": 89511.0,
+    "importe": 716088.0
   }
 ]
