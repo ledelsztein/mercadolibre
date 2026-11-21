@@ -167,18 +167,18 @@
     "cargo_neto": true,
     "n_ordenes": 534
   },
-  "Noviembre (parcial al 19)": {
-    "ventas": 15617406.3,
+  "Noviembre (parcial al 20)": {
+    "ventas": 16880861.3,
     "envios_ingreso": 41450.0,
     "envios_ingreso_flex": 0.0,
-    "cogs": 10202443.75,
-    "cargo_venta": 2649575.17,
-    "cargo_cupon": 253565.59,
-    "egreso_envio": 648360.0,
-    "egreso_envio_real": 606910.0,
+    "cogs": 11049078.34,
+    "cargo_venta": 2872688.36,
+    "cargo_cupon": 279150.59,
+    "egreso_envio": 696310.0,
+    "egreso_envio_real": 654860.0,
     "envio_pasante": 41450.0,
-    "publicidad": 399130.53,
-    "publicidad_ventas": 370591.14,
+    "publicidad": 446627.98,
+    "publicidad_ventas": 418088.59,
     "publicidad_pagina": 28539.39,
     "mi_pagina": 15999.0,
     "devoluciones": 0.0,
@@ -193,7 +193,7 @@
     "percepciones": null,
     "iibb": 166472.15,
     "cargo_neto": true,
-    "n_ordenes": 346,
+    "n_ordenes": 381,
     "percepciones_estimado": 382843.44999999995
   }
 }
