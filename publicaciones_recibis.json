@@ -9392,8 +9392,8 @@
     "comision": 6808.08,
     "envio_absorbido": 0.0,
     "recibis": 8667.12,
-    "stock": 57,
-    "recibis_total": 494025.84
+    "stock": 2,
+    "recibis_total": 17334.24
   },
   {
     "fecha": "2026-11-22",
@@ -9433,9 +9433,9 @@
   },
   {
     "fecha": "2026-11-22",
-    "item_id": "MLA4196465974",
+    "item_id": "MLA2287131015",
     "sku": "50040",
-    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Gourmet Milk Chocolate",
+    "producto": "100% Whey Protein Proteína 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
     "precio": 94500,
     "comision": 22680,
     "envio_absorbido": 8790,
@@ -9445,9 +9445,9 @@
   },
   {
     "fecha": "2026-11-22",
-    "item_id": "MLA2090592695",
+    "item_id": "MLA2090592693",
     "sku": "50038",
-    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 908 G Gourmet Milk Chocolate",
     "precio": 112644.0,
     "comision": 17459.82,
     "envio_absorbido": 8790,
