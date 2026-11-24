@@ -11887,5 +11887,59 @@
     "stock": 1,
     "precio": 12300,
     "importe": 12300
+  },
+  {
+    "fecha": "2026-11-24",
+    "item_id": "MLA2297893661",
+    "sku": "50045",
+    "producto": "Yerba Mate Canarias Tradicional Sin Palo Original 1kg X3un.",
+    "stock": 46,
+    "precio": 51000,
+    "importe": 2346000
+  },
+  {
+    "fecha": "2026-11-24",
+    "item_id": "MLA2090594293",
+    "sku": "50039",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
+    "stock": 24,
+    "precio": 89511.0,
+    "importe": 2148264.0
+  },
+  {
+    "fecha": "2026-11-24",
+    "item_id": "MLA2090592693",
+    "sku": "50038",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 908 G Gourmet Milk Chocolate",
+    "stock": 19,
+    "precio": 112644.0,
+    "importe": 2140236.0
+  },
+  {
+    "fecha": "2026-11-24",
+    "item_id": "MLA3677881124",
+    "sku": "50020",
+    "producto": "Treonato De Magnesio Provefarma Geonat Treonato 1000 En Comprimidos Sin Sabor De 60 Un",
+    "stock": 101,
+    "precio": 20500,
+    "importe": 2070500
+  },
+  {
+    "fecha": "2026-11-24",
+    "item_id": "MLA2304012475",
+    "sku": "",
+    "producto": "Apple iPhone 13 Pro (128 Gb) - Grafito Grafito",
+    "stock": 1,
+    "precio": 750000,
+    "importe": 750000
+  },
+  {
+    "fecha": "2026-11-24",
+    "item_id": "MLA2090594295",
+    "sku": "50040",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Gourmet Milk Chocolate",
+    "stock": 8,
+    "precio": 89511.0,
+    "importe": 716088.0
   }
 ]
