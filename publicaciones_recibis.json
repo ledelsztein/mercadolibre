@@ -9632,8 +9632,8 @@
     "comision": 5917.5,
     "envio_absorbido": 0.0,
     "recibis": 14582.5,
-    "stock": 92,
-    "recibis_total": 1341590.0
+    "stock": 85,
+    "recibis_total": 1239512.5
   },
   {
     "fecha": "2026-11-25",
@@ -9661,9 +9661,9 @@
   },
   {
     "fecha": "2026-11-25",
-    "item_id": "MLA2090592695",
+    "item_id": "MLA2090592693",
     "sku": "50038",
-    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
+    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 908 G Gourmet Milk Chocolate",
     "precio": 112644.0,
     "comision": 17459.82,
     "envio_absorbido": 8790,
