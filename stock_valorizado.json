@@ -11993,26 +11993,26 @@
     "sku": "50038",
     "producto": "Proteína Isolada Hidrolizada Gold Nutrition 908 G Gourmet Milk Chocolate",
     "stock": 19,
-    "precio": 112644.0,
-    "importe": 2140236.0
+    "precio": 107011.0,
+    "importe": 2033209.0
   },
   {
     "fecha": "2026-11-26",
     "item_id": "MLA2090594323",
     "sku": "50039",
     "producto": "Whey Protein Gold Nutrition 2 Libras Suplementos Proteína 100% Sabor Vainilla Gourmet",
-    "stock": 21,
-    "precio": 89511.0,
-    "importe": 1879731.0
+    "stock": 20,
+    "precio": 85035.0,
+    "importe": 1700700.0
   },
   {
     "fecha": "2026-11-26",
     "item_id": "MLA3677881124",
     "sku": "50020",
     "producto": "Treonato De Magnesio Provefarma Geonat Treonato 1000 En Comprimidos Sin Sabor De 60 Un",
-    "stock": 65,
+    "stock": 46,
     "precio": 20500,
-    "importe": 1332500
+    "importe": 943000
   },
   {
     "fecha": "2026-11-26",
@@ -12020,16 +12020,16 @@
     "sku": "",
     "producto": "Apple iPhone 13 Pro (128 Gb) - Grafito Grafito",
     "stock": 1,
-    "precio": 750000,
-    "importe": 750000
+    "precio": 700000,
+    "importe": 700000
   },
   {
     "fecha": "2026-11-26",
     "item_id": "MLA3949765754",
     "sku": "50040",
     "producto": "100% Whey Protein Proteína 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
-    "stock": 8,
-    "precio": 89511.0,
-    "importe": 716088.0
+    "stock": 7,
+    "precio": 85035.0,
+    "importe": 595245.0
   }
 ]

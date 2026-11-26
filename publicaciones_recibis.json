@@ -9692,8 +9692,8 @@
     "comision": 5917.5,
     "envio_absorbido": 0.0,
     "recibis": 14582.5,
-    "stock": 65,
-    "recibis_total": 947862.5
+    "stock": 46,
+    "recibis_total": 670795.0
   },
   {
     "fecha": "2026-11-26",
@@ -9704,43 +9704,43 @@
     "comision": 22680,
     "envio_absorbido": 8790,
     "recibis": 63030,
-    "stock": 21,
-    "recibis_total": 1323630
+    "stock": 20,
+    "recibis_total": 1260600
   },
   {
     "fecha": "2026-11-26",
-    "item_id": "MLA4196465974",
+    "item_id": "MLA2287131015",
     "sku": "50040",
-    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Gourmet Milk Chocolate",
+    "producto": "100% Whey Protein Proteína 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
     "precio": 94500,
     "comision": 22680,
     "envio_absorbido": 8790,
     "recibis": 63030,
-    "stock": 8,
-    "recibis_total": 504240
+    "stock": 7,
+    "recibis_total": 441210
   },
   {
     "fecha": "2026-11-26",
-    "item_id": "MLA2090592693",
+    "item_id": "MLA2090592695",
     "sku": "50038",
-    "producto": "Proteína Isolada Hidrolizada Gold Nutrition 908 G Gourmet Milk Chocolate",
-    "precio": 112644.0,
-    "comision": 17459.82,
+    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
+    "precio": 107011.0,
+    "comision": 16586.7,
     "envio_absorbido": 8790,
-    "recibis": 86394.18,
+    "recibis": 81634.3,
     "stock": 19,
-    "recibis_total": 1641489.42
+    "recibis_total": 1551051.7
   },
   {
     "fecha": "2026-11-26",
     "item_id": "MLA2304012475",
     "sku": "",
     "producto": "Apple iPhone 13 Pro (128 Gb) - Grafito Grafito",
-    "precio": 750000,
-    "comision": 93750,
+    "precio": 700000,
+    "comision": 87500,
     "envio_absorbido": 14580,
-    "recibis": 641670,
+    "recibis": 597920,
     "stock": 1,
-    "recibis_total": 641670
+    "recibis_total": 597920
   }
 ]
