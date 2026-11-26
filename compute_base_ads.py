@@ -133,13 +133,23 @@ def fetch_billing_once(period_key, group):
         if reported_total is None:
             reported_total = d.get('total', 0)
         page = d.get('results', [])
+        # La API a veces devuelve una pagina corta a mitad del periodo (pierde entradas al azar):
+        # reintentar la misma pagina y unir resultados hasta que venga completa.
+        for _retry in range(4):
+            if len(page) >= 150 or offset + len(page) >= (reported_total or 0):
+                break
+            time.sleep(13)
+            d2 = get(f'https://api.mercadolibre.com/billing/integration/periods/key/{period_key}/group/{group}/details', params=params)
+            p2 = d2.get('results', [])
+            seen = {e.get('charge_info', {}).get('detail_id') for e in page}
+            page = page + [e for e in p2 if e.get('charge_info', {}).get('detail_id') not in seen]
         for e in page:
             did = e.get('charge_info', {}).get('detail_id')
             if did is not None:
                 by_id[did] = e
         if not page:
             break
-        offset += len(page)
+        offset += 150 if len(page) >= 150 else len(page)
         if offset >= (reported_total or 0):
             break
         time.sleep(13)
