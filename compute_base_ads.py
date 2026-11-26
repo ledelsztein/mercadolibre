@@ -93,7 +93,7 @@ ADS_HEADERS = {'Authorization': f'Bearer {TOKEN}', 'Api-Version': '2'}
 def get(url, params=None, ads=False):
     global TOKEN, HEADERS, ADS_HEADERS
     h = ADS_HEADERS if ads else HEADERS
-    for _ in range(5):
+    for _ in range(10):
         r = requests.get(url, headers=h, params=params)
         if r.status_code == 401:
             TOKEN = refresh_token()
@@ -102,7 +102,7 @@ def get(url, params=None, ads=False):
             h = ADS_HEADERS if ads else HEADERS
             continue
         if r.status_code == 429:
-            time.sleep(5)
+            time.sleep(15)
             continue
         r.raise_for_status()
         return r.json()

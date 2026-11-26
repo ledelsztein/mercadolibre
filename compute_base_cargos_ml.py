@@ -78,7 +78,7 @@ HEADERS = {'Authorization': f'Bearer {TOKEN}'}
 
 def get(url, params=None):
     global TOKEN, HEADERS
-    for _ in range(5):
+    for _ in range(10):
         r = requests.get(url, headers=HEADERS, params=params)
         if r.status_code == 401:
             TOKEN = refresh_token()
