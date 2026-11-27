@@ -9742,5 +9742,89 @@
     "recibis": 641670,
     "stock": 1,
     "recibis_total": 641670
+  },
+  {
+    "fecha": "2026-11-27",
+    "item_id": "MLA3677881124",
+    "sku": "50020",
+    "producto": "Treonato De Magnesio Provefarma Geonat Treonato 1000 En Comprimidos Sin Sabor De 60 Un",
+    "precio": 20500,
+    "comision": 5917.5,
+    "envio_absorbido": 0.0,
+    "recibis": 14582.5,
+    "stock": 38,
+    "recibis_total": 554135.0
+  },
+  {
+    "fecha": "2026-11-27",
+    "item_id": "MLA1977669679",
+    "sku": "50030",
+    "producto": "Star Nutrition Creatina Monohidrato Ultramicronizada En Polvo 300g En Pote Sin Sabor",
+    "precio": 27500.0,
+    "comision": 7602.5,
+    "envio_absorbido": 0.0,
+    "recibis": 19897.5,
+    "stock": 24,
+    "recibis_total": 477540.0
+  },
+  {
+    "fecha": "2026-11-27",
+    "item_id": "MLA2287131015",
+    "sku": "50040",
+    "producto": "100% Whey Protein Proteína 2 Lb Gold Nutrition® Sabor Gourmet Milk Chocolate",
+    "precio": 94500,
+    "comision": 22680,
+    "envio_absorbido": 8790,
+    "recibis": 63030,
+    "stock": 5,
+    "recibis_total": 315150
+  },
+  {
+    "fecha": "2026-11-27",
+    "item_id": "MLA4196491078",
+    "sku": "50039",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
+    "precio": 94500,
+    "comision": 22680,
+    "envio_absorbido": 8790,
+    "recibis": 63030,
+    "stock": 18,
+    "recibis_total": 1134540
+  },
+  {
+    "fecha": "2026-11-27",
+    "item_id": "MLA2090592695",
+    "sku": "50038",
+    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
+    "precio": 107011.0,
+    "comision": 16586.7,
+    "envio_absorbido": 8790,
+    "recibis": 81634.3,
+    "stock": 19,
+    "recibis_total": 1551051.7
+  },
+  {
+    "fecha": "2026-11-27",
+    "item_id": "MLA2326055771",
+    "sku": "",
+    "producto": "Cafetera Nespresso Essenza Mini C30 Color Negro (como Nueva) Black",
+    "precio": 105000,
+    "comision": 15225,
+    "envio_absorbido": 0.0,
+    "recibis": 89775.0,
+    "stock": 1,
+    "recibis_total": 89775.0
+  },
+  {
+    "fecha": "2026-11-27",
+    "item_id": "MLA2304012475",
+    "sku": "",
+    "producto": "Apple iPhone 13 Pro (128 Gb) - Grafito Grafito",
+    "precio": 700000,
+    "comision": 87500,
+    "envio_absorbido": 14580,
+    "recibis": 597920,
+    "stock": 1,
+    "recibis_total": 597920
   }
 ]

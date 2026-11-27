@@ -90,25 +90,37 @@ def billing_period_for_date(d):
 
 def fetch_billing_once(period_key, group):
     by_id = {}
-    last_id = 0
+    # Paginacion por offset (2026-11-26): con from_id/last_id la API devolvia paginas cortas
+    # a mitad del periodo abierto y se perdian entradas (1240 de 1290) -> conteo inconsistente
+    # en cada reintento. Con offset trae el total completo. Rate limit: 5 req/min.
+    offset = 0
     reported_total = None
     while True:
-        params = {'document_type': 'BILL', 'limit': 150}
-        if last_id:
-            params['from_id'] = last_id
+        params = {'document_type': 'BILL', 'limit': 150, 'offset': offset}
         d = get(f'https://api.mercadolibre.com/billing/integration/periods/key/{period_key}/group/{group}/details', params=params)
         if reported_total is None:
             reported_total = d.get('total', 0)
         page = d.get('results', [])
+        # La API a veces devuelve una pagina corta a mitad del periodo (pierde entradas al azar):
+        # reintentar la misma pagina y unir resultados hasta que venga completa.
+        for _retry in range(4):
+            if len(page) >= 150 or offset + len(page) >= (reported_total or 0):
+                break
+            time.sleep(13)
+            d2 = get(f'https://api.mercadolibre.com/billing/integration/periods/key/{period_key}/group/{group}/details', params=params)
+            p2 = d2.get('results', [])
+            seen = {e.get('charge_info', {}).get('detail_id') for e in page}
+            page = page + [e for e in p2 if e.get('charge_info', {}).get('detail_id') not in seen]
         for e in page:
             did = e.get('charge_info', {}).get('detail_id')
             if did is not None:
                 by_id[did] = e
-        nl = d.get('last_id', 0)
-        if not nl or nl == last_id or len(page) < 150:
+        if not page:
             break
-        last_id = nl
-        time.sleep(0.3)
+        offset += 150 if len(page) >= 150 else len(page)
+        if offset >= (reported_total or 0):
+            break
+        time.sleep(13)
     if reported_total and len(by_id) < reported_total:
         return None
     return by_id
