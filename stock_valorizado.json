@@ -12031,5 +12031,68 @@
     "stock": 8,
     "precio": 89511.0,
     "importe": 716088.0
+  },
+  {
+    "fecha": "2026-11-27",
+    "item_id": "MLA2090592695",
+    "sku": "50038",
+    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
+    "stock": 19,
+    "precio": 107011.0,
+    "importe": 2033209.0
+  },
+  {
+    "fecha": "2026-11-27",
+    "item_id": "MLA2090594293",
+    "sku": "50039",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
+    "stock": 18,
+    "precio": 85035.0,
+    "importe": 1530630.0
+  },
+  {
+    "fecha": "2026-11-27",
+    "item_id": "MLA3677881124",
+    "sku": "50020",
+    "producto": "Treonato De Magnesio Provefarma Geonat Treonato 1000 En Comprimidos Sin Sabor De 60 Un",
+    "stock": 38,
+    "precio": 20500,
+    "importe": 779000
+  },
+  {
+    "fecha": "2026-11-27",
+    "item_id": "MLA2304012475",
+    "sku": "",
+    "producto": "Apple iPhone 13 Pro (128 Gb) - Grafito Grafito",
+    "stock": 1,
+    "precio": 700000,
+    "importe": 700000
+  },
+  {
+    "fecha": "2026-11-27",
+    "item_id": "MLA1977669679",
+    "sku": "50030",
+    "producto": "Star Nutrition Creatina Monohidrato Ultramicronizada En Polvo 300g En Pote Sin Sabor",
+    "stock": 24,
+    "precio": 27500.0,
+    "importe": 660000.0
+  },
+  {
+    "fecha": "2026-11-27",
+    "item_id": "MLA2090594295",
+    "sku": "50040",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Gourmet Milk Chocolate",
+    "stock": 5,
+    "precio": 85035.0,
+    "importe": 425175.0
+  },
+  {
+    "fecha": "2026-11-27",
+    "item_id": "MLA2326055771",
+    "sku": "",
+    "producto": "Cafetera Nespresso Essenza Mini C30 Color Negro (como Nueva) Black",
+    "stock": 1,
+    "precio": 105000,
+    "importe": 105000
   }
 ]
