@@ -12094,5 +12094,77 @@
     "stock": 1,
     "precio": 105000,
     "importe": 105000
+  },
+  {
+    "fecha": "2026-11-28",
+    "item_id": "MLA2090592695",
+    "sku": "50038",
+    "producto": "Iso Gold Protein 2lbs Gold Nutrition® Proteína Aislada Sabor Chocolate Gourmet Milk Chocolate",
+    "stock": 17,
+    "precio": 107011.0,
+    "importe": 1819187.0
+  },
+  {
+    "fecha": "2026-11-28",
+    "item_id": "MLA1977669679",
+    "sku": "50030",
+    "producto": "Star Nutrition Creatina Monohidrato Ultramicronizada En Polvo 300g En Pote Sin Sabor",
+    "stock": 55,
+    "precio": 32000,
+    "importe": 1760000
+  },
+  {
+    "fecha": "2026-11-28",
+    "item_id": "MLA2090594293",
+    "sku": "50039",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Vainilla Gourmet",
+    "stock": 17,
+    "precio": 85035.0,
+    "importe": 1445595.0
+  },
+  {
+    "fecha": "2026-11-28",
+    "item_id": "MLA2304012475",
+    "sku": "",
+    "producto": "Apple iPhone 13 Pro (128 Gb) - Grafito Grafito",
+    "stock": 1,
+    "precio": 700000,
+    "importe": 700000
+  },
+  {
+    "fecha": "2026-11-28",
+    "item_id": "MLA3677881124",
+    "sku": "50020",
+    "producto": "Treonato De Magnesio Provefarma Geonat Treonato 1000 En Comprimidos Sin Sabor De 60 Un",
+    "stock": 17,
+    "precio": 20500,
+    "importe": 348500
+  },
+  {
+    "fecha": "2026-11-28",
+    "item_id": "MLA2090594295",
+    "sku": "50040",
+    "producto": "Whey Protein Gold Nutrition 2 Libras Proteína 100% Gourmet Milk Chocolate",
+    "stock": 4,
+    "precio": 85035.0,
+    "importe": 340140.0
+  },
+  {
+    "fecha": "2026-11-28",
+    "item_id": "MLA2326055771",
+    "sku": "",
+    "producto": "Cafetera Nespresso Essenza Mini C30 Color Negro (como Nueva) Black",
+    "stock": 1,
+    "precio": 105000,
+    "importe": 105000
+  },
+  {
+    "fecha": "2026-11-28",
+    "item_id": "MLA1778680761",
+    "sku": "50006",
+    "producto": "Yerba Mate Canarias Tradicional 1 Kg Sin Palo",
+    "stock": 2,
+    "precio": 12300,
+    "importe": 24600
   }
 ]
